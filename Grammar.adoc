@@ -1,0 +1,21 @@
+= Ngujari: A Grammar
+Cadel Watson <cadel@cadelwatson.com>
+v1.0, 2018-09-02 18:02
+:sectnums:
+:toc:
+
+include::chapters/Demographic.adoc[]
+include::chapters/Phonology.adoc[]
+include::chapters/MorphologicalTypology.adoc[]
+include::chapters/GrammaticalCategories.adoc[]
+include::chapters/Derivation.adoc[]
+include::chapters/ConstituentOrderTypology.adoc[]
+include::chapters/NounAndNounPhraseOperations.adoc[]
+include::chapters/PredicateNominals.adoc[]
+include::chapters/GrammaticalRelations.adoc[]
+include::chapters/VoiceAndValenceAdjustingOperations.adoc[]
+include::chapters/OtherVerbAndVerbPhraseOperations.adoc[]
+include::chapters/PragmaticallyMarkedStructures.adoc[]
+include::chapters/ClauseCombinations.adoc[]
+include::chapters/Semantics.adoc[]
+include::chapters/Conclusions.adoc[]

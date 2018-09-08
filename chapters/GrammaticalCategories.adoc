@@ -1,0 +1,1062 @@
+== Grammatical categories
+
+=== Nouns
+
+Nouns in Ngujari refer to concepts which exist regardless of time.
+Whereas a verb may specify an action, a noun refers to a concrete or
+abstract _object_.
+
+Structurally, a noun has a number of important properties. It must
+assume one of the four _genders_, which then lead to different verb conjugations.
+Nouns themselves must be declined according to _case_ and _plurality_.
+
+Nouns can be used as part of a sentence without any supporting
+morphemes; they do not require articles or modifiers to assume meaning.
+
+Distributionally, nouns are the head of noun phrases, which are used as
+arguments to verbs or in verbless constructions like the adjectival
+predicate.
+
+Predominantly, nouns are used as part of a verb phrase. They are
+distinguished from other word classes by their ability to assume the
+role of subject in such verb phrases, whereas constructions like gerunds
+cannot.
+
+Nouns are an open class, and new morphemes are added or derived on a
+sporadic but frequent basis.
+
+image:images/noun-morphology.png[alt_text,title="image_tooltip"]
+
+==== Gender
+
+Nominal gender is assigned semantically to nouns, based on their
+meaning. While the form of a noun itself does not change based on
+gender, the class has a number of important effects, including changing
+morphosyntactic alignment, possessives selection, and verb conjugation.
+These effects are discussed in greater detail later.
+
+Ngujari has a dual-gender system. The major distinction is between the
+animate and inanimate genders. The animate gender is assigned to people,
+animals, spiritual locations, and many abstract concepts. For example,
+_Yawirra_, the concept of the Land, is considered animate, as are
+parts of the body with a sacred meaning. The inanimate gender applies to
+all other nouns. The following table shows some examples of the
+distinction.
+
+.Some examples of gender
+[options="header"]
+|==========================================================
+| animate                            | inanimate
+| boy _wiingurki_                    | teacher _gajangu_
+| warm-blooded animal _pawkii_       | living leaf _guwa_
+| seal _niinga_                      | reed _kanaa_
+| liver _ngunaju_                    | tongue _jaajannalu_
+| breath _gajuwa_                    | food _nurtwu_
+| bushfire _panwawa_                 | sunset _kii_
+| a specific sacred site _Narriirna_ | rain _rrurta_
+|==========================================================
+
+The animate-inanimate distinction partially determines morphosyntactic
+alignment. Consider the following example, in which two animate pronouns
+are the subject and object of transitive phrase.
+
+====
+*nn-uma jana-j nna-l jinn-arruu-Ø* +
+_eat.AUX-PST 1s.child-NOM 3s.adult-ACC eat-AN-1ST_ +
+I (a child) ate it (an animate object).
+====
+
+The two animate pronouns cause the sentence to assume the
+nominative-accusative alignment. If instead the object was inanimate,
+the sentence would decline in the ergative-nominative alignment:
+
+====
+*nn-uma jana-Ø nnu-j jinn-arruu-Ø* +
+_eat.AUX-PST 1s.child-ERG 3s.inan-NOM eat-AN-1ST_ +
+I (a child) ate it (an inanimate object).
+====
+
+While this is the primary gender distinction, there is a secondary
+subdivision. Within the animate there are three genders used only for
+referring to humans, each representing a different stage of life: child,
+adult, and Elder. These genders are important in determining pronouns
+and verbal inflection.
+
+Whereas animate/inanimate is a class defined once for a noun, the
+child/adult/Elder gender is mutable, with a person assigned to one of
+the genders based on social position. Those who are yet to undergo the
+adulthood ceremony (under the age of roughly fourteen in the case of
+females and sixteen in the case of males) are assigned the child gender,
+while those who have become Elders of the mob receive the Elder gender.
+All other ages are grouped into the adult gender.
+
+The default gender in the stage distinction is adult. All non-human
+animate nouns are treated as if they are members of the adult class for
+purposes of verbal conjugation.
+
+The following pair of examples demonstrates the role of the stage
+distinction in verbal conjugation. The same sentence is conjugated for
+both a group of children and a group of adults.
+
+====
+*k-aa juu-Ø kiru wiirr-uu-Ø yuurli-mu* +
+_go.AUX-FUT 1pl.child-ERG where go-CHILD-1ST day-ORI_ +
+Where will we (a group of children) go tomorrow?
+
+*k-aa waya-Ø kiru wiirr-u-Ø yuurli-mu* +
+_go.AUX-FUT 1pl.adult-ERG where go-ADULT-1ST day-ORI_ +
+Where will we (a group of adults) go tomorrow?
+====
+
+The stage distinction is also used in declining predicate adjectives.
+
+====
+*nnarta-j pupa-tuu* +
+_3s.child-NOM happy-CHILD_ +
+The child is happy.
+
+*Wiirrutii-j pupa-iiwa* +
+_Wiirrutii-NOM happy-ELDER_ +
+Wiirrutii (an elder) is happy.
+====
+
+==== Cases
+
+Ngujari has eight nominal cases, with three indicating the
+morphosyntactic alignment and five others. Cases are indicated by
+single-syllable suffixes, as presented in the following table.
+
+.Cases
+[options="header"]
+|=====================================
+| case         | abbreviation | suffix
+| ergative     | ERG          | -
+| nominative   | NOM          | -j
+| accusative   | ACC          | -l
+| instrumental | INS          | -ma
+| comitative   | COM          | -yi
+| locative     | LOC          | -rn
+| orientative  | ORI          | -rnu
+| revertive    | REV          | -rna
+|=====================================
+
+For more details on the three alignment cases, see the alignment
+chapter. The remaining five cases operate as follows.
+
+===== Instrumental
+
+The instrumental case (INS) is used when discussing a _means_, roughly
+equivalent to the English "by means of" or "using". For example, when
+speaking of killing a fish using a spear, a Ngujari speaker will place
+"spear" in the instrumental case. The case can only be used with an
+_inanimate_ noun.
+
+====
+*k-a nna-ø tirwa-j baalu-ma naa wuwiirr-u-m* +
+_find.aux-pst 3s.an-erg route-nom map-ins 2.val.3 find-an-3rd_ +
+He found the route using the map.
+====
+
+===== Comitative
+
+The comitative case (COM) is equivalent to "in the presence of", or
+"with", and specifies that the noun was present at the moment spoken of.
+It often functions slightly differently in the context of certain verbs.
+The case is used grammatically in the formation of the adjectival
+predicative.
+
+In the following example, the comitative is found in its standard sense.
+
+====
+*nn-uuki wiingurki-ø munnanna-rn bunna-yi winn-uu-mi* +
+_jump.aux-fut boy-erg river-loc twin-com jump-an-3rd_ +
+The boy, with his friend, will jump over the river.
+====
+
+Special meanings of the comitative arise when the verb has a dedicated comitative valence slot.
+
+====
+*j-a nnaa-ø parnti-j mungu-yi yanj-u-m* +
+_steal.aux-pst 3pl.an-erg kangaroo.meat-nom woman-com steal-an-3rd_ +
+They are stealing kangaroo meat from the woman.
+====
+
+===== Locative
+
+The locative case (LOC) is used to specify a location, and can take the
+place of a preposition such as "in" or "at". Many verbs of motion take
+the locative as one of their prescribed arguments.
+
+====
+*k-aa wa-ø gaypa-rn wiirr-u-ø* +
+_↗go.aux-fut 1s-erg mountain-loc go-an-1st_ +
+Should I go to the mountain?
+====
+
+The cardinal directions are treated as if they have the locative case,
+and hence do not use it where other nouns would.
+
+===== Orientative and Revertive
+
+The orientative case (ORI) is used to specify that something is facing
+towards the noun. It is often used with the meaning of "heading
+towards".
+
+====
+*j-i ku-ø tinyu-rnu yaj-u-n* +
+_run.aux-pres 2s-erg camp-ori run-an-2nd_ +
+You are running towards the camp.
+====
+
+The revertive case (REV) is used to specify that something is oriented
+away from the noun. It can be used with the meaning of "heading away
+from".
+
+====
+*k-i nnaa-j mulu-l ja-rna mirr-u-m* +
+_bring.aux-pres 3pl.an-nom fish-acc 1d-rev bring-an-3rd_ +
+They are bringing the fish away from us two.
+====
+
+It can also be used in asserting falsehood.
+
+====
+*j-arlu nna-ø pirraa-j naa baj-u-m* +
+_look.aux-rem 3s.an-erg knowledge-nom 1.val.2 look-an-3rd_ +
+He used to look away from knowledge / he used to be incorrect.
+====
+
+Both the orientative and revertive case can be used in place of the
+locative place in any verbal argument slot that requires a locative,
+allowing for finer control.
+
+An example of the use of these cases is found in the following table,
+which shows the declensions of the noun _naju_.
+
+.Examples of case
+[options="header"]
+|=======================================================
+| case         | word    | meaning
+| ergative     | naju    |
+| nominative   | najuj   |
+| accusative   | najul   |
+| instrumental | najuma  | "using the rock"
+| comitative   | najuyi  | "in the presence of the rock"
+| orientative  | najurnu | "oriented towards the rock"
+| revertive    | najurna | "oriented away from the rock"
+| locative     | najurn  | "at the rock"
+|=======================================================
+
+==== Plurality
+
+Plurality refers to the number of a noun present. A singular noun has
+only one of its kind present, while a plural noun has multiple. The
+Ngujari language distinguishes between singular, plural, and dual (two
+objects). By default, nouns are singular.
+
+Plurals are formed through the process of reduplication footnote:[Repeating a part or whole of a word.], with the
+un-declined noun repeated twice. The necessary case suffixes are then
+applied to the end of the reduplicated form.
+
+The process differs slightly depending on whether there is dual or
+non-dual plurality. For non-dual, the entirety of the noun is simply
+reduplicated. The same occurs for the dual, but the clitic _ka_ follows
+the reduplicated noun before any adjectives.
+
+Some examples of regular plurals can be found in the following table.
+
+.Regular plurals
+[options="header"]
+|==========================================================
+| meaning | singular | plural          | dual
+| path    | wumpa    | wumpa-wumpa     | wumpa-wumpa-ka
+| canoe   | turrayi  | turrayi-turrayi | turrayi-turrayi-ka
+| berry   | murta    | murta-murta     | murta-murta-ka
+| dingo   | nnalji   | nnalji-nnalji   | nnalji-nnalji-ka
+|==========================================================
+
+While the process of plural formation is usually regular, some animate
+nouns have irregular plural forms, as below.
+
+.Irregular plurals
+[options="header"]
+|==============================================================
+| meaning      | singular     | plural       | dual
+| woman        | mungu        | mungungu     | mungungu-ka
+| man          | wiingu       | wiingungu    | wiingungu-ka
+| girl         | mungurki     | mungurgu     | mungurguki
+| boy          | wiingurki    | wiingurgu    | wiingurguki
+| elder        | nguwa        | nguwii       | nguwii-ka
+| sacred place | Yawirrannalu | Yawirrannala | Yawirrannala-ka
+|==============================================================
+
+In addition, some nouns are inherently both singular and plural and do
+not adopt a special plural form. A handful of examples follows.
+
+.More irregular plurals
+[options="header"]
+|========================
+| meaning    | word
+| food       | nurtwu
+| flesh      | ngunna
+| blood      | wirra
+| rain cloud | rrurtawalu
+| leaf       | nnaawi
+|========================
+
+There is no distinction between count nouns, which can be specifically
+counted, and mass nouns, which cannot. The number of the noun present
+can be specified through the usual adjective system.
+
+====
+rock _naju_ +
+⇒ five rocks _yi naju_ +
+⇒ a handful of rocks _ayi naju_
+====
+
+==== Proper nouns
+
+Proper nouns are the names of specific objects, usually people. They are
+most commonly found referring to members of the speaker's mob or
+extended relationship network. However, many spiritual concepts in the
+Dreamtime are referred to by proper nouns, which are capitalised for
+clarity.
+
+Proper nouns are structurally identical to regular nouns, except that
+they lack the restriction on their final syllable and can end in a
+consonant. In this instance, the usual suffixes are added to signify
+case after reduplicating the final vowel in the noun.
+
+====
+*k-a girlipuu-girlipuu-ø Yurluj-urn naa yarr-a-m* +
+_fall.aux-pst mango-pl-erg Yurluj-loc 1.val.2 fall-inan-3rd_ +
+The mangoes fell on Yurluj.
+====
+
+However, proper nouns are unique in that they do not always require
+inflection for grammatical case. Speakers will only decline proper nouns
+if the sentence would be otherwise ambiguous. In the following sentence,
+it is obvious that the proper noun takes the nominative position and it
+is not inflected.
+
+====
+*j-aa munna-ø Parra naju-rna nakij-a-m* +
+_move.aux-fut stream-erg Parra-nom rock-rev move-inan-3rd_ +
+The stream will take Parra away from the rock.
+====
+
+The need to distinguish proper nouns using case inflections usually
+arises when two proper nouns are in the same sentence.
+
+====
+*nn-i-yii Annurra-ø Najii-j yiinn-u-mi* +
+_help.aux-pres-wimp Annurra-erg Najii-nom help-an-3rd_ +
+Annurra should help Najii.
+====
+
+Even in circumstances where the meaning of the sentence would be
+unambiguous without case inflection, the speaker may choose to inflect
+if they are using a non-standard word order.
+
+==== Pronouns
+
+Pronouns behave almost exactly like nouns, with one exception:
+indefinite and demonstrative pronouns do not decline for case.
+
+===== Personal
+
+Personal pronouns differ in three dimensions: person, plural, and
+gender. All decline in the same way as regular nouns to indicate case.
+The following tables list the pronouns:
+
+.Child personal pronouns
+[cols="s,,,",options="header"]
+|=======================================
+|            | singular | dual  | plural
+| 1st person | jana     | janna | juu
+| 2nd person | kurru    | kunii | kurlu
+| 3rd person | nnarta   | nnaja | nni
+|=======================================
+
+.Adult personal pronouns
+[cols="s,,,",options="header"]
+|=======================================
+|            | singular | dual  | plural
+| 1st person | wa       | ja    | waya
+| 2nd person | ku       | kuna  | kuu
+| 3rd person | nna      | nnara | nnaa
+|=======================================
+
+.Inanimate personal pronouns
+[cols="s,,,",options="header"]
+
+|=======================================
+|            | singular | dual  | plural
+| 3rd person | nnu      | nnuka | nnunnu
+|=======================================
+
+When speaking of a mob's elders, a personal pronoun is never used. The
+elder is always referred to by their honorific title.
+
+===== Possessive
+
+Possessive pronouns are formed through a suffix placed on the relevant
+personal pronoun, but only for the child and adult genders. ForW
+possession by elders, see *pronominal possession*. Inanimate objects
+cannot be possessive. For a child, the suffix is _ra_ in first and
+second person and _raa_ in third person. For an adult, the suffix is
+_lu_ for all persons.
+
+===== Interrogative
+
+The interrogative pronouns are strongly affected by case, particularly
+in the case of location and time. The basic pronouns are detailed in the
+following table:
+
+.Interrogative pronouns
+[options="header"]
+|====================
+| meaning   | word
+| where     | kiru
+| when      | tuu
+| who, what | pii
+| how       | piima
+| why       | wiirtak
+| how many  | kirta
+|====================
+
+// TODO: cannot ask a question with just an interrogative pronoun like English. Instead have to say like "what (is it)?"
+
+It is interesting to note that "how" is the same as "what" placed in the
+instrumental case. The orientative and revertive cases can be applied to
+_kiru_ ("where"), forming _kirurni_ ("whither/to where") and _kirunga_
+("whence/from where"), as well as to _tuu_ ("when"), forming _tuurni_
+("to when") and _tuunga_ ("from when").
+
+===== Demonstrative
+
+One set of demonstrative pronouns covers both proximal and distal
+objects. Distinctions can be made in some cases between both gender and
+number. The pronouns are found in the following table:
+
+.Demonstrative pronouns
+[options="header"]
+|=================================================
+| meaning          | singular | dual    | plural
+| there            | naarla   | naarla  | naarla
+| then             | yaji     | yaji    | yaji
+| that (animate)   | yanna    | yannara | yannaa
+| that (inanimate) | yannu    | yannuka | yannunnu
+|=================================================
+
+Again, the pronouns _naarla_ and _yaji_ can assume the orientative and
+revertive cases.
+
+===== Indefinite
+
+The regular indefinite pronouns are formed through modifying the
+interrogative pronouns by appending the correct word, representing
+number. These words are listed in the following table:
+
+.Indefinite pronouns
+[options="header"]
+|=================
+| number   | word
+| none     | nnayi
+| singular | junga
+| dual     | marri
+| plural   | munaa
+| all      | nnaya
+|=================
+
+For example, "everyone" would be expressed as _pii-nnaya_ and "some two
+locations" as _kiru-marri_.
+
+=== Verbs
+
+A verb expresses an action or changing state.
+
+Verbs in Ngujari are an open class, with infrequent additions to the
+lexicon in the form of new or derived words.
+
+Verbs can be split into three _classes_; each declining differently
+but with no semantic meaning. Each class has a specific stem ending.
+Verb roots lack a final consonant, meaning they must be conjugated in
+order to appear in speech. The only effect of class is morphological.
+
+In addition to its root lexeme, a verb is almost always accompanied by
+an _auxiliary_: a separate word mandated by the verb's class which is
+conjugated alongside the verb.
+
+Each verb can be declined according to _person_ and _number_, marked
+on the root, and _tense_ and _mood_, marked on the auxiliary. All
+declensions are realised as agglutinative suffixes.
+
+==== Class
+
+The class of a verb is determined by its concluding phoneme. The three
+classes occur in order of prevalence. A survey of all verb forms reveals
+that the first and second classes account for more than 70% of all verbs
+and a vast majority of the most frequently used, although otherwise
+there is no difference in usage between the classes.
+
+Class determines three aspects of usage:
+
+* the particular suffixes of declension
+* the form of the auxiliary particle
+* the form of the negative particle
+
+.Verb classes
+[options="header"]
+|================================================
+| class  | ending | auxiliary | negative particle
+| first  | -rr    | k-        | tu
+| second | -j     | j-        | ti
+| third  | -nn    | nn-       | wuu
+|================================================
+
+===== Irregular Auxiliaries
+
+There are seven major verbs in Ngujari which have an irregular
+auxiliary. Each auxiliary is a modified form of the base verb and must
+be learned separately. Conjugation follows the verb's class and proceeds
+as normal.
+
+* _ngurr_: ngarr
+* _gulwaj_: gulw
+* _gurr_: garr
+* _nnurr_: nnarr
+* _wann_: wunn
+* _yurr_: yirr
+* _girr_: gurr
+
+==== Dimensions
+
+When declined as part of a sentence, the verb stem indicates the
+_gender, person_, and _number_of an involved noun.
+
+Person represents a perspective of the speaker: the relation they have
+to the actor in the verb. If the speaker is performing the action, the
+verb is in first person. If the speaker is directly addressing the
+actor, it is in second person. And if the actor is someone else
+entirely, the verb is in third person.
+
+Number represents how many actors were involved. The verb may have been
+performed by one actor, putting it in the singular number, two, putting
+it in dual, or more than two, making it plural.
+
+For transitive verbs and above, the agent of the clause determines these
+dimensions.
+
+====
+*nn-uuki wa-ø wuwurna-j tinn-u-ø* +
+_protect.AUX-FUT 1s-ERG coconuttree-NOM protect-an-1st_ +
+I [an adult] will protect the coconut tree.
+
+*nn-uuki nni-ø wuwurna-j tinn-arruu-mi* +
+_protect.AUX-FUT 3pl.ch-ERG coconuttree-NOM protect-ch-3rd_ +
+They [a group of children] will protect the coconut tree.
+
+*nn-uuki wuwurna-ø nni-j tinn-aa-mi* +
+_protext.aux-fut coconuttree-ERG 3pl-ch-NOM protect-inan-3rd_
+====
+
+For intransitive verbs, the subject determines the dimensions.
+
+====
+*wann-uu ku-j wann-u-ku* +
+_know.AUX-PRES 2s-NOM know-AN-3rd_ +
+You know.
+====
+
+.Gender suffixes on verbs
+[options="header"]
+|===========================================
+| class  | child | adult | elder | inanimate
+| first  | uu    | u     | iiwa  | a
+| second | awuu  | awu   | iwa   | a
+| third  | arruu | u     | iwu   | aa
+|===========================================
+
+.Person suffixes on verbs
+[options="header"]
+|================================
+| class         | 1st | 2nd | 3rd
+| first, second | -   | n   | m
+| third         | -   | ku  | mi
+|================================
+
+.Tense suffixes on verbal auxiliaries
+[options="header"]
+|======================================================
+| class         | remote past | past | present | future
+| first, second | arlu        | a    | i       | aa
+| third         | una         | uma  | uu      | uuki
+|======================================================
+
+.Mood suffixes on verbal auxiliaries
+[options="header"]
+|=================================================================================
+| class  | subjunctive | weak imperative | strong imperative | gnomic | dubitative
+| first  | tiru        | yii             | ju                | nga    | tila
+| second | tirlu       | yii             | yuu               | nga    | ti
+| third  | tiru        | yii             | ju                | nga    | ti
+|=================================================================================
+
+==== Tense
+
+Tense refers to the time at which the verb's action took place. There
+are four marked tenses: remote past, past, present, and future.
+
+Present is considered the default tense. It usually indicates those
+events which are happening in the moment of utterance, but it can also
+be used as a rudimentary form of a near-past tense, applying to actions
+that were completed the same day as the utterance.
+
+====
+*j-i rrurtawalu-ø yuu-waya-rnu purki yaj-u-ø* +
+_come.aux-pres rain.cloud-erg int-1pl-ori come-an-1st_ +
+Are the rain clouds drawing near?
+
+*gulw-i wa-j nnu-yi nna-l gulwaj-u-ø* +
+_give.aux-pres 1s-nom 3s.inan-com 3s.an-acc give-an-1st_ +
+I gave it to him earlier today.
+====
+
+The past tense simply refers to an event that began and concluded in the
+past. If the event has not yet concluded, the present tense is used,
+even if it began in the past.
+
+====
+*k-a waya-ø maaju-j bilj-u-m nna-j pirr-u-ø* +
+_see.aux-pst 1pl-erg kangaroo-nom hop-an-3rd 3s.an-nom see-an-1st_ +
+We saw the hopping kangaroo.
+====
+
+The remote past also indicates an event that was completed in the past.
+The distinction between it and the standard past can be somewhat
+arbitrary, but in general remote past is used in the following three
+circumstances:
+
+* recounting handed-down stories
+* speaking of ancestral events
+* referring to a habitual action that has concluded
+
+====
+*nn-una puu-ø Bilru-rn pupa-pu bunn-u-mi* +
+_shine.aux-rem sun-erg bilru-loc happy-an shine-an-3rd_ +
+The sun shone down on Bilru, who was happy.
+
+*ngarr-arlu walma-ø gaypa-wa-rn ngurr-a-m* +
+_be.aux-rem hut-erg mountain-loc be-inan-3rd_ +
+The hut used to be on the hill.
+====
+
+The future tense refers to all events which are yet to take place,
+regardless of how far in the future they occur.
+
+====
+*k-aa tu wa-ø naarla wiirr-u-ø* +
+_go.aux-fut neg 1s-erg there go-an-1st_ +
+I won't go there.
+====
+
+===== Aspect
+
+Aspect refers to the definiteness of an action. The perfective aspect
+refers to events which are complete and self-contained ("I ran"),
+whereas the imperfective aspect refers to ongoing events ("I was
+running"). In Ngujari, there is no morphological distinction drawn
+between the perfective and imperfective aspects, meaning contextual
+clues are vital for understanding.
+
+====
+*k-a wa-ø guumja-j pirr-u-ø, ngarr-a wa-ø gugannari-rn ngurr-u-ø* +
+_see.aux-pst 1s-erg butterfly-nom see-an-1st, be.aux-pst 1s-erg forest-loc be-an-1st_ +
+I was looking at a butterfly when I was in the forest.
+
+*nnarr-i k-a wa-ø guumja-j pirr-u-ø k-i-tiru wa-j nartupurr-u-ø* +
+_effect.aux-pres see.aux-pst 1s-erg butterfly-nom see-an-1st blush.aux-pres-sbjv 1s-nom blush-an-1st_ +
+I saw a butterfly that made me blush.
+====
+
+==== Moods
+
+A mood modifies the meaning of a verb. Verbs can be conjugated into one
+of five moods:
+
+* subjunctive
+* weak imperative
+* strong imperative
+* gnomic
+* dubitative
+
+Mood is an optional part of verb formation. In a regular active
+sentence, there is no mood.
+
+====
+*nn-i waya-j jinn-u-ø?* +
+_↗ eat.aux-pres 1pl-nom eat-an-1st_ +
+Should we eat?
+====
+
+But adding a mood, such as the imperative, changes the meaning of the
+sentence.
+
+====
+*nn-i-yii waya-j jinn-u-ø* +
+_eat.aux-pres-wimp 1pl-nom eat-an-1st_ +
+Let's eat.
+
+*nn-i-ju waya-j jinn-u-ø* +
+_eat.aux-pres-strimp 1pl-nom eat-an-1st_ +
+We must eat.
+====
+
+===== Subjunctive
+
+The subjunctive mood is an _irrealis_ mood: it broadly signifies
+abstractness, or that the speaker is unsure about the event in question.
+
+The subjunctive is used in four places:
+
+1.  Speculation
+2.  Desires
+3.  Conditional
+4.  Purposive
+
+The conditional and purposive cases are related to syntax, and are
+discussed later.
+
+The most common use of the subjunctive mood is speculation. If a speaker
+is either unsure of an event's outcome, or does not know if it occurred
+or will occur.
+
+====
+*k-a-tiru nna-ø maaju-j naa puwa tarr-u-m* +
+_kill.AUX-PST-SUBJ 3s-ERG kangaroo-NOM 1.val.2 kill-AN-3RD_ +
+He might have killed the kangaroo.
+
+*j-a-tirlu nni-ø nnalu-rnu purki yaj-awuu-m, yirr-a yurr-a-ø* +
+_walk.AUX-PST-SUBJ 3pl.ch-ERG place-ORI walk-CH-3rd, know.AUX-PRES know-AN-1st_ +
+I think that they came back yesterday.
+====
+
+If the speaker is speaking hypothetically about a property of something
+which is expressed as an adjective, the verb _ngurr_ must be used with a
+predicate adjective rather than the verbless construction (discussed
+later). _ngurr_ is in the subjunctive mood.
+
+====
+*ngarr-aa-tilu parra-ø kurlu-j tuwilwa-wa ka ngurr-a-m* +
+_be.aux-fut-sbjv hunt-erg thing-NOM dangerous-in 2.val.1 be-inan-3rd_ +
+The [prospective] hunt would be very dangerous.
+====
+
+The subjunctive is also used when expressing desires or dreams. The
+desire must be first-hand; so recounting those of others does not use
+the subjunctive.
+
+====
+*k-a-tiru wa-ø warlu-j jurni purr-a-ø* +
+_want.AUX-PRES-SUBJ 1s-ERG bed-NOM new want-AN-1st_ +
+I want a new bed.
+
+*j-a nna-j wa-l ka naj-awu-m, "k-a wa-ø warlu-j jurni purr-a-ø"* +
+_say.AUX-PST 3s-NOM 1s-ACC 3.val.2 say-AN-3rd, want.AUX-PRES 1s-ERG bed-NOM new want-AN-1st_ +
+He said to me, "I want a new bed."
+====
+
+When desiring an action, the speaker uses a "wanting" verb, such as
+_mann_, along with a verb phrase in the subjunctive expressing the
+desired action. This action can be in any tense.
+
+====
+*nn-i wa-j j-a-tirlu ti nna-j ngarj-awu-m mann-u-ø* +
+_wish.aux-prs 1s-nom hurt.aux-pst-sbjv neg 3s.an-nom hurt-an-3rd wish-an-1st_ +
+I wish that he hadn't hurt himself.
+====
+
+===== Imperative
+
+The imperative mood is used for suggestions and commands. The weak
+imperative raises an idea or suggestion, without indicating an order,
+similar to the English "let's go".
+
+====
+*nn-uuki-yii wuu waya-ø gunnari-j ka warnn-u-ø* +
+_cut.AUX-FUT-WIMP neg 1pl-erg tree-nom 3.val.2 cut-an-1st_ +
+Let's not cut down the tree.
+====
+
+The strong imperative signifies a command, such as "Leave!".
+
+====
+*nn-uuki-ju wuu ku-ø gunnari-j ka warnn-u-ku* +
+_cut.AUX-FUT-WIMP neg 2s-erg tree-nom 3.val.2 cut-an-2nd_ +
+Don't cut down the tree.
+====
+
+===== Gnomic
+
+The gnomic mood states unequivocal facts or ideas. The statement must be
+truly uncontentious to fit into the gnomic mood, a universal truth or
+maxim.
+
+====
+*k-i-nga juunwi-juunwi-ø gayparnu narnn-u-m biintu-yi* +
+_fly.aux-pres-gno bowerbird-PL-ERG east fly-an-3rd winter-adv_ +
+Satin bowerbirds fly east for winter.
+====
+
+===== Dubitative
+
+The dubitative mood indicates situational possibility. The speaker
+acknowledges the possibility of an action but is unsure as to whether it
+occurs. This is similar to English sentences using the auxiliary
+"might".
+
+====
+*nn-aa-ti rrunn-u-mi* +
+_rain.aux-fut-dub rain-an-3rd_ +
+It might rain tomorrow.
+====
+
+===== Verbal Arguments
+
+A verb's _valence_ determines the number of arguments it can take. For
+example, a verb with a valence of two would take two nouns:
+
+====
+*k-a nnalji-ø pijtu-j nirr-u-m* +
+_fight.AUX-PST dingo-ERG snake-NOM fight-AN-3RD_ +
+The dingo fought the snake.
+====
+
+In addition to their valence, the arguments to verbs have restrictions
+on their case. For the majority of transitive verbs, with a valence of
+two, the arguments take the form of a subject and object. The cases are
+determined by the alignment of the sentence.
+
+However, this can differ, and some verbs have irregular argument cases.
+This is especially true in the case of verbs relating to movement, which
+instead take a subject and a location.
+
+====
+*j-a wa-ø gaypa-rn yaj-awu-ø* +
+_run.aux-pst 1s-erg mountain-loc run-an-1st_ +
+I ran to the mountain [and ended up there].
+====
+
+When verbs take an argument in the locative case, the speaker can
+instead use the revertive or orientative case for further control over
+meaning.
+
+====
+*j-a wa-ø gaypa-rnu yaj-awu-ø* +
+_run.aux-pst 1s-erg mountain-ori run-an-1st_ +
+I ran towards the mountain
+
+*j-a wa-ø gaypa-rna yaj-awu-ø* +
+_run.aux-pst 1s-erg mountain-rev run-an-1st_ +
+I ran away from the mountain
+====
+
+===== Valence Modification
+
+All verbs have a _default valence_: the number of arguments it takes
+without modification. Most verbs are transitive, but valences can span
+between avalent (taking no arguments) and quadrivalent (taking four).
+
+However, many verbs are not restricted to their default valence, and can
+take different numbers of arguments. These configurations cause the verb
+to take on different meanings. A verb will have a minimum and maximum
+valence, and cannot take on arguments outside of this range.
+
+====
+*j-i wa-j kuma-l wuj-u-ø* +
+_hold.aux-pres 1s-nom 2s-acc hold-an-1st_ +
+I hold you
+
+*j-i wa-j kuma-l wirra-yi naa wuj-u-ø* +
+_hold.aux-pres 1s-nom 2s-acc blood-com 2.val.3 hold-an-1st_ +
+I love you (lit. I hold blood for you)
+====
+
+For a transitive verb, it is common to find a configuration with a third
+argument in the comitative case, representing the means with which the
+action occurred.
+
+For example, the verb _wurr_ is by default avalent, taking no arguments.
+In this case, it means "it is electrically storming". However, modifying
+its valence to one changes its meaning to "to be struck by lightning",
+and a valence of two allows it to mean "to strike". No other number of
+arguments is allowed. Therefore, it has a minimum valence of zero and
+maximum valence of two.
+
+Valence modification occurs through special particles. These particles
+typically immediately precede the modified verb, and indicate they take
+an unusual number of arguments. A verb without a particle has default
+valence.
+
+.Valence modifiers
+[cols="s,,,,,",options="header"]
+|====================================================
+|        5+| target
+| default s| 0      s| 1     s| 2   s| 3     s| 4
+| 0        | -       | wi     | ji   | murnu  | yurnu
+| 1        | wi      | _      | naa  | naki   | mu
+| 2        | waa     | ka     | -    | naa    | naki
+| 3        | wangu   | waa    | ka   | -      | naa
+| 4        | wirru   | wangu  | waa  | ka     | -
+|====================================================
+
+The main functions of derived valences are to either change the root
+meaning of the verb or modify the number of arguments it takes. In both
+cases, there is little regularity. The valence structure of verbs, and
+their modified meanings, must be learned.
+
+===== Common Verb Valences
+
+For each of the seven verbs with irregular auxiliaries, the different
+possible valences and according arguments are shown below. The default
+valence appears in bold. The argument markers SUBJ and OBJ refer to the
+subject and object respectively, which differs according to alignment.
+
+* _ngurr_: *(2) SUBJ is OBJ*
+* _gulwaj_: (2) SUBJ gives to OBJ; *(3) SUBJ gives COM to OBJ*
+* _gurr_: (2) SUBJ has OBJ; *(3) SUBJ has OBJ in COM
+manner*footnote:[For an example of the use of the comitative slot, see
+the constituent negative in the syntax chapter.]
+* _nnurr_: *(2) SENTENCE causes SENTENCE* footnote:[The verb _nnurr_
+is a special case. See the subjunctive section.]
+* _wann_: *(1) SUBJ knows*; (2) SUBJ knows OBJ; (3) SUBJ knows OBJ
+because of INST
+* _yurr_: *(1) SUBJ knows*; (2) SUBJ knows OBJ; (3) SUBJ knows OBJ
+on the authority of COM
+* _girr_: *(1) SUBJ senses something*; (2) SUBJ feels that
+SENTENCE footnote:[Where the sentence is in the subjunctive mood.]
+
+=== Modifiers
+
+==== Adjectives
+
+Adjectives are words used to describe or modify the meaning of a noun.
+Adjectives in Ngujari perform only the _predicative function_: they
+require a verb to function, and refer to the subject of the verb.
+
+====
+*birru-j nnijpa-pu* +
+_ocean-nom calm-pred_ +
+The sea is calm.
+====
+
+Before they can be used as predicates, adjectives must be inflected.
+They are lexicalised as verbs, and agree with the gender of the
+predicate phrase's subject.
+
+To decline a predicate adjective, two steps are required:
+
+1.  If the adjective ends in a vowel, its last consonant is added to the
+end. Otherwise, it is unmodified.
+2.  The relevant gender suffix of a class one verb is added as a suffix.
+
+==== Quantifiers
+
+A quantifier is used to specify the number of a noun. They can be
+numerals, used for counting, or abstract amounts like "many".
+Quantifiers are lexicalised as nouns in the nominative predicate clause.
+
+===== Numerals
+
+Ngujari uses a dual decimal-quinary counting system. The numerals are
+based on increments of five or ten.
+
+There are eleven basic numerals, spanning from zero to ten, outlined in
+the table below.
+
+.Numerals
+[options="header"]
+|==================================
+| numeral | word | numeral | word
+| 0       | nart |         |
+| 1       | naju | 6       | nalwi
+| 2       | guu  | 7       | puwa
+| 3       | naa  | 8       | tuja
+| 4       | jaru | 9       | jawu
+| 5       | yi   | 10      | najuyi
+|==================================
+
+For numbers under ten, expression is simple. The speaker just uses the
+corresponding numeral is used. But past ten, the numbers are expressed
+as composites. Any numeral can be combined with the words _yi_ ("five")
+or _najuyi_ ("ten") to multiply by that number. Composite numbers are
+formed through multiples of five and ten combined with any extra
+numerals, which follow the multiples. There are therefore two ways of
+expressing any number, depending on the choice of five or ten as a base.
+
+====
+twelve +
+_najuyi guu_ +
+_guu-yi guu_
+
+twenty-three +
+_guu-najuyi naa_ +
+_jaru-yi naa_ +
+_najuyi guu-yi naa_
+
+
+fifty +
+_yi-najuyi_ +
+_najuyi-yi_
+====
+
+When counting, a separate tally system may be used. "Marks", or chosen
+multiples of five or ten, are expressed fully, but numbers in between
+are expressed as the difference from the last mark.
+
+====
+*guu-najuyi naju guu naa jaru yi-yi naju...* +
+twenty, twenty-one, twenty-two, twenty-three, twenty-four, twenty-five, twenty-six…
+====
+
+===== Abstract
+
+Abstract quantifiers are subjective, unlike strict numerals. They are
+used identically to concrete numbers.
+
+Abstract quantifiers are a very small closed class, containing only six
+words.
+
+.Abstract quantifiers
+|==================================
+| jiingu  | some
+| yuutii  | many
+| gijta   | more than expected
+| gigijta | many more than expected
+| muungu  | less than expected
+| mumungu | many less than expected
+|==================================
+
+=== Adverbs
+
+An adverb is a word which modifies a clause.
+
+_Manner_ adverbs modify the way the clause's verb is performed.
+
+====
+*k-a wa-j nna-l buutu ji wurr-u-m* +
+_strike.AUX-PST 1s-NOM 3s-ACC hard 0.val.2 strike-AN-1st_ +
+I struck him hard.
+====
+
+_Temporal_ adverbs modify when the clause occurs.
+
+====
+*k-aa wa-j nna-l ji wurr-u-m piitu* +
+_strike.AUX-FUT 1s-NOM 3s-ACC 0.val.2 strike-AN-1st soon_ +
+I will strike him soon.
+====
+
+The class of an adverb loosely determines its position in a phrase.
+Adverbs are used as-is, and do not undergo derivation.

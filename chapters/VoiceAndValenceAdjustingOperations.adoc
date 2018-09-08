@@ -1,0 +1,7 @@
+== Voice and valence adjusting operations
+
+=== Valence and predicate calculus
+
+=== Valence increasing operations
+
+=== Valence decreasing operations

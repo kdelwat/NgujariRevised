@@ -1,0 +1,79 @@
+== Morphological typology
+
+_Morphology_ is the study of word forms and the way words are adapted to
+different circumstances.
+
+Words in Ngujari begin as stems: individual morphemes footnote:[A
+_morpheme_is the smallest possible unit of meaning.] that cannot be
+used in their base form. A speaker must add a number of suffixes to the
+stem to indicate characteristics such as gender, in the case of nouns,
+or tense, in the case of verbs. This process is known as _inflection_.
+
+=== Morphological processes
+
+Word stems, like base verbs and nouns, cannot usually be used in
+sentences alone. Instead, the speaker adds further morphemes to indicate
+different attributes of the stem. This makes Ngujari a _polysynthetic_ language.
+
+The language is overwhelmingly _agglutinative_: words are inflected
+through non-fusional suffixes alone.
+
+However, in a handful of cases words are instead inflected through
+_clitics_, separate words which are "attached" to the stem by their
+relative position in the sentence. The most common occurrence is
+particles which modify the valence of verbs.
+
+Consider the following sentence:
+
+====
+*k-a wa-Ø jari-rn wiirr-u-Ø* +
+_go.AUX-PST 1s-ERG beach-LOC go-AN-1ST_ +
+I went to the beach.
+====
+
+The sentence contains three stems: _wiirr_ (to go), _jari_ (beach), and
+_wa_ (_I_). However, these stems cannot be used alone. Each has at
+least one additional morpheme.
+
+* _wa_ is inflected into the ergative case, through the _null
+morpheme_footnote:[Although it cannot be heard in the spoken language,
+the null morpheme is considered to be a morpheme due to its role in
+differentiating different word forms.], a morpheme which has no sound.
+* _jari_ is inflected into the locative case, through the suffix
+_-rn_.
+* _wiirr_ is inflected into the animate adult gender, through the suffix
+_-u_, and the first person singular, through the null morpheme. It
+also has an auxiliary (discussed later), _k_, which is inflected into
+the past tense through the suffix _-a_.
+
+=== Head/dependent marking
+
+Ngujari is head-marking, meaning that the heads of phrases are marked
+for relationships with dependents.
+
+For example, nouns themselves are marked for plurality, rather than the
+null determiner.
+
+image:images/tituu-tituu.png[alt_text,title="image_tooltip"]
+
+Possessives provide another example of head-marking. The owning pronoun
+is marked with the possessive suffix, rather than the owned noun.
+
+====
+*waju-j nna-lu* +
+_face-nom 3s.an-pos_ +
+his face
+====
+
+image:images/wajuj-nnalu.png[alt_text,title="image_tooltip"]
+
+In verb phrases, the verb (head) is marked for information like tense
+and valence, rather than the arguments.
+
+====
+*k-i wa-j jarta-rn wiirr-u-m* +
+_go.aux-PRES 1s-nom home-LOC go-an-1st_ +
+I go home
+====
+
+image:images/go-home.png[alt_text,title="image_tooltip"]

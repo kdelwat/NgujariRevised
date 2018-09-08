@@ -1,0 +1,754 @@
+== Constituent order typology
+
+=== Introduction
+
+=== Constituent order in main clauses
+
+Within a clause, nouns can take on one of multiple roles:
+
+* The _agent_ of a transitive verb, which is a noun performing an action
+on another noun.
+
+====
+*k-a wiingurki-ø taarirkiwa-j pirr-uu-m* +
+_see.AUX-pst boy-erg stick-nom see-ch-3rd_ +
+The boy saw the stick.
+====
+
+* The _patient_ of a transitive verb, or the noun that an action is
+being performed on.
+
+====
+*k-a wiingurki-ø taarirkiwa-j pirr-uu-m* +
+_see.AUX-pst boy-erg stick-nom see-ch-3rd_ +
+The boy saw the stick.
+====
+
+* The _subject_ of an intransitive verb, which is a verb that only
+requires one noun. For example, in the sentence "The dog barks", the dog
+is the subject.
+
+====
+*nn-uu mungu-j wi rrunn-u-m* +
+_cry.aux-pst woman-nom 0.val.1 cry-an-3rd_ +
+The woman cries.
+====
+
+Inside a clause, Ngujari tends to be an APV/SV language. This means that
+the agent and patient precede the verb in a transitive clause, and the
+subject precedes the verb in an intransitive clause.
+
+====
+*wann-uma maaju-maaju-j ka jinn-u-m* +
+_see.aux-pst kangaroo-pl-nom 2.val.1 eat-an-3rd_ +
+The kangaroos ate/were eating.
+
+*k-i wa-j kurru-l ji wurr-u-ø* +
+_strike.aux-pres 1s-nom 2s-acc 0.val.2 electrically.storm-an-1st_ +
+I strike you.
+====
+
+When the valence of a clause's verb is greater than two, all extra
+arguments come before the verb.
+
+====
+*nn-uu waya-ø tinyu-j panwa-yi naa tinn-u-ø* +
+_protect.aux-pres 1pl-erg camp-nom fire-com 2.val.3 protect-an-1st_ +
+We protect the camp with fire.
+====
+
+The presence of the verb at the end of the clause is fixed, but the
+order of the nouns is flexible for pragmatic reasons. The speaker can
+reverse agent and patient.
+
+====
+*k-i kurru-l wa-j ji wurr-u-ø* +
+_strike.aux-pres 2s-acc 1s-nom 0.val.2 electrically.storm-an-1st_ +
+I strike you.
+====
+
+The majority of the time, the agent will precede the patient. But if the
+speaker is drawing attention to the patient, especially if the agent has
+already been discussed and the patient is being introduced, it may move
+to the position of importance before the agent.
+
+=== Alignment
+
+Ngujari has three alignment cases: ergative, nominative, and accusative.
+The use of these cases and their corresponding suffixes allows for a
+more free word order. Rather than the placement of words determining the
+role of nouns in a sentence, the cases take on the role.
+
+In a typical sentence, a noun can take on one of three roles:
+
+*
+
+The case assigned to each of these roles depends on the
+_morphosyntactic alignment_, which is a set of rules for determining
+each case. Ngujari is a _split ergative_ language, meaning that the
+alignment changes depending on the nouns in use.
+
+For clauses whose agent and object (or subject) are animate pronouns,
+the alignment is _nominative-accusative_. In this alignment, the agent
+and subject are assigned the nominative case and the object takes the
+accusative case. The following example shows what this looks like in
+practice.
+
+====
+*j-i wa-j nna-l miij-awu-ø* +
+_love.aux-pres 1s-nom 3s-acc love-an-1st_ +
+I love her.
+====
+
+All other clauses have an _ergative-nominative_ alignment, which means
+that the object and subject are marked as nominative and the agent is
+marked as ergative. The sentence above can be rewritten without using
+the third-person pronoun, and will therefore be placed in the
+ergative-nominative alignment.
+
+====
+*j-i wa-ø majuu-j miij-awu-ø* +
+_love.aux-pres 1s-erg kangaroo-nom love-an-2nd_ +
+I love the kangaroo.
+====
+
+=== Verb phrase
+
+====
+Verb Phrase: _vp = aux [neg] np(s) [adv(s)][val] v_ +
+_VP = (NP) V'_ +
+_V' = V' AdvP_ +
+_V' = AdvP V'_ +
+_V' = NP V'_ +
+_V' = ValP V'_ +
+_V' = T V_
+====
+
+A _verb phrase_ is the primary structure of a clause. The most basic
+clause possible is an avalent footnote:[An avalent verb is one that takes
+no nouns or arguments.] verb. This is demonstrated in the following
+example:
+
+====
+*nn-uu rrunn-aa* +
+_rain.aux-pres rain-inan-1st_ +
+It's raining.
+====
+
+image:images/nnuu-rrunnaa.png[]
+
+In practice, most verb phrases will involve nouns. While word order is
+flexible, as previously described, there are three rules which generally
+apply:
+
+1.  The verb's auxiliary appears at the beginning of the phrase.
+2.  The verb itself appears at the end.
+3.  Valence modifiers appear immediately before the verb.
+
+====
+*k-a nna-ø mulwi-j nnaa-rnu mirr-u-m* +
+_bring.aux-pst 3s-erg bread-nom 3pl-ori bring-an-3rd_ +
+He brought the bread to them.
+====
+
+// TODO: these are wrong - can't generate T in V'
+image:images/he-brought-bread.png[]
+
+====
+*k-i panwa-ø wi yirr-a-m* +
+_burn.aux-pres fire-erg 0.val.1 burn-inan-3rd_ +
+The fire burns.
+====
+
+image:images/the-fire-burns.png[]
+
+However, for pragmatic reasons the speaker may move the verb's auxiliary
+from its regular position at the beginning of the clause to after the
+verb's arguments. It must appear _after_ any valence modifiers to avoid
+violating the verb phrase rules.
+
+====
+*kurru-l wa-j ji k-i wurr-u-ø* +
+_2s-acc 1s-nom 0.val.2 strike.aux-pres electrically.storm-an-1st_ +
+I strike you.
+
+*wa-j kurru-l ji k-i wurr-u-ø* +
+_1s-nom 2s-acc 0.val.2 strike.aux-pres electrically.storm-an-1st_ +
+I strike you.
+====
+
+image:images/I-strike-you.png[]
+
+=== Noun phrase
+
+====
+_NP = N'_ +
+_N' = N (CP)_
+====
+
+A verb phrase can take more than just bare nouns. A _noun phrase_ is a
+constituent which acts like a noun. It can contain the noun alone, but
+can also be modified by a relative clause.
+
+The relative clause always appears at the end of the noun phrase
+
+====
+*birru-ø* +
+_sea-erg_ +
+sea
+====
+
+image:images/birru.png[]
+
+====
+*kanaama yirlirna-j gu* +
+_woven basket-nom small_ +
+small woven basket
+====
+
+==== Relative Clauses
+
+Relative Clause: _rc = [aux][neg] v [val][adv(s)] np(s)_
+
+A relative clause is a clause which modifies a noun (the _head noun_).
+Ngujari uses _adjoined_ relative clauses, which means that the relative
+clause is simply appended to the end of the verb. However, it must first
+be placed into a slightly different form than a standard clause.
+
+There are two cases for a relative clause:
+
+* _object clauses_, in which the head noun is the object of the
+relative clause.
+* _agent clause_, where the head noun is the relative clause's agent
+or subject.
+
+In both types of relative clause, the verb is moved from the end of the
+clause to a position immediately following the verb's auxiliary.
+
+In an object clause, the valency of the verb is reduced by one. In
+effect, the head noun becomes a noun in the clause.
+
+====
+*wiingu-ø k-a pirr-u-ø ka wa-j* +
+_man-erg aux-pst see-an-1st 2.val.1 1s-nom_ +
+the man that I saw
+====
+
+In an agent clause, the valency is not modified. Instead, a pronoun that
+matches the person, plurality, and animacy of the head noun is added to
+the relative clause.
+
+====
+*j-a Wuurna-ø nn-uuki-ti yann-u-mi nna-j jurlu-l wa-j ka naj-u-m* +
+_say.aux-pst Wuurna-erg aux-fut-dub catch-an-3rd 3s-nom turtle-acc 1s-nom 3.val.2 say-an-3rd_ +
+Wuurna, who might catch a turtle, spoke to me.
+====
+
+=== Adpositional phrases
+
+=== Comparatives
+
+A comparative is a sentence which compares one noun to another, using an
+adjective. Ngujari uses _locational-type comparatives_ which are
+verbless. The noun to be judged against (the _standard noun_) is given
+a locational case, while the noun that is being judged is given the case
+that it would assume as the subject of an intransitive verb. The two
+nouns are then followed by the adjective, which is in the predicate form
+(see *morphology*).
+
+If the judged noun is 'more' of the adjective than the standard noun,
+the revertive case is used. If they are the same, the locative case is
+used.
+
+====
+*nna-j wa-rna yam-u* +
+_3s-nom 1s-rev tall-an_ +
+He is taller than me.
+
+*gungaa-ø muyu-rn yurli-la* +
+_axe-erg spear-loc dull-inan_ +
+The axe and spear are equally as dull.
+====
+
+Comparatives may be used in relative clauses. The adjective becomes the
+first word in the clause and is followed by the nouns. One of the nouns
+is replaced by a pronoun as usual.
+
+====
+*k-a nnalji-ø junn-u nna-ø wiinguurki-rna yuki-j ka giirr-u-m* +
+_win.aux-pst dingo-erg fast-an 3s-erg boy-rev race-nom 2.val.1 win-an-3rd_ +
+The dingo, who is faster than the boy, won the race.
+====
+
+=== Question particles and question words
+
+=== Modifier Positioning
+
+==== Adjectives
+
+// TODO
+
+==== Adverbs
+
+Adverbs can be split into two categories:
+
+* Temporal adverbs specify the time a verb takes place
+* Manner adverbs detail the manner in which the verb was conducted
+
+Temporal adverbs usually follow the base verb.
+
+====
+*k-a jana-ø jari-rn wiirr-uu-ø yuurli-rna ma* +
+_go.aux-pst 1s.ch-erg beach-loc go-ch-1st day-rev one_ +
+Yesterday, I [a child] went to the beach.
+====
+
+Manner adverbs usually precede the base verb.
+
+====
+*nn-uuki-yii waya-ø pirwa-pirwa-j garrna gann-u-ø* +
+_pickup.aux-fut-wimp 1pl-erg clothing-pl-nom quickly pickup-an-1st_ +
+We should pick up the clothes quickly.
+====
+
+However, both can occupy different positions inside the verb phrase if
+the speaker desires it.
+
+=== Predicates
+
+A _predicate_ is a sentence which modifies a noun. There are three
+types:
+
+* _Adjectival_, in which a noun is modified by an adjective, such as
+"The grass is green".
+* _Nominal_, where the noun is modified by another noun. This is
+commonly used for professions, as in "She is a teacher".
+* _Locational_, which assigns a location to a noun, such as "The
+campsite is in the valley".
+
+The Ngujari language distinguishes between these types and forms each in
+a different way.
+
+==== Adjectival
+
+Adjectival Predicate: _apred = n [adj(s)-pred/n-com]_
+
+An adjectival predicate is formed without the use of a verb, and simply
+requires a noun and at least one adjective. The noun is first given the
+same case as if it were a subject footnote:[The subject is the only
+argument to an intransitive verb.].
+
+Any adjectives are changed to their predicate form (see *morphology*).
+The adjectives then simply follow the noun.
+
+====
+*puurna-j birruku-ku* +
+_sky-nom blue-an_ +
+The sky is blue.
+====
+
+There is another form of adjectival predicate, in which a noun is used
+in place of an adjective. While this may seem counterintuitive, the noun
+in effect becomes an adjective. This form is used when describing a
+changeable state. The described noun is treated as above, but the
+modifying noun is given the comitative case.
+
+====
+*murta-j gurlu-yi* +
+_berry-nom freshness-com_ +
+The berry is fresh.
+====
+
+==== Nominal
+
+Nominal Predicate: _npred = be.aux n-subj n-obj be_
+
+A nominal predicate is formed using _ngurr_, the verb for "to be". By
+default, _ngurr_ has a valence of two, taking an agent and an object.
+The described noun is the agent and the modifying noun is the object.
+
+====
+*ngarr-i wa-ø gajangu-j ngurr-u-ø* +
+_be.aux-pres 1s-erg teacher-nom be-an-1st_ +
+I am a teacher.
+====
+
+The nominal predicate is also used for quantifiers. The quantifier takes
+the place of the noun, but does not assume the object case marker.
+
+====
+*ngarr-aa mungu-ø yuutii ngurr-u-m* +
+_↗ be.aux-fut woman-erg many be-an-3rd_ +
+Will there be many women?
+====
+
+When determining the alignment of a sentence, a quantifier is treated as
+an animate pronoun. In a transitive verb, this means that an animate
+pronoun in the subject position will take the nominative case.
+
+====
+*ngarr-i waya-j jaru ngurr-u-ø* +
+_be.aux-pres 1pl-nom four be-an-1st_ +
+There are four of us.
+====
+
+The noun being modified must be in its singular form.
+
+==== Locational
+
+Locational Predicate: _lpred = be.aux n-subj n-loc be_
+
+A locational predicate is formed in almost the same way as a nominal
+predicate. The only difference is that the modifying location is given
+the locative case, rather than the comitative.
+
+====
+*k-i wurlki-ø kirujunga-ø ngurr-a-m* +
+_be.aux-pres village-erg somewhere-loc be-inan-3rd_ +
+The village is somewhere.
+====
+
+=== Possession
+
+There are three types of possession in the Ngujari language.
+
+The first two are distinguished by their changeability. _Alienable
+possession_ isn't permanent, and is subject to change, whereas
+_inalienable possession _cannot be changed. The difference between the
+two revolves around culture, and is outlined in *possession*.
+
+The third type is _group possession_, in which something is owned by
+the tribe as a whole. This is formed in a different way to the first
+two.
+
+==== Alienable
+
+Alienable possession is either _locative-based_ or _pronominal_.
+
+In locative-based possession, the verb _ngurr_ is used. The possessed
+noun becomes the agent of the verb, while the possessor is given the
+locative case. Unusually, this means that the verb does not have a noun
+in the object case, even though its valence remains the same.
+
+Locative-based possession can be thought of as a noun being on
+somebody's person. Where in English we might say "I have a spear", the
+literal Ngujari translation is closer to "The spear is on me", even if
+the spear is in fact kilometres away. This can be seen in the following
+example.
+
+====
+*ngarr-i mulu-mulu-ka-ø mungu-rn ngurr-a-m* +
+_be.aux-pres deadfish-pl-dual-erg woman-loc be-inan-3rd_ +
+The woman has two dead fish.
+====
+
+The second form of the alienable possession, pronominal possession, is
+formed through the use of a possessive pronoun. The pronoun is used in
+the same way as an adjective, appearing after the possessed noun.
+
+====
+*nn-uma nnaa-ø waju-j yurni nna-lu giinn-u-m* +
+_admire.aux-pst 3pl.an-erg face-nom beautiful 3s.an-pos admire-an-3rd_ +
+They admired his beautiful face.
+====
+
+==== Inalienable
+
+Inalienable possession is indicated through the use of the verb
+_gurr_. The possessor becomes the agent and the possessed noun becomes
+the object.
+
+====
+*garr-aa-nga ngungu-ø jarta-j ka gurr-u-ø* +
+_have.aux-fut-gno mob-erg homeland-nom 3.val.2 have-an-1st_ +
+Our mob will always have a homeland.
+====
+
+It is important to note that _gurr_ is by default trivalent, meaning it
+takes three nouns: an agent, an object, and a _manner_. The manner is
+a noun in the comitative case, and describes the means by which the noun
+became or is possessed. The following example is the same as the above,
+except a manner is specified.
+
+====
+*garr-aa-nga ngungu-ø jarta-j yuurrpa-yi ka gurr-u-ø* +
+_have.aux-fut-gno mob-erg homeland-nom courage-com 3.val.2 have-an-1st_ +
+Our mob will always have a homeland, due to our courage.
+====
+
+==== Group
+
+In Ngujari culture, an object can be owned by a mob as a whole. With the
+exception of areas of land, only inanimate nouns may be possessed by a
+mob.
+
+Group possession is formed using the special particle _tuu_, which
+appears before the noun. To specify the possessing mob, the mob's name
+is placed immediately after the particle.
+
+====
+*nn-i-ju waya-ø tuu-Gurnu jaku nnalu-j muu-ma naa tinn-u-ø* +
+_protect.aux-strimp 1pl-erg pos-gurnu precious land-nom spirit-inst 2.val.3 protect-an-1st_ +
+We must protect our [the Gurnu mob's] precious land with vigour.
+====
+
+The regular name is used by members of the possessing mob, but the
+honorific name is used for possessions of others footnote:[Culture
+dictates that each mob has two names: an "insider" name and an
+"outsider" name. To use the insider name without being a member of the
+mob is a grave offence.]. For example, the combined particle for
+something owned by the Wujanga mob would be _tuu-Wujanga_ for a member
+or _tuu-Wujarra_ for an outsider.
+
+=== Interrogative
+
+_Interrogatives_ are simply questions. There are two types of
+interrogatives:
+
+* _Polar_, which have an affirmative or negative answer.
+* _Non-polar_, which require a more detailed response.
+
+==== Polar
+
+Polar questions are extremely easy to form. They are expressed as a
+factual statement, but with a rising tone at the beginning of the
+question.
+
+====
+*nn-uuki kupa-kupa-ø gaypa-gaypa-rn narnn-u-m?* +
+_↗ fly.aux-fut bird-pl-erg mountain-pl-loc fly-an-3rd_ +
+Will the birds fly to the mountains?
+====
+
+==== Non-Polar
+
+The primary way of forming a non-polar question is through the use of
+interrogative pronouns (such as _piima_). The interrogative takes the
+place of a noun in a verb phrase, but is not assigned a case.
+
+====
+*k-a pii munnanna-rn wa-yi naa wiirr-u-m* +
+_go.aux-pst who river-loc 1s.an-com 2.val.3 go-an-3rd_ +
+Who went to the river with me?
+====
+
+This method of questioning can be used in any type of sentence, not just
+basic clauses. The following example shows its use in a locational
+predicate which contains a relative clause. The interrogative pronoun,
+_kiru_, is moved to the front of the sentence to highlight its
+importance.
+
+====
+*kiru ngarr-i wumpa-ø j-i palyaj-a-m nnu-ø wurlki-j ngurr-a-m* +
+_where be.aux-pres path-erg leadto.aux-prs leadto-inan-3rd 3s.inan-erg village-nom be-inan-3rd_ +
+Where is the path that leads to the village?
+====
+
+A less-common way to ask a non-polar question requires the particle
+_yuu_. By placing the particle ahead of a word in a statement, the
+speaker questions that word.
+
+====
+*k-aa yuu-nnara-ø nurtwu-j panwa-rnu mirr-uu-m* +
+_bring.aux-fut int-3dual.an-erg food-nom fire-ori bring-ch-3rd_ +
+Will it be those two children who bring the food to the fire?
+
+*nn-i wa-ø yuu-gurlurni parnti-j jinn-u-mi* +
+_eat.aux-pres 3s-erg int-fresh kangaroomeat-nom eat-an-3rd_ +
+Is the kangaroo meat he is eating fresh?
+====
+
+=== Conditional
+
+A conditional places a condition on another statement. They are formed
+through two verb phrases, one representing the condition (or protasis)
+and the other representing the outcome (or apodosis). There are two
+types of conditional:
+
+* _implicative_, where the conditional represents a universal truth.
+Whenever the condition is true, the outcome is also true. It is
+important to remember that the implicative form is always true. A
+statement such as "When the wind blows, the leaves rustle" meets this
+criteria, whereas "If you go there, you'll be attacked" does not.
+* _predictive_, where the conditional represents a prediction. This is
+the more general form, and can be used without worrying about universal
+truth.
+
+To form both conditionals, the condition verb phrase appears first,
+followed immediately by the outcome verb phrase. No connector is
+necessary between the two clauses (i.e. there is no equivalent to "if").
+The outcome phrase is always placed in the subjunctive mood and present
+tense.
+
+In an implicative conditional, the condition is given the gnomic mood
+and the present tense. The statement must therefore follow the usual
+rules of the gnomic, in that it must state an indisputable truth.
+
+====
+*k-i-nga kunii-ø mu-rn naa yarr-uu-n j-i-tirlu kunii-j ka mulj-awuu-n* +
+_fall.aux-prs-gno 2dual.ch-erg water-loc 1.val.2 fall-ch-2nd wet.aux-prs-sbjv 2dual-ch-nom 2.val.1 wet-ch-2nd_ +
+If you two fall in the water, you will both get wet.
+====
+
+In a predictive conditional, the condition is usually not given a mood,
+but can assume any tense.
+
+====
+*nn-uuki palwuuwa-j ka girnn-aa-mi k-i yannu-ø nna-j ji wurr-a-rn* +
+_ break.aux-fut branch-nom 2.val.1 break-inan-3rd strike.aux-pres dem.sg.inan-erg 3s-an-nom 0.val.2 strike-inan-3rd_ +
+If that branch breaks, it will strike him.
+====
+
+There is one exception to this rule. If the condition is seen as
+unlikely, the phrase is a _counterfactual_. In this case, the
+condition is given the dubitative mood. Usually, the condition will then
+be in the future tense.
+
+====
+*k-aa-tila nna-ø maaju-j yirn parr-u-m ngarr-tiru nurtwa-nurtwa-rn yuni waya-j ngurr-a-m* +
+_hunt.aux-fut-dub 3s.an-erg kangaroo-nom completedly hunt-an-3rd be.aux-subj food-pl-loc lots 1pl-nom be-inan-3rd_ +
+If he were to successfully hunt the kangaroo [unlikely], we would have lots of food.
+====
+
+=== Negative
+
+A negative simply inverts the meaning of a part of a sentence. The
+primary form of negation is the _clausal negative_, in which an entire
+clause is negated. However, a minor form is the _constituent
+negative_, where only one noun is negated.
+
+To form the clausal negative, the negative particle must be
+used footnote:[The negative particle corresponds to the class of the
+clause's verb. See the morphology chapter for more.].
+
+In a standard negative clause, the particle follows the auxiliary of the
+verb.
+
+====
+*k-a tu nna-ø naarla wiirr-u-m* +
+_go.aux-pst neg 3s.an-erg there go-an-3rd_ +
+He didn't go there.
+====
+
+However, in an imperative clause (one that uses the weak or strong imperative
+mood, see *tense and mood*), the particle is instead placed before the
+auxiliary.
+
+In all clausal negatives, _qualifiers_ can be used as stand-alone
+utterances, which follow the sentence. A qualifier is a word such as
+_wulnni_ ("never") which modifies the negative.
+
+====
+*ti j-i-yuu ku-j waa yanj-awu-n wulnni* +
+_neg steal.aux-strimp 2s-nom 3.val.1 steal-an-2nd never_ +
+You must never steal.
+====
+
+The constituent negative can only be used in sentences which use the
+verb _gurr_. To form the negative, the special particle _tunna_ is
+used as a noun in the comitative position of the verb, but is not
+inflected.
+
+====
+*rr-i gunnari-ø guwa-guwa-j tunna gurr-a-m* +
+_have.aux-prs tree-erg leaf-pl-nom none have-inan-3rd_ +
+The tree doesn't have any leaves.
+====
+
+=== Reflexive/Reciprocal
+
+In reflexive clauses, the personal pronoun of the subject simply
+occupies the object position in the usual case. However, the valence of
+the verb must be decreased by one.
+
+====
+*k-i Paya-ø nna-j ka tiirr-u-m* +
+_carefor.aux-prs paya-erg 3s.an-nom 2.val.1 carefor-an-3rd_ +
+Paya cares for himself.
+====
+
+If the clause is reciprocal, which applies only to plural subjects, the
+personal pronoun is still used except it takes the comitative case. The
+valence is also still decreased by one.
+
+====
+*k-arlu kuu-j kuu-yi ka pirr-u-n* +
+_see.aux-rem 2pl-nom 2pl-com 2.val.1 see-an-2nd_ +
+You [plural] used to see each other.
+====
+
+=== Gerunds
+
+The gerund of a verb serves two purposes. It can act in a way similar to
+the English gerund, where the verb is used as a noun, or in a way
+similar to an infinitive, meaning roughly "in order to".
+
+The gerund is formed through nominalising the verb. The last vowel of
+the verb is simply appended as a suffix.
+
+When used in the nominal form, the gerund takes the appropriate noun
+case.
+
+====
+*k-arlu wa-j junnu yuurr-u-ø* +
+_like.aux-rem 1s-nom swim.ger like-an-1st_ +
+I used to like swimming.
+====
+
+In the infinitive form, the gerund is placed before the verb's
+auxiliary.
+
+====
+*parra k-a nni-j naarla wiirr-u-m* +
+_hunt.ger go.aux-pst 3s.an-nom there go-an-3rd_ +
+He went there to hunt.
+====
+
+=== Causatives
+
+There are two forms of the causative. The first occurs when a single
+noun is responsible for causing a verb phrase to occur. In this case,
+the comitative causative is used. However, if an entire verb phrase is
+responsible, the subjunctive purposive is used.
+
+==== Comitative Causative
+
+In the comitative causative, an extra argument is added to the verb
+phrase without modifying the valence. The argument is the causer, and
+takes the former subject's form (be it nominative or ergative). The
+causee, or the argument which was formerly the subject, then takes the
+comitative case instead. The verb remains in agreement with the former
+subject.
+
+====
+*j-a turrayi-j mu nnij-a-m* +
+_capsize.aux-pst canoe-nom capsize-inan-3rd_ +
+The canoe capsized.
+
+*j-a turrayi-yi nna-j mu nnij-a-m* +
+_capsize.aux-pst canoe-com 3s.an-nom capsize-inan-3rd_ +
+He caused the canoe to capsize.
+
+*k-a wa-ø wuta-j walu gukarr-u-ø* +
+_drop.aux-pst 1s-erg axe-nom my drop-an-1st_ +
+I dropped my axe.
+
+*k-a wa-yi wuta-j walu gaju-ø gukarr-u-ø* +
+_drop.aux-pst 1s-com axe-nom my wind-erg drop-an-1st_ +
+The wind caused me to drop my axe.
+====
+
+==== Subjunctive Purposive
+
+The subjunctive purposive is formed through the use of the verb
+_nnurr_. The auxiliary, _nnarr_ takes the present tense, and begins
+the sentence. The verb itself is not required, but it still takes two
+verb phrases as arguments. The verb phrase causing the other assumes its
+usual tense and mood, but the caused action becomes present and
+subjunctive.
+
+====
+*nnarr-i k-a nna-ø naarla wiirr-u-m j-i-tirlu wa-j nna-l nnurr-u-ø* +
+_effect.aux-prs go.aux-pst 3s.an-erg there go-an-3rd follow.aux-prs-sbjv 1s-nom 3s-an-acc follow-an-1st_ +
+He went there, so I followed him.
+====
