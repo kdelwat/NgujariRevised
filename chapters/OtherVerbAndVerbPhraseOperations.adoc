@@ -2,13 +2,103 @@
 
 === Nominalisation
 
+A verb is nominalised by adding its final vowel and a relevant suffix.
+
+==== Action nominalisation
+
+Occurs when a verb is nominalised to a noun representing its action.
+
+The nominalisation is usually morphological but in some exceptions is lexical.
+
+The gerund of a verb serves two purposes. It can act in a way similar to
+the English gerund, where the verb is used as a noun, or in a way
+similar to an infinitive, meaning roughly "in order to".
+
+The gerund is formed through nominalising the verb. The last vowel of
+the verb is simply appended as a suffix.
+
+When used in the nominal form, the gerund takes the appropriate noun
+case.
+
+====
+*k-arlu wa-j junnu yuurr-u-ø* +
+_like.aux-rem 1s-nom swim.ger like-an-1st_ +
+I used to like swimming.
+====
+
+// maybe not, check clauses
+// In the infinitive form, the gerund is placed before the verb's
+// auxiliary.
+//
+// ====
+// *parra k-a nni-j naarla wiirr-u-m* +
+// _hunt.ger go.aux-pst 3s.an-nom there go-an-3rd_ +
+// He went there to hunt.
+// ====
+
+==== Participant nominalisation
+
+Ngujari supports agent nominalisation, in which the verb is nominalised to refer
+to its agne.t This is an almost completely productive operation.
+
+// TODO: add exceptions
+
+The suffix _ngu_ (person) is added to nominalise the verb.
+
+Instrument nominalisation is a syntactic process, that uses the demonstrative
+pronoun as a clause's agent.
+
+====
+_DEMPRON-INAN-ERG coffee.ABS grind-INAN-3RD_ +
+coffee grinder (lit. "that which grinds coffee")
+====
+
+// TODO: example of usage in a sentence
+
+The verb must be in the present tense.
+
+Locational nominalisation uses the suffix _nnalu_ (ground). A nominalised
+location implicitly takes locative case, and is not marked if it does so. It can
+be marked for revertive or orientative, but can take no other cases.
+
+// TODO: change example in next line, it's from Describing Morphosyntax
+In an agent nominalisation, there is no distinction between "classes" (e.g.
+teacher) and "events" (e.g. the person currently teaching.)
+
 === Compounding/Incorporation
 
 === Tense/aspect/mode
 
 === Location/direction
 
-=== Participant reference
+=== Participant Reference
+
+Verbs reference subject person and number through suffixes.
+
+There are two situations in which participant reference is anaphoric (and the
+verb can stand alone without a noun phrase subject).
+
+Intransitive clauses where the reference has been preestablished.
+
+====
+_... ? cry-AN-3RD_ +
+What does the monkey do? It cries.
+====
+
+Or where the subject is an animate pronoun.
+
+====
+_cry-AN-3RD_ +
+He cries.
+====
+
+In the main clause of a clause chain, where the subject is an animate pronoun
+and the only explicit argument to the final verb.
+
+// TODO: see "car arrives" example
+
+In other cases, participant reference is purely grammatical and the agreeing
+noun phrase must be present.
 
 === Evidentiality, validationality, and mirativity
 

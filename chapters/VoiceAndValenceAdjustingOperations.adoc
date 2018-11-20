@@ -4,4 +4,164 @@
 
 === Valence increasing operations
 
+// TODO: right section?
+==== Reflexive/Reciprocal
+
+// In reflexive clauses, the personal pronoun of the subject simply
+// occupies the object position in the usual case. However, the valence of
+// the verb must be decreased by one.
+//
+// ====
+// *k-i Paya-ø nna-j ka tiirr-u-m* +
+// _carefor.aux-prs paya-erg 3s.an-nom 2.val.1 carefor-an-3rd_ +
+// Paya cares for himself.
+// ====
+//
+// If the clause is reciprocal, which applies only to plural subjects, the
+// personal pronoun is still used except it takes the comitative case. The
+// valence is also still decreased by one.
+//
+// ====
+// *k-arlu kuu-j kuu-yi ka pirr-u-n* +
+// _see.aux-rem 2pl-nom 2pl-com 2.val.1 see-an-2nd_ +
+// You [plural] used to see each other.
+// ====
+
+Ngujari uses a dual analytic/morphological system for reflexives and
+reciprocals, which are the same construction.
+
+The personal pronoun of the subject occupies the object position and is
+correctly declined, while the auxiliary is marked with the reflex/reciprocal
+suffix _naki_ (TODO: add).
+
+====
+_carefor.AUX-PRES-REFL Paya-NOM 3S.AN-ACC carefor-AN-3RD_ +
+Paya cares for himself.
+====
+
+In reflexive constructions, the personal noun is considered to be a pronoun. As
+such, the clause is in the nominative-accusative alignment.
+
+The reflexive can be used only for animate subjects. In addition, reciprocals
+can further take only plural subjects.
+
+====
+_see.AUX-REM-REFL 2PL-NOM see-AN-2ND_ +
+You (pl) used to see each other.
+====
+
+If the subject of the clause is itself a personal pronoun, the object is
+dropped. Hence the reflexive is not necessarily a valence-decreasing operation.
+
+==== Morphological reflexives in possession
+
+When the subject of a VP is the possessor of an object or oblique in the phrase,
+the possessed is marked with the reflexive suffix.
+
+====
+_3S.AN-ERG ball-ABS-REFL kick-AN-1ST_ +
+He kicked his ball.
+
+*maybe*
+_ball-ABS-REFL kick-AN-1ST_ +
+He kicked his ball.
+====
+
+===== Lexical reflexives
+
+If a verb is reflexive by default, the verb will be intransitive and used as
+normal, rather than through the analytic/morphological process described above.
+
+// TODO: insert table of examples
+
+// TODO: probably delete
+// ==== Subjunctive Purposive
+//
+// The subjunctive purposive is formed through the use of the verb
+// _nnurr_. The auxiliary, _nnarr_ takes the present tense, and begins
+// the sentence. The verb itself is not required, but it still takes two
+// verb phrases as arguments. The verb phrase causing the other assumes its
+// usual tense and mood, but the caused action becomes present and
+// subjunctive.
+//
+// ====
+// *nnarr-i k-a nna-ø naarla wiirr-u-m j-i-tirlu wa-j nna-l nnurr-u-ø* +
+// _effect.aux-prs go.aux-pst 3s.an-erg there go-an-3rd follow.aux-prs-sbjv
+// 1s-nom 3s-an-acc follow-an-1st_ +
+// He went there, so I followed him.
+// ====
+
 === Valence decreasing operations
+
+==== Antipassive
+
+The antipassive is a valence-decreasing operation. When the patient of a
+transitive phrase is to be downplayed, it is omitted. The agent assumes the
+absolutive case (usually), or nominative case (with animate pronoun). The verb
+is marked with the intransitive modifier _waa_ (TODO: add), as a suffix.
+
+====
+_attack.AUX-PST dog-ERG 3S.AN-ABS attack-AN-3RD_ +
+The dog attacked him.
+
+_attack.AUX-PST dog-ABS attack-INTRANS-AN-3RD_ +
+c.f. The dog attacked (him).
+====
+
+// TODO: show example of antipassive used to push RC to adjoined relative clause
+// e.g. The dog, [who was attacking]antipassive, barked
+
+// TODO: is this valence increasing or decreasing
+==== Causatives
+
+There are two forms of the causative. The _nominative causative_ occurs for
+direct causation when a single noun is responsible for causing a verb phrase to
+occur. However, if an entire verb phrase is responsible, or the causation is
+more indirect, clause chaining is used.
+
+===== Nominative causative
+
+When a noun phrase is responsible for the action taking place, the nominal
+causative is used.
+
+The operation occurs morphologically. The auxiliary of the verb phrase receives
+the causative suffix _ji_ (TODO: add). The causee receives the comitative case,
+and causer the agentive.
+
+In both transitive and intransitive clauses, the verb phrase agrees with the
+causer.
+
+====
+intrans +
+_capsize.AUX-PST-CAUS canoe-COM 3S.AN-NOM capsize-AN-3RD_ +
+He caused the canoe to capsize.
+
+trans +
+_drop.AUX-PST-CAUS 1S-COM axe-ABS my wind-ERG drop-INAN-3RD_ +
+The wind made me drop my axe.
+====
+
+// In the nominative causative, an extra argument is added to the verb
+// phrase without modifying the valence. The argument is the causer, and
+// takes the former subject's form (be it nominative or ergative). The
+// causee, or the argument which was formerly the subject, then takes the
+// comitative case instead. The verb remains in agreement with the former
+// subject.
+
+// ====
+// *j-a turrayi-j mu nnij-a-m* +
+// _capsize.aux-pst canoe-nom capsize-inan-3rd_ +
+// The canoe capsized.
+//
+// *j-a turrayi-yi nna-j mu nnij-a-m* +
+// _capsize.aux-pst canoe-com 3s.an-nom capsize-inan-3rd_ +
+// He caused the canoe to capsize.
+//
+// *k-a wa-ø wuta-j walu gukarr-u-ø* +
+// _drop.aux-pst 1s-erg axe-nom my drop-an-1st_ +
+// I dropped my axe.
+//
+// *k-a wa-yi wuta-j walu gaju-ø gukarr-u-ø* +
+// _drop.aux-pst 1s-com axe-nom my wind-erg drop-an-1st_ +
+// The wind caused me to drop my axe.
+// ====

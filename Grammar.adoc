@@ -3,6 +3,7 @@ Cadel Watson <cadel@cadelwatson.com>
 v1.0, 2018-09-02 18:02
 :sectnums:
 :toc:
+:toclevels: 3
 
 include::chapters/Demographic.adoc[]
 include::chapters/Phonology.adoc[]

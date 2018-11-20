@@ -2,8 +2,79 @@
 
 === Pragmatic statuses
 
-=== The morphosyntax of focus, contrast, and topicalisation
+=== Focus, contrast, topicalisation
 
-=== Negation
+Topicalisation is the process of fronting a noun phrase for emphasis, indicating
+the topic of the sentence. Topicalisation occurs through left-dislocation:  the
+noun phrase elevated is moved to the front of the sentence, seperated with a
+pause, before the sentence runs as usual but with a pronoun (personal?)
+corefering back to the dislocated noun phrase. The fronted noun is marked for
+case, but the corefering pronoun is not.
+
+====
+_[kangaroo-ABS]i kill.AUX-PST 1S-ERG [3S-INAN]i kill-AN-1ST_ +
+As for the kangaroo, I killed it.
+====
+
+Topicalisation is permitted only for noun phrases that are not the subject.
+
+// TODO: does this satisfy the downplaying centrality of A requirement?
+
+// TODO: starred incorrect example
+
+=== Negative
+
+A negative simply inverts the meaning of a part of a sentence.
+
+Clausual negation is expressed through both analytic and morphological markings.
+
+To form the clausal negative, the negative particle must be
+used footnote:[The negative particle corresponds to the class of the
+clause's verb. See the morphology chapter for more.].
+
+In a standard negative clause, the particle follows the auxiliary of the
+verb.
+
+====
+_go.aux neg 3s.an-erg there go-an-3rd_ +
+He doesn't go there.
+====
+
+However, the mood of the negative sentence must be subjunctive, if in any
+non-present tense.
+
+// TODO: add example
+
+However, in an imperative clause (one that uses the weak or strong imperative
+mood, see *tense and mood*), the particle is instead placed before the
+auxiliary, and the subjunctive is not used.
+
+// TODO: add example
+
+There are two negative particles; one for predicate nominals (all classes), the
+other for all other sentences (_tuu_).
+
+In all clausal negatives, _qualifiers_ can be used as stand-alone
+utterances, which follow the sentence. A qualifier is a word such as
+_wulnni_ ("never") which modifies the negative.
+
+====
+*ti j-i-yuu ku-j waa yanj-awu-n wulnni* +
+_neg steal.aux-strimp 2s-nom 3.val.1 steal-an-2nd never_ +
+You must never steal.
+====
+
+==== Derivational negation
+
+An adjective can be negated through a prefix. If the adjective begins
+with a stop, the prefix is _wuu_. Otherwise, it is _tu_.
+
+====
+long (distance) _yungi_ +
+⇒ short (distance) _tuyungi_
+
+heavy (rain) _ganu_ +
+⇒ light (rain) _wuuganu_
+====
 
 === Non-declarative speech acts
