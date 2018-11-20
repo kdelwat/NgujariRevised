@@ -612,10 +612,9 @@ If he were to successfully hunt the kangaroo [unlikely], we would have lots of f
 
 === Negative
 
-A negative simply inverts the meaning of a part of a sentence. The
-primary form of negation is the _clausal negative_, in which an entire
-clause is negated. However, a minor form is the _constituent
-negative_, where only one noun is negated.
+A negative simply inverts the meaning of a part of a sentence.
+
+Clausual negation is expressed through both analytic and morphological markings.
 
 To form the clausal negative, the negative particle must be
 used footnote:[The negative particle corresponds to the class of the
@@ -625,14 +624,23 @@ In a standard negative clause, the particle follows the auxiliary of the
 verb.
 
 ====
-*k-a tu nna-ø naarla wiirr-u-m* +
-_go.aux-pst neg 3s.an-erg there go-an-3rd_ +
-He didn't go there.
+_go.aux neg 3s.an-erg there go-an-3rd_ +
+He doesn't go there.
 ====
+
+However, the mood of the negative sentence must be subjunctive, if in any
+non-present tense.
+
+// TODO: add example
 
 However, in an imperative clause (one that uses the weak or strong imperative
 mood, see *tense and mood*), the particle is instead placed before the
-auxiliary.
+auxiliary, and the subjunctive is not used.
+
+// TODO: add example
+
+There are two negative particles; one for predicate nominals (all classes), the
+other for all other sentences (_tuu_).
 
 In all clausal negatives, _qualifiers_ can be used as stand-alone
 utterances, which follow the sentence. A qualifier is a word such as
@@ -644,40 +652,115 @@ _neg steal.aux-strimp 2s-nom 3.val.1 steal-an-2nd never_ +
 You must never steal.
 ====
 
-The constituent negative can only be used in sentences which use the
-verb _gurr_. To form the negative, the special particle _tunna_ is
-used as a noun in the comitative position of the verb, but is not
-inflected.
+==== Derivational negation
+
+An adjective can be negated through a prefix. If the adjective begins
+with a stop, the prefix is _wuu_. Otherwise, it is _tu_.
 
 ====
-*rr-i gunnari-ø guwa-guwa-j tunna gurr-a-m* +
-_have.aux-prs tree-erg leaf-pl-nom none have-inan-3rd_ +
-The tree doesn't have any leaves.
+long (distance) _yungi_ +
+⇒ short (distance) _tuyungi_
+
+heavy (rain) _ganu_ +
+⇒ light (rain) _wuuganu_
 ====
 
 === Reflexive/Reciprocal
 
-In reflexive clauses, the personal pronoun of the subject simply
-occupies the object position in the usual case. However, the valence of
-the verb must be decreased by one.
+// In reflexive clauses, the personal pronoun of the subject simply
+// occupies the object position in the usual case. However, the valence of
+// the verb must be decreased by one.
+//
+// ====
+// *k-i Paya-ø nna-j ka tiirr-u-m* +
+// _carefor.aux-prs paya-erg 3s.an-nom 2.val.1 carefor-an-3rd_ +
+// Paya cares for himself.
+// ====
+//
+// If the clause is reciprocal, which applies only to plural subjects, the
+// personal pronoun is still used except it takes the comitative case. The
+// valence is also still decreased by one.
+//
+// ====
+// *k-arlu kuu-j kuu-yi ka pirr-u-n* +
+// _see.aux-rem 2pl-nom 2pl-com 2.val.1 see-an-2nd_ +
+// You [plural] used to see each other.
+// ====
+
+Ngujari uses a dual analytic/morphological system for reflexives and
+reciprocals, which are the same construction.
+
+The personal pronoun of the subject occupies the object position and is
+correctly declined, while the auxiliary is marked with the reflex/reciprocal
+suffix _naki_ (TODO: add).
 
 ====
-*k-i Paya-ø nna-j ka tiirr-u-m* +
-_carefor.aux-prs paya-erg 3s.an-nom 2.val.1 carefor-an-3rd_ +
+_carefor.AUX-PRES-REFL Paya-NOM 3S.AN-ACC carefor-AN-3RD_ +
 Paya cares for himself.
 ====
 
-If the clause is reciprocal, which applies only to plural subjects, the
-personal pronoun is still used except it takes the comitative case. The
-valence is also still decreased by one.
+In reflexive constructions, the personal noun is considered to be a pronoun. As
+such, the clause is in the nominative-accusative alignment.
+
+The reflexive can be used only for animate subjects. In addition, reciprocals
+can further take only plural subjects.
 
 ====
-*k-arlu kuu-j kuu-yi ka pirr-u-n* +
-_see.aux-rem 2pl-nom 2pl-com 2.val.1 see-an-2nd_ +
-You [plural] used to see each other.
+_see.AUX-REM-REFL 2PL-NOM see-AN-2ND_ +
+You (pl) used to see each other.
 ====
 
-=== Gerunds
+If the subject of the clause is itself a personal pronoun, the object is
+dropped. Hence the reflexive is not necessarily a valence-decreasing operation.
+
+===== Morphological reflexives in possession
+
+When the subject of a VP is the possessor of an object or oblique in the phrase,
+the possessed is marked with the reflexive suffix.
+
+====
+_3S.AN-ERG ball-ABS-REFL kick-AN-1ST_ +
+He kicked his ball.
+
+*maybe*
+_ball-ABS-REFL kick-AN-1ST_ +
+He kicked his ball.
+====
+
+==== Lexical reflexives
+
+If a verb is reflexive by default, the verb will be intransitive and used as
+normal, rather than through the analytic/morphological process described above.
+
+// TODO: insert table of examples
+
+=== Antipassive
+
+The antipassive is a valence-decreasing operation. When the patient of a
+transitive phrase is to be downplayed, it is omitted. The agent assumes the
+absolutive case (usually), or nominative case (with animate pronoun). The verb
+is marked with the intransitive modifier _waa_ (TODO: add), as a suffix.
+
+====
+_attack.AUX-PST dog-ERG 3S.AN-ABS attack-AN-3RD_ +
+The dog attacked him.
+
+_attack.AUX-PST dog-ABS attack-INTRANS-AN-3RD_ +
+c.f. The dog attacked (him).
+====
+
+// TODO: show example of antipassive used to push RC to adjoined relative clause
+// e.g. The dog, [who was attacking]antipassive, barked
+
+=== Nominalisation
+
+A verb is nominalised by adding its final vowel and a relevant suffix.
+
+==== Action nominalisation
+
+Occurs when a verb is nominalised to a noun representing its action.
+
+The nominalisation is usually morphological but in some exceptions is lexical.
 
 The gerund of a verb serves two purposes. It can act in a way similar to
 the English gerund, where the verb is used as a noun, or in a way
@@ -695,60 +778,161 @@ _like.aux-rem 1s-nom swim.ger like-an-1st_ +
 I used to like swimming.
 ====
 
-In the infinitive form, the gerund is placed before the verb's
-auxiliary.
+// maybe not, check clauses
+// In the infinitive form, the gerund is placed before the verb's
+// auxiliary.
+//
+// ====
+// *parra k-a nni-j naarla wiirr-u-m* +
+// _hunt.ger go.aux-pst 3s.an-nom there go-an-3rd_ +
+// He went there to hunt.
+// ====
+
+==== Participant nominalisation
+
+Ngujari supports agent nominalisation, in which the verb is nominalised to refer
+to its agne.t This is an almost completely productive operation.
+
+// TODO: add exceptions
+
+The suffix _ngu_ (person) is added to nominalise the verb.
+
+Instrument nominalisation is a syntactic process, that uses the demonstrative
+pronoun as a clause's agent.
 
 ====
-*parra k-a nni-j naarla wiirr-u-m* +
-_hunt.ger go.aux-pst 3s.an-nom there go-an-3rd_ +
-He went there to hunt.
+_DEMPRON-INAN-ERG coffee.ABS grind-INAN-3RD_ +
+coffee grinder (lit. "that which grinds coffee")
 ====
+
+// TODO: example of usage in a sentence
+
+The verb must be in the present tense.
+
+Locational nominalisation uses the suffix _nnalu_ (ground). A nominalised
+location implicitly takes locative case, and is not marked if it does so. It can
+be marked for revertive or orientative, but can take no other cases.
+
+// TODO: change example in next line, it's from Describing Morphosyntax
+In an agent nominalisation, there is no distinction between "classes" (e.g.
+teacher) and "events" (e.g. the person currently teaching.)
 
 === Causatives
 
-There are two forms of the causative. The first occurs when a single
-noun is responsible for causing a verb phrase to occur. In this case,
-the comitative causative is used. However, if an entire verb phrase is
-responsible, the subjunctive purposive is used.
+There are two forms of the causative. The _nominative causative_ occurs for
+direct causation when a single noun is responsible for causing a verb phrase to
+occur. However, if an entire verb phrase is responsible, or the causation is
+more indirect, clause chaining is used.
 
-==== Comitative Causative
+==== Nominative causative
 
-In the comitative causative, an extra argument is added to the verb
-phrase without modifying the valence. The argument is the causer, and
-takes the former subject's form (be it nominative or ergative). The
-causee, or the argument which was formerly the subject, then takes the
-comitative case instead. The verb remains in agreement with the former
-subject.
+When a noun phrase is responsible for the action taking place, the nominal
+causative is used.
+
+The operation occurs morphologically. The auxiliary of the verb phrase receives
+the causative suffix _ji_ (TODO: add). The causee receives the comitative case,
+and causer the agentive.
+
+In both transitive and intransitive clauses, the verb phrase agrees with the
+causer.
 
 ====
-*j-a turrayi-j mu nnij-a-m* +
-_capsize.aux-pst canoe-nom capsize-inan-3rd_ +
-The canoe capsized.
-
-*j-a turrayi-yi nna-j mu nnij-a-m* +
-_capsize.aux-pst canoe-com 3s.an-nom capsize-inan-3rd_ +
+intrans +
+_capsize.AUX-PST-CAUS canoe-COM 3S.AN-NOM capsize-AN-3RD_ +
 He caused the canoe to capsize.
 
-*k-a wa-ø wuta-j walu gukarr-u-ø* +
-_drop.aux-pst 1s-erg axe-nom my drop-an-1st_ +
-I dropped my axe.
-
-*k-a wa-yi wuta-j walu gaju-ø gukarr-u-ø* +
-_drop.aux-pst 1s-com axe-nom my wind-erg drop-an-1st_ +
-The wind caused me to drop my axe.
+trans +
+_drop.AUX-PST-CAUS 1S-COM axe-ABS my wind-ERG drop-INAN-3RD_ +
+The wind made me drop my axe.
 ====
 
-==== Subjunctive Purposive
+// In the nominative causative, an extra argument is added to the verb
+// phrase without modifying the valence. The argument is the causer, and
+// takes the former subject's form (be it nominative or ergative). The
+// causee, or the argument which was formerly the subject, then takes the
+// comitative case instead. The verb remains in agreement with the former
+// subject.
 
-The subjunctive purposive is formed through the use of the verb
-_nnurr_. The auxiliary, _nnarr_ takes the present tense, and begins
-the sentence. The verb itself is not required, but it still takes two
-verb phrases as arguments. The verb phrase causing the other assumes its
-usual tense and mood, but the caused action becomes present and
-subjunctive.
+// ====
+// *j-a turrayi-j mu nnij-a-m* +
+// _capsize.aux-pst canoe-nom capsize-inan-3rd_ +
+// The canoe capsized.
+//
+// *j-a turrayi-yi nna-j mu nnij-a-m* +
+// _capsize.aux-pst canoe-com 3s.an-nom capsize-inan-3rd_ +
+// He caused the canoe to capsize.
+//
+// *k-a wa-ø wuta-j walu gukarr-u-ø* +
+// _drop.aux-pst 1s-erg axe-nom my drop-an-1st_ +
+// I dropped my axe.
+//
+// *k-a wa-yi wuta-j walu gaju-ø gukarr-u-ø* +
+// _drop.aux-pst 1s-com axe-nom my wind-erg drop-an-1st_ +
+// The wind caused me to drop my axe.
+// ====
+
+// TODO: probably delete
+// ==== Subjunctive Purposive
+//
+// The subjunctive purposive is formed through the use of the verb
+// _nnurr_. The auxiliary, _nnarr_ takes the present tense, and begins
+// the sentence. The verb itself is not required, but it still takes two
+// verb phrases as arguments. The verb phrase causing the other assumes its
+// usual tense and mood, but the caused action becomes present and
+// subjunctive.
+//
+// ====
+// *nnarr-i k-a nna-ø naarla wiirr-u-m j-i-tirlu wa-j nna-l nnurr-u-ø* +
+// _effect.aux-prs go.aux-pst 3s.an-erg there go-an-3rd follow.aux-prs-sbjv
+// 1s-nom 3s-an-acc follow-an-1st_ +
+// He went there, so I followed him.
+// ====
+
+=== Participant Reference
+
+Verbs reference subject person and number through suffixes.
+
+There are two situations in which participant reference is anaphoric (and the
+verb can stand alone without a noun phrase subject).
+
+1. Intransitive clauses where the reference has been preestablished.
 
 ====
-*nnarr-i k-a nna-ø naarla wiirr-u-m j-i-tirlu wa-j nna-l nnurr-u-ø* +
-_effect.aux-prs go.aux-pst 3s.an-erg there go-an-3rd follow.aux-prs-sbjv 1s-nom 3s-an-acc follow-an-1st_ +
-He went there, so I followed him.
+_... ? cry-AN-3RD_ +
+What does the monkey do? It cries.
 ====
+
+Or where the subject is an animate pronoun.
+
+====
+_cry-AN-3RD_ +
+He cries.
+====
+
+2. In the main clause of a clause chain, where the subject is an animate pronoun
+and the only explicit argument to the final verb.
+
+// TODO: see "car arrives" example
+
+In other cases, participant reference is purely grammatical and the agreeing
+noun phrase must be present.
+
+=== Focus, contrast, topicalisation
+
+Topicalisation is the process of fronting a noun phrase for emphasis, indicating
+the topic of the sentence. Topicalisation occurs through left-dislocation:  the
+noun phrase elevated is moved to the front of the sentence, seperated with a
+pause, before the sentence runs as usual but with a pronoun (personal?)
+corefering back to the dislocated noun phrase. The fronted noun is marked for
+case, but the corefering pronoun is not.
+
+====
+_[kangaroo-ABS]i kill.AUX-PST 1S-ERG [3S-INAN]i kill-AN-1ST_ +
+As for the kangaroo, I killed it.
+====
+
+Topicalisation is permitted only for noun phrases that are not the subject.
+
+// TODO: does this satisfy the downplaying centrality of A requirement?
+
+// TODO: starred incorrect example

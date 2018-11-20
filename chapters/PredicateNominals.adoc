@@ -2,10 +2,115 @@
 
 === Predicate nominals
 
+A predicate nominal is a construction that exresses one of two meanings:
+
+- proper inclusion
+- equative predicates
+
+==== Proper inclusion
+
+Proper inclusion indicates that a noun is a member of a class, such as a
+profession or a nationality.
+
+In the present tense, a proper inclusion predicate is formed through adjacent
+noun phrases, with no copula.
+
+====
+_1S-ERG teacher-ABS_ +
+I am a teacher.
+====
+
+However, if the predicate is in another tense, _ngarr_, the auxiliary of _ngurr_
+(to be) is used as a copula. It is declined according to tense, but not mood,
+and follows the noun phrases.
+
+====
+_1S-ERG teacher-ABS COP-PST_ +
+I was a teacher.
+====
+
+==== Equative predicates
+
+An equative predicate signifies that two nouns corefer, in that they reference
+the same object. They are formed using the verb _ngurr_ (to be), which acts as a
+copula.
+
+====
+_1S-NOM 2S-ACC be-AN-1ST copula_ +
+I am your friend.
+====
+
+// TODO: include quantifier details here from existing info
+
 === Predicate adjectives
+
+Predicate adjectives assign an adjective to describe a noun phrase. They are
+formed in the same way as a proper inclusion noun predicate.
+
+Before they can be used as predicates, adjectives must be inflected.
+They are lexicalised as verbs, and agree with the gender of the
+predicate phrase's subject.
+
+To decline a predicate adjective, two steps are required:
+
+1.  If the adjective ends in a vowel, its last consonant is added to the
+end. Otherwise, it is unmodified.
+2.  The relevant gender suffix of a class one verb is added as a suffix.
 
 === Predicate locatives
 
+Predicate locatives assign a noun phrase to a location. They are formed in the
+same way as a proper inclusion noun predicate. The location comes after the
+noun, and is placed in the locative case.
+
 === Existentials
 
+The existential predicate is formed through a copula taking one argument, the
+existing verb. The copula, _gunn_ (TODO: add to dictionary), is declined as an
+auxiliary for tense only; excepting the present tense, which is unmarked.
+
+The copula appears after the noun which "exists". The noun phrase takes the
+comitative case.
+
+====
+_beach-COM COP_ +
+There is a beach / A beach exists.
+====
+
+The copula does not act as a verb and hence cannot take adjuncts. Instead,
+clause chaining provides a means for supplying adjuncts.
+
+====
+_beach-COM COP-SS DEMPRON-LOC village-LOC adjoin/abut-AN-3RD_ +
+There is a beach near the village / The village has a beach.
+====
+
+
+When preceding a clause chain, the subject is _not_ elided and placed in the
+main clause. It remains in position before the copula, which is marked with the
+SS modifier. Inside, the _uninflected_ demonstrative pronoun corefers with the
+existing noun phrase.
+
+Inside an existential, the noun phrase can include adjectives and relative
+clauses as normal.
+
+====
+_beach-COM long COP, COMP 1S-ERG DEMPRON-AN-1-ABS want-AN-1ST_ +
+There's a long book that I want.
+====
+
+Negative existentials are a seperate construction. They are formed through
+negative locative possession, with the dummy subject being the locative
+demonstrative _naarla_ (there).
+
+====
+_NEG doorknob-ERG DEM.LOC.1 be-INAN-3RD_ +
+There's no doorknob / lit. The doorknob is not on there.
+
+_be.AUX-PST NEG bag-PL-ERG DEM.LOC.PL be-INAN-3RD_ +
+There weren't any bags.
+====
+
 === Possessive clauses
+
+// TODO

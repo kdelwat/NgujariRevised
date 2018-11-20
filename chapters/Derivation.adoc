@@ -142,19 +142,6 @@ freshness _gurlu_ +
 
 ==== Adjectives
 
-===== Negation
-
-An adjective can be negated through a prefix. If the adjective begins
-with a stop, the prefix is _wuu_. Otherwise, it is _tu_.
-
-====
-long (distance) _yungi_ +
-⇒ short (distance) _tuyungi_
-
-heavy (rain) _ganu_ +
-⇒ light (rain) _wuuganu_
-====
-
 ===== Amplification
 
 An adjective can be amplified in magnitude through reduplication. The

@@ -951,16 +951,6 @@ _ocean-nom calm-pred_ +
 The sea is calm.
 ====
 
-Before they can be used as predicates, adjectives must be inflected.
-They are lexicalised as verbs, and agree with the gender of the
-predicate phrase's subject.
-
-To decline a predicate adjective, two steps are required:
-
-1.  If the adjective ends in a vowel, its last consonant is added to the
-end. Otherwise, it is unmodified.
-2.  The relevant gender suffix of a class one verb is added as a suffix.
-
 ==== Quantifiers
 
 A quantifier is used to specify the number of a noun. They can be
