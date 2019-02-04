@@ -26,7 +26,7 @@ cannot.
 Nouns are an open class, and new morphemes are added or derived on a
 sporadic but frequent basis.
 
-image:images/noun-morphology.png[alt_text,title="image_tooltip"]
+image:../images/noun-morphology.png[alt_text,title="image_tooltip"]
 
 ==== Gender
 

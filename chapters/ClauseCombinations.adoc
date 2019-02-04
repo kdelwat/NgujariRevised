@@ -28,7 +28,7 @@ as an object (both direct and indirect). Non-finite clauses do not have an
 auxiliary - the infinitive of the verb is used instead, and is moved to the T
 position. The subject is eleided, and all remaining objects are cased as normal.
 
-image:images/complement-clauses.png[]
+image:../images/complement-clauses.png[]
 
 === Adverbial clauses / adjuncts
 
@@ -150,7 +150,7 @@ The relative clause immediately follows the noun. The auxiliary must be
 included, even if the clause is in the present tense (where it would normally be
 optional).
 
-image:images/postnominal-relative-clause.png[]
+image:../images/postnominal-relative-clause.png[]
 
 The gap strategy is used for case retention - since the case must be the subject.
 

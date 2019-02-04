@@ -55,7 +55,7 @@ for relationships with dependents.
 For example, nouns themselves are marked for plurality, rather than the
 null determiner.
 
-image:images/tituu-tituu.png[alt_text,title="image_tooltip"]
+image:../images/tituu-tituu.png[alt_text,title="image_tooltip"]
 
 Possessives provide another example of head-marking. The owning pronoun
 is marked with the possessive suffix, rather than the owned noun.
@@ -66,7 +66,7 @@ _face-nom 3s.an-pos_ +
 his face
 ====
 
-image:images/wajuj-nnalu.png[alt_text,title="image_tooltip"]
+image:../images/wajuj-nnalu.png[alt_text,title="image_tooltip"]
 
 In verb phrases, the verb (head) is marked for information like tense
 and valence, rather than the arguments.
@@ -77,4 +77,4 @@ _go.aux-PRES 1s-nom home-LOC go-an-1st_ +
 I go home
 ====
 
-image:images/go-home.png[alt_text,title="image_tooltip"]
+image:../images/go-home.png[alt_text,title="image_tooltip"]
