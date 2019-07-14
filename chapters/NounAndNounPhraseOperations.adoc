@@ -22,8 +22,6 @@ ground _nnalu_ +
 ⇒ sacred place _Yawirrannalu_
 ====
 
-=== Denominalisation
-
 === Number
 
 Plurality refers to the number of a noun present. A singular noun has
@@ -224,7 +222,26 @@ which shows the declensions of the noun _naju_.
 
 === Articles, determiners, and demonstratives
 
+There is no gramattical or morphological basis for determiners or articles on nouns. The information that would be conveyed by something like a demonstrative must be expressed in a more circumspect manner.
+
+====
+Which book do you want?
+
+This one (lit. the one in my hand)
+====
+
 === Possessors
+
+Most possessive constructs are formed via clauses, however it is possible to represent a noun's possessor when using alienable possession.
+
+To mark the noun as possessed, a relevant possessive pronoun is used in
+the same way as an adjective, appearing after the possessed noun.
+
+====
+*nn-uma nnaa-ø waju-j yurni nna-lu giinn-u-m* +
+_admire.aux-pst 3pl.an-erg face-nom beautiful 3s.an-pos admire-an-3rd_ +
+They admired his beautiful face.
+====
 
 === Class and gender
 
