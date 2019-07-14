@@ -166,44 +166,6 @@ _woven basket-nom small_ +
 small woven basket
 ====
 
-==== Relative Clauses
-
-Relative Clause: _rc = [aux][neg] v [val][adv(s)] np(s)_
-
-A relative clause is a clause which modifies a noun (the _head noun_).
-Ngujari uses _adjoined_ relative clauses, which means that the relative
-clause is simply appended to the end of the verb. However, it must first
-be placed into a slightly different form than a standard clause.
-
-There are two cases for a relative clause:
-
-* _object clauses_, in which the head noun is the object of the
-relative clause.
-* _agent clause_, where the head noun is the relative clause's agent
-or subject.
-
-In both types of relative clause, the verb is moved from the end of the
-clause to a position immediately following the verb's auxiliary.
-
-In an object clause, the valency of the verb is reduced by one. In
-effect, the head noun becomes a noun in the clause.
-
-====
-*wiingu-ø k-a pirr-u-ø ka wa-j* +
-_man-erg aux-pst see-an-1st 2.val.1 1s-nom_ +
-the man that I saw
-====
-
-In an agent clause, the valency is not modified. Instead, a pronoun that
-matches the person, plurality, and animacy of the head noun is added to
-the relative clause.
-
-====
-*j-a Wuurna-ø nn-uuki-ti yann-u-mi nna-j jurlu-l wa-j ka naj-u-m* +
-_say.aux-pst Wuurna-erg aux-fut-dub catch-an-3rd 3s-nom turtle-acc 1s-nom 3.val.2 say-an-3rd_ +
-Wuurna, who might catch a turtle, spoke to me.
-====
-
 === Adpositional phrases
 
 === Comparatives
