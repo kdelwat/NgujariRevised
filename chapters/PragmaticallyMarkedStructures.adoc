@@ -78,3 +78,61 @@ heavy (rain) _ganu_ +
 ====
 
 === Non-declarative speech acts
+
+==== Interrogative
+
+_Interrogatives_ are simply questions. There are two types of
+interrogatives:
+
+* _Polar_, which have an affirmative or negative answer.
+* _Non-polar_, which require a more detailed response.
+
+===== Polar
+
+Polar questions are extremely easy to form, and are marked only by intonation. They are expressed as a
+factual statement, but with a rising tone at the beginning of the
+question.
+
+====
+*nn-uuki kupa-kupa-ø gaypa-gaypa-rn narnn-u-m?* +
+_↗ fly.aux-fut bird-pl-erg mountain-pl-loc fly-an-3rd_ +
+Will the birds fly to the mountains?
+====
+
+===== Question-word questions
+
+The primary way of forming a non-polar question is through the use of
+interrogative pronouns (such as _piima_), which replace the questioned word in-situ. The interrogative takes the
+place of a noun in a verb phrase, but is not assigned a case.
+
+====
+*k-a pii munnanna-rn wa-yi naa wiirr-u-m* +
+_go.aux-pst who river-loc 1s.an-com 2.val.3 go-an-3rd_ +
+Who went to the river with me?
+====
+
+This method of questioning can be used in any type of sentence, not just
+basic clauses. The following example shows its use in a locational
+predicate which contains a relative clause. The interrogative pronoun,
+_kiru_, is moved to the front of the sentence to highlight its
+importance.
+
+====
+*kiru ngarr-i wumpa-ø j-i palyaj-a-m nnu-ø wurlki-j ngurr-a-m* +
+_where be.aux-pres path-erg leadto.aux-prs leadto-inan-3rd 3s.inan-erg village-nom be-inan-3rd_ +
+Where is the path that leads to the village?
+====
+
+A less-common way to ask a non-polar question requires the particle
+_yuu_. By placing the particle ahead of a word in a statement, the
+speaker questions that word.
+
+====
+*k-aa yuu-nnara-ø nurtwu-j panwa-rnu mirr-uu-m* +
+_bring.aux-fut int-3dual.an-erg food-nom fire-ori bring-ch-3rd_ +
+Will it be those two children who bring the food to the fire?
+
+*nn-i wa-ø yuu-gurlurni parnti-j jinn-u-mi* +
+_eat.aux-pres 3s-erg int-fresh kangaroomeat-nom eat-an-3rd_ +
+Is the kangaroo meat he is eating fresh?
+====
