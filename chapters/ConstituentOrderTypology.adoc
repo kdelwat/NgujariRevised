@@ -102,7 +102,7 @@ In practice, most verb phrases will involve nouns. While word order is
 flexible, as previously described, there are three rules which generally
 apply:
 
-1.  The verb's auxiliary appears at the beginning of the phrase.
+1.  The verb's auxiliary appears at the beginning of the phrase (except if the verb is in the present tense, and the auxiliary would otherwise be unmodified, in which case it may be omitted)
 2.  The verb itself appears at the end.
 3.  Valence modifiers appear immediately before the verb.
 
