@@ -17,16 +17,26 @@ marking (so the bare form of the noun is used instead).
 
 ====
 _annoy.AUX-PST COMP-eat-AUX-PST he-ERG dog-ABS eat-3-AN me-ABS annoy-1-AN_ +
-That he ate the dog annoyed me.
+That he ate the dog annoyed me. / It annoyed me that he ate the dog
 ====
 
 A finite clause can also be used as a direct object (but not indirect). Here, it
 has a null complementiser.
 
+====
+_1s.an-ERG COMP(NULL)-fall-AUX-PST icecream-ERG ground-ORI fall-3s-inan be.scared-1s-an_ +
+I'm scared of the icecream falling on the ground
+====
+
 A non-finite clause shares its subject with the main clause. It can only be used
 as an object (both direct and indirect). Non-finite clauses do not have an
 auxiliary - the infinitive of the verb is used instead, and is moved to the T
-position. The subject is eleided, and all remaining objects are cased as normal.
+position. The subject is elided, and all remaining objects are cased as normal.
+
+====
+_enjoy.AUX-PST 1s.an-ERG wash-1-an car-ABS enjoy-1-an_ + 
+I enjoyed washing the car
+====
 
 image:../images/complement-clauses.png[]
 
@@ -59,8 +69,7 @@ and the present tense. The statement must therefore follow the usual
 rules of the gnomic, in that it must state an indisputable truth.
 
 ====
-*k-i-nga kunii-ø mu-rn naa yarr-uu-n j-i-tirlu kunii-j ka mulj-awuu-n* +
-_fall.aux-prs-gno 2dual.ch-erg water-loc 1.val.2 fall-ch-2nd wet.aux-prs-sbjv 2dual-ch-nom 2.val.1 wet-ch-2nd_ +
+_fall.aux-prs-gno 2dual.ch-erg water-loc fall-ch-2nd wet.aux-prs-sbjv 2dual-ch-nom become.wet-ch-2nd_ +
 If you two fall in the water, you will both get wet.
 ====
 
@@ -68,8 +77,7 @@ In a predictive conditional, the condition is usually not given a mood,
 but can assume any tense.
 
 ====
-*nn-uuki palwuuwa-j ka girnn-aa-mi k-i yannu-ø nna-j ji wurr-a-rn* +
-_ break.aux-fut branch-nom 2.val.1 break-inan-3rd strike.aux-pres dem.sg.inan-erg 3s-an-nom 0.val.2 strike-inan-3rd_ +
+_break.aux-fut branch-nom break-inan-3rd strike.aux-pres-subj dem.sg.inan-erg 3s-an-nom strike-inan-3rd_ +
 If that branch breaks, it will strike him.
 ====
 
@@ -79,19 +87,18 @@ condition is given the dubitative mood. Usually, the condition will then
 be in the future tense.
 
 ====
-*k-aa-tila nna-ø maaju-j yirn parr-u-m ngarr-tiru nurtwa-nurtwa-rn yuni waya-j ngurr-a-m* +
-_hunt.aux-fut-dub 3s.an-erg kangaroo-nom completedly hunt-an-3rd be.aux-subj food-pl-loc lots 1pl-nom be-inan-3rd_ +
+_hunt.aux-fut-dub 3s.an-erg kangaroo-nom completedly hunt-an-3rd be.aux-pres-subj food-pl-loc more.than.expected 1pl-nom be-inan-3rd_ +
 If he were to successfully hunt the kangaroo [unlikely], we would have lots of food.
 ====
 
 === Clause chaining, medial clauses, and switch reference
 
 A medial clause is any non-final clause in a clause chain. It is not usually
-inflected for tense and aspect, taking instead the T/A of the final clause in
+inflected for tense and aspect, taking instead the tense and aspect of the final clause in
 the sentence.
 
 ====
-3S-ERG _walk-3-AN-SS pat-AUX-PST dog-ABS pat-3-AN_ +
+_3S-ERG walk-3-AN-SS pat-AUX-PST dog-ABS pat-3-AN_ +
 He patted the dog while walking.
 ====
 
@@ -99,7 +106,7 @@ In the above example, the clause containing _walk_ is medial, and hence does not
 require an auxiliary to mark tense and aspect. The final clause, containing
 _pat_, determines that both verbs in the chain are in the past tense.
 
-An exception to the missing TAM inflection occurs when the medial clause has a
+An exception to the missing tense/aspect/mood inflection occurs when the medial clause has a
 mood with higher specificity than that of the final mood. The specificity
 heirarchy that determines this is:
 
@@ -112,7 +119,7 @@ clauses. If the final clause has no mood, then no mood can be expressed on
 medial clauses.
 
 ====
-1pl-ERG _eat.AUX-STRIMP eat-1-AN-SS swim.AUX-WIMP swim-1-AN_ +
+_1pl-ERG _eat.AUX-STRIMP eat-1-AN-SS swim.AUX-WIMP swim-1-AN_ +
 We must eat before we (can) swim.
 ====
 
@@ -122,9 +129,25 @@ whether it is the same as, or different from, that of the final clause. The SS
 marker refers forwards to indicate that the clause has the same subject, and the
 DS marker indicates the opposite.
 
+====
+_mailman-ERG sleep-1s-an-DS read.AUX-FUT read-2-an_ +
+The mailman will sleep while you read
+====
+
 The morphological realisation of the SS/DS markers depends on the context of the
 sentence. There are four different contexts in which switch-reference operates,
 each with a different morphology.
+
+.SS/DS markers
+[options="header"]
+|=======================
+| type               | SS | DS
+| overlap            |    |
+| succession         |    |
+| causation          |    |
+| negative causation |    |
+|=======================
+
 
 ==== Overlap
 
@@ -172,18 +195,6 @@ same-subject reference is allowed.
 _NEG-SS wake-3-AN avoid.AUX-PST bus-ABS avoid-3-AN_ +
 Because she didn't wake up, she missed the bus.
 ====
-
-TODO: show example of different tenses / DS both needing more complicated causative.
-
-.SS/DS markers
-[options="header"]
-|=======================
-| type               | SS | DS
-| overlap            |    |
-| succession         |    |
-| causation          |    |
-| negative causation |    |
-|=======================
 
 === Relative clauses
 
@@ -252,7 +263,7 @@ attached via a relative clause. Notice that the number of the verb _fight_ is
 changed to reflect that there are two subjects to the sentence.
 
 Conjuncted verb phrases are expressed either through overlapping medial clauses
-or through a separate sentence with a conjunction-indicating adverb, one of:
+or through a separate sentence with a conjunction-indicating temporal adverb, one of:
 
 * also (implies second event occurs at the same location and time as the first)
 * at same time (implies second event occurs at the same time as the first)
@@ -264,11 +275,14 @@ I find a boat and steal it.
 
 ==== Disjunction
 
-Disjunction is expressed between verb phrases only, using the dubitative mood.
+Disjunction is expressed between verb phrases only, using the dubitative mood. Disjunction is an either relationship, where one and only one of the options can be true.
 
 ====
-_go.AUX-PRES-DUB 1S.NOM go-AN-1ST ↗︎wait.AUX-PRES-DUB 1S.NOM wait-AN-1ST↗︎_ +
+_go.AUX-PRES-DUB 1S.NOM go-AN-1ST ↗wait.AUX-PRES-DUB 1S.NOM wait-AN-1ST↗_ +
 I will go now or wait.
 ====
 
-// TODO: example of question using disjunction
+====
+_︎︎︎︎↗︎run.AUX-PRES-DUB 2s.NOM DEMPRON run-AN-2nd walk.AUX-PRES-DUB 2s.NOM run-AN-2nd DEMPRON walk-AN-2nd_ +
+Will you run there or walk?
+====

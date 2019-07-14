@@ -39,3 +39,24 @@ cot,,_axe-erg spear-loc dull-inan_,The axe and spear are equally as dull.
 cot,,win.aux-pst [dingo-erg be.AUX-PRES fast-an 3s-erg boy-rev be-3-an] race-nom win-an-3rd,The dingo, who is faster than the boy, won the race.
 cot,,go.aux-pst 1s.ch-erg beach-loc go-ch-1st day-rev one,Yesterday, I [a child] went to the beach.
 cot,,pickup.aux-fut-wimp 1pl-erg clothing-pl-nom quickly pickup-an-1st,We should pick up the clothes quickly
+clause,,annoy.AUX-PST COMP-eat-AUX-PST he-ERG dog-ABS eat-3-AN me-ABS annoy-1-AN,That he ate the dog annoyed me. / It annoyed me that he ate the dog
+clause,,1s.an-ERG COMP(NULL)-fall-AUX-PST icecream-ERG ground-ORI fall-3s-inan be.scared-1s-an,I'm scared of the icecream falling on the ground
+clause,,enjoy.AUX-PST 1s.an-ERG wash-1-an car-ABS enjoy-1-an,I enjoyed washing the car
+clause,,fall.aux-prs-gno 2dual.ch-erg water-loc fall-ch-2nd wet.aux-prs-sbjv 2dual-ch-nom become.wet-ch-2nd,If you two fall in the water, you will both get wet.
+clause,,break.aux-fut branch-nom break-inan-3rd strike.aux-pres-subj dem.sg.inan-erg 3s-an-nom strike-inan-3rd,If that branch breaks, it will strike him.
+clause,,hunt.aux-fut-dub 3s.an-erg kangaroo-nom completedly hunt-an-3rd be.aux-pres-subj food-pl-loc more.than.expected 1pl-nom be-inan-3rd,If he were to successfully hunt the kangaroo [unlikely], we would have lots of food.
+clause,,3S-ERG walk-3-AN-SS pat-AUX-PST dog-ABS pat-3-AN,He patted the dog while walking.
+clause,,1pl-ERG _eat.AUX-STRIMP eat-1-AN-SS swim.AUX-WIMP swim-1-AN_,We must eat before we (can) swim.
+clause,,1pl-ERG walk-1-AN-SS talk-1-AN,We walked and talked / We talked while walking
+clause,,dog-ERG bark-3-AN-DS escape-AUX-PST prisoner-ERG escape-3-AN_,The dog barked while the prisoner escaped
+clause,,car-ERG arrive-3-INAN-DS enter-3-AN,The car arrives, then he gets in.
+clause,,arrive-3-AN-SS early drink.AUX-FUT excessively drink-3-AN,Since she will arrive early she will get drunk
+clause,,NEG-SS wake-3-AN avoid.AUX-PST bus-ABS avoid-3-AN,Because she didn't wake up, she missed the bus.
+clause,,mailman-ERG sleep-1s-an-DS read.AUX-FUT read-2-an,The mailman will sleep while you read
+clause,,man-ERG go.AUX-PST shop-PL-ABS go-3-AN,the man who went to the shops
+clause,,turtle-ABS see-1-AN [COMP 1s-ERG DEMPRON.AN.S-ABS like-1-AN],I see the turtle that I like [direct object].
+clause,,_man-ABS know-1-AN, [COMP tree-ERG DEMPRON.AN.S-ORI fall-3-INAN]_,I know the man that the tree fell on [indirect object].
+clause,,fight.AUX-PST 1s-ERG bear-ABS fight-1pl-AN [COMP sister-ERG 1s-ABS be.alongside-1-AN],My sister and I fought the bear.
+clause,,boat-ABS find-AN-1ST DEMPRON-INAN-S-ABS steal-1-an also,I find a boat and steal it.
+clause,,go.AUX-PRES-DUB 1S.NOM go-AN-1ST ↗︎wait.AUX-PRES-DUB 1S.NOM wait-AN-1ST↗︎,I will go now or wait.
+clause,,↗︎run.AUX-PRES-DUB 2s.NOM DEMPRON run-AN-2nd walk.AUX-PRES-DUB 2s.NOM run-AN-2nd DEMPRON walk-AN-2nd,Will you run there or walk?
