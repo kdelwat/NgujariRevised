@@ -39,7 +39,7 @@ I used to like swimming.
 ==== Participant nominalisation
 
 Ngujari supports agent nominalisation, in which the verb is nominalised to refer
-to its agne.t This is an almost completely productive operation.
+to its agent This is an almost completely productive operation.
 
 // TODO: add exceptions
 
@@ -65,7 +65,59 @@ be marked for revertive or orientative, but can take no other cases.
 In an agent nominalisation, there is no distinction between "classes" (e.g.
 teacher) and "events" (e.g. the person currently teaching.)
 
-=== Compounding/Incorporation
+=== Compounding
+
+Compounding is a lexical operation used when forming new verbs (made particularly salient by the fact that verb stems are a closed class). There are two forms of compounding: verb-verb and adverb-verb. Both form
+a new verb which is treated as a whole in syntactic structures.
+
+In verb-verb compounding, the compound is not commutative, meaning that
+the order of the verbs matters. Typically, the most relevant verb occurs
+last. The two verbs are simply concatenated, except for the special case
+in which the concatenation would form an illegal consonant cluster. If
+this occurs, the repair strategy of inserting the dummy vowel _a_ is
+used.
+
+====
+to sit _walj_ +
+to swim _junn_ +
+⇒ to canoe _waljunn_
+
+to travel _nuunn_ +
+to exchange _murr_ +
+⇒ to trade (with another mob) _nuunnamurr_
+====
+
+Verbs formed through verb-verb compounding in most cases assume the
+transitivity properties of the second, or primary, verb.
+
+Adverb-verb compounding simply requires an adverb to appear before the
+verb in all positions. For example, it would remain in front of the verb
+during relativization (see *relative clauses* while regular adverbs
+would not.
+
+====
+to run _yaj_ +
+quickly _garrna_ +
+⇒ to sprint _garrna yaj_
+
+to drink _ngann_ +
+impatiently _karlpii_ +
+⇒ to guzzle _karlpii ngann_
+====
+
+A common use of adverb-verb compounding is in augmentation and
+diminution. The adverbs _purki_ ("weakly") and _puwa_ ("strongly") are
+used to modify the intensity of the verb.
+
+====
+to eat _jinn_ +
+⇒ to nibble _purki jinn_ +
+⇒ to bite _puwa jinn_
+
+to give _gulwaj_ +
+⇒ to offer _purki gulwaj_ +
+⇒ to force upon _puwa gulwaj_
+====
 
 === Tense/aspect/mode
 
@@ -286,8 +338,6 @@ _rain.aux-fut-dub rain-an-3rd_ +
 It might rain tomorrow.
 ====
 
-=== Location/direction
-
 === Participant Reference
 
 Verbs reference subject person and number through suffixes.
@@ -316,90 +366,3 @@ and the only explicit argument to the final verb.
 
 In other cases, participant reference is purely grammatical and the agreeing
 noun phrase must be present.
-
-=== Evidentiality, validationality, and mirativity
-
-=== Miscellaneous
-
-==== Compounding
-
-Compounding is a lexical operation used when forming new verbs (made particularly salient by the fact that verb stems are a closed class). There are two forms of compounding: verb-verb and adverb-verb. Both form
-a new verb which is treated as a whole in syntactic structures.
-
-In verb-verb compounding, the compound is not commutative, meaning that
-the order of the verbs matters. Typically, the most relevant verb occurs
-last. The two verbs are simply concatenated, except for the special case
-in which the concatenation would form an illegal consonant cluster. If
-this occurs, the repair strategy of inserting the dummy vowel _a_ is
-used.
-
-====
-to sit _walj_ +
-to swim _junn_ +
-⇒ to canoe _waljunn_
-
-to travel _nuunn_ +
-to exchange _murr_ +
-⇒ to trade (with another mob) _nuunnamurr_
-====
-
-Verbs formed through verb-verb compounding in most cases assume the
-transitivity properties of the second, or primary, verb.
-
-Adverb-verb compounding simply requires an adverb to appear before the
-verb in all positions. For example, it would remain in front of the verb
-during relativization (see *relative clauses* while regular adverbs
-would not.
-
-====
-to run _yaj_ +
-quickly _garrna_ +
-⇒ to sprint _garrna yaj_
-
-to drink _ngann_ +
-impatiently _karlpii_ +
-⇒ to guzzle _karlpii ngann_
-====
-
-A common use of adverb-verb compounding is in augmentation and
-diminution. The adverbs _purki_ ("weakly") and _puwa_ ("strongly") are
-used to modify the intensity of the verb.
-
-====
-to eat _jinn_ +
-⇒ to nibble _purki jinn_ +
-⇒ to bite _puwa jinn_
-
-to give _gulwaj_ +
-⇒ to offer _purki gulwaj_ +
-⇒ to force upon _puwa gulwaj_
-====
-
-==== Nominalisation
-
-Apart from the gerund formation process (see *gerunds*), verbs may
-become nouns through the process of nominalisation. The nominal form is
-simply the verb with its final vowel added to its end and shortened,
-plus the relevant suffix.
-
-For locational nouns, as in "place of verb", the suffix is _nnalu_
-("ground").
-
-====
-to see _pirr_ +
-⇒ eye _pirrinnalu_
-
-to hold _wuj_ +
-⇒ hand _wujunnalu_
-====
-
-For professional nouns, as in "person who does verb", the suffix is
-_ngu_.
-
-====
-to swim _junn_ +
-⇒ swimmer _junnungu_
-
-to sleep _tarr_ +
-⇒ sleeper _tarrangu_
-====
