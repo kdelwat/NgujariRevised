@@ -11,7 +11,6 @@ Within a clause, nouns can take on one of multiple roles:
 on another noun.
 
 ====
-*k-a wiingurki-ø taarirkiwa-j pirr-uu-m* +
 _see.AUX-pst boy-erg stick-nom see-ch-3rd_ +
 The boy saw the stick.
 ====
@@ -20,7 +19,6 @@ The boy saw the stick.
 being performed on.
 
 ====
-*k-a wiingurki-ø taarirkiwa-j pirr-uu-m* +
 _see.AUX-pst boy-erg stick-nom see-ch-3rd_ +
 The boy saw the stick.
 ====
@@ -30,9 +28,15 @@ requires one noun. For example, in the sentence "The dog barks", the dog
 is the subject.
 
 ====
-*nn-uu mungu-j wi rrunn-u-m* +
-_cry.aux-pst woman-nom 0.val.1 cry-an-3rd_ +
+_woman-nom cry-an-3rd_ +
 The woman cries.
+====
+
+* the _adjunct_ of a ditransitive verb, which is a verb that requires three nouns.
+
+====
+_cook.AUX-FUT 1s.an-ERG egg-PL-ABS pan-INSTR cook-1-an_ +
+I will cook eggs with a pan
 ====
 
 Inside a clause, Ngujari tends to be an APV/SV language. This means that
@@ -40,21 +44,17 @@ the agent and patient precede the verb in a transitive clause, and the
 subject precedes the verb in an intransitive clause.
 
 ====
-*wann-uma maaju-maaju-j ka jinn-u-m* +
-_see.aux-pst kangaroo-pl-nom 2.val.1 eat-an-3rd_ +
-The kangaroos ate/were eating.
+_eat.aux-pst kangaroo-pl-ERG grass-NOM eat-an-3rd_ +
+The kangaroos ate/were eating grass.
 
-*k-i wa-j kurru-l ji wurr-u-ø* +
-_strike.aux-pres 1s-nom 2s-acc 0.val.2 electrically.storm-an-1st_ +
+_1s-nom 2s-acc strike-an-1st_ +
 I strike you.
 ====
 
-When the valence of a clause's verb is greater than two, all extra
-arguments come before the verb.
+When a verb is ditransitive, the extra argument immediately precedes the verb.
 
 ====
-*nn-uu waya-ø tinyu-j panwa-yi naa tinn-u-ø* +
-_protect.aux-pres 1pl-erg camp-nom fire-com 2.val.3 protect-an-1st_ +
+_1pl-erg camp-nom fire-com protect-an-1st_ +
 We protect the camp with fire.
 ====
 
@@ -63,8 +63,7 @@ order of the nouns is flexible for pragmatic reasons. The speaker can
 reverse agent and patient.
 
 ====
-*k-i kurru-l wa-j ji wurr-u-ø* +
-_strike.aux-pres 2s-acc 1s-nom 0.val.2 electrically.storm-an-1st_ +
+_2s-acc 1s-nom strike-an-1st_ +
 I strike you.
 ====
 
@@ -91,7 +90,6 @@ no nouns or arguments.] verb. This is demonstrated in the following
 example:
 
 ====
-*nn-uu rrunn-aa* +
 _rain.aux-pres rain-inan-1st_ +
 It's raining.
 ====
@@ -99,15 +97,13 @@ It's raining.
 image:../images/nnuu-rrunnaa.png[]
 
 In practice, most verb phrases will involve nouns. While word order is
-flexible, as previously described, there are three rules which generally
+flexible, as previously described, there are two rules which generally
 apply:
 
-1.  The verb's auxiliary appears at the beginning of the phrase (except if the verb is in the present tense, and the auxiliary would otherwise be unmodified, in which case it may be omitted)
+1.  The verb's auxiliary appears at the beginning of the phrase 
 2.  The verb itself appears at the end.
-3.  Valence modifiers appear immediately before the verb.
 
 ====
-*k-a nna-ø mulwi-j nnaa-rnu mirr-u-m* +
 _bring.aux-pst 3s-erg bread-nom 3pl-ori bring-an-3rd_ +
 He brought the bread to them.
 ====
@@ -116,25 +112,28 @@ He brought the bread to them.
 image:../images/he-brought-bread.png[]
 
 ====
-*k-i panwa-ø wi yirr-a-m* +
-_burn.aux-pres fire-erg 0.val.1 burn-inan-3rd_ +
+_cry.AUX-FUT 1s.an-nom cry-1-an_ +
+I will cry
+====
+
+If the verb is in the present tense, and the auxiliary would otherwise be unmodified, the auxiliary is omitted.
+
+====
+_burn.aux-pres fire-erg burn-inan-3rd_ +
 The fire burns.
 ====
 
 image:../images/the-fire-burns.png[]
 
-However, for pragmatic reasons the speaker may move the verb's auxiliary
+For pragmatic reasons, a speaker may move the verb's auxiliary
 from its regular position at the beginning of the clause to after the
-verb's arguments. It must appear _after_ any valence modifiers to avoid
-violating the verb phrase rules.
+verb's arguments.
 
 ====
-*kurru-l wa-j ji k-i wurr-u-ø* +
-_2s-acc 1s-nom 0.val.2 strike.aux-pres electrically.storm-an-1st_ +
+_2s-acc 1s-nom strike.aux-pres strike-an-1st_ +
 I strike you.
 
-*wa-j kurru-l ji k-i wurr-u-ø* +
-_1s-nom 2s-acc 0.val.2 strike.aux-pres electrically.storm-an-1st_ +
+_1s-nom 2s-acc strike.aux-pres strike-an-1st_ +
 I strike you.
 ====
 
@@ -142,7 +141,13 @@ image:../images/I-strike-you.png[]
 
 If the verb phrase is intransitive and contains only a personal pronoun as subject, the pronoun can be elided since the relevant information is encoded on the verb.
 
-// Example
+====
+_3pl.ch bathe-3pl-ch_ +
+The children bathe
+
+_bathe-3pl-ch_ +
+The children bathe
+====
 
 === Noun phrase
 
@@ -166,9 +171,8 @@ sea
 image:../images/birru.png[]
 
 ====
-*kanaama yirlirna-j gu* +
-_woven basket-nom small_ +
-small woven basket
+_1s.an-ERG weave.AUX-PST basket-ABS weave-PST_ +
+I, who wove a basket
 ====
 
 === Adpositional phrases
@@ -177,9 +181,9 @@ small woven basket
 
 A comparative is a sentence which compares one noun to another, using an
 adjective. Ngujari uses _locational-type comparatives_ which are
-verbless. The noun to be judged against (the _standard noun_) is given
+verbless and related to locational predicates. The noun to be judged against (the _standard noun_) is given
 a locational case, while the noun that is being judged is given the case
-that it would assume as the subject of an intransitive verb. The two
+that it would assume as the subject of an intransitive verb (for an animate pronoun, accusative, or otherwise absolutive). The two
 nouns are then followed by the adjective, which is in the predicate form
 (see *morphology*).
 
@@ -188,11 +192,9 @@ the revertive case is used. If they are the same, the locative case is
 used.
 
 ====
-*nna-j wa-rna yam-u* +
 _3s-nom 1s-rev tall-an_ +
 He is taller than me.
 
-*gungaa-ø muyu-rn yurli-la* +
 _axe-erg spear-loc dull-inan_ +
 The axe and spear are equally as dull.
 ====
@@ -202,16 +204,11 @@ first word in the clause and is followed by the nouns. One of the nouns
 is replaced by a pronoun as usual.
 
 ====
-*k-a nnalji-ø junn-u nna-ø wiinguurki-rna yuki-j ka giirr-u-m* +
-_win.aux-pst dingo-erg fast-an 3s-erg boy-rev race-nom 2.val.1 win-an-3rd_ +
+_win.aux-pst [dingo-erg be.AUX-PRES fast-an 3s-erg boy-rev be-3-an] race-nom win-an-3rd_ +
 The dingo, who is faster than the boy, won the race.
 ====
 
 === Modifier Positioning
-
-==== Adjectives
-
-// TODO
 
 ==== Adverbs
 
@@ -223,7 +220,6 @@ Adverbs can be split into two categories:
 Temporal adverbs usually follow the base verb.
 
 ====
-*k-a jana-ø jari-rn wiirr-uu-ø yuurli-rna ma* +
 _go.aux-pst 1s.ch-erg beach-loc go-ch-1st day-rev one_ +
 Yesterday, I [a child] went to the beach.
 ====
@@ -231,10 +227,9 @@ Yesterday, I [a child] went to the beach.
 Manner adverbs usually precede the base verb.
 
 ====
-*nn-uuki-yii waya-ø pirwa-pirwa-j garrna gann-u-ø* +
 _pickup.aux-fut-wimp 1pl-erg clothing-pl-nom quickly pickup-an-1st_ +
 We should pick up the clothes quickly.
 ====
 
-However, both can occupy different positions inside the verb phrase if
+However, both can occupy the other's position inside the verb phrase if
 the speaker desires it.
