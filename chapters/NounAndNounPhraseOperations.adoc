@@ -1,12 +1,222 @@
 == Noun and noun phrase operations
 
+For all general derivations of nouns, the noun must be placed into
+derived form by lengthening its final vowel (if the vowel is
+unlengthened). A modifying suffix is then appended.
+
 === Compounding
+
+Nominal compounds are bidirectional, meaning that the order of
+constituent nouns does not change the meaning of the compound. In
+practical use, both orders are used, with preference depending on the
+phonetics of the noun. If the compounding would create an illegal
+consonant cluster, the other order must be used.
+
+====
+mountain _gaypa_ +
+stream _munna_ +
+⇒ mountain stream _gaypamunna_
+
+the Land _Yawirra_ +
+ground _nnalu_ +
+⇒ sacred place _Yawirrannalu_
+====
 
 === Denominalisation
 
 === Number
 
+Plurality refers to the number of a noun present. A singular noun has
+only one of its kind present, while a plural noun has multiple. The
+Ngujari language distinguishes between singular, plural, and dual (two
+objects). By default, nouns are singular.
+
+Plurals are formed through the process of reduplication footnote:[Repeating a part or whole of a word.], with the
+un-declined noun repeated twice. The necessary case suffixes are then
+applied to the end of the reduplicated form.
+
+The process differs slightly depending on whether there is dual or
+non-dual plurality. For non-dual, the entirety of the noun is simply
+reduplicated. The same occurs for the dual, but the clitic _ka_ follows
+the reduplicated noun before any adjectives.
+
+Some examples of regular plurals can be found in the following table.
+
+.Regular plurals
+[options="header"]
+|==========================================================
+| meaning | singular | plural          | dual
+| path    | wumpa    | wumpa-wumpa     | wumpa-wumpa-ka
+| canoe   | turrayi  | turrayi-turrayi | turrayi-turrayi-ka
+| berry   | murta    | murta-murta     | murta-murta-ka
+| dingo   | nnalji   | nnalji-nnalji   | nnalji-nnalji-ka
+|==========================================================
+
+While the process of plural formation is usually regular, some animate
+nouns have irregular plural forms, as below.
+
+.Irregular plurals
+[options="header"]
+|==============================================================
+| meaning      | singular     | plural       | dual
+| woman        | mungu        | mungungu     | mungungu-ka
+| man          | wiingu       | wiingungu    | wiingungu-ka
+| girl         | mungurki     | mungurgu     | mungurguki
+| boy          | wiingurki    | wiingurgu    | wiingurguki
+| elder        | nguwa        | nguwii       | nguwii-ka
+| sacred place | Yawirrannalu | Yawirrannala | Yawirrannala-ka
+|==============================================================
+
+In addition, some nouns are inherently both singular and plural and do
+not adopt a special plural form. A handful of examples follows.
+
+.More irregular plurals
+[options="header"]
+|========================
+| meaning    | word
+| food       | nurtwu
+| flesh      | ngunna
+| blood      | wirra
+| rain cloud | rrurtawalu
+| leaf       | nnaawi
+|========================
+
+There is no distinction between count nouns, which can be specifically
+counted, and mass nouns, which cannot. The number of the noun present
+can be specified through the usual adjective system.
+
+====
+rock _naju_ +
+⇒ five rocks _yi naju_ +
+⇒ a handful of rocks _ayi naju_
+====
+
 === Case
+
+Ngujari has eight nominal cases, with three indicating the
+morphosyntactic alignment and five others. Cases are indicated by
+single-syllable suffixes, as presented in the following table.
+
+.Cases
+[options="header"]
+|=====================================
+| case         | abbreviation | suffix
+| ergative     | ERG          | -
+| nominative   | NOM          | -j
+| accusative   | ACC          | -l
+| instrumental | INS          | -ma
+| comitative   | COM          | -yi
+| locative     | LOC          | -rn
+| orientative  | ORI          | -rnu
+| revertive    | REV          | -rna
+|=====================================
+
+For more details on the three alignment cases, see the alignment
+chapter. The remaining five cases operate as follows.
+
+===== Instrumental
+
+The instrumental case (INS) is used when discussing a _means_, roughly
+equivalent to the English "by means of" or "using". For example, when
+speaking of killing a fish using a spear, a Ngujari speaker will place
+"spear" in the instrumental case. The case can only be used with an
+_inanimate_ noun.
+
+====
+*k-a nna-ø tirwa-j baalu-ma naa wuwiirr-u-m* +
+_find.aux-pst 3s.an-erg route-nom map-ins 2.val.3 find-an-3rd_ +
+He found the route using the map.
+====
+
+===== Comitative
+
+The comitative case (COM) is equivalent to "in the presence of", or
+"with", and specifies that the noun was present at the moment spoken of.
+It often functions slightly differently in the context of certain verbs.
+The case is used grammatically in the formation of the adjectival
+predicative.
+
+In the following example, the comitative is found in its standard sense.
+
+====
+*nn-uuki wiingurki-ø munnanna-rn bunna-yi winn-uu-mi* +
+_jump.aux-fut boy-erg river-loc twin-com jump-an-3rd_ +
+The boy, with his friend, will jump over the river.
+====
+
+Special meanings of the comitative arise when the verb has a dedicated comitative valence slot.
+
+====
+*j-a nnaa-ø parnti-j mungu-yi yanj-u-m* +
+_steal.aux-pst 3pl.an-erg kangaroo.meat-nom woman-com steal-an-3rd_ +
+They are stealing kangaroo meat from the woman.
+====
+
+===== Locative
+
+The locative case (LOC) is used to specify a location, and can take the
+place of a preposition such as "in" or "at". Many verbs of motion take
+the locative as one of their prescribed arguments.
+
+====
+*k-aa wa-ø gaypa-rn wiirr-u-ø* +
+_↗go.aux-fut 1s-erg mountain-loc go-an-1st_ +
+Should I go to the mountain?
+====
+
+The cardinal directions are treated as if they have the locative case,
+and hence do not use it where other nouns would.
+
+===== Orientative and Revertive
+
+The orientative case (ORI) is used to specify that something is facing
+towards the noun. It is often used with the meaning of "heading
+towards".
+
+====
+*j-i ku-ø tinyu-rnu yaj-u-n* +
+_run.aux-pres 2s-erg camp-ori run-an-2nd_ +
+You are running towards the camp.
+====
+
+The revertive case (REV) is used to specify that something is oriented
+away from the noun. It can be used with the meaning of "heading away
+from".
+
+====
+*k-i nnaa-j mulu-l ja-rna mirr-u-m* +
+_bring.aux-pres 3pl.an-nom fish-acc 1d-rev bring-an-3rd_ +
+They are bringing the fish away from us two.
+====
+
+It can also be used in asserting falsehood.
+
+====
+*j-arlu nna-ø pirraa-j naa baj-u-m* +
+_look.aux-rem 3s.an-erg knowledge-nom 1.val.2 look-an-3rd_ +
+He used to look away from knowledge / he used to be incorrect.
+====
+
+Both the orientative and revertive case can be used in place of the
+locative place in any verbal argument slot that requires a locative,
+allowing for finer control.
+
+An example of the use of these cases is found in the following table,
+which shows the declensions of the noun _naju_.
+
+.Examples of case
+[options="header"]
+|=======================================================
+| case         | word    | meaning
+| ergative     | naju    |
+| nominative   | najuj   |
+| accusative   | najul   |
+| instrumental | najuma  | "using the rock"
+| comitative   | najuyi  | "in the presence of the rock"
+| orientative  | najurnu | "oriented towards the rock"
+| revertive    | najurna | "oriented away from the rock"
+| locative     | najurn  | "at the rock"
+|=======================================================
 
 === Articles, determiners, and demonstratives
 
@@ -14,4 +224,157 @@
 
 === Class and gender
 
+Nominal gender is assigned semantically to nouns, based on their
+meaning. While the form of a noun itself does not change based on
+gender, the class has a number of important effects, including changing
+morphosyntactic alignment, possessives selection, and verb conjugation.
+These effects are discussed in greater detail later.
+
+Ngujari has a dual-gender system. The major distinction is between the
+animate and inanimate genders. The animate gender is assigned to people,
+animals, spiritual locations, and many abstract concepts. For example,
+_Yawirra_, the concept of the Land, is considered animate, as are
+parts of the body with a sacred meaning. The inanimate gender applies to
+all other nouns. The following table shows some examples of the
+distinction.
+
+.Some examples of gender
+[options="header"]
+|==========================================================
+| animate                            | inanimate
+| boy _wiingurki_                    | teacher _gajangu_
+| warm-blooded animal _pawkii_       | living leaf _guwa_
+| seal _niinga_                      | reed _kanaa_
+| liver _ngunaju_                    | tongue _jaajannalu_
+| breath _gajuwa_                    | food _nurtwu_
+| bushfire _panwawa_                 | sunset _kii_
+| a specific sacred site _Narriirna_ | rain _rrurta_
+|==========================================================
+
+The animate-inanimate distinction partially determines morphosyntactic
+alignment. Consider the following example, in which two animate pronouns
+are the subject and object of transitive phrase.
+
+====
+*nn-uma jana-j nna-l jinn-arruu-Ø* +
+_eat.AUX-PST 1s.child-NOM 3s.adult-ACC eat-AN-1ST_ +
+I (a child) ate it (an animate object).
+====
+
+The two animate pronouns cause the sentence to assume the
+nominative-accusative alignment. If instead the object was inanimate,
+the sentence would decline in the ergative-nominative alignment:
+
+====
+*nn-uma jana-Ø nnu-j jinn-arruu-Ø* +
+_eat.AUX-PST 1s.child-ERG 3s.inan-NOM eat-AN-1ST_ +
+I (a child) ate it (an inanimate object).
+====
+
+While this is the primary gender distinction, there is a secondary
+subdivision. Within the animate there are three genders used only for
+referring to humans, each representing a different stage of life: child,
+adult, and Elder. These genders are important in determining pronouns
+and verbal inflection.
+
+Whereas animate/inanimate is a class defined once for a noun, the
+child/adult/Elder gender is mutable, with a person assigned to one of
+the genders based on social position. Those who are yet to undergo the
+adulthood ceremony (under the age of roughly fourteen in the case of
+females and sixteen in the case of males) are assigned the child gender,
+while those who have become Elders of the mob receive the Elder gender.
+All other ages are grouped into the adult gender.
+
+The default gender in the stage distinction is adult. All non-human
+animate nouns are treated as if they are members of the adult class for
+purposes of verbal conjugation.
+
+The following pair of examples demonstrates the role of the stage
+distinction in verbal conjugation. The same sentence is conjugated for
+both a group of children and a group of adults.
+
+====
+*k-aa juu-Ø kiru wiirr-uu-Ø yuurli-mu* +
+_go.AUX-FUT 1pl.child-ERG where go-CHILD-1ST day-ORI_ +
+Where will we (a group of children) go tomorrow?
+
+*k-aa waya-Ø kiru wiirr-u-Ø yuurli-mu* +
+_go.AUX-FUT 1pl.adult-ERG where go-ADULT-1ST day-ORI_ +
+Where will we (a group of adults) go tomorrow?
+====
+
+The stage distinction is also used in declining predicate adjectives.
+
+====
+*nnarta-j pupa-tuu* +
+_3s.child-NOM happy-CHILD_ +
+The child is happy.
+
+*Wiirrutii-j pupa-iiwa* +
+_Wiirrutii-NOM happy-ELDER_ +
+Wiirrutii (an elder) is happy.
+====
+
 === Diminution/augmentation
+
+A noun's _scale_ can be adjusted up or down through the following
+suffixes:
+
+.Scale derivational suffixes
+[options="header"]
+|=======================
+| function      | suffix
+| amplification | rki
+| diminuation   | wa
+|=======================
+
+This operation is commonly lexicalised, but can be applied generally.
+
+====
+fire _panwa_ +
+⇒ ash _panwawa_ +
+⇒ bushfire _panwarki_
+
+wind _gaju_ +
+⇒ breath _gajuwa_ +
+⇒ high wind _gajurki_
+====
+
+=== Temporalisation
+
+A noun can be modified into a temporal noun, meaning the equivalent of
+"time of noun", using the suffix _ku_.
+
+====
+moon _tii_ +
+⇒ night _tiiku_
+
+sun _puu_ +
+⇒ day _puuku_
+====
+
+=== Collection
+
+Partial reduplication can be used to derive the collection of a noun. To
+derive the collection, the first syllable is isolated, its coda removed,
+and added to the front of the noun.
+
+====
+coconut _wurna_ +
+⇒ coconut tree _wuwurna_
+
+bone _parrna_ +
+⇒ corpse _paparrna_
+====
+
+=== Container
+
+The container of a noun can be derived through the affix _rna_.
+
+====
+arrow _yungi_ +
+⇒ quiver _yungirna_
+
+fruit _yirli_ +
+⇒ basket _yirlinga_
+====

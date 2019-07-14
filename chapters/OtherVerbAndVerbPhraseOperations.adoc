@@ -69,6 +69,223 @@ teacher) and "events" (e.g. the person currently teaching.)
 
 === Tense/aspect/mode
 
+Tense refers to the time at which the verb's action took place. There
+are four marked tenses: remote past, past, present, and future.
+
+Present is considered the default tense. It usually indicates those
+events which are happening in the moment of utterance, but it can also
+be used as a rudimentary form of a near-past tense, applying to actions
+that were completed the same day as the utterance.
+
+====
+*j-i rrurtawalu-ø yuu-waya-rnu purki yaj-u-ø* +
+_come.aux-pres rain.cloud-erg int-1pl-ori come-an-1st_ +
+Are the rain clouds drawing near?
+
+*gulw-i wa-j nnu-yi nna-l gulwaj-u-ø* +
+_give.aux-pres 1s-nom 3s.inan-com 3s.an-acc give-an-1st_ +
+I gave it to him earlier today.
+====
+
+The past tense simply refers to an event that began and concluded in the
+past. If the event has not yet concluded, the present tense is used,
+even if it began in the past.
+
+====
+*k-a waya-ø maaju-j bilj-u-m nna-j pirr-u-ø* +
+_see.aux-pst 1pl-erg kangaroo-nom hop-an-3rd 3s.an-nom see-an-1st_ +
+We saw the hopping kangaroo.
+====
+
+The remote past also indicates an event that was completed in the past.
+The distinction between it and the standard past can be somewhat
+arbitrary, but in general remote past is used in the following three
+circumstances:
+
+* recounting handed-down stories
+* speaking of ancestral events
+* referring to a habitual action that has concluded
+
+====
+*nn-una puu-ø Bilru-rn pupa-pu bunn-u-mi* +
+_shine.aux-rem sun-erg bilru-loc happy-an shine-an-3rd_ +
+The sun shone down on Bilru, who was happy.
+
+*ngarr-arlu walma-ø gaypa-wa-rn ngurr-a-m* +
+_be.aux-rem hut-erg mountain-loc be-inan-3rd_ +
+The hut used to be on the hill.
+====
+
+The future tense refers to all events which are yet to take place,
+regardless of how far in the future they occur.
+
+====
+*k-aa tu wa-ø naarla wiirr-u-ø* +
+_go.aux-fut neg 1s-erg there go-an-1st_ +
+I won't go there.
+====
+
+==== Aspect
+
+Aspect refers to the definiteness of an action. The perfective aspect
+refers to events which are complete and self-contained ("I ran"),
+whereas the imperfective aspect refers to ongoing events ("I was
+running"). In Ngujari, there is no morphological distinction drawn
+between the perfective and imperfective aspects, meaning contextual
+clues are vital for understanding.
+
+====
+*k-a wa-ø guumja-j pirr-u-ø, ngarr-a wa-ø gugannari-rn ngurr-u-ø* +
+_see.aux-pst 1s-erg butterfly-nom see-an-1st, be.aux-pst 1s-erg forest-loc be-an-1st_ +
+I was looking at a butterfly when I was in the forest.
+
+*nnarr-i k-a wa-ø guumja-j pirr-u-ø k-i-tiru wa-j nartupurr-u-ø* +
+_effect.aux-pres see.aux-pst 1s-erg butterfly-nom see-an-1st blush.aux-pres-sbjv 1s-nom blush-an-1st_ +
+I saw a butterfly that made me blush.
+====
+
+==== Moods
+
+A mood modifies the meaning of a verb. Verbs can be conjugated into one
+of five moods:
+
+* subjunctive
+* weak imperative
+* strong imperative
+* gnomic
+* dubitative
+
+Mood is an optional part of verb formation. In a regular active
+sentence, there is no mood.
+
+====
+*nn-i waya-j jinn-u-ø?* +
+_↗ eat.aux-pres 1pl-nom eat-an-1st_ +
+Should we eat?
+====
+
+But adding a mood, such as the imperative, changes the meaning of the
+sentence.
+
+====
+*nn-i-yii waya-j jinn-u-ø* +
+_eat.aux-pres-wimp 1pl-nom eat-an-1st_ +
+Let's eat.
+
+*nn-i-ju waya-j jinn-u-ø* +
+_eat.aux-pres-strimp 1pl-nom eat-an-1st_ +
+We must eat.
+====
+
+===== Subjunctive
+
+The subjunctive mood is an _irrealis_ mood: it broadly signifies
+abstractness, or that the speaker is unsure about the event in question.
+
+The subjunctive is used in four places:
+
+1.  Speculation
+2.  Desires
+3.  Conditional
+4.  Purposive
+
+The conditional and purposive cases are related to syntax, and are
+discussed later.
+
+The most common use of the subjunctive mood is speculation. If a speaker
+is either unsure of an event's outcome, or does not know if it occurred
+or will occur.
+
+====
+*k-a-tiru nna-ø maaju-j naa puwa tarr-u-m* +
+_kill.AUX-PST-SUBJ 3s-ERG kangaroo-NOM 1.val.2 kill-AN-3RD_ +
+He might have killed the kangaroo.
+
+*j-a-tirlu nni-ø nnalu-rnu purki yaj-awuu-m, yirr-a yurr-a-ø* +
+_walk.AUX-PST-SUBJ 3pl.ch-ERG place-ORI walk-CH-3rd, know.AUX-PRES know-AN-1st_ +
+I think that they came back yesterday.
+====
+
+If the speaker is speaking hypothetically about a property of something
+which is expressed as an adjective, the verb _ngurr_ must be used with a
+predicate adjective rather than the verbless construction (discussed
+later). _ngurr_ is in the subjunctive mood.
+
+====
+*ngarr-aa-tilu parra-ø kurlu-j tuwilwa-wa ka ngurr-a-m* +
+_be.aux-fut-sbjv hunt-erg thing-NOM dangerous-in 2.val.1 be-inan-3rd_ +
+The [prospective] hunt would be very dangerous.
+====
+
+The subjunctive is also used when expressing desires or dreams. The
+desire must be first-hand; so recounting those of others does not use
+the subjunctive.
+
+====
+*k-a-tiru wa-ø warlu-j jurni purr-a-ø* +
+_want.AUX-PRES-SUBJ 1s-ERG bed-NOM new want-AN-1st_ +
+I want a new bed.
+
+*j-a nna-j wa-l ka naj-awu-m, "k-a wa-ø warlu-j jurni purr-a-ø"* +
+_say.AUX-PST 3s-NOM 1s-ACC 3.val.2 say-AN-3rd, want.AUX-PRES 1s-ERG bed-NOM new want-AN-1st_ +
+He said to me, "I want a new bed."
+====
+
+When desiring an action, the speaker uses a "wanting" verb, such as
+_mann_, along with a verb phrase in the subjunctive expressing the
+desired action. This action can be in any tense.
+
+====
+*nn-i wa-j j-a-tirlu ti nna-j ngarj-awu-m mann-u-ø* +
+_wish.aux-prs 1s-nom hurt.aux-pst-sbjv neg 3s.an-nom hurt-an-3rd wish-an-1st_ +
+I wish that he hadn't hurt himself.
+====
+
+===== Imperative
+
+The imperative mood is used for suggestions and commands. The weak
+imperative raises an idea or suggestion, without indicating an order,
+similar to the English "let's go".
+
+====
+*nn-uuki-yii wuu waya-ø gunnari-j ka warnn-u-ø* +
+_cut.AUX-FUT-WIMP neg 1pl-erg tree-nom 3.val.2 cut-an-1st_ +
+Let's not cut down the tree.
+====
+
+The strong imperative signifies a command, such as "Leave!".
+
+====
+*nn-uuki-ju wuu ku-ø gunnari-j ka warnn-u-ku* +
+_cut.AUX-FUT-WIMP neg 2s-erg tree-nom 3.val.2 cut-an-2nd_ +
+Don't cut down the tree.
+====
+
+===== Gnomic
+
+The gnomic mood states unequivocal facts or ideas. The statement must be
+truly uncontentious to fit into the gnomic mood, a universal truth or
+maxim.
+
+====
+*k-i-nga juunwi-juunwi-ø gayparnu narnn-u-m biintu-yi* +
+_fly.aux-pres-gno bowerbird-PL-ERG east fly-an-3rd winter-adv_ +
+Satin bowerbirds fly east for winter.
+====
+
+===== Dubitative
+
+The dubitative mood indicates situational possibility. The speaker
+acknowledges the possibility of an action but is unsure as to whether it
+occurs. This is similar to English sentences using the auxiliary
+"might".
+
+====
+*nn-aa-ti rrunn-u-mi* +
+_rain.aux-fut-dub rain-an-3rd_ +
+It might rain tomorrow.
+====
+
 === Location/direction
 
 === Participant Reference
@@ -103,3 +320,86 @@ noun phrase must be present.
 === Evidentiality, validationality, and mirativity
 
 === Miscellaneous
+
+==== Compounding
+
+Compounding is a lexical operation used when forming new verbs (made particularly salient by the fact that verb stems are a closed class). There are two forms of compounding: verb-verb and adverb-verb. Both form
+a new verb which is treated as a whole in syntactic structures.
+
+In verb-verb compounding, the compound is not commutative, meaning that
+the order of the verbs matters. Typically, the most relevant verb occurs
+last. The two verbs are simply concatenated, except for the special case
+in which the concatenation would form an illegal consonant cluster. If
+this occurs, the repair strategy of inserting the dummy vowel _a_ is
+used.
+
+====
+to sit _walj_ +
+to swim _junn_ +
+⇒ to canoe _waljunn_
+
+to travel _nuunn_ +
+to exchange _murr_ +
+⇒ to trade (with another mob) _nuunnamurr_
+====
+
+Verbs formed through verb-verb compounding in most cases assume the
+transitivity properties of the second, or primary, verb.
+
+Adverb-verb compounding simply requires an adverb to appear before the
+verb in all positions. For example, it would remain in front of the verb
+during relativization (see *relative clauses* while regular adverbs
+would not.
+
+====
+to run _yaj_ +
+quickly _garrna_ +
+⇒ to sprint _garrna yaj_
+
+to drink _ngann_ +
+impatiently _karlpii_ +
+⇒ to guzzle _karlpii ngann_
+====
+
+A common use of adverb-verb compounding is in augmentation and
+diminution. The adverbs _purki_ ("weakly") and _puwa_ ("strongly") are
+used to modify the intensity of the verb.
+
+====
+to eat _jinn_ +
+⇒ to nibble _purki jinn_ +
+⇒ to bite _puwa jinn_
+
+to give _gulwaj_ +
+⇒ to offer _purki gulwaj_ +
+⇒ to force upon _puwa gulwaj_
+====
+
+==== Nominalisation
+
+Apart from the gerund formation process (see *gerunds*), verbs may
+become nouns through the process of nominalisation. The nominal form is
+simply the verb with its final vowel added to its end and shortened,
+plus the relevant suffix.
+
+For locational nouns, as in "place of verb", the suffix is _nnalu_
+("ground").
+
+====
+to see _pirr_ +
+⇒ eye _pirrinnalu_
+
+to hold _wuj_ +
+⇒ hand _wujunnalu_
+====
+
+For professional nouns, as in "person who does verb", the suffix is
+_ngu_.
+
+====
+to swim _junn_ +
+⇒ swimmer _junnungu_
+
+to sleep _tarr_ +
+⇒ sleeper _tarrangu_
+====
