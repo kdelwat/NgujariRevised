@@ -140,6 +140,10 @@ I strike you.
 
 image:../images/I-strike-you.png[]
 
+If the verb phrase is intransitive and contains only a personal pronoun as subject, the pronoun can be elided since the relevant information is encoded on the verb.
+
+// Example
+
 === Noun phrase
 
 ====
