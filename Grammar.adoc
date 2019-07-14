@@ -6,16 +6,29 @@ v1.0, 2018-09-02 18:02
 :toclevels: 3
 
 include::chapters/Demographic.adoc[]
+
 include::chapters/Phonology.adoc[]
+
 include::chapters/MorphologicalTypology.adoc[]
+
 include::chapters/GrammaticalCategories.adoc[]
+
 include::chapters/ConstituentOrderTypology.adoc[]
+
 include::chapters/NounAndNounPhraseOperations.adoc[]
+
 include::chapters/PredicateNominals.adoc[]
+
 include::chapters/GrammaticalRelations.adoc[]
+
 include::chapters/VoiceAndValenceAdjustingOperations.adoc[]
+
 include::chapters/OtherVerbAndVerbPhraseOperations.adoc[]
+
 include::chapters/PragmaticallyMarkedStructures.adoc[]
+
 include::chapters/ClauseCombinations.adoc[]
+
 include::chapters/Semantics.adoc[]
+
 include::chapters/Conclusions.adoc[]
