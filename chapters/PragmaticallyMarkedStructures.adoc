@@ -45,6 +45,11 @@ non-present tense.
 
 // TODO: add example
 
+The mood is also subjunctive if the negative is used when responding to a question with a speech act.
+
+// TODO: add example ("not me")
+
+
 However, in an imperative clause (one that uses the weak or strong imperative
 mood, see *tense and mood*), the particle is instead placed before the
 auxiliary, and the subjunctive is not used.
