@@ -1,28 +1,17 @@
 
 == Morphological typology
 
-_Morphology_ is the study of word forms and the way words are adapted to
-different circumstances.
-
-Words in Ngujari begin as stems: individual morphemes footnote:[A
-_morpheme_is the smallest possible unit of meaning.] that cannot be
-used in their base form. A speaker must add a number of suffixes to the
-stem to indicate characteristics such as gender, in the case of nouns,
-or tense, in the case of verbs. This process is known as _inflection_.
-
 === Morphological processes
 
-Word stems, like base verbs and nouns, cannot usually be used in
-sentences alone. Instead, the speaker adds further morphemes to indicate
-different attributes of the stem. This makes Ngujari a _polysynthetic_ language.
+Ngujari is a polysynthetic language; the words in most grammatical categories cannot be used in their stem form without support. They must be inflected to indicate different dimensions and add layers of meaning. For nouns, these dimensions are modifiers like case and number, while verbs can indicate tense, person, and more.
 
 The language is overwhelmingly _agglutinative_: words are inflected
 through non-fusional suffixes alone.
 
 However, in a handful of cases words are instead inflected through
 _clitics_, separate words which are "attached" to the stem by their
-relative position in the sentence. The most common occurrence is
-particles which modify the valence of verbs.
+relative position in the sentence. The most common occurrence are
+particles which modify verbs, such as the negative particle.
 
 Consider the following sentence:
 
@@ -37,7 +26,7 @@ _wa_ (_I_). However, these stems cannot be used alone. Each has at
 least one additional morpheme.
 
 * _wa_ is inflected into the ergative case, through the _null
-morpheme_footnote:[Although it cannot be heard in the spoken language,
+morpheme_ footnote:[Although it cannot be heard in the spoken language,
 the null morpheme is considered to be a morpheme due to its role in
 differentiating different word forms.], a morpheme which has no sound.
 * _jari_ is inflected into the locative case, through the suffix

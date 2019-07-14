@@ -67,7 +67,7 @@ teacher) and "events" (e.g. the person currently teaching.)
 
 === Compounding
 
-Compounding is a lexical operation used when forming new verbs (made particularly salient by the fact that verb stems are a closed class). There are two forms of compounding: verb-verb and adverb-verb. Both form
+Compounding is a lexical operation used when forming new verbs. There are two forms of compounding: verb-verb and adverb-verb. Both form
 a new verb which is treated as a whole in syntactic structures.
 
 In verb-verb compounding, the compound is not commutative, meaning that

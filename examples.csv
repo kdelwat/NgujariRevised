@@ -1,0 +1,20 @@
+chapter,native,gloss,free
+morphtyp,,go.AUX-PST 1s-ERG beach-LOC go-AN-1ST,I went to the beach
+morphtyp,,face-nom 3s.an-pos,his face
+categories,,_dress-ABS dry.AUX-PRES dry-3-INAN,the dress that is drying
+categories,,dress-ABS dry.AUX-PRES dry-3-INAN_ want-1-an,I want the dress that is drying
+categories,,_hurt.AUX-PST drive.GER-ERG 3s.an-ABS hurt-3-inan_,The driving hurt her
+categories,,stop.AUX-PST 3s.an-ERG drive.GER-ABS stop-3-an,She stopped the driving
+categories,,mango-pl-erg Yurluj-loc fall-inan-3rd,The mangoes fall on Yurluj
+categories,,move.aux-fut stream-erg Parra-nom rock-rev move-inan-3rd,The stream will take Parra away from the rock
+categories,,help.aux-pres-wimp Annurra-erg Najii-nom help-an-3rd,Annurra should help Najii
+categories,,run.AUX-PST Gupti-ERG bridge-LOC run-3-an,Gupti ran over the bridge
+categories,,bridge-LOC, _run.AUX-PST Gupti-ERG (with non null) 3s-inan run-3-an,As for Gupti, he ran over the bridge
+categories,,Gupti-ERG (with non null), _run.AUX-PST 3s-an bridge-LOC run-3-an,As for the bridge, Gupti ran over it
+categories,,protect.AUX-FUT 1s-ERG coconuttree-NOM protect-an-1st,I [an adult] will protect the coconut tree.
+categories,,protect.AUX-FUT 3pl.ch-ERG coconuttree-NOM protect-ch-3rd,They [a group of children] will protect the coconut tree.
+categories,,protext.aux-fut coconuttree-ERG 3pl-ch-NOM protect-inan-3rd,The coconut tree will protect them [a group of children].
+categories,,_know.AUX-PRES 2s-NOM know-AN-3rd_,You know.
+categories,,_ocean-nom calm-pred_,The sea is calm
+categories,,strike.AUX-PST 1s-NOM 3s-ACC hard strike-AN-1st,I struck him hard.
+categories,,strike.AUX-FUT 1s-NOM 3s-ACC strike-AN-1st soon,I will strike him soon.

@@ -18,10 +18,33 @@ Distributionally, nouns are the head of noun phrases, which are used as
 arguments to verbs or in verbless constructions like the adjectival
 predicate.
 
-Predominantly, nouns are used as part of a verb phrase. They are
-distinguished from other word classes by their ability to assume the
+In the following example, we see first the uninflected noun, then the noun used as part of a postnominal relative clause to create a noun phrase, which is inflected in the absolutive case. Finally, the noun phrase is used as the argument in a verb phrase.
+
+====
+_dress_ +
+dress
+
+_dress-ABS dry.AUX-PRES dry-3-INAN_ +
+the dress that is drying
+
+_dress-ABS dry.AUX-PRES dry-3-INAN_ want-1-an_ +
+I want the dress that is drying 
+====
+
+Nouns are distinguished from other word classes by their ability to assume the
 role of subject in such verb phrases, whereas constructions like gerunds
 cannot.
+
+====
+_drive.AUX-PST car-ERG drive-3-inan_ +
+The car drove forwards
+
+(I) _hurt.AUX-PST drive.GER-ERG 3s.an-ABS hurt-3-inan_ +
+(I) The driving hurt her
+
+_stop.AUX-PST 3s.an-ERG drive.GER-ABS stop-3-an_ +
+She stopped the driving
+====
 
 Nouns are an open class, and new morphemes are added or derived on a
 sporadic but frequent basis.
@@ -42,8 +65,7 @@ consonant. In this instance, the usual suffixes are added to signify
 case after reduplicating the final vowel in the noun.
 
 ====
-*k-a girlipuu-girlipuu-ø Yurluj-urn naa yarr-a-m* +
-_fall.aux-pst mango-pl-erg Yurluj-loc 1.val.2 fall-inan-3rd_ +
+_mango-pl-erg Yurluj-loc fall-inan-3rd_ +
 The mangoes fell on Yurluj.
 ====
 
@@ -54,7 +76,6 @@ it is obvious that the proper noun takes the nominative position and it
 is not inflected.
 
 ====
-*j-aa munna-ø Parra naju-rna nakij-a-m* +
 _move.aux-fut stream-erg Parra-nom rock-rev move-inan-3rd_ +
 The stream will take Parra away from the rock.
 ====
@@ -63,7 +84,6 @@ The need to distinguish proper nouns using case inflections usually
 arises when two proper nouns are in the same sentence.
 
 ====
-*nn-i-yii Annurra-ø Najii-j yiinn-u-mi* +
 _help.aux-pres-wimp Annurra-erg Najii-nom help-an-3rd_ +
 Annurra should help Najii.
 ====
@@ -71,6 +91,19 @@ Annurra should help Najii.
 Even in circumstances where the meaning of the sentence would be
 unambiguous without case inflection, the speaker may choose to inflect
 if they are using a non-standard word order.
+
+In the following example, the speaker topicalises each noun in the sentence. This change to word order is reflected by a case marker on the proper noun _Gupti_ which was previously elided.
+
+====
+_run.AUX-PST Gupti-ERG bridge-LOC run-3-an_ +
+Gupti ran over the bridge.
+
+_bridge-LOC, _run.AUX-PST Gupti-ERG (with non null) 3s-inan run-3-an_ +
+As for Gupti, he ran over the bridge.
+
+_Gupti-ERG (with non null), _run.AUX-PST 3s-an bridge-LOC run-3-an_+
+As for the bridge, Gupti ran over it.
+====
 
 ==== Pronouns
 
@@ -115,7 +148,7 @@ elder is always referred to by their honorific title.
 ===== Possessive
 
 Possessive pronouns are formed through a suffix placed on the relevant
-personal pronoun, but only for the child and adult genders. ForW
+personal pronoun, but only for the child and adult genders. For
 possession by elders, see *pronominal possession*. Inanimate objects
 cannot be possessive. For a child, the suffix is _ra_ in first and
 second person and _raa_ in third person. For an adult, the suffix is
@@ -138,8 +171,6 @@ following table:
 | why       | wiirtak
 | how many  | kirta
 |====================
-
-// TODO: cannot ask a question with just an interrogative pronoun like English. Instead have to say like "what (is it)?"
 
 It is interesting to note that "how" is the same as "what" placed in the
 instrumental case. The orientative and revertive cases can be applied to
@@ -168,7 +199,7 @@ revertive cases.
 
 ===== Indefinite
 
-The regular indefinite pronouns are formed through modifying the
+The indefinite pronouns are formed through modifying the
 interrogative pronouns by appending the correct word, representing
 number. These words are listed in the following table:
 
@@ -247,7 +278,7 @@ as normal.
 ==== Dimensions
 
 When declined as part of a sentence, the verb stem indicates the
-_gender, person_, and _number_of an involved noun.
+_gender_, _person_, and _number_ of an involved noun.
 
 Person represents a perspective of the speaker: the relation they have
 to the actor in the verb. If the speaker is performing the action, the
@@ -259,26 +290,23 @@ Number represents how many actors were involved. The verb may have been
 performed by one actor, putting it in the singular number, two, putting
 it in dual, or more than two, making it plural.
 
-For transitive verbs and above, the agent of the clause determines these
+For transitive and ditransitive verbs, the agent of the clause determines these
 dimensions.
 
 ====
-*nn-uuki wa-ø wuwurna-j tinn-u-ø* +
 _protect.AUX-FUT 1s-ERG coconuttree-NOM protect-an-1st_ +
 I [an adult] will protect the coconut tree.
 
-*nn-uuki nni-ø wuwurna-j tinn-arruu-mi* +
 _protect.AUX-FUT 3pl.ch-ERG coconuttree-NOM protect-ch-3rd_ +
 They [a group of children] will protect the coconut tree.
 
-*nn-uuki wuwurna-ø nni-j tinn-aa-mi* +
-_protext.aux-fut coconuttree-ERG 3pl-ch-NOM protect-inan-3rd_
+_protext.aux-fut coconuttree-ERG 3pl-ch-NOM protect-inan-3rd_ +
+The coconut tree will protect them [a group of children].
 ====
 
 For intransitive verbs, the subject determines the dimensions.
 
 ====
-*wann-uu ku-j wann-u-ku* +
 _know.AUX-PRES 2s-NOM know-AN-3rd_ +
 You know.
 ====
@@ -322,11 +350,10 @@ You know.
 ==== Adjectives
 
 Adjectives are words used to describe or modify the meaning of a noun.
-Adjectives in Ngujari perform only the _predicative function_: they
-require a verb to function, and refer to the subject of the verb.
+Adjectives in Ngujari perform the _predicative function_: they
+are used in a predicate construction to refer to its subject.
 
 ====
-*birru-j nnijpa-pu* +
 _ocean-nom calm-pred_ +
 The sea is calm.
 ====
@@ -469,18 +496,17 @@ An adverb is a word which modifies a clause.
 _Manner_ adverbs modify the way the clause's verb is performed.
 
 ====
-*k-a wa-j nna-l buutu ji wurr-u-m* +
-_strike.AUX-PST 1s-NOM 3s-ACC hard 0.val.2 strike-AN-1st_ +
+_strike.AUX-PST 1s-NOM 3s-ACC hard strike-AN-1st_ +
 I struck him hard.
 ====
 
 _Temporal_ adverbs modify when the clause occurs.
 
 ====
-*k-aa wa-j nna-l ji wurr-u-m piitu* +
-_strike.AUX-FUT 1s-NOM 3s-ACC 0.val.2 strike-AN-1st soon_ +
+_strike.AUX-FUT 1s-NOM 3s-ACC strike-AN-1st soon_ +
 I will strike him soon.
 ====
 
-The class of an adverb loosely determines its position in a phrase.
+The class of an adverb loosely determines its position in a phrase, with manner adverbs tending to precede the noun and temporal adverbs tending to follow.
+
 Adverbs are used as-is, and do not undergo derivation.
