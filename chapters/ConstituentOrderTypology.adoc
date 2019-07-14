@@ -1,3 +1,4 @@
+
 == Constituent order typology
 
 === Introduction
@@ -233,55 +234,3 @@ We should pick up the clothes quickly.
 
 However, both can occupy different positions inside the verb phrase if
 the speaker desires it.
-
-=== Conditional
-
-A conditional places a condition on another statement. They are formed
-through two verb phrases, one representing the condition (or protasis)
-and the other representing the outcome (or apodosis). There are two
-types of conditional:
-
-* _implicative_, where the conditional represents a universal truth.
-Whenever the condition is true, the outcome is also true. It is
-important to remember that the implicative form is always true. A
-statement such as "When the wind blows, the leaves rustle" meets this
-criteria, whereas "If you go there, you'll be attacked" does not.
-* _predictive_, where the conditional represents a prediction. This is
-the more general form, and can be used without worrying about universal
-truth.
-
-To form both conditionals, the condition verb phrase appears first,
-followed immediately by the outcome verb phrase. No connector is
-necessary between the two clauses (i.e. there is no equivalent to "if").
-The outcome phrase is always placed in the subjunctive mood and present
-tense.
-
-In an implicative conditional, the condition is given the gnomic mood
-and the present tense. The statement must therefore follow the usual
-rules of the gnomic, in that it must state an indisputable truth.
-
-====
-*k-i-nga kunii-ø mu-rn naa yarr-uu-n j-i-tirlu kunii-j ka mulj-awuu-n* +
-_fall.aux-prs-gno 2dual.ch-erg water-loc 1.val.2 fall-ch-2nd wet.aux-prs-sbjv 2dual-ch-nom 2.val.1 wet-ch-2nd_ +
-If you two fall in the water, you will both get wet.
-====
-
-In a predictive conditional, the condition is usually not given a mood,
-but can assume any tense.
-
-====
-*nn-uuki palwuuwa-j ka girnn-aa-mi k-i yannu-ø nna-j ji wurr-a-rn* +
-_ break.aux-fut branch-nom 2.val.1 break-inan-3rd strike.aux-pres dem.sg.inan-erg 3s-an-nom 0.val.2 strike-inan-3rd_ +
-If that branch breaks, it will strike him.
-====
-
-There is one exception to this rule. If the condition is seen as
-unlikely, the phrase is a _counterfactual_. In this case, the
-condition is given the dubitative mood. Usually, the condition will then
-be in the future tense.
-
-====
-*k-aa-tila nna-ø maaju-j yirn parr-u-m ngarr-tiru nurtwa-nurtwa-rn yuni waya-j ngurr-a-m* +
-_hunt.aux-fut-dub 3s.an-erg kangaroo-nom completedly hunt-an-3rd be.aux-subj food-pl-loc lots 1pl-nom be-inan-3rd_ +
-If he were to successfully hunt the kangaroo [unlikely], we would have lots of food.
-====

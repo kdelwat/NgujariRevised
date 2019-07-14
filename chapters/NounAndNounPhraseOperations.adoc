@@ -114,7 +114,7 @@ single-syllable suffixes, as presented in the following table.
 For more details on the three alignment cases, see the alignment
 chapter. The remaining five cases operate as follows.
 
-===== Instrumental
+==== Instrumental
 
 The instrumental case (INS) is used when discussing a _means_, roughly
 equivalent to the English "by means of" or "using". For example, when
@@ -128,7 +128,7 @@ _find.aux-pst 3s.an-erg route-nom map-ins 2.val.3 find-an-3rd_ +
 He found the route using the map.
 ====
 
-===== Comitative
+==== Comitative
 
 The comitative case (COM) is equivalent to "in the presence of", or
 "with", and specifies that the noun was present at the moment spoken of.
@@ -152,7 +152,7 @@ _steal.aux-pst 3pl.an-erg kangaroo.meat-nom woman-com steal-an-3rd_ +
 They are stealing kangaroo meat from the woman.
 ====
 
-===== Locative
+==== Locative
 
 The locative case (LOC) is used to specify a location, and can take the
 place of a preposition such as "in" or "at". Many verbs of motion take
@@ -167,7 +167,7 @@ Should I go to the mountain?
 The cardinal directions are treated as if they have the locative case,
 and hence do not use it where other nouns would.
 
-===== Orientative and Revertive
+==== Orientative and Revertive
 
 The orientative case (ORI) is used to specify that something is facing
 towards the noun. It is often used with the meaning of "heading
