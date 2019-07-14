@@ -2,30 +2,177 @@
 
 === Valence and predicate calculus
 
+A verb's _valence_ determines the number of arguments it can take. For
+example, a verb with a valence of two would take two nouns:
+
+====
+*k-a nnalji-ø pijtu-j nirr-u-m* +
+_fight.AUX-PST dingo-ERG snake-NOM fight-AN-3RD_ +
+The dingo fought the snake.
+====
+
+In addition to their valence, the arguments to verbs have restrictions
+on their case. For the majority of transitive verbs, with a valence of
+two, the arguments take the form of a subject and object. The cases are
+determined by the alignment of the sentence.
+
+However, this can differ, and some verbs have irregular argument cases.
+This is especially true in the case of verbs relating to movement, which
+instead take a subject and a location.
+
+====
+*j-a wa-ø gaypa-rn yaj-awu-ø* +
+_run.aux-pst 1s-erg mountain-loc run-an-1st_ +
+I ran to the mountain [and ended up there].
+====
+
+When verbs take an argument in the locative case, the speaker can
+instead use the revertive or orientative case for further control over
+meaning.
+
+====
+*j-a wa-ø gaypa-rnu yaj-awu-ø* +
+_run.aux-pst 1s-erg mountain-ori run-an-1st_ +
+I ran towards the mountain
+
+*j-a wa-ø gaypa-rna yaj-awu-ø* +
+_run.aux-pst 1s-erg mountain-rev run-an-1st_ +
+I ran away from the mountain
+====
+
+All verbs have a _default valence_: the number of arguments it takes
+without modification. Most verbs are transitive, but valences can span
+between avalent (taking no arguments) and quadrivalent (taking four).
+
+// However, many verbs are not restricted to their default valence, and can
+// take different numbers of arguments. These configurations cause the verb
+// to take on different meanings. A verb will have a minimum and maximum
+// valence, and cannot take on arguments outside of this range.
+
+// ====
+// *j-i wa-j kuma-l wuj-u-ø* +
+// _hold.aux-pres 1s-nom 2s-acc hold-an-1st_ +
+// I hold you
+
+// *j-i wa-j kuma-l wirra-yi naa wuj-u-ø* +
+// _hold.aux-pres 1s-nom 2s-acc blood-com 2.val.3 hold-an-1st_ +
+// I love you (lit. I hold blood for you)
+// ====
+
+// For a transitive verb, it is common to find a configuration with a third
+// argument in the comitative case, representing the means with which the
+// action occurred.
+
+// For example, the verb _wurr_ is by default avalent, taking no arguments.
+// In this case, it means "it is electrically storming". However, modifying
+// its valence to one changes its meaning to "to be struck by lightning",
+// and a valence of two allows it to mean "to strike". No other number of
+// arguments is allowed. Therefore, it has a minimum valence of zero and
+// maximum valence of two.
+
+// Valence modification occurs through special particles. These particles
+// typically immediately precede the modified verb, and indicate they take
+// an unusual number of arguments. A verb without a particle has default
+// valence.
+
+// .Valence modifiers
+// [cols="s,,,,,",options="header"]
+// |====================================================
+// |        5+| target
+// | default s| 0      s| 1     s| 2   s| 3     s| 4
+// | 0        | -       | wi     | ji   | murnu  | yurnu
+// | 1        | wi      | _      | naa  | naki   | mu
+// | 2        | waa     | ka     | -    | naa    | naki
+// | 3        | wangu   | waa    | ka   | -      | naa
+// | 4        | wirru   | wangu  | waa  | ka     | -
+// |====================================================
+
+// The main functions of derived valences are to either change the root
+// meaning of the verb or modify the number of arguments it takes. In both
+// cases, there is little regularity. The valence structure of verbs, and
+// their modified meanings, must be learned.
+
+==== Common Verb Valences
+
+For each of the seven verbs with irregular auxiliaries, the different
+possible valences and according arguments are shown below. The default
+valence appears in bold. The argument markers SUBJ and OBJ refer to the
+subject and object respectively, which differs according to alignment.
+
+* _ngurr_: *(2) SUBJ is OBJ*
+* _gulwaj_: (2) SUBJ gives to OBJ; *(3) SUBJ gives COM to OBJ*
+* _gurr_: (2) SUBJ has OBJ; *(3) SUBJ has OBJ in COM
+manner*footnote:[For an example of the use of the comitative slot, see
+the constituent negative in the syntax chapter.]
+* _nnurr_: *(2) SENTENCE causes SENTENCE* footnote:[The verb _nnurr_
+is a special case. See the subjunctive section.]
+* _wann_: *(1) SUBJ knows*; (2) SUBJ knows OBJ; (3) SUBJ knows OBJ
+because of INST
+* _yurr_: *(1) SUBJ knows*; (2) SUBJ knows OBJ; (3) SUBJ knows OBJ
+on the authority of COM
+* _girr_: *(1) SUBJ senses something*; (2) SUBJ feels that
+SENTENCE footnote:[Where the sentence is in the subjunctive mood.]
+
+
 === Valence increasing operations
 
-// TODO: right section?
-==== Reflexive/Reciprocal
+==== Causatives
 
-// In reflexive clauses, the personal pronoun of the subject simply
-// occupies the object position in the usual case. However, the valence of
-// the verb must be decreased by one.
-//
-// ====
-// *k-i Paya-ø nna-j ka tiirr-u-m* +
-// _carefor.aux-prs paya-erg 3s.an-nom 2.val.1 carefor-an-3rd_ +
-// Paya cares for himself.
-// ====
-//
-// If the clause is reciprocal, which applies only to plural subjects, the
-// personal pronoun is still used except it takes the comitative case. The
-// valence is also still decreased by one.
-//
-// ====
-// *k-arlu kuu-j kuu-yi ka pirr-u-n* +
-// _see.aux-rem 2pl-nom 2pl-com 2.val.1 see-an-2nd_ +
-// You [plural] used to see each other.
-// ====
+There are two forms of the causative. The _nominative causative_ occurs for
+direct causation when a single noun is responsible for causing a verb phrase to
+occur. However, if an entire verb phrase is responsible, or the causation is
+more indirect, clause chaining is used.
+
+===== Nominative causative
+
+When a noun phrase is responsible for the action taking place, the nominal
+causative is used.
+
+The operation occurs morphologically. The auxiliary of the verb phrase receives
+the causative suffix _ji_ (TODO: add). The causee receives the comitative case,
+and causer the agentive.
+
+In both transitive and intransitive clauses, the verb phrase agrees with the
+causer.
+
+====
+intrans +
+_capsize.AUX-PST-CAUS canoe-COM 3S.AN-NOM capsize-AN-3RD_ +
+He caused the canoe to capsize.
+
+trans +
+_drop.AUX-PST-CAUS 1S-COM axe-ABS my wind-ERG drop-INAN-3RD_ +
+The wind made me drop my axe.
+====
+
+In the nominative causative, an extra argument is added to the verb
+phrase without modifying the valence. The argument is the causer, and
+takes the former subject's form (be it nominative or ergative). The
+causee, or the argument which was formerly the subject, then takes the
+comitative case instead. The verb remains in agreement with the former
+subject.
+
+====
+*j-a turrayi-j mu nnij-a-m* +
+_capsize.aux-pst canoe-nom capsize-inan-3rd_ +
+The canoe capsized.
+
+*j-a turrayi-yi nna-j mu nnij-a-m* +
+_capsize.aux-pst canoe-com 3s.an-nom capsize-inan-3rd_ +
+He caused the canoe to capsize.
+
+*k-a wa-ø wuta-j walu gukarr-u-ø* +
+_drop.aux-pst 1s-erg axe-nom my drop-an-1st_ +
+I dropped my axe.
+
+*k-a wa-yi wuta-j walu gaju-ø gukarr-u-ø* +
+_drop.aux-pst 1s-com axe-nom my wind-erg drop-an-1st_ +
+The wind caused me to drop my axe.
+====
+
+=== Valence decreasing operations
+
+==== Reflexive/Reciprocal
 
 Ngujari uses a dual analytic/morphological system for reflexives and
 reciprocals, which are the same construction.
@@ -74,25 +221,6 @@ normal, rather than through the analytic/morphological process described above.
 
 // TODO: insert table of examples
 
-// TODO: probably delete
-// ==== Subjunctive Purposive
-//
-// The subjunctive purposive is formed through the use of the verb
-// _nnurr_. The auxiliary, _nnarr_ takes the present tense, and begins
-// the sentence. The verb itself is not required, but it still takes two
-// verb phrases as arguments. The verb phrase causing the other assumes its
-// usual tense and mood, but the caused action becomes present and
-// subjunctive.
-//
-// ====
-// *nnarr-i k-a nna-ø naarla wiirr-u-m j-i-tirlu wa-j nna-l nnurr-u-ø* +
-// _effect.aux-prs go.aux-pst 3s.an-erg there go-an-3rd follow.aux-prs-sbjv
-// 1s-nom 3s-an-acc follow-an-1st_ +
-// He went there, so I followed him.
-// ====
-
-=== Valence decreasing operations
-
 ==== Antipassive
 
 The antipassive is a valence-decreasing operation. When the patient of a
@@ -110,58 +238,3 @@ c.f. The dog attacked (him).
 
 // TODO: show example of antipassive used to push RC to adjoined relative clause
 // e.g. The dog, [who was attacking]antipassive, barked
-
-// TODO: is this valence increasing or decreasing
-==== Causatives
-
-There are two forms of the causative. The _nominative causative_ occurs for
-direct causation when a single noun is responsible for causing a verb phrase to
-occur. However, if an entire verb phrase is responsible, or the causation is
-more indirect, clause chaining is used.
-
-===== Nominative causative
-
-When a noun phrase is responsible for the action taking place, the nominal
-causative is used.
-
-The operation occurs morphologically. The auxiliary of the verb phrase receives
-the causative suffix _ji_ (TODO: add). The causee receives the comitative case,
-and causer the agentive.
-
-In both transitive and intransitive clauses, the verb phrase agrees with the
-causer.
-
-====
-intrans +
-_capsize.AUX-PST-CAUS canoe-COM 3S.AN-NOM capsize-AN-3RD_ +
-He caused the canoe to capsize.
-
-trans +
-_drop.AUX-PST-CAUS 1S-COM axe-ABS my wind-ERG drop-INAN-3RD_ +
-The wind made me drop my axe.
-====
-
-// In the nominative causative, an extra argument is added to the verb
-// phrase without modifying the valence. The argument is the causer, and
-// takes the former subject's form (be it nominative or ergative). The
-// causee, or the argument which was formerly the subject, then takes the
-// comitative case instead. The verb remains in agreement with the former
-// subject.
-
-// ====
-// *j-a turrayi-j mu nnij-a-m* +
-// _capsize.aux-pst canoe-nom capsize-inan-3rd_ +
-// The canoe capsized.
-//
-// *j-a turrayi-yi nna-j mu nnij-a-m* +
-// _capsize.aux-pst canoe-com 3s.an-nom capsize-inan-3rd_ +
-// He caused the canoe to capsize.
-//
-// *k-a wa-ø wuta-j walu gukarr-u-ø* +
-// _drop.aux-pst 1s-erg axe-nom my drop-an-1st_ +
-// I dropped my axe.
-//
-// *k-a wa-yi wuta-j walu gaju-ø gukarr-u-ø* +
-// _drop.aux-pst 1s-com axe-nom my wind-erg drop-an-1st_ +
-// The wind caused me to drop my axe.
-// ====
