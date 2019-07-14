@@ -1,8 +1,6 @@
 == Pragmatically marked structures
 
-=== Pragmatic statuses
-
-=== Focus, contrast, topicalisation
+=== Topicalisation
 
 Topicalisation is the process of fronting a noun phrase for emphasis, indicating
 the topic of the sentence. Topicalisation occurs through left-dislocation:  the
