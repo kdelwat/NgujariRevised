@@ -201,6 +201,10 @@ Both the orientative and revertive case can be used in place of the
 locative place in any verbal argument slot that requires a locative,
 allowing for finer control.
 
+The orientative case functions practically as a dative case when dealing with recipients, such as in transfer of possession.
+
+// EG
+
 An example of the use of these cases is found in the following table,
 which shows the declensions of the noun _naju_.
 
