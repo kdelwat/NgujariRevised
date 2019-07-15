@@ -78,3 +78,19 @@ prag,,go.aux-pst who river-loc 1s.an-com go-an-3rd,Who went to the river with me
 prag,,_be.aux-pres where path-erg be-3-inan [COMP dempron.inan.s-ERG village-abs leadto-inan-3rd]_,Where is the path that leads to the village?
 prag,,_bring.aux-fut int-3dual.an-erg food-nom fire-ori bring-ch-3rd_,Will it be those two children who bring the food to the fire?
 prag,,_3s.erg kangaroomeat-nom eat-an-3rd [COMP DEMPRON-inan-3rd-abs] freshness-com_,Is the kangaroo meat he is eating fresh? (lit. He is eating kangaroo meat, is it with freshness?)
+prag,,_1S-ERG teacher-ABS_,I am a teacher.
+prag,,_1S-ERG teacher-ABS COP-PST_,I was a teacher.
+prag,,_3s.an-ERG person-ABS be-an-1st [COMP person-ABS tall-pred],She's the tall one
+prag,,_plane-ERG fast-PRED,The plane is fast
+prag,,_go.away.AUX-PST 1pl.an-ERG plane-INSTR go.away-INTRANS-1-an [COMP plane-ERG fast-PRED]_,We went on a trip and the plane was fast
+prag,,_berry-ERG freshness-com_,The berry is fresh.
+prag,,_boy.ERG beach-LOC_,The boy is at the beach
+prag,,_beach-COM COP_,There is a beach / A beach exists.
+prag,,_beach-COM COP-SS DEMPRON-ERG village-LOC adjoin/abut-AN-3RD_,There is a beach near the village / The village has a beach.
+prag,,_beach-COM COP, COMP 1S-ERG DEMPRON-AN-1-ABS want-AN-1ST_,There's a book that I want.
+prag,,_NEG doorknob-ERG DEM.LOC.1 be-INAN-3RD_,There's no doorknob / lit. The doorknob is not on there.
+prag,,_be.AUX-PST NEG bag-PL-ERG DEM.LOC.PL be-INAN-3RD_,There weren't any bags.
+prag,,_deadfish-pl-dual-erg woman-loc be-inan-3rd_,The woman has two dead fish.
+prag,,_have.aux-fut-gno 3s.an-erg homeland-abs have-an-3_,He will always have a homeland.
+prag,,_have.aux-fut-gno 3s.an-erg homeland-abs courage-com have-an-1st_,He will always have a homeland, due to his courage.
+prag,,_protect.aux-strimp 1pl-erg pos-gurnu precious land-nom spirit-inst protect-an-1st_,We must protect our [the Gurnu mob's] precious land with vigour.

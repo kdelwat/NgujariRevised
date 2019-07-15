@@ -36,11 +36,14 @@ the same object. They are formed using the verb _ngurr_ (to be), which acts as a
 copula.
 
 ====
-_1S-NOM 2S-ACC be-AN-1ST copula_ +
+_1S-NOM 2S-ACC be-AN-1ST_ +
 I am your friend.
-====
 
-// TODO: include quantifier details here from existing info
+// TODO: revise above when doing possession
+
+_3s.an-ERG person-ABS be-an-1st [COMP person-ABS tall-pred]_
+She's the tall one.
+====
 
 === Predicate adjectives
 
@@ -53,9 +56,21 @@ predicate phrase's subject.
 
 To decline a predicate adjective, two steps are required:
 
-1.  If the adjective ends in a vowel, its last consonant is added to the
+1. If the adjective ends in a vowel, its last consonant is added to the
 end. Otherwise, it is unmodified.
-2.  The relevant gender suffix of a class one verb is added as a suffix.
+2. The relevant gender suffix of a class one verb is added as a suffix.
+
+====
+_plane-ERG fast-PRED_
+The plane is fast
+====
+
+A crucial distinction between the noun predicate and adjectival predicate is that there can be no tense distinction made with adjectives; instead they remain in the present tense, even if used in a text of a different tense.
+
+====
+_go.away.AUX-PST 1pl.an-ERG plane-INSTR go.away-INTRANS-1-an [COMP plane-ERG fast-PRED]_ +
+We went on a trip and the plane was fast
+====
 
 There is another form of adjectival predicate, in which a noun is used
 in place of an adjective. While this may seem counterintuitive, the noun
@@ -64,8 +79,7 @@ changeable state. The described noun is treated as above, but the
 modifying noun is given the comitative case.
 
 ====
-*murta-j gurlu-yi* +
-_berry-nom freshness-com_ +
+_berry-ERG freshness-com_ +
 The berry is fresh.
 ====
 
@@ -75,10 +89,15 @@ Predicate locatives assign a noun phrase to a location. They are formed in the
 same way as a proper inclusion noun predicate. The location comes after the
 noun, and is placed in the locative case.
 
+====
+_boy.ERG beach-LOC_ +
+The boy is at the beach
+====
+
 === Existentials
 
 The existential predicate is formed through a copula taking one argument, the
-existing verb. The copula, _gunn_ (TODO: add to dictionary), is declined as an
+existing verb. The copula, _gunn_ (TODO), is declined as an
 auxiliary for tense only; excepting the present tense, which is unmarked.
 
 The copula appears after the noun which "exists". The noun phrase takes the
@@ -93,10 +112,9 @@ The copula does not act as a verb and hence cannot take adjuncts. Instead,
 clause chaining provides a means for supplying adjuncts.
 
 ====
-_beach-COM COP-SS DEMPRON-LOC village-LOC adjoin/abut-AN-3RD_ +
+_beach-COM COP-SS DEMPRON village-LOC adjoin/abut-AN-3RD_ +
 There is a beach near the village / The village has a beach.
 ====
-
 
 When preceding a clause chain, the subject is _not_ elided and placed in the
 main clause. It remains in position before the copula, which is marked with the
@@ -107,8 +125,8 @@ Inside an existential, the noun phrase can include adjectives and relative
 clauses as normal.
 
 ====
-_beach-COM long COP, COMP 1S-ERG DEMPRON-AN-1-ABS want-AN-1ST_ +
-There's a long book that I want.
+_beach-COM COP, COMP 1S-ERG DEMPRON-AN-1-ABS want-AN-1ST_ +
+There's a book that I want.
 ====
 
 Negative existentials are a seperate construction. They are formed through
@@ -127,13 +145,12 @@ There weren't any bags.
 
 There are three types of possession in the Ngujari language.
 
-The first two are distinguished by their changeability. _Alienable
-possession_ isn't permanent, and is subject to change, whereas
-_inalienable possession _cannot be changed. The difference between the
-two revolves around culture, and is outlined in *possession*.
+The first two are distinguished by their changeability. _Alienable possession_ isn't permanent, and is subject to change, whereas
+_inalienable possession_ cannot be changed. The difference between the
+two revolves around cultural nuances.
 
 The third type is _group possession_, in which something is owned by
-the tribe as a whole. This is formed in a different way to the first
+the social group or tribe as a whole. This is formed in a different way to the first
 two.
 
 ==== Alienable
@@ -152,13 +169,12 @@ the spear is in fact kilometres away. This can be seen in the following
 example.
 
 ====
-*ngarr-i mulu-mulu-ka-ø mungu-rn ngurr-a-m* +
-_be.aux-pres deadfish-pl-dual-erg woman-loc be-inan-3rd_ +
+_deadfish-pl-dual-erg woman-loc be-inan-3rd_ +
 The woman has two dead fish.
 ====
 
 The second form of the alienable possession, pronominal possession, is
-described in the noun chapter.
+described in the chapter on nouns.
 
 ==== Inalienable
 
@@ -167,21 +183,18 @@ _gurr_. The possessor becomes the agent and the possessed noun becomes
 the object.
 
 ====
-*garr-aa-nga ngungu-ø jarta-j ka gurr-u-ø* +
-_have.aux-fut-gno mob-erg homeland-nom 3.val.2 have-an-1st_ +
-Our mob will always have a homeland.
+_have.aux-fut-gno 3s.an-erg homeland-abs have-an-3_ +
+He will always have a homeland.
 ====
 
-It is important to note that _gurr_ is by default trivalent, meaning it
-takes three nouns: an agent, an object, and a _manner_. The manner is
+It is important to note that _gurr_ is either transitive or ditransitive, meaning it can take three arguments: an agent, an object, and a _manner_. The manner is
 a noun in the comitative case, and describes the means by which the noun
 became or is possessed. The following example is the same as the above,
 except a manner is specified.
 
 ====
-*garr-aa-nga ngungu-ø jarta-j yuurrpa-yi ka gurr-u-ø* +
-_have.aux-fut-gno mob-erg homeland-nom courage-com 3.val.2 have-an-1st_ +
-Our mob will always have a homeland, due to our courage.
+_have.aux-fut-gno 3s.an-erg homeland-abs courage-com have-an-1st_ +
+He will always have a homeland, due to his courage.
 ====
 
 ==== Group
@@ -195,8 +208,7 @@ appears before the noun. To specify the possessing mob, the mob's name
 is placed immediately after the particle.
 
 ====
-*nn-i-ju waya-ø tuu-Gurnu jaku nnalu-j muu-ma naa tinn-u-ø* +
-_protect.aux-strimp 1pl-erg pos-gurnu precious land-nom spirit-inst 2.val.3 protect-an-1st_ +
+_protect.aux-strimp 1pl-erg pos-gurnu precious land-nom spirit-inst protect-an-1st_ +
 We must protect our [the Gurnu mob's] precious land with vigour.
 ====
 
