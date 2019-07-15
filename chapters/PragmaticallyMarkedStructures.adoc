@@ -5,67 +5,100 @@
 Topicalisation is the process of fronting a noun phrase for emphasis, indicating
 the topic of the sentence. Topicalisation occurs through left-dislocation:  the
 noun phrase elevated is moved to the front of the sentence, seperated with a
-pause, before the sentence runs as usual but with a pronoun (personal?)
+pause, before the sentence runs as usual but with a personal pronoun
 corefering back to the dislocated noun phrase. The fronted noun is marked for
 case, but the corefering pronoun is not.
 
 ====
-_[kangaroo-ABS]i kill.AUX-PST 1S-ERG [3S-INAN]i kill-AN-1ST_ +
+_[kangaroo-ABS] kill.AUX-PST 1S-ERG [3S.INAN] kill-AN-1ST_ +
 As for the kangaroo, I killed it.
 ====
 
-Topicalisation is permitted only for noun phrases that are not the subject.
+Topicalisation is permitted only for noun phrases that are the object of the sentence.
 
-// TODO: does this satisfy the downplaying centrality of A requirement?
+====
+fish-ABS eat.AUX-FUT 1s-ERG [3S.INAN] eat-an-1st +  
+As for the fish, I will eat it
 
-// TODO: starred incorrect example
+(INC) 1s-ERG  eat.AUX-FUT [1S.AN] fish-ABS eat-an-1st +
+As for me, I will eat the fish
+====
 
 === Negative
 
 A negative simply inverts the meaning of a part of a sentence.
 
-Clausual negation is expressed through both analytic and morphological markings.
+Clausal negation is expressed through both analytic and morphological markings, and negates the whole clause.
 
 To form the clausal negative, the negative particle must be
 used footnote:[The negative particle corresponds to the class of the
 clause's verb. See the morphology chapter for more.].
 
+There are two negative particles; one for predicate nominals (all classes), the
+other for all other sentences (_tuu_).
+
 In a standard negative clause, the particle follows the auxiliary of the
 verb.
 
 ====
-_go.aux neg 3s.an-erg there go-an-3rd_ +
+_3s.an-erg there go-an-3rd_ +
+He goes there
+
+_go.aux-pres neg 3s.an-erg there go-an-3rd_ +
 He doesn't go there.
 ====
 
-However, the mood of the negative sentence must be subjunctive, if in any
-non-present tense.
+For predicate nominals, the particle is at the beginning of the sentence.
 
-// TODO: add example
+====
+_neg 1S-ERG baker-ABS_ +
+I am not a baker.
+
+_neg 1s-ERG baker-ABS cop-PST_ +
+I was not a baker.
+====
+
+==== The use of the subjunctive in forming negatives
+
+If a sentence is in any non-present tense, the mood of the negative sentence must be subjunctive.
+
+====
+_go.aux-fut 3s.an-erg there go-an-3rd_ + 
+He will go there tomorrow
+
+_go.aux-fut-subj neg 3s.an-erg there go-an-3rd_ +
+He won't go there tomorrow
+====
 
 The mood is also subjunctive if the negative is used when responding to a question with a speech act.
 
-// TODO: add example ("not me")
+====
+_take.aux-pres who money-ABS to.completion take-3-an_ +
+Who is taking all the money?
 
+_be.aux-pres-subj 1s.an-NOM be-INTRANS-1-an_ +
+Not me (lit. I be not)
+====
 
 However, in an imperative clause (one that uses the weak or strong imperative
 mood, see *tense and mood*), the particle is instead placed before the
 auxiliary, and the subjunctive is not used.
 
-// TODO: add example
-
-There are two negative particles; one for predicate nominals (all classes), the
-other for all other sentences (_tuu_).
+====
+_ride.AUX-STRIMP 2s.an-ERG bike-ABS ride-1-an_ +
+Don't ride your bike!
+====
 
 In all clausal negatives, _qualifiers_ can be used as stand-alone
 utterances, which follow the sentence. A qualifier is a word such as
 _wulnni_ ("never") which modifies the negative.
 
 ====
-*ti j-i-yuu ku-j waa yanj-awu-n wulnni* +
-_neg steal.aux-strimp 2s-nom 3.val.1 steal-an-2nd never_ +
+_steal.aux-strimp neg 2s-nom steal-intrans-an-2nd never_ +
 You must never steal.
 ====
+
+// TODO add some more qualifiers
 
 ==== Derivational negation
 
@@ -97,7 +130,6 @@ factual statement, but with a rising tone at the beginning of the
 question.
 
 ====
-*nn-uuki kupa-kupa-ø gaypa-gaypa-rn narnn-u-m?* +
 _↗ fly.aux-fut bird-pl-erg mountain-pl-loc fly-an-3rd_ +
 Will the birds fly to the mountains?
 ====
@@ -109,8 +141,7 @@ interrogative pronouns (such as _piima_), which replace the questioned word in-s
 place of a noun in a verb phrase, but is not assigned a case.
 
 ====
-*k-a pii munnanna-rn wa-yi naa wiirr-u-m* +
-_go.aux-pst who river-loc 1s.an-com 2.val.3 go-an-3rd_ +
+_go.aux-pst who river-loc 1s.an-com go-an-3rd_ +
 Who went to the river with me?
 ====
 
@@ -121,21 +152,20 @@ _kiru_, is moved to the front of the sentence to highlight its
 importance.
 
 ====
-*kiru ngarr-i wumpa-ø j-i palyaj-a-m nnu-ø wurlki-j ngurr-a-m* +
-_where be.aux-pres path-erg leadto.aux-prs leadto-inan-3rd 3s.inan-erg village-nom be-inan-3rd_ +
+_be.aux-pres where path-erg be-3-inan [COMP dempron.inan.s-ERG village-abs leadto-inan-3rd]_ +
 Where is the path that leads to the village?
 ====
+
+The gender and number agreement of the verb is determined by that of the coreferring interrogative pronoun.
 
 A less-common way to ask a non-polar question requires the particle
 _yuu_. By placing the particle ahead of a word in a statement, the
 speaker questions that word.
 
 ====
-*k-aa yuu-nnara-ø nurtwu-j panwa-rnu mirr-uu-m* +
 _bring.aux-fut int-3dual.an-erg food-nom fire-ori bring-ch-3rd_ +
 Will it be those two children who bring the food to the fire?
 
-*nn-i wa-ø yuu-gurlurni parnti-j jinn-u-mi* +
-_eat.aux-pres 3s-erg int-fresh kangaroomeat-nom eat-an-3rd_ +
-Is the kangaroo meat he is eating fresh?
+_3s.erg kangaroomeat-nom eat-an-3rd [COMP DEMPRON-inan-3rd-abs] freshness-com_ +
+Is the kangaroo meat he is eating fresh? (lit. He is eating kangaroo meat, is it with freshness?)
 ====

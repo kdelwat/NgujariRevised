@@ -60,3 +60,21 @@ clause,,fight.AUX-PST 1s-ERG bear-ABS fight-1pl-AN [COMP sister-ERG 1s-ABS be.al
 clause,,boat-ABS find-AN-1ST DEMPRON-INAN-S-ABS steal-1-an also,I find a boat and steal it.
 clause,,go.AUX-PRES-DUB 1S.NOM go-AN-1ST ↗︎wait.AUX-PRES-DUB 1S.NOM wait-AN-1ST↗︎,I will go now or wait.
 clause,,↗︎run.AUX-PRES-DUB 2s.NOM DEMPRON run-AN-2nd walk.AUX-PRES-DUB 2s.NOM run-AN-2nd DEMPRON walk-AN-2nd,Will you run there or walk?
+prag,,_[kangaroo-ABS] kill.AUX-PST 1S-ERG [3S.INAN] kill-AN-1ST_,As for the kangaroo, I killed it.
+prag,,fish-ABS eat.AUX-FUT 1s-ERG [3S.INAN] eat-an-1st,As for the fish, I will eat it
+prag,,(INC) 1s-ERG  eat.AUX-FUT [1S.AN] fish-ABS eat-an-1st,As for me, I will eat the fish
+prag,,_3s.an-erg there go-an-3rd_,He goes there
+prag,,_go.aux-pres neg 3s.an-erg there go-an-3rd_, He doesn't go there
+prag,,_go.aux-fut 3s.an-erg there go-an-3rd_,He will go there tomorrow
+prag,,_go.aux-fut-subj neg 3s.an-erg there go-an-3rd_,He won't go there tomorrow
+prag,,_take.aux-pres who money-ABS to.completion take-3-an_,Who is taking all the money?
+prag,,_be.aux-pres-subj 1s.an-NOM be-INTRANS-1-an_,Not me (lit. I be not)
+prag,,_neg 1S-ERG baker-ABS_,I am not a baker.
+prag,,_neg 1s-ERG baker-ABS cop-PST_,I was not a baker.
+prag,,_ride.AUX-STRIMP 2s.an-ERG bike-ABS ride-1-an_,_ride.AUX-STRIMP 2s.an-ERG bike-ABS ride-1-an_ +
+prag,,_steal.aux-strimp neg 2s-nom steal-intrans-an-2nd never_,You must never steal.
+prag,,_↗ fly.aux-fut bird-pl-erg mountain-pl-loc fly-an-3rd_,Will the birds fly to the mountains?
+prag,,go.aux-pst who river-loc 1s.an-com go-an-3rd,Who went to the river with me?
+prag,,_be.aux-pres where path-erg be-3-inan [COMP dempron.inan.s-ERG village-abs leadto-inan-3rd]_,Where is the path that leads to the village?
+prag,,_bring.aux-fut int-3dual.an-erg food-nom fire-ori bring-ch-3rd_,Will it be those two children who bring the food to the fire?
+prag,,_3s.erg kangaroomeat-nom eat-an-3rd [COMP DEMPRON-inan-3rd-abs] freshness-com_,Is the kangaroo meat he is eating fresh? (lit. He is eating kangaroo meat, is it with freshness?)

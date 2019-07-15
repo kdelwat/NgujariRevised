@@ -92,7 +92,7 @@ Even in circumstances where the meaning of the sentence would be
 unambiguous without case inflection, the speaker may choose to inflect
 if they are using a non-standard word order.
 
-In the following example, the speaker topicalises each noun in the sentence. This change to word order is reflected by a case marker on the proper noun _Gupti_ which was previously elided.
+In the following example, the speaker topicalises the object of the sentence. This change to word order is reflected by a case marker on the proper noun _Gupti_ which was previously elided.
 
 ====
 _run.AUX-PST Gupti-ERG bridge-LOC run-3-an_ +
@@ -100,9 +100,6 @@ Gupti ran over the bridge.
 
 _bridge-LOC, _run.AUX-PST Gupti-ERG (with non null) 3s-inan run-3-an_ +
 As for Gupti, he ran over the bridge.
-
-_Gupti-ERG (with non null), _run.AUX-PST 3s-an bridge-LOC run-3-an_+
-As for the bridge, Gupti ran over it.
 ====
 
 ==== Pronouns
