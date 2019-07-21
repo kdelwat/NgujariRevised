@@ -120,3 +120,5 @@ otherv,,_cut.AUX-FUT-WIMP neg 1pl-erg tree-ABS  cut-an-1st_,Let's not cut down t
 otherv,,_cut.AUX-FUT-STRIMP neg 2s-erg tree-abs cut-an-2nd_,Don't cut down the tree.
 otherv,,_fly.aux-pres-gno bowerbird-PL-ERG east-LOC fly-an-3rd winter-adv_,Satin bowerbirds fly east for winter.
 otherv,,_rain.aux-fut-dub rain-an-3rd_,It might rain tomorrow.
+otherv,,_woman-ABS capsize-an-3rd_,The woman capsizes.
+otherv,,_kill.AUX-PST 3s.AN-ERG snake-ABS kill-AN-3RD_,He killed a snake.

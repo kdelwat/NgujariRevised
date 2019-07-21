@@ -19,7 +19,7 @@ is the noun performing or causing the action. The second is the patient, which
 receives, undergoes, or otherwise experiences it.
 
 ====
-_kill.AUX-PST 3s.AN-ERG snake-NOM kill-AN-3RD_ +
+_kill.AUX-PST 3s.AN-ERG snake-ABS kill-AN-3RD_ +
 He killed a snake.
 ====
 
@@ -56,7 +56,7 @@ image::../images/nom-acc-alignment.png[]
 The relation of a noun is realised morphologically. A noun receives a case
 marking as a suffix, which represents the relation.
 
-The aligment of a sentence represents the grammatical relations present in it.
+The alignment of a sentence represents the grammatical relations present in it.
 Ngujari is a split-ergative language: in clauses with only personal pronouns, it
 is nominative-accusative; otherwise, it is ergative-absolutive.
 
@@ -67,36 +67,25 @@ relative clauses.
 
 // TODO: insert examples of both
 
-=== Syntactic ergativity
+// === Syntactic ergativity
 
-While ergativity is primarilly a noun-phrase operation, there a some examples of
-it being more widely evident in the language's consturctions.
+// While ergativity is primarily a noun-phrase operation, there a some examples of
+// it being more widely evident in the language's consturctions.
 
-A key distinction which falls along aligment lines is relativisation. The
-relativsed noun phrase must be absolutive; meaning that a swntence in
-nominative-accusative alignment (that is, containing only animate pronouns)
-cannot contain a relative clause.
+// A key distinction which falls along alignment lines is relativisation. The
+// relativised noun phrase must be absolutive; meaning that a sentence in
+// nominative-accusative alignment (that is, containing only animate pronouns)
+// cannot contain a relative clause.
 
-Inside the relative clause, the noun phrase can be a patient of an intransitive
-phrase or the subject of an intransitive phrase.
+// Inside the relative clause, the noun phrase can be a patient of an intransitive
+// phrase or the subject of an intransitive phrase.
 
-// TODO: insert examples of both
-// TODO: is the above still relevant with new relative clauses?
+// // TODO: insert examples of both
+// // TODO: is the above still relevant with new relative clauses?
 
-Another syntactic construction that is sensitive to alignment is conjunction
-reduction. When a conjunction joins two phrases, the noun phrase in the first
-which is absolutive can be elided in subsequent phrases.
+// Another syntactic construction that is sensitive to alignment is conjunction
+// reduction. When a conjunction joins two phrases, the noun phrase in the first
+// which is absolutive can be elided in subsequent phrases.
 
-// TODO: insert example such as "Cadel ate pie and he coughed"
-// TODO: this might be irrelevant now that we have clause chaining
-
-=== Morphological ergativity
-
-Alignment is expressed morphologically in the case of 'professionalistion', a
-subclass of nominalisation. When a verb is converted into a term for someone who
-habitually does the action (e.g. crawl -> crawler), the process occurs according
-to ergative-absolutive lines. The suffix _ngu_ is used to professionalise verbs
-in the ergative position, while those in the absolutive position take the suffix
-_TODO_.
-
-// TODO: insert examples
+// // TODO: insert example such as "Cadel ate pie and he coughed"
+// // TODO: this might be irrelevant now that we have clause chaining
