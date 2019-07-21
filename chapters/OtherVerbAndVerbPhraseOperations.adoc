@@ -6,9 +6,7 @@ A verb is nominalised by adding its final vowel and a relevant suffix.
 
 ==== Action nominalisation
 
-Occurs when a verb is nominalised to a noun representing its action.
-
-The nominalisation is usually morphological but in some exceptions is lexical.
+Action nominalisation occurs when a verb is nominalised to a gerund, a noun representing its action. This nominalisation is usually morphological, being a standard derivation of the verb class, but in some exceptions is lexical.
 
 The gerund of a verb serves two purposes. It can act in a way similar to
 the English gerund, where the verb is used as a noun, or in a way
@@ -21,29 +19,33 @@ When used in the nominal form, the gerund takes the appropriate noun
 case.
 
 ====
-*k-arlu wa-j junnu yuurr-u-ø* +
-_like.aux-rem 1s-nom swim.ger like-an-1st_ +
+_like.aux-rem 1s-erg swim.ger-abs like-an-1st_ +
 I used to like swimming.
 ====
 
-// maybe not, check clauses
-// In the infinitive form, the gerund is placed before the verb's
-// auxiliary.
-//
-// ====
-// *parra k-a nni-j naarla wiirr-u-m* +
-// _hunt.ger go.aux-pst 3s.an-nom there go-an-3rd_ +
-// He went there to hunt.
-// ====
+When used in the infinitive form, the overlap relationship is used in a clause chain.
+
+====
+_3s-ERG go-3-an-SS hunt.ger-ABS do-an-3rd_ +
+He went there to hunt. (lit he went to do hunt)
+====
 
 ==== Participant nominalisation
 
 Ngujari supports agent nominalisation, in which the verb is nominalised to refer
-to its agent This is an almost completely productive operation.
+to its agent. This is an almost completely productive operation.
 
-// TODO: add exceptions
+In an agent nominalisation, there is no distinction between "classes" (e.g.
+runner) and "events" (e.g. the person currently running.)
 
-The suffix _ngu_ (person) is added to nominalise the verb.
+// TODO: add exceptions from lexicon
+
+The suffix _ngu_ (person) is added to nominalise the verb. The resulting noun is always of the animate gender when deciding morphological endings and the alignment of the phrase.
+
+====
+_arrive.AUX-PST bake-NOMINALISE-ERG arrive-3-an late_ +
+The baker was late
+====
 
 Instrument nominalisation is a syntactic process, that uses the demonstrative
 pronoun as a clause's agent.
@@ -51,9 +53,10 @@ pronoun as a clause's agent.
 ====
 _DEMPRON-INAN-ERG coffee.ABS grind-INAN-3RD_ +
 coffee grinder (lit. "that which grinds coffee")
-====
 
-// TODO: example of usage in a sentence
+_break.AUX-PST 1s.an-ERG DEMPRON-INAN-ABS break-1-an, comp DEMPRON-INAN-ERG coffee.ABS grind-INAN-3RD_
+I broke the coffee grinder
+====
 
 The verb must be in the present tense.
 
@@ -61,9 +64,15 @@ Locational nominalisation uses the suffix _nnalu_ (ground). A nominalised
 location implicitly takes locative case, and is not marked if it does so. It can
 be marked for revertive or orientative, but can take no other cases.
 
-// TODO: change example in next line, it's from Describing Morphosyntax
-In an agent nominalisation, there is no distinction between "classes" (e.g.
-teacher) and "events" (e.g. the person currently teaching.)
+====
+_go.AUX-PRES-WIMP 1pl.an-ERG bury-LOCATION go-1-an_ + 
+Let's go to the graveyeard
+
+_go.AUX-PRES-WIMP 1pl.an-ERG bury-LOCATION-REV go-1-an_ + 
+Let's leave the graveyeard
+====
+
+// TODO: table here showing which operations are productive and exceptions
 
 === Compounding
 
@@ -92,7 +101,7 @@ transitivity properties of the second, or primary, verb.
 
 Adverb-verb compounding simply requires an adverb to appear before the
 verb in all positions. For example, it would remain in front of the verb
-during relativization (see *relative clauses* while regular adverbs
+during relativization (see *relative clauses*) while regular adverbs
 would not.
 
 ====
@@ -130,12 +139,10 @@ be used as a rudimentary form of a near-past tense, applying to actions
 that were completed the same day as the utterance.
 
 ====
-*j-i rrurtawalu-ø yuu-waya-rnu purki yaj-u-ø* +
 _come.aux-pres rain.cloud-erg int-1pl-ori come-an-1st_ +
 Are the rain clouds drawing near?
 
-*gulw-i wa-j nnu-yi nna-l gulwaj-u-ø* +
-_give.aux-pres 1s-nom 3s.inan-com 3s.an-acc give-an-1st_ +
+_give.aux-pres 1s-nom 3s.inan-com 3s.an-acc give-an-1st_ earlier +
 I gave it to him earlier today.
 ====
 
@@ -144,8 +151,7 @@ past. If the event has not yet concluded, the present tense is used,
 even if it began in the past.
 
 ====
-*k-a waya-ø maaju-j bilj-u-m nna-j pirr-u-ø* +
-_see.aux-pst 1pl-erg kangaroo-nom hop-an-3rd 3s.an-nom see-an-1st_ +
+_1pl-ERG see-an-1st-DS kangaroo-ERG hop-an-3rd_ +
 We saw the hopping kangaroo.
 ====
 
@@ -159,11 +165,9 @@ circumstances:
 * referring to a habitual action that has concluded
 
 ====
-*nn-una puu-ø Bilru-rn pupa-pu bunn-u-mi* +
-_shine.aux-rem sun-erg bilru-loc happy-an shine-an-3rd_ +
-The sun shone down on Bilru, who was happy.
+_shine.aux-rem sun-erg Bilru-abs shine-an-3rd_ +
+The sun shone down on Bilru.
 
-*ngarr-arlu walma-ø gaypa-wa-rn ngurr-a-m* +
 _be.aux-rem hut-erg mountain-loc be-inan-3rd_ +
 The hut used to be on the hill.
 ====
@@ -172,7 +176,6 @@ The future tense refers to all events which are yet to take place,
 regardless of how far in the future they occur.
 
 ====
-*k-aa tu wa-ø naarla wiirr-u-ø* +
 _go.aux-fut neg 1s-erg there go-an-1st_ +
 I won't go there.
 ====
@@ -187,12 +190,10 @@ between the perfective and imperfective aspects, meaning contextual
 clues are vital for understanding.
 
 ====
-*k-a wa-ø guumja-j pirr-u-ø, ngarr-a wa-ø gugannari-rn ngurr-u-ø* +
-_see.aux-pst 1s-erg butterfly-nom see-an-1st, be.aux-pst 1s-erg forest-loc be-an-1st_ +
+_1s-erg butterfly-abs see-an-1st-SS be.aux-pst forest-loc be-an-1st_ +
 I was looking at a butterfly when I was in the forest.
 
-*nnarr-i k-a wa-ø guumja-j pirr-u-ø k-i-tiru wa-j nartupurr-u-ø* +
-_effect.aux-pres see.aux-pst 1s-erg butterfly-nom see-an-1st blush.aux-pres-sbjv 1s-nom blush-an-1st_ +
+_1s-erg butterfly-abs see-an-1st-SS blush.aux-pst blush-an-1st_ +
 I saw a butterfly that made me blush.
 ====
 
@@ -211,7 +212,6 @@ Mood is an optional part of verb formation. In a regular active
 sentence, there is no mood.
 
 ====
-*nn-i waya-j jinn-u-ø?* +
 _↗ eat.aux-pres 1pl-nom eat-an-1st_ +
 Should we eat?
 ====
@@ -220,11 +220,9 @@ But adding a mood, such as the imperative, changes the meaning of the
 sentence.
 
 ====
-*nn-i-yii waya-j jinn-u-ø* +
 _eat.aux-pres-wimp 1pl-nom eat-an-1st_ +
 Let's eat.
 
-*nn-i-ju waya-j jinn-u-ø* +
 _eat.aux-pres-strimp 1pl-nom eat-an-1st_ +
 We must eat.
 ====
@@ -236,37 +234,24 @@ abstractness, or that the speaker is unsure about the event in question.
 
 The subjunctive is used in four places:
 
-1.  Speculation
-2.  Desires
-3.  Conditional
-4.  Purposive
+1. Speculation
+2. Desires
+3. Negatives
+4. Conditional
 
-The conditional and purposive cases are related to syntax, and are
+The negative and conditional cases are related to syntax, and are
 discussed later.
 
-The most common use of the subjunctive mood is speculation. If a speaker
+The most common semantic use of the subjunctive mood is speculation. It indicates that a speaker
 is either unsure of an event's outcome, or does not know if it occurred
 or will occur.
 
 ====
-*k-a-tiru nna-ø maaju-j naa puwa tarr-u-m* +
-_kill.AUX-PST-SUBJ 3s-ERG kangaroo-NOM 1.val.2 kill-AN-3RD_ +
+_kill.AUX-PST-SUBJ 3s-ERG kangaroo-ABS kill-AN-3RD_ +
 He might have killed the kangaroo.
 
-*j-a-tirlu nni-ø nnalu-rnu purki yaj-awuu-m, yirr-a yurr-a-ø* +
-_walk.AUX-PST-SUBJ 3pl.ch-ERG place-ORI walk-CH-3rd, know.AUX-PRES know-AN-1st_ +
+_COMP-walk-pst-subj 3pl.ch-ERG place-ORI walk-ch-3rd know-an-1st_ +
 I think that they came back yesterday.
-====
-
-If the speaker is speaking hypothetically about a property of something
-which is expressed as an adjective, the verb _ngurr_ must be used with a
-predicate adjective rather than the verbless construction (discussed
-later). _ngurr_ is in the subjunctive mood.
-
-====
-*ngarr-aa-tilu parra-ø kurlu-j tuwilwa-wa ka ngurr-a-m* +
-_be.aux-fut-sbjv hunt-erg thing-NOM dangerous-in 2.val.1 be-inan-3rd_ +
-The [prospective] hunt would be very dangerous.
 ====
 
 The subjunctive is also used when expressing desires or dreams. The
@@ -274,23 +259,11 @@ desire must be first-hand; so recounting those of others does not use
 the subjunctive.
 
 ====
-*k-a-tiru wa-ø warlu-j jurni purr-a-ø* +
-_want.AUX-PRES-SUBJ 1s-ERG bed-NOM new want-AN-1st_ +
+_want.AUX-PRES-SUBJ 1s-ERG bed-ABS want-AN-1st_ +
 I want a new bed.
 
-*j-a nna-j wa-l ka naj-awu-m, "k-a wa-ø warlu-j jurni purr-a-ø"* +
-_say.AUX-PST 3s-NOM 1s-ACC 3.val.2 say-AN-3rd, want.AUX-PRES 1s-ERG bed-NOM new want-AN-1st_ +
+_say.AUX-PST 3s-NOM 1s-ACC say-AN-3rd, want.AUX-PRES 1s-ERG bed-ABS want-AN-1st_ +
 He said to me, "I want a new bed."
-====
-
-When desiring an action, the speaker uses a "wanting" verb, such as
-_mann_, along with a verb phrase in the subjunctive expressing the
-desired action. This action can be in any tense.
-
-====
-*nn-i wa-j j-a-tirlu ti nna-j ngarj-awu-m mann-u-ø* +
-_wish.aux-prs 1s-nom hurt.aux-pst-sbjv neg 3s.an-nom hurt-an-3rd wish-an-1st_ +
-I wish that he hadn't hurt himself.
 ====
 
 ===== Imperative
@@ -300,16 +273,14 @@ imperative raises an idea or suggestion, without indicating an order,
 similar to the English "let's go".
 
 ====
-*nn-uuki-yii wuu waya-ø gunnari-j ka warnn-u-ø* +
-_cut.AUX-FUT-WIMP neg 1pl-erg tree-nom 3.val.2 cut-an-1st_ +
+_cut.AUX-FUT-WIMP neg 1pl-erg tree-ABS  cut-an-1st_ +
 Let's not cut down the tree.
 ====
 
 The strong imperative signifies a command, such as "Leave!".
 
 ====
-*nn-uuki-ju wuu ku-ø gunnari-j ka warnn-u-ku* +
-_cut.AUX-FUT-WIMP neg 2s-erg tree-nom 3.val.2 cut-an-2nd_ +
+_cut.AUX-FUT-STRIMP neg 2s-erg tree-abs cut-an-2nd_ +
 Don't cut down the tree.
 ====
 
@@ -320,8 +291,7 @@ truly uncontentious to fit into the gnomic mood, a universal truth or
 maxim.
 
 ====
-*k-i-nga juunwi-juunwi-ø gayparnu narnn-u-m biintu-yi* +
-_fly.aux-pres-gno bowerbird-PL-ERG east fly-an-3rd winter-adv_ +
+_fly.aux-pres-gno bowerbird-PL-ERG east-LOC fly-an-3rd winter-adv_ +
 Satin bowerbirds fly east for winter.
 ====
 
@@ -333,7 +303,6 @@ occurs. This is similar to English sentences using the auxiliary
 "might".
 
 ====
-*nn-aa-ti rrunn-u-mi* +
 _rain.aux-fut-dub rain-an-3rd_ +
 It might rain tomorrow.
 ====
@@ -342,27 +311,25 @@ It might rain tomorrow.
 
 Verbs reference subject person and number through suffixes.
 
-There are two situations in which participant reference is anaphoric (and the
+There are three situations in which participant reference is anaphoric (and the
 verb can stand alone without a noun phrase subject).
 
-Intransitive clauses where the reference has been preestablished.
+1. Intransitive clauses where the reference has been preestablished.
 
-====
-_... ? cry-AN-3RD_ +
-What does the monkey do? It cries.
-====
+    ====
+    _... ? cry-AN-3RD_ +
+    What does the monkey do? It cries.
+    ====
 
-Or where the subject is an animate pronoun.
+2. Or where the subject is an animate pronoun.
 
-====
-_cry-AN-3RD_ +
-He cries.
-====
+    ====
+    _cry-AN-3RD_ +
+    He cries.
+    ====
 
-In the main clause of a clause chain, where the subject is an animate pronoun
-and the only explicit argument to the final verb.
-
-// TODO: see "car arrives" example
+3. In the main clause of a clause chain, where the subject is an animate pronoun
+     and the only explicit argument to the final verb.
 
 In other cases, participant reference is purely grammatical and the agreeing
 noun phrase must be present.

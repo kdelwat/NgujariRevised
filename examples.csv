@@ -94,3 +94,25 @@ prag,,_deadfish-pl-dual-erg woman-loc be-inan-3rd_,The woman has two dead fish.
 prag,,_have.aux-fut-gno 3s.an-erg homeland-abs have-an-3_,He will always have a homeland.
 prag,,_have.aux-fut-gno 3s.an-erg homeland-abs courage-com have-an-1st_,He will always have a homeland, due to his courage.
 prag,,_protect.aux-strimp 1pl-erg pos-gurnu precious land-nom spirit-inst protect-an-1st_,We must protect our [the Gurnu mob's] precious land with vigour.
+otherv,,_like.aux-rem 1s-erg swim.ger-abs like-an-1st_,I used to like swimming.
+otherv,,_3s-ERG go-3-an-SS hunt.ger-ABS do-an-3rd_,He went there to hunt. (lit he went to do hunt)
+otherv,,_arrive.AUX-PST bake-NOMINALISE-ERG arrive-3-an late_,The baker was late
+otherv,,_DEMPRON-INAN-ERG coffee.ABS grind-INAN-3RD_,coffee grinder (lit. "that which grinds coffee")
+otherv,,_break.AUX-PST 1s.an-ERG DEMPRON-INAN-ABS break-1-an, comp DEMPRON-INAN-ERG coffee.ABS grind-INAN-3RD_,I broke the coffee grinder
+otherv,,_go.AUX-PRES-WIMP 1pl.an-ERG bury-LOCATION go-1-an_,Let's go to the graveyeard
+otherv,,_go.AUX-PRES-WIMP 1pl.an-ERG bury-LOCATION-REV go-1-an_,Let's leave the graveyeard
+otherv,,_come.aux-pres rain.cloud-erg int-1pl-ori come-an-1st_,Are the rain clouds drawing near?
+otherv,,_give.aux-pres 1s-nom 3s.inan-com 3s.an-acc give-an-1st_ earlier,I gave it to him earlier today.
+otherv,,_1pl-ERG see-an-1st-DS kangaroo-ERG hop-an-3rd_,We saw the hopping kangaroo.
+otherv,,_shine.aux-rem sun-erg Bilru-abs shine-an-3rd_,The sun shone down on Bilru.
+otherv,,_be.aux-rem hut-erg mountain-loc be-inan-3rd_,The hut used to be on the hill.
+otherv,,_go.aux-fut neg 1s-erg there go-an-1st_,I won't go there.
+otherv,,_1s-erg butterfly-abs see-an-1st-SS be.aux-pst forest-loc be-an-1st_,I was looking at a butterfly when I was in the forest.
+otherv,,_1s-erg butterfly-abs see-an-1st-SS blush.aux-pst blush-an-1st_,I saw a butterfly that made me blush.
+otherv,,_↗ eat.aux-pres 1pl-nom eat-an-1st_,Should we eat?
+otherv,,_eat.aux-pres-wimp 1pl-nom eat-an-1st_,Let's eat.
+otherv,,_eat.aux-pres-strimp 1pl-nom eat-an-1st_,We must eat.
+otherv,,_kill.AUX-PST-SUBJ 3s-ERG kangaroo-ABS kill-AN-3RD_,He might have killed the kangaroo.
+otherv,,_COMP-walk-pst-subj 3pl.ch-ERG place-ORI walk-ch-3rd know-an-1st_,I think that they came back yesterday.
+otherv,,_want.AUX-PRES-SUBJ 1s-ERG bed-ABS want-AN-1st_,I want a new bed.
+otherv,,_say.AUX-PST 3s-NOM 1s-ACC say-AN-3rd, want.AUX-PRES 1s-ERG bed-ABS want-AN-1st_,He said to me, "I want a new bed."
