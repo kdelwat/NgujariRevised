@@ -234,6 +234,10 @@ Each verb can be declined according to _person_ and _number_, marked
 on the root, and _tense_ and _mood_, marked on the auxiliary. All
 declensions are realised as agglutinative suffixes.
 
+In addition, a verb can be marked with the causative and intransitive/antipassive suffixes, and its auxiliary with the reflexive/reciprocal suffix.
+
+// TODO: diagram of morphology
+
 ==== Class
 
 The class of a verb is determined by its concluding phoneme. The three

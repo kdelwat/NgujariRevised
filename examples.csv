@@ -122,3 +122,20 @@ otherv,,_fly.aux-pres-gno bowerbird-PL-ERG east-LOC fly-an-3rd winter-adv_,Satin
 otherv,,_rain.aux-fut-dub rain-an-3rd_,It might rain tomorrow.
 otherv,,_woman-ABS capsize-an-3rd_,The woman capsizes.
 otherv,,_kill.AUX-PST 3s.AN-ERG snake-ABS kill-AN-3RD_,He killed a snake.
+voice,,_fight.AUX-PST dingo-ERG snake-ABS fight-AN-3RD_,The dingo fought the snake.
+voice,,_run.aux-pst 1s-erg mountain-loc run-an-1st_,I ran to the mountain [and ended up there].
+voice,,_run.aux-pst 1s-erg mountain-ori run-an-1st_,I ran towards the mountain
+voice,,_run.aux-pst 1s-erg mountain-rev run-an-1st_,I ran away from the mountain
+voice,,_stab.aux-pst 3s.an-NOM 3s.an.ch-ACC knife-INSTR stab-3-an_,She stabbed the child with a knife
+voice,,_capsize.aux-pst canoe-nom capsize-inan-3rd_,The canoe capsized.
+voice,,_capsize.aux-pst canoe-com 3s.an-nom capsize-an-3rd_,He caused the canoe to capsize.
+voice,,_drop.aux-pst 1s-erg axe-nom drop-an-1st_,I dropped the axe.
+voice,,_drop.aux-pst 1s-com axe-nom wind-erg drop-inan-1st_,The wind caused me to drop the axe.
+voice,,_carefor.AUX-PRES-REFL Paya-NOM 3S.AN-ACC carefor-AN-3RD_,Paya cares for himself.
+voice,_see.AUX-REM-REFL 2PL-NOM see-AN-2ND_,You (pl) used to see each other.
+voice,,_3S.AN-ERG ball-ABS-REFL kick-AN-1ST_,He kicked his ball.
+voice,,_ball-ABS-REFL kick-AN-1ST_,He kicked his ball.
+voice,,_attack.AUX-PST dog-ERG 3S.AN-ABS attack-AN-3RD_,The dog attacked him.
+voice,,_attack.AUX-PST dog-ABS attack-INTRANS-AN-3RD_,c.f. The dog attacked (him).
+voice,,_bark.AUX-PST dog-ERG attack.AUX-PST man-ABS attack-3-an bark-AN-3rd_,The dog, who was attacking the man, barked
+voice,,_bark.AUX-PST dog-ERG bark-AN-3rd [COMP DEMPRON.AN.S-ERG attack-intrans-3-an],The dog, who was attacking, barked
