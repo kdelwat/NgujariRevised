@@ -163,7 +163,7 @@ following table:
 | meaning   | word
 | where     | kiru
 | when      | tuu
-| who, what | pii
+| who, what, which | pii
 | how       | piima
 | why       | wiirtak
 | how many  | kirta

@@ -121,8 +121,7 @@ speaking of killing a fish using a spear, a Ngujari speaker will place
 _inanimate_ noun.
 
 ====
-*k-a nna-ø tirwa-j baalu-ma naa wuwiirr-u-m* +
-_find.aux-pst 3s.an-erg route-nom map-ins 2.val.3 find-an-3rd_ +
+_find.aux-pst 3s.an-erg route-nom map-ins find-an-3rd_ +
 He found the route using the map.
 ====
 
@@ -137,16 +136,14 @@ predicative.
 In the following example, the comitative is found in its standard sense.
 
 ====
-*nn-uuki wiingurki-ø munnanna-rn bunna-yi winn-uu-mi* +
-_jump.aux-fut boy-erg river-loc twin-com jump-an-3rd_ +
+_jump.aux-fut boy-erg river-loc friend-com jump-an-3rd_ +
 The boy, with his friend, will jump over the river.
 ====
 
-Special meanings of the comitative arise when the verb has a dedicated comitative valence slot.
+Special meanings of the comitative arise for some verbs.
 
 ====
-*j-a nnaa-ø parnti-j mungu-yi yanj-u-m* +
-_steal.aux-pst 3pl.an-erg kangaroo.meat-nom woman-com steal-an-3rd_ +
+_steal.aux-pres 3pl.an-erg kangaroo.meat-nom woman-com steal-an-3rd_ +
 They are stealing kangaroo meat from the woman.
 ====
 
@@ -157,7 +154,6 @@ place of a preposition such as "in" or "at". Many verbs of motion take
 the locative as one of their prescribed arguments.
 
 ====
-*k-aa wa-ø gaypa-rn wiirr-u-ø* +
 _↗go.aux-fut 1s-erg mountain-loc go-an-1st_ +
 Should I go to the mountain?
 ====
@@ -172,8 +168,7 @@ towards the noun. It is often used with the meaning of "heading
 towards".
 
 ====
-*j-i ku-ø tinyu-rnu yaj-u-n* +
-_run.aux-pres 2s-erg camp-ori run-an-2nd_ +
+_2s-erg camp-ori run-an-2nd_ +
 You are running towards the camp.
 ====
 
@@ -182,26 +177,27 @@ away from the noun. It can be used with the meaning of "heading away
 from".
 
 ====
-*k-i nnaa-j mulu-l ja-rna mirr-u-m* +
-_bring.aux-pres 3pl.an-nom fish-acc 1d-rev bring-an-3rd_ +
+_3pl.an-erg fish-abs 1d-rev bring-an-3rd_ +
 They are bringing the fish away from us two.
 ====
 
 It can also be used in asserting falsehood.
 
 ====
-*j-arlu nna-ø pirraa-j naa baj-u-m* +
-_look.aux-rem 3s.an-erg knowledge-nom 1.val.2 look-an-3rd_ +
+_look.aux-rem 3s.an-erg knowledge-rev look-an-3rd_ +
 He used to look away from knowledge / he used to be incorrect.
 ====
 
 Both the orientative and revertive case can be used in place of the
-locative place in any verbal argument slot that requires a locative,
+locative in any verbal argument slot that requires a locative,
 allowing for finer control.
 
 The orientative case functions practically as a dative case when dealing with recipients, such as in transfer of possession.
 
-// EG
+====
+_give.AUX-PST 3s.an-NOM 1s.an-ACC 1s.an-COM give-an-3rd_ +
+He gave me the book
+====
 
 An example of the use of these cases is found in the following table,
 which shows the declensions of the noun _naju_.
@@ -222,25 +218,14 @@ which shows the declensions of the noun _naju_.
 
 === Articles, determiners, and demonstratives
 
-There is no gramattical or morphological basis for determiners or articles on nouns. The information that would be conveyed by something like a demonstrative must be expressed in a more circumspect manner.
+There is no grammatical or morphological basis for determiners or articles on nouns. The information that would be conveyed by something like a demonstrative must be expressed in a more circumspect manner.
 
 ====
+_2s.an-ERG book-ABS want-2-an, which?_ +
 Which book do you want?
 
-This one (lit. the one in my hand)
-====
-
-=== Possessors
-
-Most possessive constructs are formed via clauses, however it is possible to represent a noun's possessor when using alienable possession.
-
-To mark the noun as possessed, a relevant possessive pronoun is used in
-the same way as an adjective, appearing after the possessed noun.
-
-====
-*nn-uma nnaa-ø waju-j yurni nna-lu giinn-u-m* +
-_admire.aux-pst 3pl.an-erg face-nom beautiful 3s.an-pos admire-an-3rd_ +
-They admired his beautiful face.
+_that.inan-ERG hand-LOC rest-3-inan_ +
+This one (lit. the one that rests in my hand)
 ====
 
 === Class and gender
@@ -277,18 +262,16 @@ alignment. Consider the following example, in which two animate pronouns
 are the subject and object of transitive phrase.
 
 ====
-*nn-uma jana-j nna-l jinn-arruu-Ø* +
-_eat.AUX-PST 1s.child-NOM 3s.adult-ACC eat-AN-1ST_ +
+_eat.AUX-PST 1s.child-NOM 3s.an-ACC eat-AN-1ST_ +
 I (a child) ate it (an animate object).
 ====
 
 The two animate pronouns cause the sentence to assume the
 nominative-accusative alignment. If instead the object was inanimate,
-the sentence would decline in the ergative-nominative alignment:
+the sentence would decline in the ergative-absolutive alignment:
 
 ====
-*nn-uma jana-Ø nnu-j jinn-arruu-Ø* +
-_eat.AUX-PST 1s.child-ERG 3s.inan-NOM eat-AN-1ST_ +
+_eat.AUX-PST 1s.child-ERG 3s.inan-ABS eat-AN-1ST_ +
 I (a child) ate it (an inanimate object).
 ====
 
@@ -315,11 +298,9 @@ distinction in verbal conjugation. The same sentence is conjugated for
 both a group of children and a group of adults.
 
 ====
-*k-aa juu-Ø kiru wiirr-uu-Ø yuurli-mu* +
 _go.AUX-FUT 1pl.child-ERG where go-CHILD-1ST day-ORI_ +
 Where will we (a group of children) go tomorrow?
 
-*k-aa waya-Ø kiru wiirr-u-Ø yuurli-mu* +
 _go.AUX-FUT 1pl.adult-ERG where go-ADULT-1ST day-ORI_ +
 Where will we (a group of adults) go tomorrow?
 ====
@@ -327,12 +308,10 @@ Where will we (a group of adults) go tomorrow?
 The stage distinction is also used in declining predicate adjectives.
 
 ====
-*nnarta-j pupa-tuu* +
 _3s.child-NOM happy-CHILD_ +
 The child is happy.
 
-*Wiirrutii-j pupa-iiwa* +
-_Wiirrutii-NOM happy-ELDER_ +
+_Wiirrutii happy-ELDER_ +
 Wiirrutii (an elder) is happy.
 ====
 

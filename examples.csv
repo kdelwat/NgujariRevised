@@ -139,3 +139,19 @@ voice,,_attack.AUX-PST dog-ERG 3S.AN-ABS attack-AN-3RD_,The dog attacked him.
 voice,,_attack.AUX-PST dog-ABS attack-INTRANS-AN-3RD_,c.f. The dog attacked (him).
 voice,,_bark.AUX-PST dog-ERG attack.AUX-PST man-ABS attack-3-an bark-AN-3rd_,The dog, who was attacking the man, barked
 voice,,_bark.AUX-PST dog-ERG bark-AN-3rd [COMP DEMPRON.AN.S-ERG attack-intrans-3-an],The dog, who was attacking, barked
+nouns,,_find.aux-pst 3s.an-erg route-nom map-ins find-an-3rd_ ,He found the route using the map.
+nouns,,_jump.aux-fut boy-erg river-loc friend-com jump-an-3rd_,The boy, with his friend, will jump over the river.
+nouns,,_steal.aux-pres 3pl.an-erg kangaroo.meat-nom woman-com steal-an-3rd_,They are stealing kangaroo meat from the woman.
+nouns,,_↗go.aux-fut 1s-erg mountain-loc go-an-1st_,Should I go to the mountain?
+nouns,,_2s-erg camp-ori run-an-2nd_,You are running towards the camp.
+nouns,,_3pl.an-erg fish-abs 1d-rev bring-an-3rd_,They are bringing the fish away from us two.
+nouns,,_look.aux-rem 3s.an-erg knowledge-rev look-an-3rd_,He used to look away from knowledge / he used to be incorrect.
+nouns,,_give.AUX-PST 3s.an-NOM 1s.an-ACC 1s.an-COM give-an-3rd_,He gave me the book
+nouns,,_2s.an-ERG book-ABS want-2-an, which?_,Which book do you want?
+nouns,,_that.inan-ERG hand-LOC rest-3-inan_,This one (lit. the one that rests in my hand)
+nouns,,_eat.AUX-PST 1s.child-NOM 3s.an-ACC eat-AN-1ST_,I (a child) ate it (an animate object).
+nouns,,_eat.AUX-PST 1s.child-ERG 3s.inan-ABS eat-AN-1ST_,I (a child) ate it (an inanimate object).
+nouns,,_go.AUX-FUT 1pl.child-ERG where go-CHILD-1ST day-ORI_,Where will we (a group of children) go tomorrow?
+nouns,,_go.AUX-FUT 1pl.adult-ERG where go-ADULT-1ST day-ORI_,Where will we (a group of adults) go tomorrow?
+nouns,,_3s.child-NOM happy-CHILD_,The child is happy.
+nouns,,_Wiirrutii happy-ELDER_,Wiirrutii (an elder) is happy.
