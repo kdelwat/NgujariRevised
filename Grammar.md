@@ -1,40 +1,40 @@
-Demographic and ethnographic information {#_demographic_and_ethnographic_information}
+Demographic and ethnographic information
 ========================================
 
-Naming {#_naming}
+Naming
 ------
 
-Ethnology {#_ethnology}
+Ethnology
 ---------
 
-Demography {#_demography}
+Demography
 ----------
 
-Genetic affiliation {#_genetic_affiliation}
+Genetic affiliation
 -------------------
 
-Previous research {#_previous_research}
+Previous research
 -----------------
 
-The sociolinguistic situation {#_the_sociolinguistic_situation}
+The sociolinguistic situation
 -----------------------------
 
-Dialects {#_dialects}
+Dialects
 --------
 
-Phonology {#_phonology}
+Phonology
 =========
 
 *Phonology* is the study of the sounds of a language. In this chapter, the basic sounds, or *phonemes*, of Ngujari are outlined. These sounds change depending on their surrounding sounds, a process which will be described. Finally, the *prosody* of the language will be considered, which incorporates sound on a level higher than individual phonemes, including stress and intonation.
 
-Phonemes {#_phonemes}
+Phonemes
 --------
 
 A central idea of phonology is the relationship between phonemes and
 *allophones*. A phoneme is distinctive, meaning that two words with only one phoneme changed are considered completely different words. On the other hand, each phoneme can have multiple allophones, which are the actual sounds that results in the specific environment they are found in.  
 
 
-### Consonants {#_consonants}
+### Consonants
 
 Ngujari has a rich *consonantal inventory*, or set of consonant phonemes. While some of the sounds are common to English, others are not. The following table shows these consonants. The first symbol in each pair is the phoneme, expressed in International Phonetic Alphabet (IPA) notation. The following symbol, in brackets, is the written representation of that phoneme. If there is no symbol in brackets, this is the same as the IPA form.
 
@@ -69,7 +69,7 @@ The *retroflex* consonants (*rt, rn, r, rl*) are pronounced with the tongue curl
 
 The *coronal* consonants are divided into two types. *Laminal* consonants, which are indicated by a box under the phonetic representation, are created by pressing the tongue, just beyond the tip, against the roof of the mouth. The *apical* consonants, indicated by an open box, are created the same way, except only the very tip of the tongue is used.
 
-### Vowels {#_vowels}
+### Vowels
 
 In contrast to the large number of consonants, Ngujari has very few vowels. The basic vowels are a, i, and u, but all are *contrastive* in their lengthened form.
 
@@ -85,16 +85,16 @@ In contrast to the large number of consonants, Ngujari has very few vowels. The 
 
 When written, the short forms are the same as their IPA representation, while the long vowels are presented as digraphs, where the short vowel is repeated twice.
 
-Phonotactics {#_phonotactics}
+Phonotactics
 ------------
 
 *Phonotactics* incorporates phonetic features such as sound changes (including allophones), permissible phoneme arrangements, and prosody.
 
-### Phonological Constraints {#_phonological_constraints}
+### Phonological Constraints
 
 The structure of Ngujari words is simple, with syllables taking the form CV©: one consonant is followed by one vowel and an optional consonant (dependant on permitted consonant clusters). A root word is usually between two and four syllables long, plus any affixes, which tend to be single-syllable.
 
-#### Consonants {#_consonants_2}
+#### Consonants
 
 The main form of phoneme restriction is found in *consonant clusters*, the allowable sequences of consonants which appear without being separated by a vowel. The following combinations are the only allowable clusters:
 
@@ -160,7 +160,7 @@ In addition, retroflex consonants are never found at the beginning of a word and
 
 (more specific rules trump less, e.g. non-rhotic approx &gt; retroflex)
 
-#### Part of Speech {#_part_of_speech}
+#### Part of Speech
 
 There are some minor phoneme restrictions which depend upon part of speech.
 
@@ -168,12 +168,12 @@ For verbs, as described in **morphology,** the word must fall into one of three 
 
 Nouns must always end in a vowel, to avoid the creation of illegal consonant clusters after adding case suffixes.
 
-Allophonetic Rules {#_allophonetic_rules}
+Allophonetic Rules
 ------------------
 
 Sound changes apply to the *realisation* of phonemes. While in written form the phoneme appears the same, in different circumstances it is pronounced as different allophones.
 
-### Vowels {#_vowels_2}
+### Vowels
 
 The *u* phoneme becomes centralised following the bilabial consonants *p*, *m*, and *w*, meaning the pronunciation migrates towards the center of the mouth.
 
@@ -187,9 +187,9 @@ never *wulnni* ⇒ *wül̺n̻ĩ*
 
 reed *kanaa* ⇒ *kan̺ãː*
 
-### Consonants {#_consonants_3}
+### Consonants
 
-#### Rhotics {#_rhotics}
+#### Rhotics
 
 The retroflex approximant *r* disappears between identical regular vowels, forming one lengthened vowel.
 
@@ -203,7 +203,7 @@ The retroflex approximant *r* becomes the retroflex plosive *rt* before another 
 
 wood *taarirki* ⇒ *taːɻiʈ̺ki*
 
-#### Voicing {#_voicing}
+#### Voicing
 
 The voicing process is relatively new to the language. Voicing occurs when an unvoiced plosive becomes its voiced equivalent. Recently, plosives are becoming initially voiced [^1].
 
@@ -217,7 +217,7 @@ dangerous *tuwilwa* ⇒ *t̬uwil̺wa*
 
 The retroflex phoneme *rt* is an exception: as retroflex consonants cannot begin words, there has been no initial voicing.
 
-Historical Sound Changes {#_historical_sound_changes}
+Historical Sound Changes
 ------------------------
 
 Ngujari differs phonologically from Proto-Pama-Nyungan only slightly.  The following is a list of sound changes that have occurred:
@@ -235,12 +235,12 @@ Ngujari differs phonologically from Proto-Pama-Nyungan only slightly.  The follo
 
 A major difference occurs in the case of lengthened vowels, which can differentiate words in all positions, rather than just the first syllable as in the protolanguage.
 
-Prosody {#_prosody}
+Prosody
 -------
 
 *Prosody* is the way phonemes are spoken as a whole, including within words and sentences. Ngujari has a rich prosodic system incorporating stress, intonation, and tempo. The purely phonetic aspects of the system are dealt with here, but intonation and tempo have many pragmatic uses which are left to the **pragmatics** chapter.
 
-### Morae {#_morae}
+### Morae
 
 Every word can be broken into *morae*, which are calculated using syllables. A syllable containing a short vowel is worth one mora, but those containing long vowels are worth two. Syllables with one mora are known as *monomoraic*, while those with two are known as *bimoraic*.
 
@@ -252,7 +252,7 @@ egg *kupaarki* ⇒ 121
 
 The arrangement of mora becomes important when dealing with stress and prosody as a whole, particularly in the poetic register.
 
-### Stress {#_stress}
+### Stress
 
 *Stress* is the weight placed on each syllable. A stressed syllable carries more weight than an unstressed syllable and therefore stands out.
 
@@ -266,10 +266,10 @@ tongue *jaajannalu* ⇒ *ʒaːˈʒan̻aˌl̺u*
 
 pride *miinaatirra* ⇒ *miːˈn̺aːt̺iɾ̺aˌ*
 
-Morphological typology {#_morphological_typology}
+Morphological typology
 ======================
 
-Morphological processes {#_morphological_processes}
+Morphological processes
 -----------------------
 
 Ngujari is a polysynthetic language; the words in most grammatical categories cannot be used in their stem form without support. They must be inflected to indicate different dimensions and add layers of meaning.  For nouns, these dimensions are modifiers like case and number, while verbs can indicate tense, person, and more.
@@ -301,7 +301,7 @@ The sentence contains three stems: *wiirr* (to go), *jari* (beach), and *wa* (*I
     morpheme. It also has an auxiliary (discussed later), *k*, which is
     inflected into the past tense through the suffix *-a*.
 
-Head/dependent marking {#_head_dependent_marking}
+Head/dependent marking
 ----------------------
 
 Ngujari is head-marking, meaning that the heads of phrases are marked for relationships with dependents.
@@ -334,10 +334,10 @@ I go home
 
 ![alt\_text](../images/go-home.png)
 
-Grammatical categories {#_grammatical_categories}
+Grammatical categories
 ======================
 
-Nouns {#_nouns}
+Nouns
 -----
 
 Nouns in Ngujari refer to concepts which exist regardless of time.  Whereas a verb may specify an action, a noun refers to a concrete or abstract *object*.
@@ -383,7 +383,7 @@ Nouns are an open class, and new morphemes are added or derived on a sporadic bu
 
 ![alt\_text](../images/noun-morphology.png)
 
-### Proper nouns {#_proper_nouns}
+### Proper nouns
 
 Proper nouns are the names of specific objects, usually people. They are most commonly found referring to members of the speaker’s mob or extended relationship network. However, many spiritual concepts in the Dreamtime are referred to by proper nouns, which are capitalised for clarity.
 
@@ -428,11 +428,11 @@ As for Gupti, he ran over the bridge.
 
 </div>
 
-### Pronouns {#_pronouns}
+### Pronouns
 
 Pronouns behave almost exactly like nouns, with one exception: indefinite and demonstrative pronouns do not decline for case.
 
-#### Personal {#_personal}
+#### Personal
 
 Personal pronouns differ in three dimensions: person, plural, and gender. All decline in the same way as regular nouns to indicate case.  The following tables list the pronouns:
 
@@ -470,11 +470,11 @@ Personal pronouns differ in three dimensions: person, plural, and gender. All de
 
 When speaking of a mob’s elders, a personal pronoun is never used. The elder is always referred to by their honorific title.
 
-#### Possessive {#_possessive}
+#### Possessive
 
 Possessive pronouns are formed through a suffix placed on the relevant personal pronoun, but only for the child and adult genders. For possession by elders, see **pronominal possession**. Inanimate objects cannot be possessive. For a child, the suffix is *ra* in first and second person and *raa* in third person. For an adult, the suffix is *lu* for all persons.
 
-#### Interrogative {#_interrogative}
+#### Interrogative
 
 The interrogative pronouns are strongly affected by case, particularly in the case of location and time. The basic pronouns are detailed in the following table:
 
@@ -498,7 +498,7 @@ The interrogative pronouns are strongly affected by case, particularly in the ca
 
 It is interesting to note that "how" is the same as "what" placed in the instrumental case. The orientative and revertive cases can be applied to *kiru* ("where"), forming *kirurni* ("whither/to where") and *kirunga* ("whence/from where"), as well as to *tuu* ("when"), forming *tuurni* ("to when") and *tuunga* ("from when").
 
-#### Demonstrative {#_demonstrative}
+#### Demonstrative
 
 One set of demonstrative pronouns covers both proximal and distal objects. Distinctions can be made in some cases between both gender and number. The pronouns are found in the following table:
 
@@ -519,7 +519,7 @@ One set of demonstrative pronouns covers both proximal and distal objects. Disti
 
 Again, the pronouns *naarla* and *yaji* can assume the orientative and revertive cases.
 
-#### Indefinite {#_indefinite}
+#### Indefinite
 
 The indefinite pronouns are formed through modifying the interrogative pronouns by appending the correct word, representing number. These words are listed in the following table:
 
@@ -541,7 +541,7 @@ The indefinite pronouns are formed through modifying the interrogative pronouns 
 
 For example, "everyone" would be expressed as *pii-nnaya* and "some two locations" as *kiru-marri*.
 
-Verbs {#_verbs}
+Verbs
 -----
 
 A verb expresses an action or changing state.
@@ -556,7 +556,7 @@ Each verb can be declined according to *person* and *number*, marked on the root
 
 In addition, a verb can be marked with the causative and intransitive/antipassive suffixes, and its auxiliary with the reflexive/reciprocal suffix.
 
-### Class {#_class}
+### Class
 
 The class of a verb is determined by its concluding phoneme. The three classes occur in order of prevalence. A survey of all verb forms reveals that the first and second classes account for more than 70% of all verbs and a vast majority of the most frequently used, although otherwise there is no difference in usage between the classes.
 
@@ -581,7 +581,7 @@ Class determines three aspects of usage:
 
 : Verb classes
 
-#### Irregular Auxiliaries {#_irregular_auxiliaries}
+#### Irregular Auxiliaries
 
 There are seven major verbs in Ngujari which have an irregular auxiliary. Each auxiliary is a modified form of the base verb and must be learned separately. Conjugation follows the verb’s class and proceeds as normal.
 
@@ -599,7 +599,7 @@ There are seven major verbs in Ngujari which have an irregular auxiliary. Each a
 
 -   *girr*: gurr
 
-### Dimensions {#_dimensions}
+### Dimensions
 
 When declined as part of a sentence, the verb stem indicates the *gender*, *person*, and *number* of an involved noun.
 
@@ -678,10 +678,10 @@ You know.
 
 : Mood suffixes on verbal auxiliaries
 
-Modifiers {#_modifiers}
+Modifiers
 ---------
 
-### Adjectives {#_adjectives}
+### Adjectives
 
 Adjectives are words used to describe or modify the meaning of a noun.  Adjectives in Ngujari perform the *predicative function*: they are used in a predicate construction to refer to its subject.
 
@@ -692,7 +692,7 @@ The sea is calm.
 
 </div>
 
-#### Cases {#_cases}
+#### Cases
 
 Noun case suffixes can in some cases be used to derive adjectives based around that noun, as a lexical operation. The most common forms of case derivations are orientative/revertive and instrumental.
 
@@ -710,7 +710,7 @@ freshness *gurlu*\
 
 </div>
 
-#### Amplification {#_amplification}
+#### Amplification
 
 An adjective can be amplified in magnitude through reduplication. The final syllable is duplicated, excluding its coda in the first instance.  If the final vowel is long following the derivation, it becomes shortened.
 
@@ -727,7 +727,7 @@ thick *yurlan*\
 
 </div>
 
-#### Relativisation {#_relativisation}
+#### Relativisation
 
 Many of Ngujari’s adjectives are absolute rather than relative. For example, *yampu* ("big") refers to something bigger than a human, rather than something big for its class (as in "the big elephant"). These absolute adjectives can be converted to relative adjectives through the suffix *pu*.
 
@@ -741,11 +741,11 @@ warm (absolute) *mirra*\
 
 </div>
 
-### Quantifiers {#_quantifiers}
+### Quantifiers
 
 A quantifier is used to specify the number of a noun. They can be numerals, used for counting, or abstract amounts like "many".  Quantifiers are lexicalised as nouns in the nominative predicate clause.
 
-#### Numerals {#_numerals}
+#### Numerals
 
 Ngujari uses a dual decimal-quinary counting system. The numerals are based on increments of five or ten.
 
@@ -798,7 +798,7 @@ twenty-six…
 
 </div>
 
-#### Abstract {#_abstract}
+#### Abstract
 
 Abstract quantifiers are subjective, unlike strict numerals. They are used identically to concrete numbers.
 
@@ -820,7 +820,7 @@ Abstract quantifiers are a very small closed class, containing only six words.
 
 : Abstract quantifiers
 
-Adverbs {#_adverbs}
+Adverbs
 -------
 
 An adverb is a word which modifies a clause.
@@ -847,13 +847,13 @@ The class of an adverb loosely determines its position in a phrase, with manner 
 
 Adverbs are used as-is, and do not undergo derivation.
 
-Constituent order typology {#_constituent_order_typology}
+Constituent order typology
 ==========================
 
-Introduction {#_introduction}
+Introduction
 ------------
 
-Constituent order in main clauses {#_constituent_order_in_main_clauses}
+Constituent order in main clauses
 ---------------------------------
 
 Within a clause, nouns can take on one of multiple roles:
@@ -926,7 +926,7 @@ I strike you.
 
 The majority of the time, the agent will precede the patient. But if the speaker is drawing attention to the patient, especially if the agent has already been discussed and the patient is being introduced, it may move to the position of importance before the agent.
 
-Verb phrase {#_verb_phrase}
+Verb phrase
 -----------
 
 <div class="informalexample">
@@ -1011,7 +1011,7 @@ The children bathe
 
 </div>
 
-Noun phrase {#_noun_phrase}
+Noun phrase
 -----------
 
 <div class="informalexample">
@@ -1042,10 +1042,10 @@ I, who wove a basket
 
 </div>
 
-Adpositional phrases {#_adpositional_phrases}
+Adpositional phrases
 --------------------
 
-Comparatives {#_comparatives}
+Comparatives
 ------------
 
 A comparative is a sentence which compares one noun to another, using an adjective. Ngujari uses *locational-type comparatives* which are verbless and related to locational predicates. The noun to be judged against (the *standard noun*) is given a locational case, while the noun that is being judged is given the case that it would assume as the subject of an intransitive verb (for an animate pronoun, accusative, or otherwise absolutive). The two nouns are then followed by the adjective, which is in the predicate form (see **morphology**).
@@ -1072,10 +1072,10 @@ The dingo, who is faster than the boy, won the race.
 
 </div>
 
-Modifier Positioning {#_modifier_positioning}
+Modifier Positioning
 --------------------
 
-### Adverbs {#_adverbs_2}
+### Adverbs
 
 Adverbs can be split into two categories:
 
@@ -1103,12 +1103,12 @@ We should pick up the clothes quickly.
 
 However, both can occupy the other’s position inside the verb phrase if the speaker desires it.
 
-Noun and noun phrase operations {#_noun_and_noun_phrase_operations}
+Noun and noun phrase operations
 ===============================
 
 For all general derivations of nouns, the noun must be placed into derived form by lengthening its final vowel (if the vowel is unlengthened). A modifying suffix is then appended.
 
-Compounding {#_compounding}
+Compounding
 -----------
 
 Nominal compounds are bidirectional, meaning that the order of constituent nouns does not change the meaning of the compound. In practical use, both orders are used, with preference depending on the phonetics of the noun. If the compounding would create an illegal consonant cluster, the other order must be used.
@@ -1125,7 +1125,7 @@ ground *nnalu*\
 
 </div>
 
-Number {#_number}
+Number
 ------
 
 Plurality refers to the number of a noun present. A singular noun has only one of its kind present, while a plural noun has multiple. The Ngujari language distinguishes between singular, plural, and dual (two objects). By default, nouns are singular.
@@ -1200,7 +1200,7 @@ rock *naju*\
 
 </div>
 
-Case {#_case}
+Case
 ----
 
 Ngujari has eight nominal cases, with three indicating the morphosyntactic alignment and five others. Cases are indicated by single-syllable suffixes, as presented in the following table.
@@ -1229,7 +1229,7 @@ Ngujari has eight nominal cases, with three indicating the morphosyntactic align
 
 For more details on the three alignment cases, see the alignment chapter. The remaining five cases operate as follows.
 
-### Instrumental {#_instrumental}
+### Instrumental
 
 The instrumental case (INS) is used when discussing a *means*, roughly equivalent to the English "by means of" or "using". For example, when speaking of killing a fish using a spear, a Ngujari speaker will place "spear" in the instrumental case. The case can only be used with an *inanimate* noun.
 
@@ -1240,7 +1240,7 @@ He found the route using the map.
 
 </div>
 
-### Comitative {#_comitative}
+### Comitative
 
 The comitative case (COM) is equivalent to "in the presence of", or "with", and specifies that the noun was present at the moment spoken of.  It often functions slightly differently in the context of certain verbs.  The case is used grammatically in the formation of the adjectival predicative.
 
@@ -1262,7 +1262,7 @@ They are stealing kangaroo meat from the woman.
 
 </div>
 
-### Locative {#_locative}
+### Locative
 
 The locative case (LOC) is used to specify a location, and can take the place of a preposition such as "in" or "at". Many verbs of motion take the locative as one of their prescribed arguments.
 
@@ -1275,7 +1275,7 @@ Should I go to the mountain?
 
 The cardinal directions are treated as if they have the locative case, and hence do not use it where other nouns would.
 
-### Orientative and Revertive {#_orientative_and_revertive}
+### Orientative and Revertive
 
 The orientative case (ORI) is used to specify that something is facing towards the noun. It is often used with the meaning of "heading towards".
 
@@ -1342,7 +1342,7 @@ An example of the use of these cases is found in the following table, which show
 
 : Examples of case
 
-Articles, determiners, and demonstratives {#_articles_determiners_and_demonstratives}
+Articles, determiners, and demonstratives
 -----------------------------------------
 
 There is no grammatical or morphological basis for determiners or articles on nouns. The information that would be conveyed by something like a demonstrative must be expressed in a more circumspect manner.
@@ -1357,7 +1357,7 @@ This one (lit. the one that rests in my hand)
 
 </div>
 
-Class and gender {#_class_and_gender}
+Class and gender
 ----------------
 
 Nominal gender is assigned semantically to nouns, based on their meaning. While the form of a noun itself does not change based on gender, the class has a number of important effects, including changing morphosyntactic alignment, possessives selection, and verb conjugation.  These effects are discussed in greater detail later.
@@ -1433,7 +1433,7 @@ Wiirrutii (an elder) is happy.
 
 </div>
 
-Diminution/augmentation {#_diminution_augmentation}
+Diminution/augmentation
 -----------------------
 
 A noun’s *scale* can be adjusted up or down through the following suffixes:
@@ -1462,7 +1462,7 @@ wind *gaju*\
 
 </div>
 
-Temporalisation {#_temporalisation}
+Temporalisation
 ---------------
 
 A noun can be modified into a temporal noun, meaning the equivalent of "time of noun", using the suffix *ku*.
@@ -1477,7 +1477,7 @@ sun *puu*\
 
 </div>
 
-Collection {#_collection}
+Collection
 ----------
 
 Partial reduplication can be used to derive the collection of a noun. To derive the collection, the first syllable is isolated, its coda removed, and added to the front of the noun.
@@ -1492,7 +1492,7 @@ bone *parrna*\
 
 </div>
 
-Container {#_container}
+Container
 ---------
 
 The container of a noun can be derived through the affix *rna*.
@@ -1507,10 +1507,10 @@ fruit *yirli*\
 
 </div>
 
-Predicate nominals and related constructions {#_predicate_nominals_and_related_constructions}
+Predicate nominals and related constructions
 ============================================
 
-Predicate nominals {#_predicate_nominals}
+Predicate nominals
 ------------------
 
 A predicate nominal is a construction that exresses one of two meanings:
@@ -1519,7 +1519,7 @@ A predicate nominal is a construction that exresses one of two meanings:
 
 -   equative predicates
 
-### Proper inclusion {#_proper_inclusion}
+### Proper inclusion
 
 Proper inclusion indicates that a noun is a member of a class, such as a profession or a nationality.
 
@@ -1541,7 +1541,7 @@ I was a teacher.
 
 </div>
 
-### Equative predicates {#_equative_predicates}
+### Equative predicates
 
 An equative predicate signifies that two nouns corefer, in that they reference the same object. They are formed using the verb *ngurr* (to be), which acts as a copula.
 
@@ -1555,7 +1555,7 @@ tall one.
 
 </div>
 
-Predicate adjectives {#_predicate_adjectives}
+Predicate adjectives
 --------------------
 
 Predicate adjectives assign an adjective to describe a noun phrase. They are formed in the same way as a proper inclusion noun predicate.
@@ -1593,7 +1593,7 @@ The berry is fresh.
 
 </div>
 
-Predicate locatives {#_predicate_locatives}
+Predicate locatives
 -------------------
 
 Predicate locatives assign a noun phrase to a location. They are formed in the same way as a proper inclusion noun predicate. The location comes after the noun, and is placed in the locative case.
@@ -1605,7 +1605,7 @@ The boy is at the beach
 
 </div>
 
-Existentials {#_existentials}
+Existentials
 ------------
 
 The existential predicate is formed through a copula taking one argument, the existing verb. The copula, *gunn* (TODO), is declined as an auxiliary for tense only; excepting the present tense, which is unmarked.
@@ -1651,7 +1651,7 @@ There weren’t any bags.
 
 </div>
 
-Possessive clauses {#_possessive_clauses}
+Possessive clauses
 ------------------
 
 There are three types of possession in the Ngujari language.
@@ -1660,7 +1660,7 @@ The first two are distinguished by their changeability. *Alienable possession* i
 
 The third type is *group possession*, in which something is owned by the social group or tribe as a whole. This is formed in a different way to the first two.
 
-### Alienable {#_alienable}
+### Alienable
 
 Alienable possession is either *locative-based* or *pronominal*.
 
@@ -1677,7 +1677,7 @@ The woman has two dead fish.
 
 The second form of the alienable possession, pronominal possession, is described in the chapter on nouns.
 
-### Inalienable {#_inalienable}
+### Inalienable
 
 Inalienable possession is indicated through the use of the verb *gurr*.  The possessor becomes the agent and the possessed noun becomes the object.
 
@@ -1697,7 +1697,7 @@ He will always have a homeland, due to his courage.
 
 </div>
 
-### Group {#_group}
+### Group
 
 In Ngujari culture, an object can be owned by a mob as a whole. With the exception of areas of land, only inanimate nouns may be possessed by a mob.
 
@@ -1713,10 +1713,10 @@ We must protect our \[the Gurnu mob’s\] precious land with vigour.
 
 The regular name is used by members of the possessing mob, but the honorific name is used for possessions of others [^6]. For example, the combined particle for something owned by the Wujanga mob would be *tuu-Wujanga* for a member or *tuu-Wujarra* for an outsider.
 
-Grammatical relations {#_grammatical_relations}
+Grammatical relations
 =====================
 
-Systems for grouping S, A, and P {#_systems_for_grouping_s_a_and_p}
+Systems for grouping S, A, and P
 --------------------------------
 
 Constituent noun phrases in Ngujari sentences can be divided into three categories.
@@ -1761,10 +1761,10 @@ The alignment of a sentence represents the grammatical relations present in it. 
 
 These two alignments are maintained in both main and dependent clauses, such as relative clauses.
 
-Voice and valence adjusting operations {#_voice_and_valence_adjusting_operations}
+Voice and valence adjusting operations
 ======================================
 
-Valence and predicate calculus {#_valence_and_predicate_calculus}
+Valence and predicate calculus
 ------------------------------
 
 A verb’s *valence* determines the number of arguments it can take. For example, a verb with a valence of two would take two nouns:
@@ -1801,10 +1801,10 @@ I ran away from the mountain
 
 All verbs have a *default valence*: the number of arguments it takes without modification. Most verbs are transitive, but valences can span between avalent (taking no arguments) and quadrivalent (taking four).
 
-Valence increasing operations {#_valence_increasing_operations}
+Valence increasing operations
 -----------------------------
 
-### Applicatives {#_applicatives}
+### Applicatives
 
 For a transitive verb, it is common to find a configuration with a third argument in an applicative case, representing the means with which the action occurred. The verb’s valency is therefore increased, making it ditransitive.
 
@@ -1829,11 +1829,11 @@ She stabbed the child with a knife
 
 </div>
 
-### Causatives {#_causatives}
+### Causatives
 
 There are two forms of the causative. The *nominative causative* represents direct causation when a single noun is responsible for causing a verb phrase to occur. However, if an entire verb phrase is responsible, or the causation is more indirect, clause chaining is used.
 
-#### Nominative causative {#_nominative_causative}
+#### Nominative causative
 
 When a noun phrase is responsible for the action taking place, the nominal causative is used.
 
@@ -1859,10 +1859,10 @@ The wind caused me to drop the axe.
 
 </div>
 
-Valence decreasing operations {#_valence_decreasing_operations}
+Valence decreasing operations
 -----------------------------
 
-### Reflexive/Reciprocal {#_reflexive_reciprocal}
+### Reflexive/Reciprocal
 
 Ngujari uses a dual analytic/morphological system for reflexives and reciprocals, which are the same construction.
 
@@ -1888,7 +1888,7 @@ You (pl) used to see each other.
 
 If the subject of the clause is itself a personal pronoun, the object is dropped. Hence the reflexive is not necessarily a valence-decreasing operation.
 
-### Morphological reflexives in possession {#_morphological_reflexives_in_possession}
+### Morphological reflexives in possession
 
 When the subject of a VP is the possessor of an object or oblique in the phrase, the possessed is marked with the reflexive suffix.
 
@@ -1902,11 +1902,11 @@ He kicked his ball.
 
 </div>
 
-#### Lexical reflexives {#_lexical_reflexives}
+#### Lexical reflexives
 
 If a verb is reflexive by default, the verb will be intransitive and used as normal, rather than through the analytic/morphological process described above.
 
-### Antipassive {#_antipassive}
+### Antipassive
 
 The antipassive is a valence-decreasing operation. When the patient of a transitive phrase is to be downplayed, it is omitted. The agent assumes the absolutive case (usually), or nominative case (with animate pronoun). The verb is marked with the intransitive suffix *waa*.
 
@@ -1942,15 +1942,15 @@ attack-intrans-3-an\] The dog, who was attacking, barked
 
 Note that in most usage, these examples would be expressed using a clause chain. The use of the antipassive in relative clauses is mostly constrained to the written word rather than speech.
 
-Other verb and verb-phrase operations {#_other_verb_and_verb_phrase_operations}
+Other verb and verb-phrase operations
 =====================================
 
-Nominalisation {#_nominalisation}
+Nominalisation
 --------------
 
 A verb is nominalised by adding its final vowel and a relevant suffix.
 
-### Action nominalisation {#_action_nominalisation}
+### Action nominalisation
 
 Action nominalisation occurs when a verb is nominalised to a gerund, a noun representing its action. This nominalisation is usually morphological, being a standard derivation of the verb class, but in some exceptions is lexical.
 
@@ -1976,7 +1976,7 @@ He went there to hunt. (lit he went to do hunt)
 
 </div>
 
-### Participant nominalisation {#_participant_nominalisation}
+### Participant nominalisation
 
 Ngujari supports agent nominalisation, in which the verb is nominalised to refer to its agent. This is an almost completely productive operation.
 
@@ -2017,7 +2017,7 @@ Let’s leave the graveyeard
 
 </div>
 
-Compounding {#_compounding_2}
+Compounding
 -----------
 
 Compounding is a lexical operation used when forming new verbs. There are two forms of compounding: verb-verb and adverb-verb. Both form a new verb which is treated as a whole in syntactic structures.
@@ -2066,7 +2066,7 @@ to give *gulwaj*\
 
 </div>
 
-Tense/aspect/mode {#_tense_aspect_mode}
+Tense/aspect/mode
 -----------------
 
 Tense refers to the time at which the verb’s action took place. There are four marked tenses: remote past, past, present, and future.
@@ -2119,7 +2119,7 @@ I won’t go there.
 
 </div>
 
-### Aspect {#_aspect}
+### Aspect
 
 Aspect refers to the definiteness of an action. The perfective aspect refers to events which are complete and self-contained ("I ran"), whereas the imperfective aspect refers to ongoing events ("I was running"). In Ngujari, there is no morphological distinction drawn between the perfective and imperfective aspects, meaning contextual clues are vital for understanding.
 
@@ -2133,7 +2133,7 @@ I saw a butterfly that made me blush.
 
 </div>
 
-### Moods {#_moods}
+### Moods
 
 A mood modifies the meaning of a verb. Verbs can be conjugated into one of five moods:
 
@@ -2168,7 +2168,7 @@ We must eat.
 
 </div>
 
-#### Subjunctive {#_subjunctive}
+#### Subjunctive
 
 The subjunctive mood is an *irrealis* mood: it broadly signifies abstractness, or that the speaker is unsure about the event in question.
 
@@ -2209,7 +2209,7 @@ He said to me, "I want a new bed."
 
 </div>
 
-#### Imperative {#_imperative}
+#### Imperative
 
 The imperative mood is used for suggestions and commands. The weak imperative raises an idea or suggestion, without indicating an order, similar to the English "let’s go".
 
@@ -2229,7 +2229,7 @@ Don’t cut down the tree.
 
 </div>
 
-#### Gnomic {#_gnomic}
+#### Gnomic
 
 The gnomic mood states unequivocal facts or ideas. The statement must be truly uncontentious to fit into the gnomic mood, a universal truth or maxim.
 
@@ -2240,7 +2240,7 @@ Satin bowerbirds fly east for winter.
 
 </div>
 
-#### Dubitative {#_dubitative}
+#### Dubitative
 
 The dubitative mood indicates situational possibility. The speaker acknowledges the possibility of an action but is unsure as to whether it occurs. This is similar to English sentences using the auxiliary "might".
 
@@ -2251,7 +2251,7 @@ It might rain tomorrow.
 
 </div>
 
-Participant Reference {#_participant_reference}
+Participant Reference
 ---------------------
 
 Verbs reference subject person and number through suffixes.
@@ -2276,10 +2276,10 @@ There are three situations in which participant reference is anaphoric (and the 
 
 In other cases, participant reference is purely grammatical and the agreeing noun phrase must be present.
 
-Pragmatically marked structures {#_pragmatically_marked_structures}
+Pragmatically marked structures
 ===============================
 
-Topicalisation {#_topicalisation}
+Topicalisation
 --------------
 
 Topicalisation is the process of fronting a noun phrase for emphasis, indicating the topic of the sentence. Topicalisation occurs through left-dislocation: the noun phrase elevated is moved to the front of the sentence, seperated with a pause, before the sentence runs as usual but with a personal pronoun corefering back to the dislocated noun phrase.  The fronted noun is marked for case, but the corefering pronoun is not.
@@ -2303,7 +2303,7 @@ As for me, I will eat the fish
 
 </div>
 
-Negative {#_negative}
+Negative
 --------
 
 A negative simply inverts the meaning of a part of a sentence.
@@ -2338,7 +2338,7 @@ I was not a baker.
 
 </div>
 
-### The use of the subjunctive in forming negatives {#_the_use_of_the_subjunctive_in_forming_negatives}
+### The use of the subjunctive in forming negatives
 
 If a sentence is in any non-present tense, the mood of the negative sentence must be subjunctive.
 
@@ -2382,7 +2382,7 @@ You must never steal.
 
 </div>
 
-### Derivational negation {#_derivational_negation}
+### Derivational negation
 
 An adjective can be negated through a prefix. If the adjective begins with a stop, the prefix is *wuu*. Otherwise, it is *tu*.
 
@@ -2396,10 +2396,10 @@ heavy (rain) *ganu*\
 
 </div>
 
-Non-declarative speech acts {#_non_declarative_speech_acts}
+Non-declarative speech acts
 ---------------------------
 
-### Interrogative {#_interrogative_2}
+### Interrogative
 
 *Interrogatives* are simply questions. There are two types of interrogatives:
 
@@ -2407,7 +2407,7 @@ Non-declarative speech acts {#_non_declarative_speech_acts}
 
 -   *Non-polar*, which require a more detailed response.
 
-#### Polar {#_polar}
+#### Polar
 
 Polar questions are extremely easy to form, and are marked only by intonation. They are expressed as a factual statement, but with a rising tone at the beginning of the question.
 
@@ -2418,7 +2418,7 @@ Will the birds fly to the mountains?
 
 </div>
 
-#### Question-word questions {#_question_word_questions}
+#### Question-word questions
 
 The primary way of forming a non-polar question is through the use of interrogative pronouns (such as *piima*), which replace the questioned word in-situ. The interrogative takes the place of a noun in a verb phrase, but is not assigned a case.
 
@@ -2455,10 +2455,10 @@ meat, is it with freshness?)
 
 </div>
 
-Clause combinations {#_clause_combinations}
+Clause combinations
 ===================
 
-Complement clauses {#_complement_clauses}
+Complement clauses
 ------------------
 
 <div class="informalexample">
@@ -2501,10 +2501,10 @@ I enjoyed washing the car
 
 ![complement clauses](../images/complement-clauses.png)
 
-Adverbial clauses / adjuncts {#_adverbial_clauses_adjuncts}
+Adverbial clauses / adjuncts
 ----------------------------
 
-### Conditional {#_conditional}
+### Conditional
 
 A conditional places a condition on another statement. They are formed through two verb phrases, one representing the condition (or protasis) and the other representing the outcome (or apodosis). There are two types of conditional:
 
@@ -2545,7 +2545,7 @@ lots of food.
 
 </div>
 
-Clause chaining, medial clauses, and switch reference {#_clause_chaining_medial_clauses_and_switch_reference}
+Clause chaining, medial clauses, and switch reference
 -----------------------------------------------------
 
 A medial clause is any non-final clause in a clause chain. It is not usually inflected for tense and aspect, taking instead the tense and aspect of the final clause in the sentence.
@@ -2602,7 +2602,7 @@ The morphological realisation of the SS/DS markers depends on the context of the
 
 : SS/DS markers
 
-### Overlap {#_overlap}
+### Overlap
 
 Overlap represents the "while doing X" relationship.
 
@@ -2616,7 +2616,7 @@ The dog barked while the prisoner escaped.
 
 </div>
 
-### Succession {#_succession}
+### Succession
 
 Succession represents the "after doing X" relationship.
 
@@ -2629,7 +2629,7 @@ The car arrives, then he gets in.
 
 In the above example, the DS marker is enough, along with the person and number marking on the verb, to infer the subject of the medial clause without making it explicit.
 
-### Causation {#_causation}
+### Causation
 
 Causation represents the "because of X" relationship.
 
@@ -2640,7 +2640,7 @@ Since she will arrive early, she will get drunk.
 
 </div>
 
-### Negative causation {#_negative_causation}
+### Negative causation
 
 Negative causation represents the "because of not-X" relationship.
 
@@ -2653,12 +2653,12 @@ Because she didn’t wake up, she missed the bus.
 
 </div>
 
-Relative clauses {#_relative_clauses}
+Relative clauses
 ----------------
 
 There are two types of relative clause.
 
-### Postnominal relative clause {#_postnominal_relative_clause}
+### Postnominal relative clause
 
 This clause relativises the subject position.
 
@@ -2676,7 +2676,7 @@ clause](../images/postnominal-relative-clause.png)
 
 The gap strategy is used for case retention - since the case must be the subject.
 
-### Adjoined relative clause {#_adjoined_relative_clause}
+### Adjoined relative clause
 
 This clause relativises direct and indirect objects, using the relative pronoun strategy for case retention.
 
@@ -2694,14 +2694,14 @@ I know the man that the tree fell on \[indirect object\].
 
 TODO: X-bar diagram
 
-Coordination {#_coordination}
+Coordination
 ------------
 
 Apart from medial clause-chaining, Ngujari does not have any concept of coordination inside clauses.
 
 Instead, different logical constructions are formed in unique ways.
 
-### Conjunction {#_conjunction}
+### Conjunction
 
 Conjunction is expressed between NPs or VPs.
 
@@ -2730,7 +2730,7 @@ I find a boat and steal it.
 
 </div>
 
-### Disjunction {#_disjunction}
+### Disjunction
 
 Disjunction is expressed between verb phrases only, using the dubitative mood. Disjunction is an either relationship, where one and only one of the options can be true.
 
@@ -2750,10 +2750,10 @@ Will you run there or walk?
 
 </div>
 
-Semantics {#_semantics}
+Semantics
 =========
 
-Colours {#_colours}
+Colours
 -------
 
 In Ngujari, colours are derived from nouns through the suffix *ku*.  There are six primary colours, detailed in the following table, along with their base noun.
@@ -2787,7 +2787,7 @@ sunset *kii*\
 
 </div>
 
-Kinship {#_kinship}
+Kinship
 -------
 
 The kinship system of Ngujari revolves around four *totems*. The population is split into four:
@@ -2834,19 +2834,19 @@ Many kinship terms are relative to totem. Of note is the fact that there are dif
 
 : Kinship terms
 
-Conclusions: the language in use {#_conclusions_the_language_in_use}
+Conclusions: the language in use
 ================================
 
-Discourse analysis and linguistic analysis {#_discourse_analysis_and_linguistic_analysis}
+Discourse analysis and linguistic analysis
 ------------------------------------------
 
-Continuity (cohesion) and discontinuity {#_continuity_cohesion_and_discontinuity}
+Continuity (cohesion) and discontinuity
 ---------------------------------------
 
-Genres {#_genres}
+Genres
 ------
 
-Miscellaneous and conclusions {#_miscellaneous_and_conclusions}
+Miscellaneous and conclusions
 -----------------------------
 
 [^1]: The change occurs only for the first phoneme in a word.
