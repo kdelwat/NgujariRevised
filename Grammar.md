@@ -263,13 +263,13 @@ However, in a handful of cases words are instead inflected through _clitics_, se
 
 Consider the following sentence:
 
-<div class="informalexample">
+```gloss
 
 **k-a wa-Ø jari-rn wiirr-u-Ø**\
 _go.AUX-PST 1s-ERG beach-LOC go-AN-1ST_\
 I went to the beach.
 
-</div>
+```
 
 The sentence contains three stems: _wiirr_ (to go), _jari_ (beach), and _wa_ (_I_). However, these stems cannot be used alone. Each has at least one additional morpheme.
 
@@ -294,25 +294,25 @@ For example, nouns themselves are marked for plurality, rather than the null det
 
 Possessives provide another example of head-marking. The owning pronoun is marked with the possessive suffix, rather than the owned noun.
 
-<div class="informalexample">
+```gloss
 
 **waju-j nna-lu**\
 _face-nom 3s.an-pos_\
 his face
 
-</div>
+```
 
 ![alt_text](../images/wajuj-nnalu.png)
 
 In verb phrases, the verb (head) is marked for information like tense and valence, rather than the arguments.
 
-<div class="informalexample">
+```gloss
 
 **k-i wa-j jarta-rn wiirr-u-m**\
 _go.aux-PRES 1s-nom home-LOC go-an-1st_\
 I go home
 
-</div>
+```
 
 ![alt_text](../images/go-home.png)
 
@@ -331,7 +331,7 @@ Distributionally, nouns are the head of noun phrases, which are used as argument
 
 In the following example, we see first the uninflected noun, then the noun used as part of a postnominal relative clause to create a noun phrase, which is inflected in the absolutive case. Finally, the noun phrase is used as the argument in a verb phrase.
 
-<div class="informalexample">
+```gloss
 
 _dress_\
 dress
@@ -342,11 +342,11 @@ the dress that is drying
 _dress-ABS dry.AUX-PRES dry-3-INAN_ want-1-an\_\
 I want the dress that is drying
 
-</div>
+```
 
 Nouns are distinguished from other word classes by their ability to assume the role of subject in such verb phrases, whereas constructions like gerunds cannot.
 
-<div class="informalexample">
+```gloss
 
 _drive.AUX-PST car-ERG drive-3-inan_\
 The car drove forwards
@@ -357,7 +357,7 @@ The car drove forwards
 _stop.AUX-PST 3s.an-ERG drive.GER-ABS stop-3-an_\
 She stopped the driving
 
-</div>
+```
 
 Nouns are an open class, and new morphemes are added or derived on a sporadic but frequent basis.
 
@@ -369,36 +369,36 @@ Proper nouns are the names of specific objects, usually people. They are most co
 
 Proper nouns are structurally identical to regular nouns, except that they lack the restriction on their final syllable and can end in a consonant. In this instance, the usual suffixes are added to signify case after reduplicating the final vowel in the noun.
 
-<div class="informalexample">
+```gloss
 
 _mango-pl-erg Yurluj-loc fall-inan-3rd_\
 The mangoes fell on Yurluj.
 
-</div>
+```
 
 However, proper nouns are unique in that they do not always require inflection for grammatical case. Speakers will only decline proper nouns if the sentence would be otherwise ambiguous. In the following sentence, it is obvious that the proper noun takes the nominative position and it is not inflected.
 
-<div class="informalexample">
+```gloss
 
 _move.aux-fut stream-erg Parra-nom rock-rev move-inan-3rd_\
 The stream will take Parra away from the rock.
 
-</div>
+```
 
 The need to distinguish proper nouns using case inflections usually arises when two proper nouns are in the same sentence.
 
-<div class="informalexample">
+```gloss
 
 _help.aux-pres-wimp Annurra-erg Najii-nom help-an-3rd_\
 Annurra should help Najii.
 
-</div>
+```
 
 Even in circumstances where the meaning of the sentence would be unambiguous without case inflection, the speaker may choose to inflect if they are using a non-standard word order.
 
 In the following example, the speaker topicalises the object of the sentence. This change to word order is reflected by a case marker on the proper noun _Gupti_ which was previously elided.
 
-<div class="informalexample">
+```gloss
 
 _run.AUX-PST Gupti-ERG bridge-LOC run-3-an_\
 Gupti ran over the bridge.
@@ -406,7 +406,7 @@ Gupti ran over the bridge.
 _bridge-LOC, \_run.AUX-PST Gupti-ERG (with non null) 3s-inan run-3-an_\
 As for Gupti, he ran over the bridge.
 
-</div>
+```
 
 ### Pronouns
 
@@ -588,7 +588,7 @@ Number represents how many actors were involved. The verb may have been performe
 
 For transitive and ditransitive verbs, the agent of the clause determines these dimensions.
 
-<div class="informalexample">
+```gloss
 
 _protect.AUX-FUT 1s-ERG coconuttree-NOM protect-an-1st_\
 I \[an adult\] will protect the coconut tree.
@@ -599,16 +599,16 @@ They \[a group of children\] will protect the coconut tree.
 _protext.aux-fut coconuttree-ERG 3pl-ch-NOM protect-inan-3rd_\
 The coconut tree will protect them \[a group of children\].
 
-</div>
+```
 
 For intransitive verbs, the subject determines the dimensions.
 
-<div class="informalexample">
+```gloss
 
 _know.AUX-PRES 2s-NOM know-AN-3rd_\
 You know.
 
-</div>
+```
 
 +-------------+-------------+-------------+-------------+-------------+
 | class | child | adult | elder | inanimate |
@@ -663,12 +663,12 @@ You know.
 
 Adjectives are words used to describe or modify the meaning of a noun. Adjectives in Ngujari perform the _predicative function_: they are used in a predicate construction to refer to its subject.
 
-<div class="informalexample">
+```gloss
 
 _ocean-nom calm-pred_\
 The sea is calm.
 
-</div>
+```
 
 #### Cases
 
@@ -676,7 +676,7 @@ Noun case suffixes can in some cases be used to derive adjectives based around t
 
 Orientative and revertive suffiixs can be used to indicate the "direction" of an adjective in relation to its noun. This distinction is commonly found when talking about time.
 
-<div class="informalexample">
+```gloss
 
 age _jul_\
 ⇒ new _jurni_ (orientative)\
@@ -686,13 +686,13 @@ freshness _gurlu_\
 ⇒ fresh _gurlurni_\
 ⇒ stale _gurlunga_
 
-</div>
+```
 
 #### Amplification
 
 An adjective can be amplified in magnitude through reduplication. The final syllable is duplicated, excluding its coda in the first instance. If the final vowel is long following the derivation, it becomes shortened.
 
-<div class="informalexample">
+```gloss
 
 big _yampu_\
 ⇒ enormous _yampupu_
@@ -703,13 +703,13 @@ small _pangii_\
 thick _yurlan_\
 ⇒ fat _yurlarlan_
 
-</div>
+```
 
 #### Relativisation
 
 Many of Ngujari’s adjectives are absolute rather than relative. For example, _yampu_ ("big") refers to something bigger than a human, rather than something big for its class (as in "the big elephant"). These absolute adjectives can be converted to relative adjectives through the suffix _pu_.
 
-<div class="informalexample">
+```gloss
 
 small (absolute) _pangii_\
 ⇒ small (relative) _pangiipu_
@@ -717,7 +717,7 @@ small (absolute) _pangii_\
 warm (absolute) _mirra_\
 ⇒ warm (relative) _mirrapu_
 
-</div>
+```
 
 ### Quantifiers
 
@@ -749,7 +749,7 @@ There are eleven basic numerals, spanning from zero to ten, outlined in the tabl
 
 For numbers under ten, expression is simple. The speaker just uses the corresponding numeral is used. But past ten, the numbers are expressed as composites. Any numeral can be combined with the words _yi_ ("five") or _najuyi_ ("ten") to multiply by that number. Composite numbers are formed through multiples of five and ten combined with any extra numerals, which follow the multiples. There are therefore two ways of expressing any number, depending on the choice of five or ten as a base.
 
-<div class="informalexample">
+```gloss
 
 twelve\
 _najuyi guu_\
@@ -764,17 +764,17 @@ fifty\
 _yi-najuyi_\
 _najuyi-yi_
 
-</div>
+```
 
 When counting, a separate tally system may be used. "Marks", or chosen multiples of five or ten, are expressed fully, but numbers in between are expressed as the difference from the last mark.
 
-<div class="informalexample">
+```gloss
 
 **guu-najuyi naju guu naa jaru yi-yi naju…​**\
 twenty, twenty-one, twenty-two, twenty-three, twenty-four, twenty-five,
 twenty-six…
 
-</div>
+```
 
 #### Abstract
 
@@ -804,21 +804,21 @@ An adverb is a word which modifies a clause.
 
 _Manner_ adverbs modify the way the clause’s verb is performed.
 
-<div class="informalexample">
+```gloss
 
 _strike.AUX-PST 1s-NOM 3s-ACC hard strike-AN-1st_\
 I struck him hard.
 
-</div>
+```
 
 _Temporal_ adverbs modify when the clause occurs.
 
-<div class="informalexample">
+```gloss
 
 _strike.AUX-FUT 1s-NOM 3s-ACC strike-AN-1st soon_\
 I will strike him soon.
 
-</div>
+```
 
 The class of an adverb loosely determines its position in a phrase, with manner adverbs tending to precede the noun and temporal adverbs tending to follow.
 
@@ -834,43 +834,43 @@ Within a clause, nouns can take on one of multiple roles:
 
 -   The _agent_ of a transitive verb, which is a noun performing an action on another noun.
 
-<div class="informalexample">
+```gloss
 
 _see.AUX-pst boy-erg stick-nom see-ch-3rd_\
 The boy saw the stick.
 
-</div>
+```
 
 -   The _patient_ of a transitive verb, or the noun that an action is being performed on.
 
-<div class="informalexample">
+```gloss
 
 _see.AUX-pst boy-erg stick-nom see-ch-3rd_\
 The boy saw the stick.
 
-</div>
+```
 
 -   The _subject_ of an intransitive verb, which is a verb that only requires one noun. For example, in the sentence "The dog barks", the dog is the subject.
 
-<div class="informalexample">
+```gloss
 
 _woman-nom cry-an-3rd_\
 The woman cries.
 
-</div>
+```
 
 -   the _adjunct_ of a ditransitive verb, which is a verb that requires three nouns.
 
-<div class="informalexample">
+```gloss
 
 _cook.AUX-FUT 1s.an-ERG egg-PL-ABS pan-INSTR cook-1-an_\
 I will cook eggs with a pan
 
-</div>
+```
 
 Inside a clause, Ngujari tends to be an APV/SV language. This means that the agent and patient precede the verb in a transitive clause, and the subject precedes the verb in an intransitive clause.
 
-<div class="informalexample">
+```gloss
 
 _eat.aux-pst kangaroo-pl-ERG grass-NOM eat-an-3rd_\
 The kangaroos ate/were eating grass.
@@ -878,31 +878,31 @@ The kangaroos ate/were eating grass.
 _1s-nom 2s-acc strike-an-1st_\
 I strike you.
 
-</div>
+```
 
 When a verb is ditransitive, the extra argument immediately precedes the verb.
 
-<div class="informalexample">
+```gloss
 
 _1pl-erg camp-nom fire-com protect-an-1st_\
 We protect the camp with fire.
 
-</div>
+```
 
 The presence of the verb at the end of the clause is fixed, but the order of the nouns is flexible for pragmatic reasons. The speaker can reverse agent and patient.
 
-<div class="informalexample">
+```gloss
 
 _2s-acc 1s-nom strike-an-1st_\
 I strike you.
 
-</div>
+```
 
 The majority of the time, the agent will precede the patient. But if the speaker is drawing attention to the patient, especially if the agent has already been discussed and the patient is being introduced, it may move to the position of importance before the agent.
 
 ## Verb phrase
 
-<div class="informalexample">
+```gloss
 
 Verb Phrase: _vp = aux \[neg\] np(s) \[adv(s)\]\[val\] v_\
 _VP = (NP) V'_\
@@ -912,16 +912,16 @@ _V' = NP V'_\
 _V' = ValP V'_\
 _V' = T V_
 
-</div>
+```
 
 A _verb phrase_ is the primary structure of a clause. The most basic clause possible is an avalent [^4] verb. This is demonstrated in the following example:
 
-<div class="informalexample">
+```gloss
 
 _rain.aux-pres rain-inan-1st_\
 It’s raining.
 
-</div>
+```
 
 ![nnuu rrunnaa](../images/nnuu-rrunnaa.png)
 
@@ -931,36 +931,36 @@ In practice, most verb phrases will involve nouns. While word order is flexible,
 
 2.  The verb itself appears at the end.
 
-<div class="informalexample">
+```gloss
 
 _bring.aux-pst 3s-erg bread-nom 3pl-ori bring-an-3rd_\
 He brought the bread to them.
 
-</div>
+```
 
 ![he brought bread](../images/he-brought-bread.png)
 
-<div class="informalexample">
+```gloss
 
 _cry.AUX-FUT 1s.an-nom cry-1-an_\
 I will cry
 
-</div>
+```
 
 If the verb is in the present tense, and the auxiliary would otherwise be unmodified, the auxiliary is omitted.
 
-<div class="informalexample">
+```gloss
 
 _burn.aux-pres fire-erg burn-inan-3rd_\
 The fire burns.
 
-</div>
+```
 
 ![the fire burns](../images/the-fire-burns.png)
 
 For pragmatic reasons, a speaker may move the verb’s auxiliary from its regular position at the beginning of the clause to after the verb’s arguments.
 
-<div class="informalexample">
+```gloss
 
 _2s-acc 1s-nom strike.aux-pres strike-an-1st_\
 I strike you.
@@ -968,13 +968,13 @@ I strike you.
 _1s-nom 2s-acc strike.aux-pres strike-an-1st_\
 I strike you.
 
-</div>
+```
 
 ![I strike you](../images/I-strike-you.png)
 
 If the verb phrase is intransitive and contains only a personal pronoun as subject, the pronoun can be elided since the relevant information is encoded on the verb.
 
-<div class="informalexample">
+```gloss
 
 _3pl.ch bathe-3pl-ch_\
 The children bathe
@@ -982,37 +982,37 @@ The children bathe
 _bathe-3pl-ch_\
 The children bathe
 
-</div>
+```
 
 ## Noun phrase
 
-<div class="informalexample">
+```gloss
 
 _NP = N'_\
 _N' = N (CP)_
 
-</div>
+```
 
 A verb phrase can take more than just bare nouns. A _noun phrase_ is a constituent which acts like a noun. It can contain the noun alone, but can also be modified by a relative clause.
 
 The relative clause always appears at the end of the noun phrase.
 
-<div class="informalexample">
+```gloss
 
 **birru-ø**\
 _sea-erg_\
 sea
 
-</div>
+```
 
 ![birru](../images/birru.png)
 
-<div class="informalexample">
+```gloss
 
 _1s.an-ERG weave.AUX-PST basket-ABS weave-PST_\
 I, who wove a basket
 
-</div>
+```
 
 ## Adpositional phrases
 
@@ -1022,7 +1022,7 @@ A comparative is a sentence which compares one noun to another, using an adjecti
 
 If the judged noun is 'more' of the adjective than the standard noun, the revertive case is used. If they are the same, the locative case is used.
 
-<div class="informalexample">
+```gloss
 
 _3s-nom 1s-rev tall-an_\
 He is taller than me.
@@ -1030,17 +1030,17 @@ He is taller than me.
 _axe-erg spear-loc dull-inan_\
 The axe and spear are equally as dull.
 
-</div>
+```
 
 Comparatives may be used in relative clauses. The adjective becomes the first word in the clause and is followed by the nouns. One of the nouns is replaced by a pronoun as usual.
 
-<div class="informalexample">
+```gloss
 
 _win.aux-pst \[dingo-erg be.AUX-PRES fast-an 3s-erg boy-rev be-3-an\]
 race-nom win-an-3rd_\
 The dingo, who is faster than the boy, won the race.
 
-</div>
+```
 
 ## Modifier Positioning
 
@@ -1054,21 +1054,21 @@ Adverbs can be split into two categories:
 
 Temporal adverbs usually follow the base verb.
 
-<div class="informalexample">
+```gloss
 
 _go.aux-pst 1s.ch-erg beach-loc go-ch-1st day-rev one_\
 Yesterday, I \[a child\] went to the beach.
 
-</div>
+```
 
 Manner adverbs usually precede the base verb.
 
-<div class="informalexample">
+```gloss
 
 _pickup.aux-fut-wimp 1pl-erg clothing-pl-nom quickly pickup-an-1st_\
 We should pick up the clothes quickly.
 
-</div>
+```
 
 However, both can occupy the other’s position inside the verb phrase if the speaker desires it.
 
@@ -1080,7 +1080,7 @@ For all general derivations of nouns, the noun must be placed into derived form 
 
 Nominal compounds are bidirectional, meaning that the order of constituent nouns does not change the meaning of the compound. In practical use, both orders are used, with preference depending on the phonetics of the noun. If the compounding would create an illegal consonant cluster, the other order must be used.
 
-<div class="informalexample">
+```gloss
 
 mountain _gaypa_\
 stream _munna_\
@@ -1090,7 +1090,7 @@ the Land _Yawirra_\
 ground _nnalu_\
 ⇒ sacred place _Yawirrannalu_
 
-</div>
+```
 
 ## Number
 
@@ -1158,13 +1158,13 @@ In addition, some nouns are inherently both singular and plural and do not adopt
 
 There is no distinction between count nouns, which can be specifically counted, and mass nouns, which cannot. The number of the noun present can be specified through the usual adjective system.
 
-<div class="informalexample">
+```gloss
 
 rock _naju_\
 ⇒ five rocks _yi naju_\
 ⇒ a handful of rocks _ayi naju_
 
-</div>
+```
 
 ## Case
 
@@ -1198,12 +1198,12 @@ For more details on the three alignment cases, see the alignment chapter. The re
 
 The instrumental case (INS) is used when discussing a _means_, roughly equivalent to the English "by means of" or "using". For example, when speaking of killing a fish using a spear, a Ngujari speaker will place "spear" in the instrumental case. The case can only be used with an _inanimate_ noun.
 
-<div class="informalexample">
+```gloss
 
 _find.aux-pst 3s.an-erg route-nom map-ins find-an-3rd_\
 He found the route using the map.
 
-</div>
+```
 
 ### Comitative
 
@@ -1211,32 +1211,32 @@ The comitative case (COM) is equivalent to "in the presence of", or "with", and 
 
 In the following example, the comitative is found in its standard sense.
 
-<div class="informalexample">
+```gloss
 
 _jump.aux-fut boy-erg river-loc friend-com jump-an-3rd_\
 The boy, with his friend, will jump over the river.
 
-</div>
+```
 
 Special meanings of the comitative arise for some verbs.
 
-<div class="informalexample">
+```gloss
 
 _steal.aux-pres 3pl.an-erg kangaroo.meat-nom woman-com steal-an-3rd_\
 They are stealing kangaroo meat from the woman.
 
-</div>
+```
 
 ### Locative
 
 The locative case (LOC) is used to specify a location, and can take the place of a preposition such as "in" or "at". Many verbs of motion take the locative as one of their prescribed arguments.
 
-<div class="informalexample">
+```gloss
 
 _↗go.aux-fut 1s-erg mountain-loc go-an-1st_\
 Should I go to the mountain?
 
-</div>
+```
 
 The cardinal directions are treated as if they have the locative case, and hence do not use it where other nouns would.
 
@@ -1244,41 +1244,41 @@ The cardinal directions are treated as if they have the locative case, and hence
 
 The orientative case (ORI) is used to specify that something is facing towards the noun. It is often used with the meaning of "heading towards".
 
-<div class="informalexample">
+```gloss
 
 _2s-erg camp-ori run-an-2nd_\
 You are running towards the camp.
 
-</div>
+```
 
 The revertive case (REV) is used to specify that something is oriented away from the noun. It can be used with the meaning of "heading away from".
 
-<div class="informalexample">
+```gloss
 
 _3pl.an-erg fish-abs 1d-rev bring-an-3rd_\
 They are bringing the fish away from us two.
 
-</div>
+```
 
 It can also be used in asserting falsehood.
 
-<div class="informalexample">
+```gloss
 
 _look.aux-rem 3s.an-erg knowledge-rev look-an-3rd_\
 He used to look away from knowledge / he used to be incorrect.
 
-</div>
+```
 
 Both the orientative and revertive case can be used in place of the locative in any verbal argument slot that requires a locative, allowing for finer control.
 
 The orientative case functions practically as a dative case when dealing with recipients, such as in transfer of possession.
 
-<div class="informalexample">
+```gloss
 
 _give.AUX-PST 3s.an-NOM 1s.an-ACC 1s.an-COM give-an-3rd_\
 He gave me the book
 
-</div>
+```
 
 An example of the use of these cases is found in the following table, which shows the declensions of the noun _naju_.
 
@@ -1311,7 +1311,7 @@ An example of the use of these cases is found in the following table, which show
 
 There is no grammatical or morphological basis for determiners or articles on nouns. The information that would be conveyed by something like a demonstrative must be expressed in a more circumspect manner.
 
-<div class="informalexample">
+```gloss
 
 _2s.an-ERG book-ABS want-2-an, which?_\
 Which book do you want?
@@ -1319,7 +1319,7 @@ Which book do you want?
 _that.inan-ERG hand-LOC rest-3-inan_\
 This one (lit. the one that rests in my hand)
 
-</div>
+```
 
 ## Class and gender
 
@@ -1350,21 +1350,21 @@ Ngujari has a dual-gender system. The major distinction is between the animate a
 
 The animate-inanimate distinction partially determines morphosyntactic alignment. Consider the following example, in which two animate pronouns are the subject and object of transitive phrase.
 
-<div class="informalexample">
+```gloss
 
 _eat.AUX-PST 1s.child-NOM 3s.an-ACC eat-AN-1ST_\
 I (a child) ate it (an animate object).
 
-</div>
+```
 
 The two animate pronouns cause the sentence to assume the nominative-accusative alignment. If instead the object was inanimate, the sentence would decline in the ergative-absolutive alignment:
 
-<div class="informalexample">
+```gloss
 
 _eat.AUX-PST 1s.child-ERG 3s.inan-ABS eat-AN-1ST_\
 I (a child) ate it (an inanimate object).
 
-</div>
+```
 
 While this is the primary gender distinction, there is a secondary subdivision. Within the animate there are three genders used only for referring to humans, each representing a different stage of life: child, adult, and Elder. These genders are important in determining pronouns and verbal inflection.
 
@@ -1374,7 +1374,7 @@ The default gender in the stage distinction is adult. All non-human animate noun
 
 The following pair of examples demonstrates the role of the stage distinction in verbal conjugation. The same sentence is conjugated for both a group of children and a group of adults.
 
-<div class="informalexample">
+```gloss
 
 _go.AUX-FUT 1pl.child-ERG where go-CHILD-1ST day-ORI_\
 Where will we (a group of children) go tomorrow?
@@ -1382,11 +1382,11 @@ Where will we (a group of children) go tomorrow?
 _go.AUX-FUT 1pl.adult-ERG where go-ADULT-1ST day-ORI_\
 Where will we (a group of adults) go tomorrow?
 
-</div>
+```
 
 The stage distinction is also used in declining predicate adjectives.
 
-<div class="informalexample">
+```gloss
 
 _3s.child-NOM happy-CHILD_\
 The child is happy.
@@ -1394,7 +1394,7 @@ The child is happy.
 _Wiirrutii happy-ELDER_\
 Wiirrutii (an elder) is happy.
 
-</div>
+```
 
 ## Diminution/augmentation
 
@@ -1412,7 +1412,7 @@ A noun’s _scale_ can be adjusted up or down through the following suffixes:
 
 This operation is commonly lexicalised, but can be applied generally.
 
-<div class="informalexample">
+```gloss
 
 fire _panwa_\
 ⇒ ash _panwawa_\
@@ -1422,13 +1422,13 @@ wind _gaju_\
 ⇒ breath _gajuwa_\
 ⇒ high wind _gajurki_
 
-</div>
+```
 
 ## Temporalisation
 
 A noun can be modified into a temporal noun, meaning the equivalent of "time of noun", using the suffix _ku_.
 
-<div class="informalexample">
+```gloss
 
 moon _tii_\
 ⇒ night _tiiku_
@@ -1436,13 +1436,13 @@ moon _tii_\
 sun _puu_\
 ⇒ day _puuku_
 
-</div>
+```
 
 ## Collection
 
 Partial reduplication can be used to derive the collection of a noun. To derive the collection, the first syllable is isolated, its coda removed, and added to the front of the noun.
 
-<div class="informalexample">
+```gloss
 
 coconut _wurna_\
 ⇒ coconut tree _wuwurna_
@@ -1450,13 +1450,13 @@ coconut _wurna_\
 bone _parrna_\
 ⇒ corpse _paparrna_
 
-</div>
+```
 
 ## Container
 
 The container of a noun can be derived through the affix _rna_.
 
-<div class="informalexample">
+```gloss
 
 arrow _yungi_\
 ⇒ quiver _yungirna_
@@ -1464,7 +1464,7 @@ arrow _yungi_\
 fruit _yirli_\
 ⇒ basket _yirlinga_
 
-</div>
+```
 
 # Predicate nominals and related constructions
 
@@ -1482,27 +1482,27 @@ Proper inclusion indicates that a noun is a member of a class, such as a profess
 
 In the present tense, a proper inclusion predicate is formed through adjacent noun phrases, with no copula.
 
-<div class="informalexample">
+```gloss
 
 _1S-ERG teacher-ABS_\
 I am a teacher.
 
-</div>
+```
 
 However, if the predicate is in another tense, _ngarr_, the auxiliary of _ngurr_ (to be) is used as a copula. It is declined according to tense, but not mood, and follows the noun phrases.
 
-<div class="informalexample">
+```gloss
 
 _1S-ERG teacher-ABS COP-PST_\
 I was a teacher.
 
-</div>
+```
 
 ### Equative predicates
 
 An equative predicate signifies that two nouns corefer, in that they reference the same object. They are formed using the verb _ngurr_ (to be), which acts as a copula.
 
-<div class="informalexample">
+```gloss
 
 _1S-NOM 2S-ACC be-AN-1ST_\
 I am your friend.
@@ -1510,7 +1510,7 @@ I am your friend.
 _3s.an-ERG person-ABS be-an-1st \[COMP person-ABS tall-pred\]_ She’s the
 tall one.
 
-</div>
+```
 
 ## Predicate adjectives
 
@@ -1524,41 +1524,41 @@ To decline a predicate adjective, two steps are required:
 
 2.  The relevant gender suffix of a class one verb is added as a suffix.
 
-<div class="informalexample">
+```gloss
 
 _plane-ERG fast-PRED_ The plane is fast
 
-</div>
+```
 
 A crucial distinction between the noun predicate and adjectival predicate is that there can be no tense distinction made with adjectives; instead they remain in the present tense, even if used in a text of a different tense.
 
-<div class="informalexample">
+```gloss
 
 _go.away.AUX-PST 1pl.an-ERG plane-INSTR go.away-INTRANS-1-an \[COMP
 plane-ERG fast-PRED\]_\
 We went on a trip and the plane was fast
 
-</div>
+```
 
 There is another form of adjectival predicate, in which a noun is used in place of an adjective. While this may seem counterintuitive, the noun in effect becomes an adjective. This form is used when describing a changeable state. The described noun is treated as above, but the modifying noun is given the comitative case.
 
-<div class="informalexample">
+```gloss
 
 _berry-ERG freshness-com_\
 The berry is fresh.
 
-</div>
+```
 
 ## Predicate locatives
 
 Predicate locatives assign a noun phrase to a location. They are formed in the same way as a proper inclusion noun predicate. The location comes after the noun, and is placed in the locative case.
 
-<div class="informalexample">
+```gloss
 
 _boy.ERG beach-LOC_\
 The boy is at the beach
 
-</div>
+```
 
 ## Existentials
 
@@ -1566,36 +1566,36 @@ The existential predicate is formed through a copula taking one argument, the ex
 
 The copula appears after the noun which "exists". The noun phrase takes the comitative case.
 
-<div class="informalexample">
+```gloss
 
 _beach-COM COP_\
 There is a beach / A beach exists.
 
-</div>
+```
 
 The copula does not act as a verb and hence cannot take adjuncts. Instead, clause chaining provides a means for supplying adjuncts.
 
-<div class="informalexample">
+```gloss
 
 _beach-COM COP-SS DEMPRON village-LOC adjoin/abut-AN-3RD_\
 There is a beach near the village / The village has a beach.
 
-</div>
+```
 
 When preceding a clause chain, the subject is _not_ elided and placed in the main clause. It remains in position before the copula, which is marked with the SS modifier. Inside, the _uninflected_ demonstrative pronoun corefers with the existing noun phrase.
 
 Inside an existential, the noun phrase can include adjectives and relative clauses as normal.
 
-<div class="informalexample">
+```gloss
 
 _beach-COM COP, COMP 1S-ERG DEMPRON-AN-1-ABS want-AN-1ST_\
 There’s a book that I want.
 
-</div>
+```
 
 Negative existentials are a seperate construction. They are formed through negative locative possession, with the dummy subject being the locative demonstrative _naarla_ (there).
 
-<div class="informalexample">
+```gloss
 
 _NEG doorknob-ERG DEM.LOC.1 be-INAN-3RD_\
 There’s no doorknob / lit. The doorknob is not on there.
@@ -1603,7 +1603,7 @@ There’s no doorknob / lit. The doorknob is not on there.
 _be.AUX-PST NEG bag-PL-ERG DEM.LOC.PL be-INAN-3RD_\
 There weren’t any bags.
 
-</div>
+```
 
 ## Possessive clauses
 
@@ -1621,12 +1621,12 @@ In locative-based possession, the verb _ngurr_ is used. The possessed noun becom
 
 Locative-based possession can be thought of as a noun being on somebody’s person. Where in English we might say "I have a spear", the literal Ngujari translation is closer to "The spear is on me", even if the spear is in fact kilometres away. This can be seen in the following example.
 
-<div class="informalexample">
+```gloss
 
 _deadfish-pl-dual-erg woman-loc be-inan-3rd_\
 The woman has two dead fish.
 
-</div>
+```
 
 The second form of the alienable possession, pronominal possession, is described in the chapter on nouns.
 
@@ -1634,21 +1634,21 @@ The second form of the alienable possession, pronominal possession, is described
 
 Inalienable possession is indicated through the use of the verb _gurr_. The possessor becomes the agent and the possessed noun becomes the object.
 
-<div class="informalexample">
+```gloss
 
 _have.aux-fut-gno 3s.an-erg homeland-abs have-an-3_\
 He will always have a homeland.
 
-</div>
+```
 
 It is important to note that _gurr_ is either transitive or ditransitive, meaning it can take three arguments: an agent, an object, and a _manner_. The manner is a noun in the comitative case, and describes the means by which the noun became or is possessed. The following example is the same as the above, except a manner is specified.
 
-<div class="informalexample">
+```gloss
 
 _have.aux-fut-gno 3s.an-erg homeland-abs courage-com have-an-1st_\
 He will always have a homeland, due to his courage.
 
-</div>
+```
 
 ### Group
 
@@ -1656,13 +1656,13 @@ In Ngujari culture, an object can be owned by a mob as a whole. With the excepti
 
 Group possession is formed using the special particle _tuu_, which appears before the noun. To specify the possessing mob, the mob’s name is placed immediately after the particle.
 
-<div class="informalexample">
+```gloss
 
 _protect.aux-strimp 1pl-erg pos-gurnu precious land-nom spirit-inst
 protect-an-1st_\
 We must protect our \[the Gurnu mob’s\] precious land with vigour.
 
-</div>
+```
 
 The regular name is used by members of the possessing mob, but the honorific name is used for possessions of others [^6]. For example, the combined particle for something owned by the Wujanga mob would be _tuu-Wujanga_ for a member or _tuu-Wujarra_ for an outsider.
 
@@ -1674,29 +1674,29 @@ Constituent noun phrases in Ngujari sentences can be divided into three categori
 
 In an intransitive clause, there is one argument to the verb, termed the subject.
 
-<div class="informalexample">
+```gloss
 
 _woman-ABS capsize-an-3rd_\
 The woman capsizes.
 
-</div>
+```
 
 In a transitive clause, there are two arguments. The first is the agent, which is the noun performing or causing the action. The second is the patient, which receives, undergoes, or otherwise experiences it.
 
-<div class="informalexample">
+```gloss
 
 _kill.AUX-PST 3s.AN-ERG snake-ABS kill-AN-3RD_\
 He killed a snake.
 
-</div>
+```
 
 Grammatical relations define groups of these categories. The grammatical relations in clauses are decided by an agentivity heirarchy:
 
-<div class="informalexample">
+```gloss
 
 personal pronoun &gt; animate &gt; inanimate
 
-</div>
+```
 
 If there are any arguments in a clause occupying the subject, agent or patient role which are _not_ personal pronouns, grammatical relations are assigned as in [figure_title](#erg-abs-alignment). The ergative relation contains the agent of transitive clauses, while subject and patient are grouped together into the absolutive relation.
 
@@ -1718,27 +1718,27 @@ These two alignments are maintained in both main and dependent clauses, such as 
 
 A verb’s _valence_ determines the number of arguments it can take. For example, a verb with a valence of two would take two nouns:
 
-<div class="informalexample">
+```gloss
 
 _fight.AUX-PST dingo-ERG snake-ABS fight-AN-3RD_\
 The dingo fought the snake.
 
-</div>
+```
 
 In addition to their valence, the arguments to verbs have restrictions on their case. For the majority of transitive verbs, with a valence of two, the arguments take the form of a subject and object. The cases are determined by the alignment of the sentence.
 
 However, this can differ, and some verbs have irregular argument cases. This is especially true in the case of verbs relating to movement, which instead take a subject and a location.
 
-<div class="informalexample">
+```gloss
 
 _run.aux-pst 1s-erg mountain-loc run-an-1st_\
 I ran to the mountain \[and ended up there\].
 
-</div>
+```
 
 When verbs take an argument in the locative case, the speaker can instead use the revertive or orientative case for further control over meaning.
 
-<div class="informalexample">
+```gloss
 
 _run.aux-pst 1s-erg mountain-ori run-an-1st_\
 I ran towards the mountain
@@ -1746,7 +1746,7 @@ I ran towards the mountain
 _run.aux-pst 1s-erg mountain-rev run-an-1st_\
 I ran away from the mountain
 
-</div>
+```
 
 All verbs have a _default valence_: the number of arguments it takes without modification. Most verbs are transitive, but valences can span between avalent (taking no arguments) and quadrivalent (taking four).
 
@@ -1770,12 +1770,12 @@ The applicative cases are:
 
 -   revertive
 
-<div class="informalexample">
+```gloss
 
 _stab.aux-pst 3s.an-NOM 3s.an.ch-ACC knife-INSTR stab-3-an_\
 She stabbed the child with a knife
 
-</div>
+```
 
 ### Causatives
 
@@ -1791,7 +1791,7 @@ In the nominative causative, an extra argument is added to the verb phrase witho
 
 In both transitive and intransitive clauses, the verb phrase agrees with the causer.
 
-<div class="informalexample">
+```gloss
 
 _capsize.aux-pst canoe-nom capsize-inan-3rd_\
 The canoe capsized.
@@ -1805,7 +1805,7 @@ I dropped the axe.
 _drop.aux-pst 1s-com axe-nom wind-erg drop-inan-1st_\
 The wind caused me to drop the axe.
 
-</div>
+```
 
 ## Valence decreasing operations
 
@@ -1815,23 +1815,23 @@ Ngujari uses a dual analytic/morphological system for reflexives and reciprocals
 
 The personal pronoun of the subject occupies the object position and is correctly declined, while the auxiliary is marked with the reflex/reciprocal suffix _naki_.
 
-<div class="informalexample">
+```gloss
 
 _carefor.AUX-PRES-REFL Paya-NOM 3S.AN-ACC carefor-AN-3RD_\
 Paya cares for himself.
 
-</div>
+```
 
 In reflexive constructions, the personal noun is considered to be a pronoun. As such, the clause is in the nominative-accusative alignment.
 
 The reflexive can be used only for animate subjects. In addition, reciprocals can further take only plural subjects.
 
-<div class="informalexample">
+```gloss
 
 _see.AUX-REM-REFL 2PL-NOM see-AN-2ND_\
 You (pl) used to see each other.
 
-</div>
+```
 
 If the subject of the clause is itself a personal pronoun, the object is dropped. Hence the reflexive is not necessarily a valence-decreasing operation.
 
@@ -1839,7 +1839,7 @@ If the subject of the clause is itself a personal pronoun, the object is dropped
 
 When the subject of a VP is the possessor of an object or oblique in the phrase, the possessed is marked with the reflexive suffix.
 
-<div class="informalexample">
+```gloss
 
 _3S.AN-ERG ball-ABS-REFL kick-AN-1ST_\
 He kicked his ball.
@@ -1847,7 +1847,7 @@ He kicked his ball.
 _ball-ABS-REFL kick-AN-1ST_\
 He kicked his ball.
 
-</div>
+```
 
 #### Lexical reflexives
 
@@ -1857,7 +1857,7 @@ If a verb is reflexive by default, the verb will be intransitive and used as nor
 
 The antipassive is a valence-decreasing operation. When the patient of a transitive phrase is to be downplayed, it is omitted. The agent assumes the absolutive case (usually), or nominative case (with animate pronoun). The verb is marked with the intransitive suffix _waa_.
 
-<div class="informalexample">
+```gloss
 
 _attack.AUX-PST dog-ERG 3S.AN-ABS attack-AN-3RD_\
 The dog attacked him.
@@ -1865,27 +1865,27 @@ The dog attacked him.
 _attack.AUX-PST dog-ABS attack-INTRANS-AN-3RD_\
 c.f. The dog attacked (him).
 
-</div>
+```
 
 The antipassive is also used when forming relative clauses for the subject of a sentence, where the relative clause does not have a patient.
 
 Consider this sentence, which uses a postnominal relative clause:
 
-<div class="informalexample">
+```gloss
 
 _bark.AUX-PST dog-ERG attack.AUX-PST man-ABS attack-3-an bark-AN-3rd_\
 The dog, who was attacking the man, barked
 
-</div>
+```
 
 Above, the relative clause has a patient (the man). If instead it does not, the relative clause is instead constructed using an adjoined relative clause:
 
-<div class="informalexample">
+```gloss
 
 \_bark.AUX-PST dog-ERG bark-AN-3rd \[COMP DEMPRON.AN.S-ERG
 attack-intrans-3-an\] The dog, who was attacking, barked
 
-</div>
+```
 
 Note that in most usage, these examples would be expressed using a clause chain. The use of the antipassive in relative clauses is mostly constrained to the written word rather than speech.
 
@@ -1905,21 +1905,21 @@ The gerund is formed through nominalising the verb. The last vowel of the verb i
 
 When used in the nominal form, the gerund takes the appropriate noun case.
 
-<div class="informalexample">
+```gloss
 
 _like.aux-rem 1s-erg swim.ger-abs like-an-1st_\
 I used to like swimming.
 
-</div>
+```
 
 When used in the infinitive form, the overlap relationship is used in a clause chain.
 
-<div class="informalexample">
+```gloss
 
 _3s-ERG go-3-an-SS hunt.ger-ABS do-an-3rd_\
 He went there to hunt. (lit he went to do hunt)
 
-</div>
+```
 
 ### Participant nominalisation
 
@@ -1929,16 +1929,16 @@ In an agent nominalisation, there is no distinction between "classes" (e.g. runn
 
 The suffix _ngu_ (person) is added to nominalise the verb. The resulting noun is always of the animate gender when deciding morphological endings and the alignment of the phrase.
 
-<div class="informalexample">
+```gloss
 
 _arrive.AUX-PST bake-NOMINALISE-ERG arrive-3-an late_\
 The baker was late
 
-</div>
+```
 
 Instrument nominalisation is a syntactic process, that uses the demonstrative pronoun as a clause’s agent.
 
-<div class="informalexample">
+```gloss
 
 _DEMPRON-INAN-ERG coffee.ABS grind-INAN-3RD_\
 coffee grinder (lit. "that which grinds coffee")
@@ -1946,13 +1946,13 @@ coffee grinder (lit. "that which grinds coffee")
 _break.AUX-PST 1s.an-ERG DEMPRON-INAN-ABS break-1-an, comp
 DEMPRON-INAN-ERG coffee.ABS grind-INAN-3RD_ I broke the coffee grinder
 
-</div>
+```
 
 The verb must be in the present tense.
 
 Locational nominalisation uses the suffix _nnalu_ (ground). A nominalised location implicitly takes locative case, and is not marked if it does so. It can be marked for revertive or orientative, but can take no other cases.
 
-<div class="informalexample">
+```gloss
 
 _go.AUX-PRES-WIMP 1pl.an-ERG bury-LOCATION go-1-an_\
 Let’s go to the graveyeard
@@ -1960,7 +1960,7 @@ Let’s go to the graveyeard
 _go.AUX-PRES-WIMP 1pl.an-ERG bury-LOCATION-REV go-1-an_\
 Let’s leave the graveyeard
 
-</div>
+```
 
 ## Compounding
 
@@ -1968,7 +1968,7 @@ Compounding is a lexical operation used when forming new verbs. There are two fo
 
 In verb-verb compounding, the compound is not commutative, meaning that the order of the verbs matters. Typically, the most relevant verb occurs last. The two verbs are simply concatenated, except for the special case in which the concatenation would form an illegal consonant cluster. If this occurs, the repair strategy of inserting the dummy vowel _a_ is used.
 
-<div class="informalexample">
+```gloss
 
 to sit _walj_\
 to swim _junn_\
@@ -1978,13 +1978,13 @@ to travel _nuunn_\
 to exchange _murr_\
 ⇒ to trade (with another mob) _nuunnamurr_
 
-</div>
+```
 
 Verbs formed through verb-verb compounding in most cases assume the transitivity properties of the second, or primary, verb.
 
 Adverb-verb compounding simply requires an adverb to appear before the verb in all positions. For example, it would remain in front of the verb during relativization (see **relative clauses**) while regular adverbs would not.
 
-<div class="informalexample">
+```gloss
 
 to run _yaj_\
 quickly _garrna_\
@@ -1994,11 +1994,11 @@ to drink _ngann_\
 impatiently _karlpii_\
 ⇒ to guzzle _karlpii ngann_
 
-</div>
+```
 
 A common use of adverb-verb compounding is in augmentation and diminution. The adverbs _purki_ ("weakly") and _puwa_ ("strongly") are used to modify the intensity of the verb.
 
-<div class="informalexample">
+```gloss
 
 to eat _jinn_\
 ⇒ to nibble _purki jinn_\
@@ -2008,7 +2008,7 @@ to give _gulwaj_\
 ⇒ to offer _purki gulwaj_\
 ⇒ to force upon _puwa gulwaj_
 
-</div>
+```
 
 ## Tense/aspect/mode
 
@@ -2016,7 +2016,7 @@ Tense refers to the time at which the verb’s action took place. There are four
 
 Present is considered the default tense. It usually indicates those events which are happening in the moment of utterance, but it can also be used as a rudimentary form of a near-past tense, applying to actions that were completed the same day as the utterance.
 
-<div class="informalexample">
+```gloss
 
 _come.aux-pres rain.cloud-erg int-1pl-ori come-an-1st_\
 Are the rain clouds drawing near?
@@ -2024,16 +2024,16 @@ Are the rain clouds drawing near?
 _give.aux-pres 1s-nom 3s.inan-com 3s.an-acc give-an-1st_ earlier\
 I gave it to him earlier today.
 
-</div>
+```
 
 The past tense simply refers to an event that began and concluded in the past. If the event has not yet concluded, the present tense is used, even if it began in the past.
 
-<div class="informalexample">
+```gloss
 
 _1pl-ERG see-an-1st-DS kangaroo-ERG hop-an-3rd_\
 We saw the hopping kangaroo.
 
-</div>
+```
 
 The remote past also indicates an event that was completed in the past. The distinction between it and the standard past can be somewhat arbitrary, but in general remote past is used in the following three circumstances:
 
@@ -2043,7 +2043,7 @@ The remote past also indicates an event that was completed in the past. The dist
 
 -   referring to a habitual action that has concluded
 
-<div class="informalexample">
+```gloss
 
 _shine.aux-rem sun-erg Bilru-abs shine-an-3rd_\
 The sun shone down on Bilru.
@@ -2051,22 +2051,22 @@ The sun shone down on Bilru.
 _be.aux-rem hut-erg mountain-loc be-inan-3rd_\
 The hut used to be on the hill.
 
-</div>
+```
 
 The future tense refers to all events which are yet to take place, regardless of how far in the future they occur.
 
-<div class="informalexample">
+```gloss
 
 _go.aux-fut neg 1s-erg there go-an-1st_\
 I won’t go there.
 
-</div>
+```
 
 ### Aspect
 
 Aspect refers to the definiteness of an action. The perfective aspect refers to events which are complete and self-contained ("I ran"), whereas the imperfective aspect refers to ongoing events ("I was running"). In Ngujari, there is no morphological distinction drawn between the perfective and imperfective aspects, meaning contextual clues are vital for understanding.
 
-<div class="informalexample">
+```gloss
 
 _1s-erg butterfly-abs see-an-1st-SS be.aux-pst forest-loc be-an-1st_\
 I was looking at a butterfly when I was in the forest.
@@ -2074,7 +2074,7 @@ I was looking at a butterfly when I was in the forest.
 _1s-erg butterfly-abs see-an-1st-SS blush.aux-pst blush-an-1st_\
 I saw a butterfly that made me blush.
 
-</div>
+```
 
 ### Moods
 
@@ -2092,16 +2092,16 @@ A mood modifies the meaning of a verb. Verbs can be conjugated into one of five 
 
 Mood is an optional part of verb formation. In a regular active sentence, there is no mood.
 
-<div class="informalexample">
+```gloss
 
 _↗ eat.aux-pres 1pl-nom eat-an-1st_\
 Should we eat?
 
-</div>
+```
 
 But adding a mood, such as the imperative, changes the meaning of the sentence.
 
-<div class="informalexample">
+```gloss
 
 _eat.aux-pres-wimp 1pl-nom eat-an-1st_\
 Let’s eat.
@@ -2109,7 +2109,7 @@ Let’s eat.
 _eat.aux-pres-strimp 1pl-nom eat-an-1st_\
 We must eat.
 
-</div>
+```
 
 #### Subjunctive
 
@@ -2129,7 +2129,7 @@ The negative and conditional cases are related to syntax, and are discussed late
 
 The most common semantic use of the subjunctive mood is speculation. It indicates that a speaker is either unsure of an event’s outcome, or does not know if it occurred or will occur.
 
-<div class="informalexample">
+```gloss
 
 _kill.AUX-PST-SUBJ 3s-ERG kangaroo-ABS kill-AN-3RD_\
 He might have killed the kangaroo.
@@ -2137,11 +2137,11 @@ He might have killed the kangaroo.
 _COMP-walk-pst-subj 3pl.ch-ERG place-ORI walk-ch-3rd know-an-1st_\
 I think that they came back yesterday.
 
-</div>
+```
 
 The subjunctive is also used when expressing desires or dreams. The desire must be first-hand; so recounting those of others does not use the subjunctive.
 
-<div class="informalexample">
+```gloss
 
 _want.AUX-PRES-SUBJ 1s-ERG bed-ABS want-AN-1st_\
 I want a new bed.
@@ -2150,49 +2150,49 @@ _say.AUX-PST 3s-NOM 1s-ACC say-AN-3rd, want.AUX-PRES 1s-ERG bed-ABS
 want-AN-1st_\
 He said to me, "I want a new bed."
 
-</div>
+```
 
 #### Imperative
 
 The imperative mood is used for suggestions and commands. The weak imperative raises an idea or suggestion, without indicating an order, similar to the English "let’s go".
 
-<div class="informalexample">
+```gloss
 
 _cut.AUX-FUT-WIMP neg 1pl-erg tree-ABS cut-an-1st_\
 Let’s not cut down the tree.
 
-</div>
+```
 
 The strong imperative signifies a command, such as "Leave!".
 
-<div class="informalexample">
+```gloss
 
 _cut.AUX-FUT-STRIMP neg 2s-erg tree-abs cut-an-2nd_\
 Don’t cut down the tree.
 
-</div>
+```
 
 #### Gnomic
 
 The gnomic mood states unequivocal facts or ideas. The statement must be truly uncontentious to fit into the gnomic mood, a universal truth or maxim.
 
-<div class="informalexample">
+```gloss
 
 _fly.aux-pres-gno bowerbird-PL-ERG east-LOC fly-an-3rd winter-adv_\
 Satin bowerbirds fly east for winter.
 
-</div>
+```
 
 #### Dubitative
 
 The dubitative mood indicates situational possibility. The speaker acknowledges the possibility of an action but is unsure as to whether it occurs. This is similar to English sentences using the auxiliary "might".
 
-<div class="informalexample">
+```gloss
 
 _rain.aux-fut-dub rain-an-3rd_\
 It might rain tomorrow.
 
-</div>
+```
 
 ## Participant Reference
 
@@ -2224,16 +2224,16 @@ In other cases, participant reference is purely grammatical and the agreeing nou
 
 Topicalisation is the process of fronting a noun phrase for emphasis, indicating the topic of the sentence. Topicalisation occurs through left-dislocation: the noun phrase elevated is moved to the front of the sentence, seperated with a pause, before the sentence runs as usual but with a personal pronoun corefering back to the dislocated noun phrase. The fronted noun is marked for case, but the corefering pronoun is not.
 
-<div class="informalexample">
+```gloss
 
 _\[kangaroo-ABS\] kill.AUX-PST 1S-ERG \[3S.INAN\] kill-AN-1ST_\
 As for the kangaroo, I killed it.
 
-</div>
+```
 
 Topicalisation is permitted only for noun phrases that are the object of the sentence.
 
-<div class="informalexample">
+```gloss
 
 fish-ABS eat.AUX-FUT 1s-ERG \[3S.INAN\] eat-an-1st\
 As for the fish, I will eat it
@@ -2241,7 +2241,7 @@ As for the fish, I will eat it
 (INC) 1s-ERG eat.AUX-FUT \[1S.AN\] fish-ABS eat-an-1st\
 As for me, I will eat the fish
 
-</div>
+```
 
 ## Negative
 
@@ -2255,7 +2255,7 @@ There are two negative particles; one for predicate nominals (all classes), the 
 
 In a standard negative clause, the particle follows the auxiliary of the verb.
 
-<div class="informalexample">
+```gloss
 
 _3s.an-erg there go-an-3rd_\
 He goes there
@@ -2263,11 +2263,11 @@ He goes there
 _go.aux-pres neg 3s.an-erg there go-an-3rd_\
 He doesn’t go there.
 
-</div>
+```
 
 For predicate nominals, the particle is at the beginning of the sentence.
 
-<div class="informalexample">
+```gloss
 
 _neg 1S-ERG baker-ABS_\
 I am not a baker.
@@ -2275,13 +2275,13 @@ I am not a baker.
 _neg 1s-ERG baker-ABS cop-PST_\
 I was not a baker.
 
-</div>
+```
 
 ### The use of the subjunctive in forming negatives
 
 If a sentence is in any non-present tense, the mood of the negative sentence must be subjunctive.
 
-<div class="informalexample">
+```gloss
 
 _go.aux-fut 3s.an-erg there go-an-3rd_\
 He will go there tomorrow
@@ -2289,11 +2289,11 @@ He will go there tomorrow
 _go.aux-fut-subj neg 3s.an-erg there go-an-3rd_\
 He won’t go there tomorrow
 
-</div>
+```
 
 The mood is also subjunctive if the negative is used when responding to a question with a speech act.
 
-<div class="informalexample">
+```gloss
 
 _take.aux-pres who money-ABS to.completion take-3-an_\
 Who is taking all the money?
@@ -2301,31 +2301,31 @@ Who is taking all the money?
 _be.aux-pres-subj 1s.an-NOM be-INTRANS-1-an_\
 Not me (lit. I be not)
 
-</div>
+```
 
 However, in an imperative clause (one that uses the weak or strong imperative mood, see **tense and mood**), the particle is instead placed before the auxiliary, and the subjunctive is not used.
 
-<div class="informalexample">
+```gloss
 
 _ride.AUX-STRIMP 2s.an-ERG bike-ABS ride-1-an_\
 Don’t ride your bike!
 
-</div>
+```
 
 In all clausal negatives, _qualifiers_ can be used as stand-alone utterances, which follow the sentence. A qualifier is a word such as _wulnni_ ("never") which modifies the negative.
 
-<div class="informalexample">
+```gloss
 
 _steal.aux-strimp neg 2s-nom steal-intrans-an-2nd never_\
 You must never steal.
 
-</div>
+```
 
 ### Derivational negation
 
 An adjective can be negated through a prefix. If the adjective begins with a stop, the prefix is _wuu_. Otherwise, it is _tu_.
 
-<div class="informalexample">
+```gloss
 
 long (distance) _yungi_\
 ⇒ short (distance) _tuyungi_
@@ -2333,7 +2333,7 @@ long (distance) _yungi_\
 heavy (rain) _ganu_\
 ⇒ light (rain) _wuuganu_
 
-</div>
+```
 
 ## Non-declarative speech acts
 
@@ -2349,39 +2349,39 @@ _Interrogatives_ are simply questions. There are two types of interrogatives:
 
 Polar questions are extremely easy to form, and are marked only by intonation. They are expressed as a factual statement, but with a rising tone at the beginning of the question.
 
-<div class="informalexample">
+```gloss
 
 _↗ fly.aux-fut bird-pl-erg mountain-pl-loc fly-an-3rd_\
 Will the birds fly to the mountains?
 
-</div>
+```
 
 #### Question-word questions
 
 The primary way of forming a non-polar question is through the use of interrogative pronouns (such as _piima_), which replace the questioned word in-situ. The interrogative takes the place of a noun in a verb phrase, but is not assigned a case.
 
-<div class="informalexample">
+```gloss
 
 _go.aux-pst who river-loc 1s.an-com go-an-3rd_\
 Who went to the river with me?
 
-</div>
+```
 
 This method of questioning can be used in any type of sentence, not just basic clauses. The following example shows its use in a locational predicate which contains a relative clause. The interrogative pronoun, _kiru_, is moved to the front of the sentence to highlight its importance.
 
-<div class="informalexample">
+```gloss
 
 _be.aux-pres where path-erg be-3-inan \[COMP dempron.inan.s-ERG
 village-abs leadto-inan-3rd\]_\
 Where is the path that leads to the village?
 
-</div>
+```
 
 The gender and number agreement of the verb is determined by that of the coreferring interrogative pronoun.
 
 A less-common way to ask a non-polar question requires the particle _yuu_. By placing the particle ahead of a word in a statement, the speaker questions that word.
 
-<div class="informalexample">
+```gloss
 
 _bring.aux-fut int-3dual.an-erg food-nom fire-ori bring-ch-3rd_\
 Will it be those two children who bring the food to the fire?
@@ -2391,49 +2391,49 @@ freshness-com_\
 Is the kangaroo meat he is eating fresh? (lit. He is eating kangaroo
 meat, is it with freshness?)
 
-</div>
+```
 
 # Clause combinations
 
 ## Complement clauses
 
-<div class="informalexample">
+```gloss
 
 _CP = C C'\
 \_C' = VP_
 
-</div>
+```
 
 Complement clauses act as the subject or object of a main clause.
 
 A finite clause is inflected separately to the main clause. When used as a subject, the complementiser _tii_ is prefixed to the auxiliary of the complement verb. If the complement clause is in present tense, the auxiliary appears regardless of normal elision. The other argument in the sentence drops its case marking (so the bare form of the noun is used instead).
 
-<div class="informalexample">
+```gloss
 
 _annoy.AUX-PST COMP-eat-AUX-PST he-ERG dog-ABS eat-3-AN me-ABS
 annoy-1-AN_\
 That he ate the dog annoyed me. / It annoyed me that he ate the dog
 
-</div>
+```
 
 A finite clause can also be used as a direct object (but not indirect). Here, it has a null complementiser.
 
-<div class="informalexample">
+```gloss
 
 _1s.an-ERG COMP(NULL)-fall-AUX-PST icecream-ERG ground-ORI fall-3s-inan
 be.scared-1s-an_\
 I’m scared of the icecream falling on the ground
 
-</div>
+```
 
 A non-finite clause shares its subject with the main clause. It can only be used as an object (both direct and indirect). Non-finite clauses do not have an auxiliary - the infinitive of the verb is used instead, and is moved to the T position. The subject is elided, and all remaining objects are cased as normal.
 
-<div class="informalexample">
+```gloss
 
 _enjoy.AUX-PST 1s.an-ERG wash-1-an car-ABS enjoy-1-an_\
 I enjoyed washing the car
 
-</div>
+```
 
 ![complement clauses](../images/complement-clauses.png)
 
@@ -2451,74 +2451,74 @@ To form both conditionals, the condition verb phrase appears first, followed imm
 
 In an implicative conditional, the condition is given the gnomic mood and the present tense. The statement must therefore follow the usual rules of the gnomic, in that it must state an indisputable truth.
 
-<div class="informalexample">
+```gloss
 
 _fall.aux-prs-gno 2dual.ch-erg water-loc fall-ch-2nd wet.aux-prs-sbjv
 2dual-ch-nom become.wet-ch-2nd_\
 If you two fall in the water, you will both get wet.
 
-</div>
+```
 
 In a predictive conditional, the condition is usually not given a mood, but can assume any tense.
 
-<div class="informalexample">
+```gloss
 
 _break.aux-fut branch-nom break-inan-3rd strike.aux-pres-subj
 dem.sg.inan-erg 3s-an-nom strike-inan-3rd_\
 If that branch breaks, it will strike him.
 
-</div>
+```
 
 There is one exception to this rule. If the condition is seen as unlikely, the phrase is a _counterfactual_. In this case, the condition is given the dubitative mood. Usually, the condition will then be in the future tense.
 
-<div class="informalexample">
+```gloss
 
 _hunt.aux-fut-dub 3s.an-erg kangaroo-nom completedly hunt-an-3rd
 be.aux-pres-subj food-pl-loc more.than.expected 1pl-nom be-inan-3rd_\
 If he were to successfully hunt the kangaroo \[unlikely\], we would have
 lots of food.
 
-</div>
+```
 
 ## Clause chaining, medial clauses, and switch reference
 
 A medial clause is any non-final clause in a clause chain. It is not usually inflected for tense and aspect, taking instead the tense and aspect of the final clause in the sentence.
 
-<div class="informalexample">
+```gloss
 
 _3S-ERG walk-3-AN-SS pat-AUX-PST dog-ABS pat-3-AN_\
 He patted the dog while walking.
 
-</div>
+```
 
 In the above example, the clause containing _walk_ is medial, and hence does not require an auxiliary to mark tense and aspect. The final clause, containing _pat_, determines that both verbs in the chain are in the past tense.
 
 An exception to the missing tense/aspect/mood inflection occurs when the medial clause has a mood with higher specificity than that of the final mood. The specificity heirarchy that determines this is:
 
-<div class="informalexample">
+```gloss
 
 (less specific) gnomic - dubitative - weak imperative - strong
 imperative (more specific)
 
-</div>
+```
 
 The subjunctive falls outside this spectrum, and does not inflect in medial clauses. If the final clause has no mood, then no mood can be expressed on medial clauses.
 
-<div class="informalexample">
+```gloss
 
 _1pl-ERG \_eat.AUX-STRIMP eat-1-AN-SS swim.AUX-WIMP swim-1-AN_\
 We must eat before we (can) swim.
 
-</div>
+```
 
 The subject of a medial clause is determined by reference markers. Ngujari is a switch-reference language: it determines the subject of a medial clause based on whether it is the same as, or different from, that of the final clause. The SS marker refers forwards to indicate that the clause has the same subject, and the DS marker indicates the opposite.
 
-<div class="informalexample">
+```gloss
 
 _mailman-ERG sleep-1s-an-DS read.AUX-FUT read-2-an_\
 The mailman will sleep while you read
 
-</div>
+```
 
 The morphological realisation of the SS/DS markers depends on the context of the sentence. There are four different contexts in which switch-reference operates, each with a different morphology.
 
@@ -2540,7 +2540,7 @@ The morphological realisation of the SS/DS markers depends on the context of the
 
 Overlap represents the "while doing X" relationship.
 
-<div class="informalexample">
+```gloss
 
 _1pl-ERG walk-1-AN-SS talk-1-AN_\
 We walked and talked / We talked while walking.
@@ -2548,18 +2548,18 @@ We walked and talked / We talked while walking.
 _dog-ERG bark-3-AN-DS escape-AUX-PST prisoner-ERG escape-3-AN_\
 The dog barked while the prisoner escaped.
 
-</div>
+```
 
 ### Succession
 
 Succession represents the "after doing X" relationship.
 
-<div class="informalexample">
+```gloss
 
 _car-ERG arrive-3-INAN-DS enter-3-AN_\
 The car arrives, then he gets in.
 
-</div>
+```
 
 In the above example, the DS marker is enough, along with the person and number marking on the verb, to infer the subject of the medial clause without making it explicit.
 
@@ -2567,12 +2567,12 @@ In the above example, the DS marker is enough, along with the person and number 
 
 Causation represents the "because of X" relationship.
 
-<div class="informalexample">
+```gloss
 
 _arrive-3-AN-SS early drink.AUX-FUT excessively drink-3-AN_\
 Since she will arrive early, she will get drunk.
 
-</div>
+```
 
 ### Negative causation
 
@@ -2580,12 +2580,12 @@ Negative causation represents the "because of not-X" relationship.
 
 Negative causation is the only non-canonical switch-reference context. Instead of marking the medial verb, the negative particle is marked. In addition, only same-subject reference is allowed.
 
-<div class="informalexample">
+```gloss
 
 _NEG-SS wake-3-AN avoid.AUX-PST bus-ABS avoid-3-AN_\
 Because she didn’t wake up, she missed the bus.
 
-</div>
+```
 
 ## Relative clauses
 
@@ -2595,12 +2595,12 @@ There are two types of relative clause.
 
 This clause relativises the subject position.
 
-<div class="informalexample">
+```gloss
 
 _man-ERG go.AUX-PST shop-PL-ABS go-3-AN_\
 the man who went to the shops
 
-</div>
+```
 
 The relative clause immediately follows the noun. The auxiliary must be included, even if the clause is in the present tense (where it would normally be optional).
 
@@ -2615,7 +2615,7 @@ This clause relativises direct and indirect objects, using the relative pronoun 
 
 The relative clause is adjoined after the main clause, and introduced by the complementiser **tii** which appears as a particle. The clause is a complete clause, where the head noun is replaced by the matching demonstrative pronoun referring back to the modified noun.
 
-<div class="informalexample">
+```gloss
 
 _turtle-ABS see-1-AN, \[COMP 1s-ERG DEMPRON.AN.S-ABS like-1-AN\]_\
 I see the turtle that I like \[direct object\].
@@ -2623,7 +2623,7 @@ I see the turtle that I like \[direct object\].
 _man-ABS know-1-AN, \[COMP tree-ERG DEMPRON.AN.S-ORI fall-3-INAN\]_\
 I know the man that the tree fell on \[indirect object\].
 
-</div>
+```
 
 TODO: X-bar diagram
 
@@ -2639,13 +2639,13 @@ Conjunction is expressed between NPs or VPs.
 
 When nouns are coordinated through conjunction, only one is used as the "main" subject of the sentence. Others are attached to the main NP through a relative clause, which expresses their relationship, usually in locative terms (e.g. alongside, on top of).
 
-<div class="informalexample">
+```gloss
 
 _fight.AUX-PST 1s-ERG bear-ABS fight-1pl-AN, \[COMP sister-ERG 1s-ABS
 be.alongside-1-AN\]_\
 My sister and I fought the bear.
 
-</div>
+```
 
 In the above example, the speaker is the main subject, while their sister is attached via a relative clause. Notice that the number of the verb _fight_ is changed to reflect that there are two subjects to the sentence.
 
@@ -2655,32 +2655,32 @@ Conjuncted verb phrases are expressed either through overlapping medial clauses 
 
 -   at same time (implies second event occurs at the same time as the first)
 
-<div class="informalexample">
+```gloss
 
 _boat-ABS find-AN-1ST DEMPRON-INAN-S-ABS steal-1-an also_\
 I find a boat and steal it.
 
-</div>
+```
 
 ### Disjunction
 
 Disjunction is expressed between verb phrases only, using the dubitative mood. Disjunction is an either relationship, where one and only one of the options can be true.
 
-<div class="informalexample">
+```gloss
 
 _go.AUX-PRES-DUB 1S.NOM go-AN-1ST ↗wait.AUX-PRES-DUB 1S.NOM
 wait-AN-1ST↗_\
 I will go now or wait.
 
-</div>
+```
 
-<div class="informalexample">
+```gloss
 
 _︎︎︎︎↗︎run.AUX-PRES-DUB 2s.NOM DEMPRON run-AN-2nd walk.AUX-PRES-DUB
 2s.NOM run-AN-2nd DEMPRON walk-AN-2nd_\
 Will you run there or walk?
 
-</div>
+```
 
 # Semantics
 
@@ -2706,7 +2706,7 @@ In Ngujari, colours are derived from nouns through the suffix _ku_. There are si
 
 Additional colours can be formed either through compounding or modifying a new noun. All colours can be joined with others to form compounds.
 
-<div class="informalexample">
+```gloss
 
 black _nguku_\
 white _tumwaku_\
@@ -2715,7 +2715,7 @@ white _tumwaku_\
 sunset _kii_\
 ⇒ orange _kiiku_
 
-</div>
+```
 
 ## Kinship
 
