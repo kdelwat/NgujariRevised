@@ -1,18 +1,28 @@
 # Demographic and ethnographic information
 
+N/A
+
 ## Naming
 
+N/A
 ## Ethnology
+N/A
 
 ## Demography
 
+N/A
 ## Genetic affiliation
 
+N/A
 ## Previous research
 
+N/A
 ## The sociolinguistic situation
 
+N/A
 ## Dialects
+
+N/A
 
 # Phonology
 
@@ -265,7 +275,6 @@ Consider the following sentence:
 
 ```gloss
 
-**k-a wa-Ø jari-rn wiirr-u-Ø**\
 _go.AUX-PST 1s-ERG beach-LOC go-AN-1ST_\
 I went to the beach.
 
@@ -296,7 +305,6 @@ Possessives provide another example of head-marking. The owning pronoun is marke
 
 ```gloss
 
-**waju-j nna-lu**\
 _face-nom 3s.an-pos_\
 his face
 
@@ -308,7 +316,6 @@ In verb phrases, the verb (head) is marked for information like tense and valenc
 
 ```gloss
 
-**k-i wa-j jarta-rn wiirr-u-m**\
 _go.aux-PRES 1s-nom home-LOC go-an-1st_\
 I go home
 
@@ -674,7 +681,7 @@ The sea is calm.
 
 Noun case suffixes can in some cases be used to derive adjectives based around that noun, as a lexical operation. The most common forms of case derivations are orientative/revertive and instrumental.
 
-Orientative and revertive suffiixs can be used to indicate the "direction" of an adjective in relation to its noun. This distinction is commonly found when talking about time.
+Orientative and revertive suffixes can be used to indicate the "direction" of an adjective in relation to its noun. This distinction is commonly found when talking about time.
 
 ```gloss
 
@@ -690,7 +697,7 @@ freshness _gurlu_\
 
 #### Amplification
 
-An adjective can be amplified in magnitude through reduplication. The final syllable is duplicated, excluding its coda in the first instance. If the final vowel is long following the derivation, it becomes shortened.
+An adjective can be amplified in magnitude through reduplication. This is a morphological operation. The final syllable is duplicated, excluding its coda in the first instance. If the final vowel is long following the derivation, it becomes shortened.
 
 ```gloss
 
@@ -707,7 +714,7 @@ thick _yurlan_\
 
 #### Relativisation
 
-Many of Ngujari’s adjectives are absolute rather than relative. For example, _yampu_ ("big") refers to something bigger than a human, rather than something big for its class (as in "the big elephant"). These absolute adjectives can be converted to relative adjectives through the suffix _pu_.
+Many of Ngujari’s adjectives are absolute rather than relative. For example, _yampu_ ("big") refers to something bigger than a human, rather than something big for its class (as in "the big elephant"). These absolute adjectives can be converted to relative adjectives morphologically, by adding the suffix _pu_.
 
 ```gloss
 
@@ -770,7 +777,7 @@ When counting, a separate tally system may be used. "Marks", or chosen multiples
 
 ```gloss
 
-**guu-najuyi naju guu naa jaru yi-yi naju…​**\
+**guu-najuyi naju guu naa jaru yi-yi naju…**\
 twenty, twenty-one, twenty-two, twenty-three, twenty-four, twenty-five,
 twenty-six…
 
@@ -826,7 +833,7 @@ Adverbs are used as-is, and do not undergo derivation.
 
 # Constituent order typology
 
-## Introduction
+This chapter describes the basic structure of phrases and sentences in Ngujari, and in particular the roles that certain parts of speech can take in clauses.
 
 ## Constituent order in main clauses
 
@@ -914,11 +921,11 @@ _V' = T V_
 
 ```
 
-A _verb phrase_ is the primary structure of a clause. The most basic clause possible is an avalent [^4] verb. This is demonstrated in the following example:
+A _verb phrase_ is the primary structure of a clause. The most basic clause possible is an intransitive [^4] verb with an implicit argument. This is demonstrated in the following example:
 
 ```gloss
 
-_rain.aux-pres rain-inan-1st_\
+rain-1st_
 It’s raining.
 
 ```
@@ -993,9 +1000,7 @@ _N' = N (CP)_
 
 ```
 
-A verb phrase can take more than just bare nouns. A _noun phrase_ is a constituent which acts like a noun. It can contain the noun alone, but can also be modified by a relative clause.
-
-The relative clause always appears at the end of the noun phrase.
+A verb phrase can take more than just bare nouns. A _noun phrase_ is a constituent which acts like a noun. It can contain the noun alone, but can also be modified by a relative clause, as in the postnominal relative clause in example XXX.
 
 ```gloss
 
@@ -1748,8 +1753,6 @@ I ran away from the mountain
 
 ```
 
-All verbs have a _default valence_: the number of arguments it takes without modification. Most verbs are transitive, but valences can span between avalent (taking no arguments) and quadrivalent (taking four).
-
 ## Valence increasing operations
 
 ### Applicatives
@@ -2200,7 +2203,7 @@ Verbs reference subject person and number through suffixes.
 
 There are three situations in which participant reference is anaphoric (and the verb can stand alone without a noun phrase subject).
 
-1.  Intransitive clauses where the reference has been preestablished.
+1.  Intransitive clauses where the reference has been preestablished, or is implicit.
 
         ====
         _... ? cry-AN-3RD_ +
@@ -2439,46 +2442,11 @@ I enjoyed washing the car
 
 ## Adverbial clauses / adjuncts
 
-### Conditional
+There is no grammatical adjunct in Ngujari. Instead, constructions that would usually use an adjunct would use:
 
-A conditional places a condition on another statement. They are formed through two verb phrases, one representing the condition (or protasis) and the other representing the outcome (or apodosis). There are two types of conditional:
+1. The applicative, with a new noun added in the appropriate case. This would be used in situations like locatives.
 
--   _implicative_, where the conditional represents a universal truth. Whenever the condition is true, the outcome is also true. It is important to remember that the implicative form is always true. A statement such as "When the wind blows, the leaves rustle" meets this criteria, whereas "If you go there, you’ll be attacked" does not.
-
--   _predictive_, where the conditional represents a prediction. This is the more general form, and can be used without worrying about universal truth.
-
-To form both conditionals, the condition verb phrase appears first, followed immediately by the outcome verb phrase. No connector is necessary between the two clauses (i.e. there is no equivalent to "if"). The outcome phrase is always placed in the subjunctive mood and present tense.
-
-In an implicative conditional, the condition is given the gnomic mood and the present tense. The statement must therefore follow the usual rules of the gnomic, in that it must state an indisputable truth.
-
-```gloss
-
-_fall.aux-prs-gno 2dual.ch-erg water-loc fall-ch-2nd wet.aux-prs-sbjv
-2dual-ch-nom become.wet-ch-2nd_\
-If you two fall in the water, you will both get wet.
-
-```
-
-In a predictive conditional, the condition is usually not given a mood, but can assume any tense.
-
-```gloss
-
-_break.aux-fut branch-nom break-inan-3rd strike.aux-pres-subj
-dem.sg.inan-erg 3s-an-nom strike-inan-3rd_\
-If that branch breaks, it will strike him.
-
-```
-
-There is one exception to this rule. If the condition is seen as unlikely, the phrase is a _counterfactual_. In this case, the condition is given the dubitative mood. Usually, the condition will then be in the future tense.
-
-```gloss
-
-_hunt.aux-fut-dub 3s.an-erg kangaroo-nom completedly hunt-an-3rd
-be.aux-pres-subj food-pl-loc more.than.expected 1pl-nom be-inan-3rd_\
-If he were to successfully hunt the kangaroo \[unlikely\], we would have
-lots of food.
-
-```
+2. Clause chaining
 
 ## Clause chaining, medial clauses, and switch reference
 
