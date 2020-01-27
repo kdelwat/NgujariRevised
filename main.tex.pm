@@ -57,7 +57,7 @@ The main form of phoneme restriction is found in ◊i{consonant clusters}, the a
 
 In addition, retroflex consonants are never found at the beginning of a word and approximants are never found at the end of a word.
 
-◊todo{Insert cluster table}
+◊table{tables/clusters.csv}
 
 (more specific rules trump less, e.g. non-rhotic approx > retroflex)
 
@@ -171,5 +171,3 @@ seal ◊w{bilru} ⇒ ◊ipa{bil̺ɻuˈ}
 tongue ◊w{jaajannalu} ⇒ ◊ipa{ʒaːˈʒan̻aˌl̺u}
 pride ◊w{miinaatirra} ⇒ ◊ipa{miːˈn̺aːt̺iɾ̺aˌ}
 }
-
-[ˌɛkspləˈneɪʃənz ɹul]
