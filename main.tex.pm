@@ -17,7 +17,7 @@ A central idea of phonology is the relationship between phonemes and ◊i{alloph
 
 Ngujari has a rich ◊i{consonantal inventory}, or set of consonant phonemes. While some of the sounds are common to English, others are not. The following table shows these consonants. The first symbol in each pair is the phoneme, expressed in International Phonetic Alphabet (IPA) notation. The following symbol, in brackets, is the written representation of that phoneme. If there is no symbol in brackets, this is the same as the IPA form.
 
-◊todo{Insert consonant table}
+◊stable{tables/consonants.csv}
 
 The ◊i{retroflex} consonants (◊i{rt, rn, r, rl}) are pronounced with the tongue curled back in the mouth, just behind the  alveolar ridge, or the ridge between the roof of the mouth and the teeth. While the written representation of some of these requires two characters, it is important to remember that they are still one sound.
 
@@ -27,7 +27,7 @@ The coronal consonants are divided into two types. Laminal consonants, which are
 
 In contrast to the large number of consonants, Ngujari has very few vowels. The basic vowels are a, i, and u, but all are contrastive in their lengthened form.
 
-◊todo{Insert vowel table}
+◊table{tables/Vowel inventory.csv}
 
 When written, the short forms are the same as their IPA representation, while the long vowels are presented as digraphs, where the short vowel is repeated twice.
 
