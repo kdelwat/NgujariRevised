@@ -1,2 +1,15 @@
 *.html
 *.pdf
+*.autoconv
+compiled/
+*.aux
+*.bbl
+*.bcf
+*.log
+*.idx
+*.ptc
+*.run.xml
+*.toc
+*.blg
+grammar.tex
+main.tex
