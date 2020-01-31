@@ -7,6 +7,26 @@
   (provide (all-defined-out))
   (define poly-targets '(latex)))
 
+; Some helpers
+(define (load-csv filename)
+    (csv->list (open-input-file filename)))
+
+(define (warn message . v)
+  (writeln (string-append "[WARNING] " (apply format message v))))
+
+; Load files containing data to validate against
+(define phoneme-data (load-csv "data/phonemes.csv"))
+
+(define phonemes (map first phoneme-data))
+
+(define orthographies (map (compose first rest) phoneme-data))
+
+(define (phoneme? phoneme)
+  (or (member phoneme phonemes)
+      (member phoneme orthographies)))
+
+; Define tags
+
 (define (title . elements)
   (case (current-poly-target)
     [(latex) (apply string-append `("{\\title " ,@elements "}"))]))
@@ -35,6 +55,12 @@
   (case (current-poly-target)
     [(latex) (apply string-append `("\\textit{" ,@elements "}"))]))
 
+(define (p . elements)
+  (case (current-poly-target)
+    [(latex) (if (phoneme? (first elements))
+                 (apply string-append `("\\textit{" ,@elements "}"))
+                 (warn "Invalid phoneme: ~a" (first elements)))]))
+
 (define (table . elements)
   (case (current-poly-target)
     [(latex) (~> (string-replace (car elements) "\\" "")
@@ -46,10 +72,6 @@
     [(latex) (~> (string-replace (car elements) "\\" "")
                  load-csv
                  to-sideways-latex-table)]))
-
-(define (load-csv filename)
-    (csv->list (open-input-file filename)))
-
 
 (define (to-normal-latex-table table)
   (to-latex-table table "table"))
@@ -78,18 +100,4 @@
   (if (equal? t "")
       t
       (string-append "\\textbf{" t "}")))
-
-;\begin{sidewaystable}
-;\centering
-;\begin{tabular}{rcccccc}
-;  & \textbf{bilabial} & \textbf{alveolar} & \textbf{post-alveolar} & \textbf{retroflex} & \textbf{palatal} & \textbf{velar}\\
-;  \textbf{plosive} & \textipa{p} & \textipa{\|]{t}}\textit{(t)} & & \textipa{\|{]}{\textrtailt}}\textit{(rt)} & & \textipa{k}, \textipa{g}\\
-;  \textbf{nasal} & \textipa{m} & \textipa{\|]{n}}\textit{(n)} & \textipa{\textsubsquare{n}}\textit{(nn)} & \textipa{\|{]}{\textrtailn}}\textit{(rn)} & & \textipa{N}\textit{(ng)}\\
-;  \textbf{tap} & & \textipa{\|]R}\textit{(rr)} & & & &\\
-;  \textbf{fricative} & & & \textipa{Z}\textit{(j)} & & &\\
-;  \textbf{approximant} & \textipa{w} & & & \textipa{\textturnrrtail}\textit{(r)} & \textipa{j}\textit{(y)} &\\
-;  \textbf{lateral approximant} & & \textipa{\|]{l}}\textit{(l)} & & \textipa{\|]{\textrtaill}}\textit{(rl)} & &\\
-;\end{tabular}
-;\caption{Consonantal Inventory}
-;\end{sidewaystable}
 
