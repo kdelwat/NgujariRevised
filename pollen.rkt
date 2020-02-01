@@ -1,6 +1,6 @@
 #lang racket/base
 
-(require txexpr pollen/setup racket/string racket/port csv-reading racket/list threading)
+(require txexpr pollen/setup racket/string racket/port csv-reading racket/list threading sxml/sxpath)
 (provide (all-defined-out))
 
 (module setup racket/base
@@ -24,6 +24,19 @@
 (define (phoneme? phoneme)
   (or (member phoneme phonemes)
       (member phoneme orthographies)))
+
+; Load lexicon from CLDF
+(define entries (csv->sxml (open-input-file "lexicon/entries.csv")
+                           'entry
+                           '(id headword pos gender etymology)))
+
+(define senses (csv->sxml (open-input-file "lexicon/senses.csv")
+                          'sense
+                          '(id description entry-id info derived-from see-also notes)))
+
+(define (word? word)
+  (not (null? ((sxpath (quasiquote (// entry headword (equal? (unquote word)))))
+               entries))))
 
 ; Define tags
 
@@ -60,6 +73,12 @@
     [(latex) (if (phoneme? (first elements))
                  (apply string-append `("\\textit{" ,@elements "}"))
                  (warn "Invalid phoneme: ~a" (first elements)))]))
+
+(define (w . elements)
+  (case (current-poly-target)
+    [(latex) (if (word? (first elements))
+                 (apply string-append `("\\textit{" ,@elements "}"))
+                 (warn "Invalid word: ~a" (first elements)))]))
 
 (define (table . elements)
   (case (current-poly-target)
