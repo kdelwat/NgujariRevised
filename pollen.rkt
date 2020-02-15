@@ -164,12 +164,17 @@
      (map sense->lexicon-sense relevant-senses)))
 
 (define (lexicon-entry->string e)
-  (apply string-append
-         (for/list (((s i) (in-indexed (entry-senses e))))
-           (lexicon-entry-with-sense->string e s i))))
+  (let ([senses# (length (entry-senses e))])
+    (apply string-append
+           (for/list (((s i) (in-indexed (entry-senses e))))
+             (if (equal? senses# 1)
+                 (lexicon-entry-with-sense->string e s -1)
+                 (lexicon-entry-with-sense->string e s i))))))
 
 (define (lexicon-entry-with-sense->string e s i)
-  (format "\\entry{~a (~a)}{~a}{~a}{~a}~n~n" (entry-headword e) i (entry-headword e) (entry-pos e) (sense-description(first (entry-senses e)))))
+  (if (equal? i -1)
+      (format "\\entry{~a}{~a}{~a}{~a}~n~n" (entry-headword e) (entry-headword e) (entry-pos e) (sense-description(first (entry-senses e))))
+      (format "\\entry{~a (~a)}{~a}{~a}{~a}~n~n" (entry-headword e) i (entry-headword e) (entry-pos e) (sense-description(first (entry-senses e))))))
 
 
 ;\entry{kujari}{kuZa\textturnrrtail i}{na}{Southern Cassowary; \textit{(fig)} a
