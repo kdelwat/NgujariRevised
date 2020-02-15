@@ -1,6 +1,6 @@
 #lang racket/base
 
-(require txexpr pollen/setup racket/string racket/port csv-reading racket/list threading sxml/sxpath)
+(require txexpr pollen/setup racket/string racket/port csv-reading racket/list threading sxml sxml/sxpath)
 (provide (all-defined-out))
 
 (module setup racket/base
@@ -92,6 +92,10 @@
                  load-csv
                  to-sideways-latex-table)]))
 
+(define (lexicon)
+  (case (current-poly-target)
+    [(latex) (string-append lexicon-preamble (make-lexicon entries senses))]))
+
 (define (to-normal-latex-table table)
   (to-latex-table table "table"))
 
@@ -120,3 +124,98 @@
       t
       (string-append "\\textbf{" t "}")))
 
+; Lexicon
+
+(struct entry (headword pos gender senses etymology) #:transparent)
+(struct sense (description info derived-from see-also notes) #:transparent)
+
+(define (make-lexicon entries senses)
+  (apply string-append (map lexicon-entry->string (lexicon-entries entries senses))))
+
+(define (lexicon-entries entries senses)
+  (map (lambda (entry)
+         (entry->lexicon-entry senses entry) ) (rest ((sxpath `(// entry) ) entries))))
+
+(define tentry  (second ((sxpath `(// entry) ) entries)))
+
+(define (entry->lexicon-entry senses e)
+  (let* ([elems (map second (sxml:content e))]
+         [id (first elems)]
+         [headword (second elems)]
+         [pos (third elems)]
+         [gender (fourth elems)]
+         [etymology (fifth elems)]
+         [senses (make-senses senses id)])
+    (entry headword pos gender senses etymology))
+  )
+
+(define (sense->lexicon-sense s)
+  (let* ([elems (map second (sxml:content s))]
+         [description (second elems)]
+         [info (fourth elems)]
+         [derived-from (fifth elems)]
+         [see-also (sixth elems)]
+         [notes (seventh elems)])
+    (sense description info derived-from see-also notes))
+  )
+  
+(define (make-senses senses entry-id)
+  (let* ([relevant-senses ((sxpath (string-append "//sense[entry-id='" entry-id "']")) senses)])
+     (map sense->lexicon-sense relevant-senses)))
+
+(define (lexicon-entry->string e)
+  (apply string-append
+         (for/list (((s i) (in-indexed (entry-senses e))))
+           (lexicon-entry-with-sense->string e s i))))
+
+(define (lexicon-entry-with-sense->string e s i)
+  (format "\\entry{~a (~a)}{~a}{~a}{~a}~n~n" (entry-headword e) i (entry-headword e) (entry-pos e) (sense-description(first (entry-senses e)))))
+
+
+;\entry{kujari}{kuZa\textturnrrtail i}{na}{Southern Cassowary; \textit{(fig)} a
+;  person prone to listlessness}
+;
+;\begin{remark}
+;The Southern Cassowary is seen as untamable and always in control. However, it
+;seems to have no definite plans and spends its time wandering aimlessly. This
+;sentiment can be applied to people.
+;\end{remark}
+
+;%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+;% This lexicon has been modified from the following template:
+;%
+;% Dictionary
+;% LaTeX Template
+;% Version 1.0 (20/12/14)
+;%
+;% This template has been downloaded from:
+;% http://www.LaTeXTemplates.com
+;%
+;% Original author:
+;% Vel (vel@latextemplates.com) inspired by a template by Marc Lavaud
+;%
+;% License:
+;% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+;%
+;%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+(define lexicon-preamble #<<preamble
+\part{Lexicon}
+\fancyhead[RO]{\textsf{\rightmark -- \leftmark}} % Top left header
+\fancyhead[LO]{\textsf{\thepage}} % Top right header
+\fancyhead[LE]{\textsf{\rightmark -- \leftmark}} % Top left header
+\fancyhead[RE]{\textsf{\thepage}} % Top right header
+
+%\newcommand{\entry}[4]{\markboth{#1}{#1}\textbf{#1}\ {(#2)}\ \textit{#3}\
+  %$\bullet$\ {#4}}  % Defines the command to print each word on the page,
+                    % \markboth{}{} prints the first word on the page in the top
+                    % left header and the last word in the top right
+
+\newcommand{\entry}[4]{\markboth{#1}{#1}\textbf{#1}\ {[#2]}\ \textit{#3}\
+  \ {#4}}
+
+\section*{A}
+
+
+preamble
+)

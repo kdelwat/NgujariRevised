@@ -171,3 +171,5 @@ seal ◊w{bilru} ⇒ ◊ipa{bil̺ɻuˈ}
 tongue ◊w{jaajannalu} ⇒ ◊ipa{ʒaːˈʒan̻aˌl̺u}
 pride ◊w{miinaatirra} ⇒ ◊ipa{miːˈn̺aːt̺iɾ̺aˌ}
 }
+
+◊lexicon{}
