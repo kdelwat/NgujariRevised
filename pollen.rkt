@@ -130,7 +130,22 @@
 (struct sense (description info derived-from see-also notes) #:transparent)
 
 (define (make-lexicon entries senses)
-  (apply string-append (map lexicon-entry->string (lexicon-entries entries senses))))
+  (apply string-append
+         (map make-lexicon-section
+              (group-by first-letter-of-entry (lexicon-entries entries senses)))))
+
+(define (first-letter-of-entry lexicon-entry)
+  (substring (entry-headword lexicon-entry) 0 1))
+
+(define (make-lexicon-section lexicon-entries)
+  (let ([first-letter (first-letter-of-entry (first lexicon-entries))])
+    (string-append
+     "\\section*{"
+     first-letter
+     "}\n\\begin{multicols*}{2}\n"
+     (apply string-append (map lexicon-entry->string lexicon-entries))
+     "\\end{multicols*}\n"
+     )))
 
 (define (lexicon-entries entries senses)
   (map (lambda (entry)
@@ -218,9 +233,6 @@
 
 \newcommand{\entry}[4]{\markboth{#1}{#1}\textbf{#1}\ {[#2]}\ \textit{#3}\
   \ {#4}}
-
-\section*{A}
-
 
 preamble
 )
