@@ -94,7 +94,18 @@
   (string-join (map (lambda (c) (string-append "\\bfseries " c)) cs) " & "))
 
 (define (format-gloss-components cs)
-  (string-join cs " & "))
+  (string-join (map format-gloss-component cs) " & "))
+
+(define (format-gloss-component c)
+  (string-join (map format-gloss-morpheme (string-split c "-")) "-"))
+
+(define (format-gloss-morpheme m)
+  (string-join (map morpheme->uppercase (string-split m ".")) "."))
+  
+(define (morpheme->uppercase m)
+  (if (regexp-match #rx"^[1-3]?[A-Z]+$" m)
+      (string-append "\\textsc{" (string-downcase m) "}")
+      m))
 
 (trace ilgs)
 (trace ilg)
