@@ -120,7 +120,7 @@
 
 (define (examples . elements)
   (case (current-poly-target)
-    [else (string-append "\\begin{quote}\\begin{multicols}{" (number->string (length elements)) "}\n" (string-join (map example->string elements) "\\\\\n") "\n\\end{multicols}\\end{quote}")]))
+    [else (string-append "\\begin{quote}\n" (string-join (map example->string elements) "\\\\\n") "\n\\end{quote}")]))
 
 
 (define (ilgs . elements)
