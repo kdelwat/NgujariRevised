@@ -80,7 +80,26 @@
   (case (current-poly-target)
     [(latex) (string-append "\\begin{figure}\n\\centering\n\\includegraphics{" path "}\n\\caption{" caption "}\n\\end{figure}")]))
 
-(trace figure)
+(define (ilgs . elements)
+  (case (current-poly-target)
+    [(latex) (apply string-append `("\\begin{sentence}\n" ,@elements "\n\\end{sentence}"))]))
+
+(define (ilg free-translation #:native native #:gloss gloss)
+  (case (current-poly-target)
+    [(latex) (let ([native-components (string-split native)]
+                   [gloss-components (string-split gloss)])
+               (format "\\shortex{~a}\n{~a}\n{~a}\n{\\textit{~a}}\\\\\n" (length gloss-components) (format-native-components native-components) (format-gloss-components gloss-components) free-translation))]))
+
+(define (format-native-components cs)
+  (string-join (map (lambda (c) (string-append "\\bfseries " c)) cs) " & "))
+
+(define (format-gloss-components cs)
+  (string-join cs " & "))
+
+(trace ilgs)
+(trace ilg)
+(trace format-native-components)
+(trace format-gloss-components)
 
 (define (p . elements)
   (case (current-poly-target)
