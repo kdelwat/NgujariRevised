@@ -14,6 +14,9 @@
 (define (warn message . v)
   (writeln (string-append "[WARNING] " (apply format message v))))
 
+(define (is-tag xexpr tag)
+  (equal? (first xexpr) tag))
+
 ; Load files containing data to validate against
 (define phoneme-data (load-csv "data/phonemes.csv"))
 
@@ -42,51 +45,91 @@
 
 (define (title . elements)
   (case (current-poly-target)
-    [(latex) (apply string-append `("{\\title " ,@elements "}"))]))
+    [else (apply string-append `("{\\title " ,@elements "}"))]))
 
 (define (author . elements)
   (case (current-poly-target)
-    [(latex) (apply string-append `("{\\author " ,@elements "}"))]))
+    [else (apply string-append `("{\\author " ,@elements "}"))]))
 
 (define (part . elements)
   (case (current-poly-target)
-    [(latex) (apply string-append `("\\part{" ,@elements "}"))]))
+    [else (apply string-append `("\\part{" ,@elements "}"))]))
 
 (define (chapter . elements)
   (case (current-poly-target)
-    [(latex) (apply string-append `("\\chapter{" ,@elements "}"))]))
+    [else (apply string-append `("\\chapter{" ,@elements "}"))]))
 
 (define (section . elements)
   (case (current-poly-target)
-    [(latex) (apply string-append `("\\section{" ,@elements "}"))]))
+    [else (apply string-append `("\\section{" ,@elements "}"))]))
 
 (define (subsection . elements)
   (case (current-poly-target)
-    [(latex) (apply string-append `("\\subsection{" ,@elements "}"))]))
+    [else (apply string-append `("\\subsection{" ,@elements "}"))]))
+
+(define (subsubsection . elements)
+  (case (current-poly-target)
+    [else (apply string-append `("\\textit{" ,@elements "}"))]))
 
 (define (i . elements)
   (case (current-poly-target)
-    [(latex) (apply string-append `("\\textit{" ,@elements "}"))]))
+    [else (apply string-append `("\\textit{" ,@elements "}"))]))
+
+(define (ipa . elements)
+  (case (current-poly-target)
+    [else (apply string-append `("\\textit{" ,@elements "}"))]))
+
+
+
+(define (p . elements)
+  (case (current-poly-target)
+    [else (if (phoneme? (first elements))
+                 (apply string-append `("\\textit{" ,@elements "}"))
+                 (warn "Invalid phoneme: ~a" (first elements)))]))
+
+(define (w . elements)
+  (writeln (format "(first elements) ~a" (first elements)))
+  (writeln (format "(word? (first elements)) ~a" (word? (first elements))))
+  (writeln (format "elements ~a" elements))
+  (writeln (format "result ~a" (apply string-append `("\\textit{" ,@elements "}"))))
+    (writeln (format "current-poly-target ~a" (current-poly-target)))
+  (case (current-poly-target)
+    [else (if (word? (first elements))
+                 (apply string-append `("\\textit{" ,@elements "}"))
+                 ((warn "Invalid word: ~a" (first elements))
+                  "INVALID"))]))
 
 (define (ul . elements)
   (case (current-poly-target)
-    [(latex) (apply string-append `("\\begin{itemize}\n" ,@elements "\\end{itemize}"))]))
+    [else (apply string-append `("\\begin{itemize}\n" ,@elements "\\end{itemize}"))]))
 
 (define (li . elements)
+      (writeln (format "current-poly-target ~a" (current-poly-target)))
   (case (current-poly-target)
-    [(latex) (apply string-append `("\\item " ,@elements))]))
+    
+    [else (apply string-append `("\\item " ,@elements))]))
 
 (define (figure path #:caption caption)
   (case (current-poly-target)
-    [(latex) (string-append "\\begin{figure}\n\\centering\n\\includegraphics{" path "}\n\\caption{" caption "}\n\\end{figure}")]))
+    [else (string-append "\\begin{figure}\n\\centering\n\\includegraphics{" path "}\n\\caption{" caption "}\n\\end{figure}")]))
+
+(define (example->string example)
+  (if (equal? example "\n")
+      ""
+      (apply string-append (rest example))))
+
+(define (examples . elements)
+  (case (current-poly-target)
+    [else (string-append "\\begin{quote}\\begin{multicols}{" (number->string (length elements)) "}\n" (string-join (map example->string elements) "\\\\\n") "\n\\end{multicols}\\end{quote}")]))
+
 
 (define (ilgs . elements)
   (case (current-poly-target)
-    [(latex) (apply string-append `("\\begin{sentence}\n" ,@elements "\n\\end{sentence}"))]))
+    [else (apply string-append `("\\begin{sentence}\n" ,@elements "\n\\end{sentence}"))]))
 
 (define (ilg free-translation #:native native #:gloss gloss)
   (case (current-poly-target)
-    [(latex) (let ([native-components (string-split native)]
+    [else (let ([native-components (string-split native)]
                    [gloss-components (string-split gloss)])
                (format "\\shortex{~a}\n{~a}\n{~a}\n{\\textit{~a}}\\\\\n" (length gloss-components) (format-native-components native-components) (format-gloss-components gloss-components) free-translation))]))
 
@@ -106,39 +149,28 @@
   (if (regexp-match #rx"^[1-3]?[A-Z]+$" m)
       (string-append "\\textsc{" (string-downcase m) "}")
       m))
+;
 
-(trace ilgs)
-(trace ilg)
-(trace format-native-components)
-(trace format-gloss-components)
+;(trace example)
 
-(define (p . elements)
-  (case (current-poly-target)
-    [(latex) (if (phoneme? (first elements))
-                 (apply string-append `("\\textit{" ,@elements "}"))
-                 (warn "Invalid phoneme: ~a" (first elements)))]))
+;(trace word?)
 
-(define (w . elements)
-  (case (current-poly-target)
-    [(latex) (if (word? (first elements))
-                 (apply string-append `("\\textit{" ,@elements "}"))
-                 (warn "Invalid word: ~a" (first elements)))]))
 
 (define (table . elements)
   (case (current-poly-target)
-    [(latex) (~> (string-replace (car elements) "\\" "")
+    [else (~> (string-replace (car elements) "\\" "")
                  load-csv
                  to-normal-latex-table)]))
 
 (define (stable . elements)
   (case (current-poly-target)
-    [(latex) (~> (string-replace (car elements) "\\" "")
+    [else (~> (string-replace (car elements) "\\" "")
                  load-csv
                  to-sideways-latex-table)]))
 
 (define (lexicon)
   (case (current-poly-target)
-    [(latex) (string-append lexicon-preamble (make-lexicon entries senses))]))
+    [else (string-append lexicon-preamble (make-lexicon entries senses))]))
 
 (define (to-normal-latex-table table)
   (to-latex-table table "table"))

@@ -77,38 +77,37 @@ Sound changes apply to the ◊i{realisation} of phonemes. While in written form 
 
 The ◊p{u} phoneme becomes centralised following the bilabial consonants ◊p{p}, ◊p{m}, and ◊p{w}, (the pronunciation migrates towards the center of the mouth).
 
-◊example{
-happy ◊w{pupa} ⇒ ◊ipa{püpa}
-food ◊w{nurtwu} ⇒ ◊ipa{nuʈ̺wü}
+◊examples{
+◊example{happy ◊w{pupa} ⇒ ◊ipa{püpa}}
+◊example{food ◊w{nurtwu} ⇒ ◊ipa{nuʈ̺wü}}
 }
 
 The ◊p{i} and ◊p{a} phonemes are nasalised before alveolar and post-alveolar nasals.
 
-◊example{
-never ◊w{wulnni} ⇒ ◊ipa{wül̺n̻ĩ}
-reed ◊w{kanaa} ⇒ ◊ipa{kan̺ãː}
+◊examples{
+◊example{never ◊w{wulnni} ⇒ ◊ipa{wül̺n̻ĩ}}
+◊example{reed ◊w{kanaa} ⇒ ◊ipa{kan̺ãː}}
 }
 
 ◊subsection{Consonants}
-
 ◊subsubsection{Rhotics}
 
 The retroflex approximant ◊p{r} disappears between identical regular vowels, forming one lengthened vowel.
 
-◊example{
-adult ◊w{garanya} ⇒ ◊ipa{gaːn̺ja}
+◊examples{
+◊example{adult ◊w{garanya} ⇒ ◊ipa{gaːn̺ja}}
 }
 
 However, if either of the two vowels is lengthened, the approximant remains.
 
-◊example{
-head ◊w{giriirki} ⇒ ◊ipa{giɻiːʈ̺ki}
+◊examples{
+◊example{head ◊w{giriirki} ⇒ ◊ipa{giɻiːʈ̺ki}}
 }
 
 The retroflex approximant ◊p{r} becomes the retroflex plosive ◊p{rt} before another plosive consonant.
 
-◊example{
-wood ◊w{taarirki} ⇒ ◊ipa{taːɻiʈ̺ki}
+◊examples{
+◊example{wood ◊w{taarirki} ⇒ ◊ipa{taːɻiʈ̺ki}}
 }
 
 ◊subsubsection{Voicing}
@@ -117,10 +116,10 @@ The voicing process is relatively new to the language. Voicing occurs when an un
 
 In practice, the voiced plosive ◊p{g} is the only new voiced consonant sufficiently formed to be included as an individual phoneme; the rest are in the process of undergoing the differentiation and are known as allophones.
 
-◊example{
-to drop ◊w{gukarr} ⇒ ◊ipa{gukaɾ̺}
-tooth ◊w{parrnawa} ⇒ ◊ipa{p̬aɾn̺awa}
-dangerous ◊w{tuwilwa} ⇒ ◊ipa{t̬uwil̺wa}
+◊examples{
+◊example{to drop ◊w{gukarr} ⇒ ◊ipa{gukaɾ̺}}
+◊example{tooth ◊w{parrnawa} ⇒ ◊ipa{p̬aɾn̺awa}}
+◊example{dangerous ◊w{tuwilwa} ⇒ ◊ipa{t̬uwil̺wa}}
 }
 
 The retroflex phoneme ◊p{rt} is an exception: as retroflex consonants cannot begin words, there has been no initial voicing.
@@ -129,16 +128,12 @@ The retroflex phoneme ◊p{rt} is an exception: as retroflex consonants cannot b
 
 Ngujari differs phonologically from Proto-Pama-Nyungan only slightly. The following is a list of sound changes that have occurred:
 
--   Apicalised post-alveolar plosive (t̻) becomes voiced post-alveolar
-    fricative (ʒ).
-
--   Apicalised alveolar trill (r̻) becomes apicalised alveolar tap (ɾ̺).
-
--   Retroflex approximant (ɻ) disappears between identical regular
-    vowels, forming one lengthened vowel.
-
--   Apicalised alveolar lateral approximant (l̻) disappears from the end
-    of words.
+◊ul{
+◊li{Apicalised post-alveolar plosive (t̻) becomes voiced post-alveolar fricative (ʒ).}
+◊li{Apicalised alveolar trill (r̻) becomes apicalised alveolar tap (ɾ̺).}
+◊li{Retroflex approximant (ɻ) disappears between identical regular vowels, forming one lengthened vowel.}
+◊li{Apicalised alveolar lateral approximant (l̻) disappears from the end of words.}
+}
 
 A major difference occurs in the case of lengthened vowels, which can differentiate words in all positions, rather than just the first syllable as in the protolanguage.
 
@@ -150,10 +145,10 @@ A major difference occurs in the case of lengthened vowels, which can differenti
 
 Every word can be broken into ◊i{morae}, which are calculated using syllables. A syllable containing a short vowel is worth one mora, but those containing long vowels are worth two. Syllables with one mora are known as ◊i{monomoraic}, while those with two are known as ◊i{bimoraic}.
 
-◊example{
-white ◊w{tumwaku} ⇒ 111
-cloud ◊w{rrurtawalu} ⇒ 1111
-egg ◊w{kupaarki} ⇒ 121
+◊examples{
+◊example{white ◊w{tumwaku} ⇒ 111}
+◊example{cloud ◊w{rrurtawalu} ⇒ 1111}
+◊example{egg ◊w{kupaarki} ⇒ 121}
 }
 
 The arrangement of mora becomes important when dealing with stress and prosody as a whole, particularly in the poetic register.
@@ -166,10 +161,10 @@ In Ngujari, stress follows an algorithmic process. The ◊i{primary stress} is p
 
 ◊i{Secondary stress} is then placed on morae at even intervals, appearing on the syllable with the 4th mora, 6th mora, and so on. However, if two subsequent syllables would be stressed, the second is skipped.
 
-◊example{
-seal ◊w{bilru} ⇒ ◊ipa{bil̺ɻuˈ}
-tongue ◊w{jaajannalu} ⇒ ◊ipa{ʒaːˈʒan̻aˌl̺u}
-pride ◊w{miinaatirra} ⇒ ◊ipa{miːˈn̺aːt̺iɾ̺aˌ}
+◊examples{
+◊example{seal ◊w{bilru} ⇒ ◊ipa{bil̺ɻuˈ}}
+◊example{tongue ◊w{jaajannalu} ⇒ ◊ipa{ʒaːˈʒan̻aˌl̺u}}
+◊example{pride ◊w{miinaatirra} ⇒ ◊ipa{miːˈn̺aːt̺iɾ̺aˌ}}
 }
 
 ◊chapter{Morphological typology}
