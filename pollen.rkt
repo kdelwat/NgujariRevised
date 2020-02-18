@@ -1,6 +1,6 @@
 #lang racket/base
 
-(require txexpr pollen/setup racket/string racket/port csv-reading racket/list threading sxml sxml/sxpath)
+(require txexpr pollen/setup racket/string racket/port csv-reading racket/list threading sxml sxml/sxpath racket/trace)
 (provide (all-defined-out))
 
 (module setup racket/base
@@ -67,6 +67,20 @@
 (define (i . elements)
   (case (current-poly-target)
     [(latex) (apply string-append `("\\textit{" ,@elements "}"))]))
+
+(define (ul . elements)
+  (case (current-poly-target)
+    [(latex) (apply string-append `("\\begin{itemize}\n" ,@elements "\\end{itemize}"))]))
+
+(define (li . elements)
+  (case (current-poly-target)
+    [(latex) (apply string-append `("\\item " ,@elements))]))
+
+(define (figure path #:caption caption)
+  (case (current-poly-target)
+    [(latex) (string-append "\\begin{figure}\n\\centering\n\\includegraphics{" path "}\n\\caption{" caption "}\n\\end{figure}")]))
+
+(trace figure)
 
 (define (p . elements)
   (case (current-poly-target)

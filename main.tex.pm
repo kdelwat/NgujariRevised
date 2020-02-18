@@ -172,4 +172,52 @@ tongue ◊w{jaajannalu} ⇒ ◊ipa{ʒaːˈʒan̻aˌl̺u}
 pride ◊w{miinaatirra} ⇒ ◊ipa{miːˈn̺aːt̺iɾ̺aˌ}
 }
 
+◊chapter{Morphological typology}
+
+◊section{Morphological processes}
+
+Ngujari is a polysynthetic language; the words in most grammatical categories cannot be used in their stem form without support. They must be inflected to indicate different dimensions and add layers of meaning. For nouns, these dimensions are modifiers like case and number, while verbs can indicate tense, person, and more.
+
+The language is overwhelmingly ◊i{agglutinative}: words are inflected through non-fusional suffixes alone.
+
+However, in a handful of cases words are instead inflected through ◊i{clitics}, separate words which are "attached" to the stem by their relative position in the sentence. The most common occurrence are particles which modify verbs, such as the negative particle.
+
+Consider the following sentence:
+
+◊ilgs{
+    ◊ilg[#:native "" #:gloss "go.AUX-PST 1s-ERG beach-LOG go-AN-1ST"]{I went to the beach.}
+}
+
+The sentence contains three stems: ◊w{wiirr} (to go), ◊w{jari} (beach), and ◊w{wa} (I). However, these stems cannot be used alone. Each has at least one additional morpheme.
+
+◊ul{
+    ◊li{◊w{wa} is inflected into the ergative case, through the ◊i{null morpheme}, a morpheme which has no sound.}
+    ◊li{◊w{jari} is inflected into the locative case, through the suffix ◊i{-rn}.}
+    ◊li{◊w{wiirr} is inflected into the animate adult gender, through the suffix ◊i{-u}, and the first person singular, through the null morpheme. It also has an auxiliary (discussed later), ◊i{k}, which is inflected into the past tense through the suffix ◊i{-a}.}
+}
+
+◊section{Head/dependent marking}
+
+Ngujari is head-marking, meaning that the heads of phrases are marked for relationships with dependents.
+
+For example, nouns themselves are marked for plurality, rather than the null determiner.
+
+◊figure[#:caption "Head marking in Ngujari"]{tituu-tituu}
+
+Possessives provide another example of head-marking. The owning pronoun is marked with the possessive suffix, rather than the owned noun.
+
+◊ilgs{
+    ◊ilg[#:native "" #:gloss "face-nom 3s.an-pos"]{his face}
+}
+
+◊figure[#:caption "Possessives as an example of head marking"]{wajuj-nnalu}
+
+In verb phrases, the verb (head) is marked for information like tense and valence, rather than the arguments.
+
+◊ilgs{
+    ◊ilg[#:native "" #:gloss "go.aux-PRES 1s-nom home-LOC go-an-1st"]{I go home}
+}
+
+◊figure[#:caption "Head marking in verbs"]{go-home}
+
 ◊lexicon{}
