@@ -88,25 +88,17 @@
                  (warn "Invalid phoneme: ~a" (first elements)))]))
 
 (define (w . elements)
-  (writeln (format "(first elements) ~a" (first elements)))
-  (writeln (format "(word? (first elements)) ~a" (word? (first elements))))
-  (writeln (format "elements ~a" elements))
-  (writeln (format "result ~a" (apply string-append `("\\textit{" ,@elements "}"))))
-    (writeln (format "current-poly-target ~a" (current-poly-target)))
   (case (current-poly-target)
     [else (if (word? (first elements))
                  (apply string-append `("\\textit{" ,@elements "}"))
-                 ((warn "Invalid word: ~a" (first elements))
-                  "INVALID"))]))
+                 (warn "Invalid word: ~a" (first elements)))]))
 
 (define (ul . elements)
   (case (current-poly-target)
     [else (apply string-append `("\\begin{itemize}\n" ,@elements "\\end{itemize}"))]))
 
 (define (li . elements)
-      (writeln (format "current-poly-target ~a" (current-poly-target)))
   (case (current-poly-target)
-    
     [else (apply string-append `("\\item " ,@elements))]))
 
 (define (figure path #:caption caption)
