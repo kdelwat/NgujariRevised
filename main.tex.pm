@@ -491,4 +491,176 @@ The class of an adverb loosely determines its position in a phrase, with manner 
 
 Adverbs are used as-is, and do not undergo derivation.
 
+◊chapter{Constituent order typology}
+
+This chapter describes the basic structure of phrases and sentences in Ngujari, and in particular the roles that certain parts of speech can take in clauses.
+
+◊section{Constituent order in main clauses}
+
+Within a clause, nouns can take on one of multiple roles:
+
+◊ul{
+◊li{The ◊i{agent} of a transitive verb, which is a noun performing an action on another noun.}
+◊li{The ◊i{patient} of a transitive verb, or the noun that an action is being performed on.}
+}
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "see.AUX-PST boy-ERG stick-NOM see-CH-3RD"]{The boy saw the stick.}
+}
+
+◊ul{
+◊li{The ◊i{subject} of an intransitive verb, which is a verb that only requires one noun. For example, in the sentence "The dog barks", the dog is the subject.}
+}
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "woman-NOM cry-AN-3RD"]{The woman cries.}
+}
+
+◊ul{
+◊li{The ◊i{adjunct} of a ditransitive verb, which is a verb that requires three nouns.}
+}
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "cook.AUX-FUT 1S.AN-ERG egg-PLS-ABS pan-INSTR cook-AN-1ST"]{I will cook eggs with a pan}
+}
+
+Inside a clause, Ngujari tends to be an APV/SV language. This means that the agent and patient precede the verb in a transitive clause, and the subject precedes the verb in an intransitive clause.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "eat.AUX-PST kangaroo-PL-ERG grass-NOM eat-AN-3RD"]{The kangaroos ate/were eating grass}
+◊ilg[#:native "" #:gloss "1S-NOM 2S-ACC strike-AN-1ST"]{I strike you}
+}
+
+When a verb is ditransitive, the extra argument immediately precedes the verb.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "1PL-ERG camp-NOM fire-COM protect-AN-1ST"]{We protect the camp with fire.}
+}
+
+The presence of the verb at the end of the clause is fixed, but the order of the nouns is flexible for pragmatic reasons. The speaker can reverse agent and patient.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "2S-ACC 1S-NOM strike-AN-1ST"]{I strike you}
+}
+
+The majority of the time, the agent will precede the patient. But if the speaker is drawing attention to the patient, especially if the agent has already been discussed and the patient is being introduced, it may move to the position of importance before the agent.
+
+◊section{Verb phrase}
+
+Verb Phrase: vp = aux \[neg\] np(s) \[adv(s)\]\[val\] v\
+VP = (NP) V'\
+V' = V' AdvP\
+V' = AdvP V'\
+V' = NP V'\
+V' = ValP V'\
+V' = T V
+
+A ◊i{verb phrase} is the primary structure of a clause. The most basic clause possible is an intransitive verb with an implicit argument. This is demonstrated in the following example:
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "rain-1ST"]{It's raining}
+}
+
+◊figure[#:caption "Intransitive verb phrase"]{nnuu-rrunnaa}
+
+In practice, most verb phrases will involve nouns. While word order is flexible, as previously described, there are two rules which generally apply:
+
+1.  The verb’s auxiliary appears at the beginning of the phrase
+2.  The verb itself appears at the end.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "bring.AUX-PST 3S-ERG bread-NOM 3PL-ORI bring-AN-3RD"]{He brought the bread to them.}
+}
+
+◊figure[#:caption "Transitive verb phrase"]{he-brought-bread}
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "cry.AUX-FUT 1S.AN-NOM cry-1-AN"]{I will cry}
+}
+
+If the verb is in the present tense, and the auxiliary would otherwise be unmodified, the auxiliary is omitted.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "fire-ERG burn-INAN-3RD"]{The fire burns}
+}
+
+◊figure[#:caption "Implicit auxiliary"]{the-fire-burns}
+
+For pragmatic reasons, a speaker may move the verb’s auxiliary from its regular position at the beginning of the clause to after the verb’s arguments.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "2S-ACC 1S-NOM strike.AUX-PRES strike-AN-1ST"]{I strike you}
+◊ilg[#:native "" #:gloss "1S-NOM 2S-ACC strike.AUX-PRES strike-AN-1ST"]{I strike you}
+}
+
+◊figure[#:caption "Auxiliary positioning"]{I-strike-you}
+
+If the verb phrase is intransitive and contains only a personal pronoun as subject, the pronoun can be elided since the relevant information is encoded on the verb.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "3PL.CH bathe-3PL-CH"]{The children bathe}
+◊ilg[#:native "" #:gloss "bathe-3PL-CH"]{The children bathe}
+}
+
+◊section{Noun phrase}
+
+NP = N'
+N' = N (CP)
+
+A verb phrase can take more than just bare nouns. A ◊i{noun phrase} is a constituent which acts like a noun. It can contain the noun alone, but can also be modified by a relative clause, as in the postnominal relative clause in example XXX.
+
+◊ilgs{
+◊ilg[#:native "birru-ø" #:gloss "sea-ERG"]{sea}
+}
+
+◊figure[#:caption "Basic noun phrase"]{birru}
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "1S.AN-ERG weave.AUX-PST basket-ABS weave-PST"]{I, who wove a basket}
+}
+
+◊section{Adpositional phrases}
+
+◊section{Comparatives}
+
+A comparative is a sentence which compares one noun to another, using an adjective. Ngujari uses ◊i{locational-type comparatives} which are verbless and related to locational predicates. The noun to be judged against (the ◊i{standard noun}) is given a locational case, while the noun that is being judged is given the case that it would assume as the subject of an intransitive verb (for an animate pronoun, accusative, or otherwise absolutive). The two nouns are then followed by the adjective, which is in the predicate form.
+
+If the judged noun is "more" of the adjective than the standard noun, the revertive case is used. If they are the same, the locative case is used.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "3S-NOM 1S-REV tall-AN"]{He is taller than me}
+◊ilg[#:native "" #:gloss "axe-ERG spear-LOC dull-INAN"]{The axe and spear are equally as dull}
+}
+
+Comparatives may be used in relative clauses. The adjective becomes the first word in the clause and is followed by the nouns. One of the nouns is replaced by a pronoun as usual.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "win.AUX-PST dingo-ERG be.AUX-PRES fast-AN 3S-ERG boy-REV be-3-AN"]{The dingo, who is faster than the boy, won the race.}
+}
+
+◊section{Modifier Positioning}
+
+◊subsection{Adverbs}
+
+Adverbs can be split into two categories:
+
+◊ul{
+◊li{Temporal adverbs specify the time a verb takes place}
+◊li{Manner adverbs detail the manner in which the verb was conducted}
+}
+
+Temporal adverbs usually follow the base verb.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "go.AUX-PST 1S.CH-ERG beach-LOG go-CH-1ST day-REV one"]{Yesterday, I (a child) went to the beach}
+}
+
+Manner adverbs usually precede the base verb.
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "pickup.AUX-FUT-WIMP 1PL-ERG clothing-PL-NOM quickly pickup-AN-1ST"]{We should pick up the clothes quickly}
+}
+
+However, both can occupy the other’s position inside the verb phrase if the speaker desires it.
+
 ◊lexicon{}
