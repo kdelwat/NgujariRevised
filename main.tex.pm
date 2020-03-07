@@ -43,17 +43,14 @@ The structure of Ngujari words is simple, with syllables taking the form CV(C): 
 
 The main form of phoneme restriction is found in ◊i{consonant clusters}, the allowable sequences of consonants which appear without being separated by a vowel. The following combinations are the only allowable clusters:
 
+◊ul{
 ◊li{rhotic/liquid + non-retroflex nasal, (◊w{walma}, ◊w{garrna})}
-
 ◊li{rhotic/liquid + non-rhotic approximant (◊w{wiilyu}, ◊w{parlwa})}
-
 ◊li{rhotic/liquid + stop (◊w{ngurpa})}
-
 ◊li{nasal + approximant/stop (◊w{bantuu})}
-
 ◊li{approximant + stop (◊w{gaypa})}
-
 ◊li{retroflex + stop (◊w{karlpii})}
+}
 
 In addition, retroflex consonants are never found at the beginning of a word and approximants are never found at the end of a word.
 
@@ -409,7 +406,6 @@ Noun case suffixes can in some cases be used to derive adjectives based around t
 
 Orientative and revertive suffixes can be used to indicate the "direction" of an adjective in relation to its noun. This distinction is commonly found when talking about time.
 
-
 ◊examples{
 ◊example{age ◊w{jul} ⇒ new ◊i{jurni} (orientative)}
 ◊example{age ◊w{jul} ⇒ old ◊i{julnga} (revertive)}
@@ -565,8 +561,10 @@ A ◊i{verb phrase} is the primary structure of a clause. The most basic clause 
 
 In practice, most verb phrases will involve nouns. While word order is flexible, as previously described, there are two rules which generally apply:
 
+◊ul{
 ◊li{The verb’s auxiliary appears at the beginning of the phrase}
 ◊li{The verb itself appears at the end.}
+}
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "bring.AUX-PST 3S-ERG bread-NOM 3PL-ORI bring-AN-3RD"]{He brought the bread to them.}
@@ -690,8 +688,6 @@ Some examples of regular plurals can be found in the following table.
 
 While the process of plural formation is usually regular, some animate nouns have irregular plural forms, as below.
 
-: Irregular plurals
-
 In addition, some nouns are inherently both singular and plural and do not adopt a special plural form. A handful of examples follows.
 
 ◊table{tables/Irregular plurals.csv}
@@ -701,7 +697,7 @@ In addition, some nouns are inherently both singular and plural and do not adopt
 There is no distinction between count nouns, which can be specifically counted, and mass nouns, which cannot. The number of the noun present can be specified through the usual adjective system.
 
 ◊examples{
-◊example{rock ◊w{naju} ⇒ five rocks ◊w{yi naju} ⇒ a handful of rocks ◊w{ayi naju}}
+◊example{rock ◊w{naju} ⇒ five rocks ◊i{yi naju} ⇒ a handful of rocks ◊i{ayi naju}}
 }
 
 ◊section{Case}
@@ -835,48 +831,37 @@ A noun’s scale can be adjusted up or down through the following suffixes:
 
 This operation is commonly lexicalised, but can be applied generally.
 
-
-fire panwa\
-⇒ ash panwawa\
-⇒ bushfire panwarki
-
-wind gaju\
-⇒ breath gajuwa\
-⇒ high wind gajurki
+◊examples{
+◊example{fire ◊w{panwa} ⇒ ash ◊w{panwawa} ⇒ bushfire ◊w{panwarki}}
+◊example{wind ◊w{gaju} ⇒ breath ◊w{gajuwa} ⇒ high wind ◊w{gajurki}}
+}
 
 ◊section{Temporalisation}
 
 A noun can be modified into a temporal noun, meaning the equivalent of "time of noun", using the suffix ku.
 
-
-moon tii\
-⇒ night tiiku
-
-sun puu\
-⇒ day puuku
+◊examples{
+◊example{moon ◊w{tii} ⇒ night ◊w{tiiku}}
+◊example{sun ◊w{puu} ⇒ day ◊w{puuku}}
+}
 
 ◊section{Collection}
 
 Partial reduplication can be used to derive the collection of a noun. To derive the collection, the first syllable is isolated, its coda removed, and added to the front of the noun.
 
-
-coconut wurna\
-⇒ coconut tree wuwurna
-
-bone parrna\
-⇒ corpse paparrna
+◊examples{
+◊example{coconut ◊w{wurna} ⇒ coconut tree ◊w{wuwurna}}
+◊example{bone ◊w{parrna} ⇒ corpse ◊w{paparrna}}
+}
 
 ◊section{Container}
 
 The container of a noun can be derived through the affix rna.
 
-
-arrow yungi\
-⇒ quiver yungirna
-
-fruit yirli\
-⇒ basket yirlinga
-
+◊examples{
+◊example{arrow ◊w{yungi} ⇒ quiver ◊w{yungirna}}
+◊example{fruit ◊w{yirli} ⇒ basket ◊w{yirlinga}}
+}
 
 ◊chapter{Predicate nominals and related constructions}
 
@@ -884,9 +869,10 @@ fruit yirli\
 
 A predicate nominal is a construction that exresses one of two meanings:
 
+◊ul{
 ◊li{proper inclusion}
-
 ◊li{equative predicates}
+}
 
 ◊subsection{Proper inclusion}
 
@@ -913,7 +899,6 @@ An equative predicate signifies that two nouns corefer, in that they reference t
 ◊ilg[#:native "" #:gloss "3s.an-ERG person-ABS be-an-1st [COMP person-ABS tall-pred] She’s the"]{tall one.}
 }
 
-
 ◊section{Predicate adjectives}
 
 Predicate adjectives assign an adjective to describe a noun phrase. They are formed in the same way as a proper inclusion noun predicate.
@@ -922,29 +907,26 @@ Before they can be used as predicates, adjectives must be inflected. They are le
 
 To decline a predicate adjective, two steps are required:
 
+◊ul{
 ◊li{If the adjective ends in a vowel, its last consonant is added to the end. Otherwise, it is unmodified.}
-
 ◊li{The relevant gender suffix of a class one verb is added as a suffix.}
+}
 
-```
+◊ilgs{
+◊ilg[#:native "" #:gloss "plane-ERG fast-PRED"]{The plane is fast}
+}
 
-plane-ERG fast-PRED The plane is fast
-
-```
-
-A crucial distinction between the noun predicate and adjectival predicate is that there can be no tense distinction made with adjectives; instead they remain in the present tense, even if used in a text of a different tense.
+A crucial distinction between the noun predicate and adjectival predicate is that there can be no tense distinction made with adjectives, COLON instead they remain in the present tense, even if used in a text of a different tense.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "go.away.AUX-PST 1pl.an-ERG plane-INSTR go.away-INTRANS-1-an [COMP plane-ERG fast-PRED]"]{We went on a trip and the plane was fast}
 }
-
 
 There is another form of adjectival predicate, in which a noun is used in place of an adjective. While this may seem counterintuitive, the noun in effect becomes an adjective. This form is used when describing a changeable state. The described noun is treated as above, but the modifying noun is given the comitative case.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "berry-ERG freshness-com"]{The berry is fresh.}
 }
-
 
 ◊section{Predicate locatives}
 
@@ -953,7 +935,6 @@ Predicate locatives assign a noun phrase to a location. They are formed in the s
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "boy.ERG beach-LOC"]{The boy is at the beach}
 }
-
 
 ◊section{Existentials}
 
@@ -965,13 +946,11 @@ The copula appears after the noun which "exists". The noun phrase takes the comi
 ◊ilg[#:native "" #:gloss "beach-COM COP"]{There is a beach / A beach exists.}
 }
 
-
 The copula does not act as a verb and hence cannot take adjuncts. Instead, clause chaining provides a means for supplying adjuncts.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "beach-COM COP-SS DEMPRON village-LOC adjoin/abut-AN-3RD"]{There is a beach near the village / The village has a beach.}
 }
-
 
 When preceding a clause chain, the subject is not elided and placed in the main clause. It remains in position before the copula, which is marked with the SS modifier. Inside, the uninflected demonstrative pronoun corefers with the existing noun phrase.
 
@@ -981,14 +960,12 @@ Inside an existential, the noun phrase can include adjectives and relative claus
 ◊ilg[#:native "" #:gloss "beach-COM COP, COMP 1S-ERG DEMPRON-AN-1-ABS want-AN-1ST"]{There’s a book that I want.}
 }
 
-
 Negative existentials are a seperate construction. They are formed through negative locative possession, with the dummy subject being the locative demonstrative naarla (there).
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "NEG doorknob-ERG DEM.LOC.1 be-INAN-3RD"]{There’s no doorknob / lit. The doorknob is not on there.}
 ◊ilg[#:native "" #:gloss "be.AUX-PST NEG bag-PL-ERG DEM.LOC.PL be-INAN-3RD"]{There weren’t any bags.}
 }
-
 
 ◊section{Possessive clauses}
 
@@ -1010,7 +987,6 @@ Locative-based possession can be thought of as a noun being on somebody’s pers
 ◊ilg[#:native "" #:gloss "deadfish-pl-dual-erg woman-loc be-inan-3rd"]{The woman has two dead fish.}
 }
 
-
 The second form of the alienable possession, pronominal possession, is described in the chapter on nouns.
 
 ◊subsection{Inalienable}
@@ -1021,13 +997,11 @@ Inalienable possession is indicated through the use of the verb gurr. The posses
 ◊ilg[#:native "" #:gloss "have.aux-fut-gno 3s.an-erg homeland-abs have-an-3"]{He will always have a homeland.}
 }
 
-
 It is important to note that gurr is either transitive or ditransitive, meaning it can take three arguments: an agent, an object, and a manner. The manner is a noun in the comitative case, and describes the means by which the noun became or is possessed. The following example is the same as the above, except a manner is specified.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "have.aux-fut-gno 3s.an-erg homeland-abs courage-com have-an-1st"]{He will always have a homeland, due to his courage.}
 }
-
 
 ◊subsection{Group}
 
@@ -1039,8 +1013,7 @@ Group possession is formed using the special particle tuu, which appears before 
 ◊ilg[#:native "" #:gloss "protect.aux-strimp 1pl-erg pos-gurnu precious land-nom spirit-inst protect-an-1st"]{We must protect our [the Gurnu mob’s] precious land with vigour.}
 }
 
-
-The regular name is used by members of the possessing mob, but the honorific name is used for possessions of others [^6]. For example, the combined particle for something owned by the Wujanga mob would be tuu-Wujanga for a member or tuu-Wujarra for an outsider.
+The regular name is used by members of the possessing mob, but the honorific name is used for possessions of others. For example, the combined particle for something owned by the Wujanga mob would be ◊i{tuu-Wujanga} for a member or ◊i{tuu-Wujarra} for an outsider.
 
 ◊chapter{Grammatical relations}
 
@@ -1054,27 +1027,23 @@ In an intransitive clause, there is one argument to the verb, termed the subject
 ◊ilg[#:native "" #:gloss "woman-ABS capsize-an-3rd"]{The woman capsizes.}
 }
 
-
 In a transitive clause, there are two arguments. The first is the agent, which is the noun performing or causing the action. The second is the patient, which receives, undergoes, or otherwise experiences it.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "kill.AUX-PST 3s.AN-ERG snake-ABS kill-AN-3RD"]{He killed a snake.}
 }
 
-
 Grammatical relations define groups of these categories. The grammatical relations in clauses are decided by an agentivity heirarchy:
 
-```
+◊examples{
+◊example{personal pronoun > animate > inanimate}
+}
 
-personal pronoun &gt; animate &gt; inanimate
-
-```
-
-If there are any arguments in a clause occupying the subject, agent or patient role which are not personal pronouns, grammatical relations are assigned as in [figuretitle](#erg-abs-alignment). The ergative relation contains the agent of transitive clauses, while subject and patient are grouped together into the absolutive relation.
+If there are any arguments in a clause occupying the subject, agent or patient role which are not personal pronouns, grammatical relations are assigned as in erg-abs-alignment. The ergative relation contains the agent of transitive clauses, while subject and patient are grouped together into the absolutive relation.
 
 ![Ergative-absolutive alignment](../images/erg-abs-alignment.png)
 
-If there are only personal pronouns in the sentence’s subject, agent, and patient categories, relations are assigned differently, as in [figuretitle](#nom-acc-alignment). Since these nouns are considered more 'agent-like', and capable of volition in all circumstances, the subject and agent are treated identically by grouping them into the nominative relation. The patient stands alone in the accusative relation.
+If there are only personal pronouns in the sentence’s subject, agent, and patient categories, relations are assigned differently, as in nom-acc-alignment. Since these nouns are considered more 'agent-like', and capable of volition in all circumstances, the subject and agent are treated identically by grouping them into the nominative relation. The patient stands alone in the accusative relation.
 
 ![Nominative-accusative alignment](../images/nom-acc-alignment.png)
 
@@ -1094,7 +1063,6 @@ A verb’s valence determines the number of arguments it can take. For example, 
 ◊ilg[#:native "" #:gloss "fight.AUX-PST dingo-ERG snake-ABS fight-AN-3RD"]{The dingo fought the snake.}
 }
 
-
 In addition to their valence, the arguments to verbs have restrictions on their case. For the majority of transitive verbs, with a valence of two, the arguments take the form of a subject and object. The cases are determined by the alignment of the sentence.
 
 However, this can differ, and some verbs have irregular argument cases. This is especially true in the case of verbs relating to movement, which instead take a subject and a location.
@@ -1103,14 +1071,12 @@ However, this can differ, and some verbs have irregular argument cases. This is 
 ◊ilg[#:native "" #:gloss "run.aux-pst 1s-erg mountain-loc run-an-1st"]{I ran to the mountain [and ended up there].}
 }
 
-
 When verbs take an argument in the locative case, the speaker can instead use the revertive or orientative case for further control over meaning.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "run.aux-pst 1s-erg mountain-ori run-an-1st"]{I ran towards the mountain}
 ◊ilg[#:native "" #:gloss "run.aux-pst 1s-erg mountain-rev run-an-1st"]{I ran away from the mountain}
 }
-
 
 ◊section{Valence increasing operations}
 
@@ -1124,20 +1090,15 @@ The applicative cases are:
 
 ◊ul{
 ◊li{instrumental}
-
 ◊li{comitative}
-
 ◊li{locative}
-
 ◊li{orientative}
-
 ◊li{revertive}
 }
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "stab.aux-pst 3s.an-NOM 3s.an.ch-ACC knife-INSTR stab-3-an"]{She stabbed the child with a knife}
 }
-
 
 ◊subsection{Causatives}
 
@@ -1160,7 +1121,6 @@ In both transitive and intransitive clauses, the verb phrase agrees with the cau
 ◊ilg[#:native "" #:gloss "drop.aux-pst 1s-com axe-nom wind-erg drop-inan-1st"]{The wind caused me to drop the axe.}
 }
 
-
 ◊section{Valence decreasing operations}
 
 ◊subsection{Reflexive/Reciprocal}
@@ -1173,7 +1133,6 @@ The personal pronoun of the subject occupies the object position and is correctl
 ◊ilg[#:native "" #:gloss "carefor.AUX-PRES-REFL Paya-NOM 3S.AN-ACC carefor-AN-3RD"]{Paya cares for himself.}
 }
 
-
 In reflexive constructions, the personal noun is considered to be a pronoun. As such, the clause is in the nominative-accusative alignment.
 
 The reflexive can be used only for animate subjects. In addition, reciprocals can further take only plural subjects.
@@ -1181,7 +1140,6 @@ The reflexive can be used only for animate subjects. In addition, reciprocals ca
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "see.AUX-REM-REFL 2PL-NOM see-AN-2ND"]{You (pl) used to see each other.}
 }
-
 
 If the subject of the clause is itself a personal pronoun, the object is dropped. Hence the reflexive is not necessarily a valence-decreasing operation.
 
@@ -1193,7 +1151,6 @@ When the subject of a VP is the possessor of an object or oblique in the phrase,
 ◊ilg[#:native "" #:gloss "3S.AN-ERG ball-ABS-REFL kick-AN-1ST"]{He kicked his ball.}
 ◊ilg[#:native "" #:gloss "ball-ABS-REFL kick-AN-1ST"]{He kicked his ball.}
 }
-
 
 ◊subsubsection{Lexical reflexives}
 
@@ -1208,7 +1165,6 @@ The antipassive is a valence-decreasing operation. When the patient of a transit
 ◊ilg[#:native "" #:gloss "attack.AUX-PST dog-ABS attack-INTRANS-AN-3RD"]{c.f. The dog attacked (him).}
 }
 
-
 The antipassive is also used when forming relative clauses for the subject of a sentence, where the relative clause does not have a patient.
 
 Consider this sentence, which uses a postnominal relative clause:
@@ -1217,13 +1173,11 @@ Consider this sentence, which uses a postnominal relative clause:
 ◊ilg[#:native "" #:gloss "bark.AUX-PST dog-ERG attack.AUX-PST man-ABS attack-3-an bark-AN-3rd"]{The dog, who was attacking the man, barked}
 }
 
-
 Above, the relative clause has a patient (the man). If instead it does not, the relative clause is instead constructed using an adjoined relative clause:
 
 ◊ilgs{
-◊ilg[#:native "" #:gloss "bark.AUX-PST dog-ERG bark-AN-3rd [COMP DEMPRON.AN.S-ERG"]{attack-intrans-3-an] The dog, who was attacking, barked}
+◊ilg[#:native "" #:gloss "bark.AUX-PST dog-ERG bark-AN-3rd COMP DEMPRON.AN.S-ERG attack-intrans-3-an"]{The dog, who was attacking, barked}
 }
-
 
 Note that in most usage, these examples would be expressed using a clause chain. The use of the antipassive in relative clauses is mostly constrained to the written word rather than speech.
 
@@ -1247,13 +1201,11 @@ When used in the nominal form, the gerund takes the appropriate noun case.
 ◊ilg[#:native "" #:gloss "like.aux-rem 1s-erg swim.ger-abs like-an-1st"]{I used to like swimming.}
 }
 
-
 When used in the infinitive form, the overlap relationship is used in a clause chain.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "3s-ERG go-3-an-SS hunt.ger-ABS do-an-3rd"]{He went there to hunt. (lit he went to do hunt)}
 }
-
 
 ◊subsection{Participant nominalisation}
 
@@ -1267,14 +1219,12 @@ The suffix ngu (person) is added to nominalise the verb. The resulting noun is a
 ◊ilg[#:native "" #:gloss "arrive.AUX-PST bake-NOMINALISE-ERG arrive-3-an late"]{The baker was late}
 }
 
-
 Instrument nominalisation is a syntactic process, that uses the demonstrative pronoun as a clause’s agent.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "DEMPRON-INAN-ERG coffee.ABS grind-INAN-3RD"]{coffee grinder (lit. "that which grinds coffee")}
 ◊ilg[#:native "" #:gloss "break.AUX-PST 1s.an-ERG DEMPRON-INAN-ABS break-1-an, comp"]{DEMPRON-INAN-ERG coffee.ABS grind-INAN-3RD I broke the coffee grinder}
 }
-
 
 The verb must be in the present tense.
 
@@ -1285,45 +1235,32 @@ Locational nominalisation uses the suffix nnalu (ground). A nominalised location
 ◊ilg[#:native "" #:gloss "go.AUX-PRES-WIMP 1pl.an-ERG bury-LOCATION-REV go-1-an"]{Let’s leave the graveyeard}
 }
 
-
 ◊section{Compounding}
 
 Compounding is a lexical operation used when forming new verbs. There are two forms of compounding: verb-verb and adverb-verb. Both form a new verb which is treated as a whole in syntactic structures.
 
 In verb-verb compounding, the compound is not commutative, meaning that the order of the verbs matters. Typically, the most relevant verb occurs last. The two verbs are simply concatenated, except for the special case in which the concatenation would form an illegal consonant cluster. If this occurs, the repair strategy of inserting the dummy vowel a is used.
 
-
-to sit walj\
-to swim junn\
-⇒ to canoe waljunn
-
-to travel nuunn\
-to exchange murr\
-⇒ to trade (with another mob) nuunnamurr
+◊examples{
+◊example{to sit ◊w{walj}, to swim ◊w{junn} ⇒ to canoe ◊w{waljunn}}
+◊example{to travel ◊w{nuunn}, to exchange ◊w{murr} ⇒ to trade (with another mob) ◊w{nuunnamurr}}
+}
 
 Verbs formed through verb-verb compounding in most cases assume the transitivity properties of the second, or primary, verb.
 
 Adverb-verb compounding simply requires an adverb to appear before the verb in all positions. For example, it would remain in front of the verb during relativization (see **relative clauses**) while regular adverbs would not.
 
-
-to run yaj\
-quickly garrna\
-⇒ to sprint garrna yaj
-
-to drink ngann\
-impatiently karlpii\
-⇒ to guzzle karlpii ngann
+◊examples{
+◊example{to run ◊w{yaj}, quickly ◊w{garrna} ⇒ to sprint ◊w{garrna yaj}}
+◊example{to drink ◊w{ngann}, impatiently ◊w{karlpii} ⇒ to guzzle ◊w{karlpii ngann}}
+}
 
 A common use of adverb-verb compounding is in augmentation and diminution. The adverbs purki ("weakly") and puwa ("strongly") are used to modify the intensity of the verb.
 
-
-to eat jinn\
-⇒ to nibble purki jinn\
-⇒ to bite puwa jinn
-
-to give gulwaj\
-⇒ to offer purki gulwaj\
-⇒ to force upon puwa gulwaj
+◊examples{
+◊example{to eat ◊w{jinn}, to nibble ◊w{purki jinn} ⇒ to bite ◊w{puwa jinn}}
+◊example{to give ◊w{gulwaj}, to offer ◊w{purki gulwaj} ⇒ to force upon ◊w{puwa gulwaj}}
+}
 
 ◊section{Tense/aspect/mode}
 
@@ -1336,21 +1273,17 @@ Present is considered the default tense. It usually indicates those events which
 ◊ilg[#:native "" #:gloss "give.aux-pres 1s-nom 3s.inan-com 3s.an-acc give-an-1st earlier"]{I gave it to him earlier today.}
 }
 
-
 The past tense simply refers to an event that began and concluded in the past. If the event has not yet concluded, the present tense is used, even if it began in the past.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "1pl-ERG see-an-1st-DS kangaroo-ERG hop-an-3rd"]{We saw the hopping kangaroo.}
 }
 
-
 The remote past also indicates an event that was completed in the past. The distinction between it and the standard past can be somewhat arbitrary, but in general remote past is used in the following three circumstances:
 
 ◊ul{
 ◊li{recounting handed-down stories}
-
 ◊li{speaking of ancestral events}
-
 ◊li{referring to a habitual action that has concluded}
 }
 
@@ -1359,13 +1292,11 @@ The remote past also indicates an event that was completed in the past. The dist
 ◊ilg[#:native "" #:gloss "be.aux-rem hut-erg mountain-loc be-inan-3rd"]{The hut used to be on the hill.}
 }
 
-
 The future tense refers to all events which are yet to take place, regardless of how far in the future they occur.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "go.aux-fut neg 1s-erg there go-an-1st"]{I won’t go there.}
 }
-
 
 ◊subsection{Aspect}
 
@@ -1376,20 +1307,15 @@ Aspect refers to the definiteness of an action. The perfective aspect refers to 
 ◊ilg[#:native "" #:gloss "1s-erg butterfly-abs see-an-1st-SS blush.aux-pst blush-an-1st"]{I saw a butterfly that made me blush.}
 }
 
-
 ◊subsection{Moods}
 
 A mood modifies the meaning of a verb. Verbs can be conjugated into one of five moods:
 
 ◊ul{
 ◊li{subjunctive}
-
 ◊li{weak imperative}
-
 ◊li{strong imperative}
-
 ◊li{gnomic}
-
 ◊li{dubitative}
 }
 
@@ -1399,14 +1325,12 @@ Mood is an optional part of verb formation. In a regular active sentence, there 
 ◊ilg[#:native "" #:gloss "↗ eat.aux-pres 1pl-nom eat-an-1st"]{Should we eat?}
 }
 
-
 But adding a mood, such as the imperative, changes the meaning of the sentence.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "eat.aux-pres-wimp 1pl-nom eat-an-1st"]{Let’s eat.}
 ◊ilg[#:native "" #:gloss "eat.aux-pres-strimp 1pl-nom eat-an-1st"]{We must eat.}
 }
-
 
 ◊subsubsection{Subjunctive}
 
@@ -1416,11 +1340,8 @@ The subjunctive is used in four places:
 
 ◊ul{
 ◊li{Speculation}
-
 ◊li{Desires}
-
 ◊li{Negatives}
-
 ◊li{Conditional}
 }
 
@@ -1433,14 +1354,12 @@ The most common semantic use of the subjunctive mood is speculation. It indicate
 ◊ilg[#:native "" #:gloss "COMP-walk-pst-subj 3pl.ch-ERG place-ORI walk-ch-3rd know-an-1st"]{I think that they came back yesterday.}
 }
 
-
 The subjunctive is also used when expressing desires or dreams. The desire must be first-hand; so recounting those of others does not use the subjunctive.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "want.AUX-PRES-SUBJ 1s-ERG bed-ABS want-AN-1st"]{I want a new bed.}
 ◊ilg[#:native "" #:gloss "say.AUX-PST 3s-NOM 1s-ACC say-AN-3rd, want.AUX-PRES 1s-ERG bed-ABS want-AN-1st"]{He said to me, "I want a new bed."}
 }
-
 
 ◊subsubsection{Imperative}
 
@@ -1450,13 +1369,11 @@ The imperative mood is used for suggestions and commands. The weak imperative ra
 ◊ilg[#:native "" #:gloss "cut.AUX-FUT-WIMP neg 1pl-erg tree-ABS cut-an-1st"]{Let’s not cut down the tree.}
 }
 
-
 The strong imperative signifies a command, such as "Leave!".
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "cut.AUX-FUT-STRIMP neg 2s-erg tree-abs cut-an-2nd"]{Don’t cut down the tree.}
 }
-
 
 ◊subsubsection{Gnomic}
 
@@ -1466,7 +1383,6 @@ The gnomic mood states unequivocal facts or ideas. The statement must be truly u
 ◊ilg[#:native "" #:gloss "fly.aux-pres-gno bowerbird-PL-ERG east-LOC fly-an-3rd winter-adv"]{Satin bowerbirds fly east for winter.}
 }
 
-
 ◊subsubsection{Dubitative}
 
 The dubitative mood indicates situational possibility. The speaker acknowledges the possibility of an action but is unsure as to whether it occurs. This is similar to English sentences using the auxiliary "might".
@@ -1474,7 +1390,6 @@ The dubitative mood indicates situational possibility. The speaker acknowledges 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "rain.aux-fut-dub rain-an-3rd"]{It might rain tomorrow.}
 }
-
 
 ◊section{Participant Reference}
 
@@ -1484,23 +1399,14 @@ There are three situations in which participant reference is anaphoric (and the 
 
 ◊ol{
 ◊li{Intransitive clauses where the reference has been preestablished, or is implicit.}
-
-        ====
-        ... ? cry-AN-3RD +
-        What does the monkey do? It cries.
-        ====
-
 ◊li{Or where the subject is an animate pronoun.}
-
-        ====
-        cry-AN-3RD +
-        He cries.
-        ====
-
 ◊li{In the main clause of a clause chain, where the subject is an animate pronoun and the only explicit argument to the final verb.}
 }
 
-
+◊ilgs{
+◊ilg[#:native "" #:gloss "...? cry-AN-3RD"]{What does the monkey do? It cries.}
+◊ilg[#:native "" #:gloss "cry-AN-3RD"]{He cries}
+}
 
 In other cases, participant reference is purely grammatical and the agreeing noun phrase must be present.
 
@@ -1511,9 +1417,8 @@ In other cases, participant reference is purely grammatical and the agreeing nou
 Topicalisation is the process of fronting a noun phrase for emphasis, indicating the topic of the sentence. Topicalisation occurs through left-dislocation: the noun phrase elevated is moved to the front of the sentence, seperated with a pause, before the sentence runs as usual but with a personal pronoun corefering back to the dislocated noun phrase. The fronted noun is marked for case, but the corefering pronoun is not.
 
 ◊ilgs{
-◊ilg[#:native "" #:gloss "[kangaroo-ABS] kill.AUX-PST 1S-ERG [3S.INAN] kill-AN-1ST"]{As for the kangaroo, I killed it.}
+◊ilg[#:native "" #:gloss "kangaroo-ABS kill.AUX-PST 1S-ERG 3S.INAN kill-AN-1ST"]{As for the kangaroo, I killed it.}
 }
-
 
 Topicalisation is permitted only for noun phrases that are the object of the sentence.
 
@@ -1522,14 +1427,13 @@ Topicalisation is permitted only for noun phrases that are the object of the sen
 ◊ilg[#:native "" #:gloss "(INC) 1s-ERG eat.AUX-FUT [1S.AN] fish-ABS eat-an-1st"]{As for me, I will eat the fish}
 }
 
-
 ◊section{Negative}
 
 A negative simply inverts the meaning of a part of a sentence.
 
 Clausal negation is expressed through both analytic and morphological markings, and negates the whole clause.
 
-To form the clausal negative, the negative particle must be used [^7].
+To form the clausal negative, the negative particle must be used.
 
 There are two negative particles; one for predicate nominals (all classes), the other for all other sentences (tuu).
 
@@ -1540,14 +1444,12 @@ In a standard negative clause, the particle follows the auxiliary of the verb.
 ◊ilg[#:native "" #:gloss "go.aux-pres neg 3s.an-erg there go-an-3rd"]{He doesn’t go there.}
 }
 
-
 For predicate nominals, the particle is at the beginning of the sentence.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "neg 1S-ERG baker-ABS"]{I am not a baker.}
 ◊ilg[#:native "" #:gloss "neg 1s-ERG baker-ABS cop-PST"]{I was not a baker.}
 }
-
 
 ◊subsection{The use of the subjunctive in forming negatives}
 
@@ -1558,7 +1460,6 @@ If a sentence is in any non-present tense, the mood of the negative sentence mus
 ◊ilg[#:native "" #:gloss "go.aux-fut-subj neg 3s.an-erg there go-an-3rd"]{He won’t go there tomorrow}
 }
 
-
 The mood is also subjunctive if the negative is used when responding to a question with a speech act.
 
 ◊ilgs{
@@ -1566,13 +1467,11 @@ The mood is also subjunctive if the negative is used when responding to a questi
 ◊ilg[#:native "" #:gloss "be.aux-pres-subj 1s.an-NOM be-INTRANS-1-an"]{Not me (lit. I be not)}
 }
 
-
 However, in an imperative clause (one that uses the weak or strong imperative mood, see **tense and mood**), the particle is instead placed before the auxiliary, and the subjunctive is not used.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "ride.AUX-STRIMP 2s.an-ERG bike-ABS ride-1-an"]{Don’t ride your bike!}
 }
-
 
 In all clausal negatives, qualifiers can be used as stand-alone utterances, which follow the sentence. A qualifier is a word such as wulnni ("never") which modifies the negative.
 
@@ -1580,17 +1479,14 @@ In all clausal negatives, qualifiers can be used as stand-alone utterances, whic
 ◊ilg[#:native "" #:gloss "steal.aux-strimp neg 2s-nom steal-intrans-an-2nd never"]{You must never steal.}
 }
 
-
 ◊subsection{Derivational negation}
 
 An adjective can be negated through a prefix. If the adjective begins with a stop, the prefix is wuu. Otherwise, it is tu.
 
-
-long (distance) yungi\
-⇒ short (distance) tuyungi
-
-heavy (rain) ganu\
-⇒ light (rain) wuuganu
+◊examples{
+◊example{long (distance) ◊w{yungi} ⇒ short (distance) ◊w{tuyaangi}}
+◊example{heavy (rain) ◊w{ganu} ⇒ light (rain) ◊w{wuuganu}}
+}
 
 ◊section{Non-declarative speech acts}
 
@@ -1598,9 +1494,10 @@ heavy (rain) ganu\
 
 Interrogatives are simply questions. There are two types of interrogatives:
 
+◊ul{
 ◊li{Polar, which have an affirmative or negative answer.}
-
 ◊li{Non-polar, which require a more detailed response.}
+}
 
 ◊subsubsection{Polar}
 
@@ -1610,7 +1507,6 @@ Polar questions are extremely easy to form, and are marked only by intonation. T
 ◊ilg[#:native "" #:gloss "↗ fly.aux-fut bird-pl-erg mountain-pl-loc fly-an-3rd"]{Will the birds fly to the mountains?}
 }
 
-
 ◊subsubsection{Question-word questions}
 
 The primary way of forming a non-polar question is through the use of interrogative pronouns (such as piima), which replace the questioned word in-situ. The interrogative takes the place of a noun in a verb phrase, but is not assigned a case.
@@ -1619,13 +1515,11 @@ The primary way of forming a non-polar question is through the use of interrogat
 ◊ilg[#:native "" #:gloss "go.aux-pst who river-loc 1s.an-com go-an-3rd"]{Who went to the river with me?}
 }
 
-
 This method of questioning can be used in any type of sentence, not just basic clauses. The following example shows its use in a locational predicate which contains a relative clause. The interrogative pronoun, kiru, is moved to the front of the sentence to highlight its importance.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "be.aux-pres where path-erg be-3-inan [COMP dempron.inan.s-ERG village-abs leadto-inan-3rd]"]{Where is the path that leads to the village?}
 }
-
 
 The gender and number agreement of the verb is determined by that of the coreferring interrogative pronoun.
 
@@ -1636,7 +1530,6 @@ A less-common way to ask a non-polar question requires the particle yuu. By plac
 ◊ilg[#:native "" #:gloss "3s.erg kangaroomeat-nom eat-an-3rd [COMP DEMPRON-inan-3rd-abs] freshness-com"]{Is the kangaroo meat he is eating fresh? (lit. He is eating kangaroo meat, is it with freshness?)}
 }
 
-
 ◊chapter{Clause combinations}
 
 ◊section{Complement clauses}
@@ -1644,7 +1537,6 @@ A less-common way to ask a non-polar question requires the particle yuu. By plac
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "CP = C C'"]{C' = VP}
 }
-
 
 Complement clauses act as the subject or object of a main clause.
 
@@ -1654,13 +1546,11 @@ A finite clause is inflected separately to the main clause. When used as a subje
 ◊ilg[#:native "" #:gloss "annoy.AUX-PST COMP-eat-AUX-PST he-ERG dog-ABS eat-3-AN me-ABS annoy-1-AN"]{That he ate the dog annoyed me. / It annoyed me that he ate the dog}
 }
 
-
 A finite clause can also be used as a direct object (but not indirect). Here, it has a null complementiser.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "1s.an-ERG COMP(NULL)-fall-AUX-PST icecream-ERG ground-ORI fall-3s-inan be.scared-1s-an"]{I’m scared of the icecream falling on the ground}
 }
-
 
 A non-finite clause shares its subject with the main clause. It can only be used as an object (both direct and indirect). Non-finite clauses do not have an auxiliary - the infinitive of the verb is used instead, and is moved to the T position. The subject is elided, and all remaining objects are cased as normal.
 
@@ -1668,16 +1558,16 @@ A non-finite clause shares its subject with the main clause. It can only be used
 ◊ilg[#:native "" #:gloss "enjoy.AUX-PST 1s.an-ERG wash-1-an car-ABS enjoy-1-an"]{I enjoyed washing the car}
 }
 
-
 ![complement clauses](../images/complement-clauses.png)
 
 ◊section{Adverbial clauses / adjuncts}
 
 There is no grammatical adjunct in Ngujari. Instead, constructions that would usually use an adjunct would use:
 
+◊ul{
 ◊li{The applicative, with a new noun added in the appropriate case. This would be used in situations like locatives.}
-
 ◊li{Clause chaining}
+}
 
 ◊section{Clause chaining, medial clauses, and switch reference}
 
@@ -1687,7 +1577,6 @@ A medial clause is any non-final clause in a clause chain. It is not usually inf
 ◊ilg[#:native "" #:gloss "3S-ERG walk-3-AN-SS pat-AUX-PST dog-ABS pat-3-AN"]{He patted the dog while walking.}
 }
 
-
 In the above example, the clause containing walk is medial, and hence does not require an auxiliary to mark tense and aspect. The final clause, containing pat, determines that both verbs in the chain are in the past tense.
 
 An exception to the missing tense/aspect/mood inflection occurs when the medial clause has a mood with higher specificity than that of the final mood. The specificity heirarchy that determines this is:
@@ -1696,20 +1585,17 @@ An exception to the missing tense/aspect/mood inflection occurs when the medial 
 ◊ilg[#:native "" #:gloss "(less specific) gnomic - dubitative - weak imperative - strong"]{imperative (more specific)}
 }
 
-
 The subjunctive falls outside this spectrum, and does not inflect in medial clauses. If the final clause has no mood, then no mood can be expressed on medial clauses.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "1pl-ERG eat.AUX-STRIMP eat-1-AN-SS swim.AUX-WIMP swim-1-AN"]{We must eat before we (can) swim.}
 }
 
-
 The subject of a medial clause is determined by reference markers. Ngujari is a switch-reference language: it determines the subject of a medial clause based on whether it is the same as, or different from, that of the final clause. The SS marker refers forwards to indicate that the clause has the same subject, and the DS marker indicates the opposite.
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "mailman-ERG sleep-1s-an-DS read.AUX-FUT read-2-an"]{The mailman will sleep while you read}
 }
-
 
 The morphological realisation of the SS/DS markers depends on the context of the sentence. There are four different contexts in which switch-reference operates, each with a different morphology.
 
@@ -1724,7 +1610,6 @@ Overlap represents the "while doing X" relationship.
 ◊ilg[#:native "" #:gloss "dog-ERG bark-3-AN-DS escape-AUX-PST prisoner-ERG escape-3-AN"]{The dog barked while the prisoner escaped.}
 }
 
-
 ◊subsection{Succession}
 
 Succession represents the "after doing X" relationship.
@@ -1732,7 +1617,6 @@ Succession represents the "after doing X" relationship.
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "car-ERG arrive-3-INAN-DS enter-3-AN"]{The car arrives, then he gets in.}
 }
-
 
 In the above example, the DS marker is enough, along with the person and number marking on the verb, to infer the subject of the medial clause without making it explicit.
 
@@ -1744,7 +1628,6 @@ Causation represents the "because of X" relationship.
 ◊ilg[#:native "" #:gloss "arrive-3-AN-SS early drink.AUX-FUT excessively drink-3-AN"]{Since she will arrive early, she will get drunk.}
 }
 
-
 ◊subsection{Negative causation}
 
 Negative causation represents the "because of not-X" relationship.
@@ -1754,7 +1637,6 @@ Negative causation is the only non-canonical switch-reference context. Instead o
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "NEG-SS wake-3-AN avoid.AUX-PST bus-ABS avoid-3-AN"]{Because she didn’t wake up, she missed the bus.}
 }
-
 
 ◊section{Relative clauses}
 
@@ -1768,11 +1650,9 @@ This clause relativises the subject position.
 ◊ilg[#:native "" #:gloss "man-ERG go.AUX-PST shop-PL-ABS go-3-AN"]{the man who went to the shops}
 }
 
-
 The relative clause immediately follows the noun. The auxiliary must be included, even if the clause is in the present tense (where it would normally be optional).
 
-![postnominal relative
-clause](../images/postnominal-relative-clause.png)
+![postnominal relative clause](../images/postnominal-relative-clause.png)
 
 The gap strategy is used for case retention - since the case must be the subject.
 
@@ -1787,8 +1667,7 @@ The relative clause is adjoined after the main clause, and introduced by the com
 ◊ilg[#:native "" #:gloss "man-ABS know-1-AN, [COMP tree-ERG DEMPRON.AN.S-ORI fall-3-INAN]"]{I know the man that the tree fell on [indirect object].}
 }
 
-
-TODO: X-bar diagram
+◊todo{X-bar diagram}
 
 ◊section{Coordination}
 
@@ -1806,19 +1685,18 @@ When nouns are coordinated through conjunction, only one is used as the "main" s
 ◊ilg[#:native "" #:gloss "fight.AUX-PST 1s-ERG bear-ABS fight-1pl-AN, [COMP sister-ERG 1s-ABS be.alongside-1-AN]"]{My sister and I fought the bear.}
 }
 
-
 In the above example, the speaker is the main subject, while their sister is attached via a relative clause. Notice that the number of the verb fight is changed to reflect that there are two subjects to the sentence.
 
 Conjuncted verb phrases are expressed either through overlapping medial clauses or through a separate sentence with a conjunction-indicating temporal adverb, one of:
 
+◊ul{
 ◊li{also (implies second event occurs at the same location and time as the first)}
-
 ◊li{at same time (implies second event occurs at the same time as the first)}
+}
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "boat-ABS find-AN-1ST DEMPRON-INAN-S-ABS steal-1-an also"]{I find a boat and steal it.}
 }
-
 
 ◊subsection{Disjunction}
 
@@ -1826,13 +1704,8 @@ Disjunction is expressed between verb phrases only, using the dubitative mood. D
 
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "go.AUX-PRES-DUB 1S.NOM go-AN-1ST ↗wait.AUX-PRES-DUB 1S.NOM wait-AN-1ST↗"]{I will go now or wait.}
+◊ilg[#:native "" #:gloss "↗︎run.AUX-PRES-DUB 2s.NOM DEMPRON run-AN-2nd walk.AUX-PRES-DUB 2s.NOM run-AN-2nd DEMPRON walk-AN-2nd"]{Will you run there or walk?}
 }
-
-
-◊ilgs{
-◊ilg[#:native "" #:gloss "_︎︎︎︎↗︎run.AUX-PRES-DUB 2s.NOM DEMPRON run-AN-2nd walk.AUX-PRES-DUB 2s.NOM run-AN-2nd DEMPRON walk-AN-2nd"]{Will you run there or walk?}
-}
-
 
 ◊chapter{Semantics}
 
@@ -1844,13 +1717,10 @@ In Ngujari, colours are derived from nouns through the suffix ku. There are six 
 
 Additional colours can be formed either through compounding or modifying a new noun. All colours can be joined with others to form compounds.
 
-
-black nguku\
-white tumwaku\
-⇒ grey nguku-tumwaku
-
-sunset kii\
-⇒ orange kiiku
+◊examples{
+◊example{black ◊w{nguku}, white ◊w{tumwaku} ⇒ grey ◊w{nguku-tumwaku}}
+◊example{sunset ◊w{kii} ⇒ orange ◊w{kiiku}}
+}
 
 ◊section{Kinship}
 
@@ -1858,11 +1728,8 @@ The kinship system of Ngujari revolves around four totems. The population is spl
 
 ◊ul{
 ◊li{bilru (seal)}
-
 ◊li{gunya (black wallaby)}
-
 ◊li{juunwi (satin bowerbird)}
-
 ◊li{pilkiya (platypus)}
 }
 

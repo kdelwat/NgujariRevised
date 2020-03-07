@@ -97,6 +97,10 @@
   (case (current-poly-target)
     [else (apply string-append `("\\begin{itemize}\n" ,@elements "\\end{itemize}"))]))
 
+(define (ol . elements)
+  (case (current-poly-target)
+    [else (apply string-append `("\\begin{enumerate}\n" ,@elements "\\end{enumerate}"))]))
+
 (define (li . elements)
   (case (current-poly-target)
     [else (apply string-append `("\\item " ,@elements))]))
