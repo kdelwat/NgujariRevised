@@ -942,7 +942,7 @@ To decline a predicate adjective, two steps are required:
 
 ◊li{The relevant gender suffix of a class one verb is added as a suffix.}
 
-```gloss
+```
 
 plane-ERG fast-PRED The plane is fast
 
@@ -952,8 +952,7 @@ A crucial distinction between the noun predicate and adjectival predicate is tha
 
 ```gloss
 
-go.away.AUX-PST 1pl.an-ERG plane-INSTR go.away-INTRANS-1-an \[COMP
-plane-ERG fast-PRED\]\
+go.away.AUX-PST 1pl.an-ERG plane-INSTR go.away-INTRANS-1-an \[COMP plane-ERG fast-PRED\]\
 We went on a trip and the plane was fast
 
 ```
@@ -1076,8 +1075,7 @@ Group possession is formed using the special particle tuu, which appears before 
 
 ```gloss
 
-protect.aux-strimp 1pl-erg pos-gurnu precious land-nom spirit-inst
-protect-an-1st\
+protect.aux-strimp 1pl-erg pos-gurnu precious land-nom spirit-inst protect-an-1st\
 We must protect our \[the Gurnu mob’s\] precious land with vigour.
 
 ```
@@ -1110,7 +1108,7 @@ He killed a snake.
 
 Grammatical relations define groups of these categories. The grammatical relations in clauses are decided by an agentivity heirarchy:
 
-```gloss
+```
 
 personal pronoun &gt; animate &gt; inanimate
 
@@ -1570,8 +1568,7 @@ The subjunctive is also used when expressing desires or dreams. The desire must 
 want.AUX-PRES-SUBJ 1s-ERG bed-ABS want-AN-1st\
 I want a new bed.
 
-say.AUX-PST 3s-NOM 1s-ACC say-AN-3rd, want.AUX-PRES 1s-ERG bed-ABS
-want-AN-1st\
+say.AUX-PST 3s-NOM 1s-ACC say-AN-3rd, want.AUX-PRES 1s-ERG bed-ABS want-AN-1st\
 He said to me, "I want a new bed."
 
 ```
@@ -1799,8 +1796,7 @@ This method of questioning can be used in any type of sentence, not just basic c
 
 ```gloss
 
-be.aux-pres where path-erg be-3-inan \[COMP dempron.inan.s-ERG
-village-abs leadto-inan-3rd\]\
+be.aux-pres where path-erg be-3-inan \[COMP dempron.inan.s-ERG village-abs leadto-inan-3rd\]\
 Where is the path that leads to the village?
 
 ```
@@ -1814,10 +1810,8 @@ A less-common way to ask a non-polar question requires the particle yuu. By plac
 bring.aux-fut int-3dual.an-erg food-nom fire-ori bring-ch-3rd\
 Will it be those two children who bring the food to the fire?
 
-3s.erg kangaroomeat-nom eat-an-3rd \[COMP DEMPRON-inan-3rd-abs\]
-freshness-com\
-Is the kangaroo meat he is eating fresh? (lit. He is eating kangaroo
-meat, is it with freshness?)
+3s.erg kangaroomeat-nom eat-an-3rd \[COMP DEMPRON-inan-3rd-abs\] freshness-com\
+Is the kangaroo meat he is eating fresh? (lit. He is eating kangaroo meat, is it with freshness?)
 
 ```
 
@@ -1838,8 +1832,7 @@ A finite clause is inflected separately to the main clause. When used as a subje
 
 ```gloss
 
-annoy.AUX-PST COMP-eat-AUX-PST he-ERG dog-ABS eat-3-AN me-ABS
-annoy-1-AN\
+annoy.AUX-PST COMP-eat-AUX-PST he-ERG dog-ABS eat-3-AN me-ABS annoy-1-AN\
 That he ate the dog annoyed me. / It annoyed me that he ate the dog
 
 ```
@@ -1848,8 +1841,7 @@ A finite clause can also be used as a direct object (but not indirect). Here, it
 
 ```gloss
 
-1s.an-ERG COMP(NULL)-fall-AUX-PST icecream-ERG ground-ORI fall-3s-inan
-be.scared-1s-an\
+1s.an-ERG COMP(NULL)-fall-AUX-PST icecream-ERG ground-ORI fall-3s-inan be.scared-1s-an\
 I’m scared of the icecream falling on the ground
 
 ```
@@ -2022,8 +2014,7 @@ When nouns are coordinated through conjunction, only one is used as the "main" s
 
 ```gloss
 
-fight.AUX-PST 1s-ERG bear-ABS fight-1pl-AN, \[COMP sister-ERG 1s-ABS
-be.alongside-1-AN\]\
+fight.AUX-PST 1s-ERG bear-ABS fight-1pl-AN, \[COMP sister-ERG 1s-ABS be.alongside-1-AN\]\
 My sister and I fought the bear.
 
 ```
@@ -2049,16 +2040,14 @@ Disjunction is expressed between verb phrases only, using the dubitative mood. D
 
 ```gloss
 
-go.AUX-PRES-DUB 1S.NOM go-AN-1ST ↗wait.AUX-PRES-DUB 1S.NOM
-wait-AN-1ST↗\
+go.AUX-PRES-DUB 1S.NOM go-AN-1ST ↗wait.AUX-PRES-DUB 1S.NOM wait-AN-1ST↗\
 I will go now or wait.
 
 ```
 
 ```gloss
 
-_︎︎︎︎↗︎run.AUX-PRES-DUB 2s.NOM DEMPRON run-AN-2nd walk.AUX-PRES-DUB
-2s.NOM run-AN-2nd DEMPRON walk-AN-2nd\
+_︎︎︎︎↗︎run.AUX-PRES-DUB 2s.NOM DEMPRON run-AN-2nd walk.AUX-PRES-DUB 2s.NOM run-AN-2nd DEMPRON walk-AN-2nd\
 Will you run there or walk?
 
 ```
