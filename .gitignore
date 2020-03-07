@@ -15,3 +15,5 @@ grammar.tex
 main.tex
 .~lock.*
 *.rkt~
+*.ilg
+*.ind
