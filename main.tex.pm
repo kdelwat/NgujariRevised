@@ -304,7 +304,7 @@ The interrogative pronouns are strongly affected by case, particularly in the ca
 
 ◊table{tables/Interrogative pronouns.csv}
 
-It is interesting to note that "how" is the same as "what" placed in the instrumental case. The orientative and revertive cases can be applied to ◊w{kiru} ("where"), forming ◊w{kirurni} ("whither/to where") and  ◊w{kirunga} ("whence/from where"), as well as to ◊w{tuu} ("when"), forming ◊w{tuurni} ("to when") and ◊w{tuunga} ("from when").
+It is interesting to note that "how" is the same as "what" placed in the instrumental case. The orientative and revertive cases can be applied to ◊w{kiru} ("where"), forming ◊i{kirurni} ("whither/to where") and ◊i{kirunga} ("whence/from where"), as well as to ◊w{tuu} ("when"), forming ◊i{tuurni} ("to when") and ◊i{tuunga} ("from when").
 
 ◊subsubsection{Demonstrative}
 
@@ -428,7 +428,7 @@ An adjective can be amplified in magnitude through reduplication. This is a morp
 
 ◊subsubsection{Relativisation}
 
-Many of Ngujari’s adjectives are absolute rather than relative. For example, ◊w{yampu} ("big") refers to something bigger than a human, rather than something big for its class (as in "the big elephant"). These absolute adjectives can be converted to relative adjectives morphologically, by adding the suffix ◊w{pu}.
+Many of Ngujari’s adjectives are absolute rather than relative. For example, ◊w{yampu} ("big") refers to something bigger than a human, rather than something big for its class (as in "the big elephant"). These absolute adjectives can be converted to relative adjectives morphologically, by adding the suffix ◊i{pu}.
 
 ◊examples{
 ◊example{small (absolute) ◊w{pangii} ⇒ small (relative) ◊w{pangiipu}}
@@ -1480,7 +1480,7 @@ In all clausal negatives, qualifiers can be used as stand-alone utterances, whic
 ◊ilgs{
 ◊ilg[#:native "" #:gloss "steal.aux-strimp neg 2s-nom steal-intrans-an-2nd never"]{You must never steal.}
 }
-
+  
 ◊subsection{Derivational negation}
 
 An adjective can be negated through a prefix. If the adjective begins with a stop, the prefix is wuu. Otherwise, it is tu.

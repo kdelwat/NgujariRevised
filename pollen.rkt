@@ -1,10 +1,11 @@
 #lang racket/base
 
 (require txexpr pollen/setup racket/string racket/port csv-reading racket/list threading sxml sxml/sxpath racket/trace)
-(provide (all-defined-out))
-
+ (provide (all-defined-out))
 (module setup racket/base
   (provide (all-defined-out))
+  (define compile-cache-active #f)
+  (define render-cache-active #f)
   (define poly-targets '(latex)))
 
 ; Some helpers
