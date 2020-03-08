@@ -3,7 +3,7 @@
 ◊title{Ngujari: A Grammar and Lexicon}
 ◊author{Cadel Watson}
 
-◊part{Grammar}
+◊part{Phonology and morphology}
 
 ◊chapter{Phonology}
 
@@ -211,6 +211,8 @@ In verb phrases, the verb (head) is marked for information like tense and valenc
 }
 
 ◊figure[#:caption "Head marking in verbs"]{go-home}
+
+◊part{Grammar}
 
 ◊chapter{Grammatical categories}
 
@@ -1041,11 +1043,11 @@ Grammatical relations define groups of these categories. The grammatical relatio
 
 If there are any arguments in a clause occupying the subject, agent or patient role which are not personal pronouns, grammatical relations are assigned as in erg-abs-alignment. The ergative relation contains the agent of transitive clauses, while subject and patient are grouped together into the absolutive relation.
 
-![Ergative-absolutive alignment](../images/erg-abs-alignment.png)
+◊figure[#:caption "Ergative-absolutive alignment"]{erg-abs-alignment}
 
 If there are only personal pronouns in the sentence’s subject, agent, and patient categories, relations are assigned differently, as in nom-acc-alignment. Since these nouns are considered more 'agent-like', and capable of volition in all circumstances, the subject and agent are treated identically by grouping them into the nominative relation. The patient stands alone in the accusative relation.
 
-![Nominative-accusative alignment](../images/nom-acc-alignment.png)
+◊figure[#:caption "Nominative-accusative alignment"]{nom-acc-alignment}
 
 The relation of a noun is realised morphologically. A noun receives a case marking as a suffix, which represents the relation.
 
@@ -1558,7 +1560,7 @@ A non-finite clause shares its subject with the main clause. It can only be used
 ◊ilg[#:native "" #:gloss "enjoy.AUX-PST 1s.an-ERG wash-1-an car-ABS enjoy-1-an"]{I enjoyed washing the car}
 }
 
-![complement clauses](../images/complement-clauses.png)
+◊figure[#:caption "Complement clauses"]{complement-clauses}
 
 ◊section{Adverbial clauses / adjuncts}
 
@@ -1652,7 +1654,7 @@ This clause relativises the subject position.
 
 The relative clause immediately follows the noun. The auxiliary must be included, even if the clause is in the present tense (where it would normally be optional).
 
-![postnominal relative clause](../images/postnominal-relative-clause.png)
+◊figure[#:caption "Postnominal relative clause"]{postnominal-relative-clause}
 
 The gap strategy is used for case retention - since the case must be the subject.
 
@@ -1706,6 +1708,8 @@ Disjunction is expressed between verb phrases only, using the dubitative mood. D
 ◊ilg[#:native "" #:gloss "go.AUX-PRES-DUB 1S.NOM go-AN-1ST ↗wait.AUX-PRES-DUB 1S.NOM wait-AN-1ST↗"]{I will go now or wait.}
 ◊ilg[#:native "" #:gloss "↗︎run.AUX-PRES-DUB 2s.NOM DEMPRON run-AN-2nd walk.AUX-PRES-DUB 2s.NOM run-AN-2nd DEMPRON walk-AN-2nd"]{Will you run there or walk?}
 }
+
+◊part{Semantics}
 
 ◊chapter{Semantics}
 

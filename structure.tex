@@ -54,14 +54,9 @@
 %----------------------------------------------------------------------------------------
 
 \usepackage{fontspec}
-\setmainfont{Linux Libertine O} % use any font on your system that has the IPA symbols you need
-\newfontfamily\sffamily{Cabin}
 
-%\usepackage{avant} % Use the Avantgarde font for headings
-%\usepackage{times} % Use the Times font for headings
-%\usepackage{XCharter}
-%\DeclareTextCommandDefault{\nobreakspace}{\leavevmode\nobreak\ }
-%\usepackage{mathptmx} % Use the Adobe Times Roman as the default text font together with math symbols from the Sym­bol, Chancery and Com­puter Modern fonts
+\setmainfont{Linux Libertine O}
+\newfontfamily\sffamily{Cabin}
 
 \usepackage{microtype} % Slightly tweak font spacing for aesthetics
 
@@ -422,7 +417,7 @@ innerbottommargin=5pt]{sBox}
 \fill[ocre!20](0cm,0cm) rectangle (\paperwidth,-\paperheight);
 \node[anchor=north] at (4cm,-3.25cm){\color{ocre!40}\fontsize{220}{100}\sffamily\bfseries\@Roman\c@part}; 
 \node[anchor=south east] at (\paperwidth-1cm,-\paperheight+1cm){\parbox[t][][t]{8.5cm}{
-\printcontents{l}{0}{\setcounter{tocdepth}{1}}%
+\printcontents{l}{0}{\setcounter{tocdepth}{0}}%
 }};
 \node[anchor=north east] at (\paperwidth-1.5cm,-3.25cm){\parbox[t][][t]{15cm}{\strut\raggedleft\color{white}\fontsize{30}{30}\sffamily\bfseries#2}};
 \end{tikzpicture}};

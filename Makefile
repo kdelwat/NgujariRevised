@@ -1,9 +1,9 @@
 FILENAME = main
 
-main.tex:
+main.tex: clean
 	raco pollen render main.tex
 
-main.pdf: main.tex
+main.pdf: main.tex structure.tex
 	xelatex main
 	makeindex main.idx -s StyleInd.ist
 	biber main

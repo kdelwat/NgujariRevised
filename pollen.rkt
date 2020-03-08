@@ -61,15 +61,15 @@
 
 (define (section . elements)
   (case (current-poly-target)
-    [else (apply string-append `("\\section{" ,@elements "}"))]))
+    [else (apply string-append `("\\section{" ,@elements "}\\index{" ,@elements "}"))]))
 
 (define (subsection . elements)
   (case (current-poly-target)
-    [else (apply string-append `("\\subsection{" ,@elements "}"))]))
+    [else (apply string-append `("\\subsection{" ,@elements "}\\index{" ,@elements "}"))]))
 
 (define (subsubsection . elements)
   (case (current-poly-target)
-    [else (apply string-append `("\\textit{" ,@elements "}"))]))
+    [else (apply string-append `("\\textit{" ,@elements "}\\index{" ,@elements "}"))]))
 
 (define (i . elements)
   (case (current-poly-target)
