@@ -1,7 +1,8 @@
-#lang racket/base
+#lang racket
 
 (require txexpr pollen/setup racket/string racket/port csv-reading racket/list threading sxml sxml/sxpath racket/trace)
  (provide (all-defined-out))
+
 (module setup racket/base
   (provide (all-defined-out))
   (define compile-cache-active #f)
@@ -17,6 +18,9 @@
 
 (define (is-tag xexpr tag)
   (equal? (first xexpr) tag))
+
+(define (get-filename path)
+  (path->string (path-replace-extension (last (explode-path (string->path path))) "")))
 
 ; Load files containing data to validate against
 (define phoneme-data (load-csv "data/phonemes.csv"))
@@ -152,35 +156,32 @@
 
 ;(trace word?)
 
+(define (table path)
+  (let ([caption (get-filename path)])
+    (case (current-poly-target)
+      [else (~>> (string-replace path "\\" "")
+                load-csv
+                ((curry to-latex-table) caption "table"))])))
 
-(define (table . elements)
-  (case (current-poly-target)
-    [else (~> (string-replace (car elements) "\\" "")
-                 load-csv
-                 to-normal-latex-table)]))
+(trace table)
 
-(define (stable . elements)
-  (case (current-poly-target)
-    [else (~> (string-replace (car elements) "\\" "")
-                 load-csv
-                 to-sideways-latex-table)]))
+(define (stable path)
+  (let ([caption (get-filename path)])
+    (case (current-poly-target)
+      [else (~>> (string-replace path "\\" "")
+                load-csv
+                ((curry to-latex-table) caption "sidewaystable"))])))
 
 (define (lexicon)
   (case (current-poly-target)
     [else (string-append lexicon-preamble (make-lexicon entries senses))]))
 
-(define (to-normal-latex-table table)
-  (to-latex-table table "table"))
-
-(define (to-sideways-latex-table table)
-  (to-latex-table table "sidewaystable"))
-
-(define (to-latex-table table type)
+(define (to-latex-table caption type table)
   (let ([rows (append
                (list (to-latex-table-row (map to-latex-bold (car table))))
                (map to-latex-table-row (cdr table)))]
           [alignment (calculate-table-alignment table)])
-    (string-append "\\begin{" type "}\n\\centering\\begin{tabular}{" alignment "}\n" (apply string-append rows) "\\end{tabular}\n\\caption{Consonantal Inventory}
+    (string-append "\\begin{" type "}[h]\n\\centering\\begin{tabular}{" alignment "}\n" (apply string-append rows) "\\end{tabular}\n\\caption{" caption "}
 \\end{" type "}")
     ))
 
