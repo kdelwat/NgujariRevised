@@ -12,7 +12,7 @@ main.pdf: main.tex structure.tex
 
 .PHONY: show
 show: main.pdf
-	evince main.pdf
+	okular main.pdf
 
 clean:
 	rm -f $(addprefix $(FILENAME),.aux .bbl .bcf .blg .idx .log .pdf .ptc .run.xml .toc .tex)
