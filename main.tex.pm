@@ -1102,6 +1102,20 @@ The applicative cases are:
 ◊ilg[#:native "" #:gloss "stab.aux-pst 3s.an-NOM 3s.an.ch-ACC knife-INSTR stab-3-an"]{She stabbed the child with a knife}
 }
 
+Since Ngujari has no verbal adjuncts, the applicative is commonly used for locational prepositions. When used with an appropriate locational noun, and the locative case,
+sentences are constructed like:
+
+◊ilgs{
+◊ilg[#:native "" #:gloss "sit.aux-pst 3s.an-ERG box-ABS top.LOC sit-3-an"]{The man sat on top of the box}
+◊ilg[#:native "" #:gloss "river-ERG rock-PL-LOC flow-3-inan, rock-PL-ERG side-LOC be-3-inan"]{The river flowed next to the rocks}
+}
+
+Note that in the second example, ◊i{rocks} is already the locative in the first tense phrase, so a second phrase must be used to add the locational preposition "next to". The intransitive ◊i{be} takes the extra argument ◊i{side} in an applicative construction.
+
+Some of the nouns used in locational prepositions are given in the following table. As with many Ngujari descriptors, the locations are relative to the speaker. For example, the "back" of an object is whatever side is the furthest from the speaker, rather than any absolute notion of orientation (such as the boot of a car).
+
+◊table{tables/Locational prepositions.csv}
+
 ◊subsection{Causatives}
 
 There are two forms of the causative. The nominative causative represents direct causation when a single noun is responsible for causing a verb phrase to occur. However, if an entire verb phrase is responsible, or the causation is more indirect, clause chaining is used.
