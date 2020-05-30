@@ -1,5 +1,5 @@
-, first consonant ,,,,,,
-second , , rhotic/liquid , nasal , approximant , stop , retroflex , fricative 
+,, first consonant ,,,,
+second , rhotic/liquid , nasal , approximant , stop , retroflex , fricative 
 rhotic / liquid , ✗ , ✗ , ✗ , ✗ , ✗ , ✗ 
 retroflex nasal , ✗ , ✗ , ✗ , ✗ , ✗ , ✔ 
 non-retroflex nasal , ✔ , ✗ , ✗ , ✗ , ✗ , ✔ 
@@ -7,5 +7,3 @@ rhotic approximant , ✗ , ✔ , ✗ , ✗ , ✗ , ✗
 non-rhotic approximant , ✔ , ✔ , ✗ , ✗ , ✗ , ✔ 
 stop , ✔ , ✔ , ✔ , ✗ , ✔ , ✔ 
 retroflex , ✗ , ✗ , ✗ , ✗ , ✗ , ✗ 
-
-
